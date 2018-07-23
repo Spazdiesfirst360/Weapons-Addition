@@ -2,8 +2,8 @@
   "itemName" : "wa_handlunarbaselaser",
   "price" : 100000,
   "maxStack" : 1,
-  "rarity" : "legendary",
-  "description" : "A Lunar Laser, made to be carried around.",
+  "rarity" : "Essential",
+  "description" : "\"Notice: Weapon is highly unstable, use with caution.\" -Production Notes",
   "shortdescription" : "Handheld Lunar Laser",
   "tooltipKind" : "gun",
   "category" : "Experimental Weapon",
@@ -81,6 +81,9 @@
   }
   }
   },
+
+  "altAbilityType" : "erchiuslauncher",
+  "altAbility" : {},
 
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }

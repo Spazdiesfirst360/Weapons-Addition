@@ -3,7 +3,7 @@
   "price" : 10000,
   "maxStack" : 1,
   "rarity" : "legendary",
-  "description" : "This weapon spews out radioactive fire. But how?",
+  "description" : "\"Notice: Keep the weapon away from anyone not wearing a radiation suit.\" -Production Notes",
   "shortdescription" : "^#00FFFF;Irradiator^reset;",
   "tooltipKind" : "gun",
   "category" : "Machine Pistol",

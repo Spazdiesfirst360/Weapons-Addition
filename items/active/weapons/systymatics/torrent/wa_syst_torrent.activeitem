@@ -3,7 +3,7 @@
   "price" : 5000,
   "maxStack" : 1,
   "rarity" : "legendary",
-  "description" : "Designed by Systymatics, this gun loves to spew heaps of bullets.",
+  "description" : "\"Feel your pitiful self wash away under it's embrace.\" -Systyma, Maddened A.I.",
   "shortdescription" : "^#ff0000;Torrent^reset;",
   "tooltipKind" : "gun",
   "category" : "Assault Rifle",

@@ -3,7 +3,7 @@
   "price" : 5000,
   "maxStack" : 1,
   "rarity" : "Legendary",
-  "description" : "Batteries not required. Now one-handed!",
+  "description" : "\"Pave the way for others so they don't need to do the same.\"",
   "shortdescription" : "The Pathfinder",
   "tooltipKind" : "base",
   "category" : "Shotgun",

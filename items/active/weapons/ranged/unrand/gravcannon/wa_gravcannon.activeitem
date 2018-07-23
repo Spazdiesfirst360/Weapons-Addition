@@ -3,7 +3,7 @@
   "price" : 190000,
   "maxStack" : 1,
   "rarity" : "Essential",
-  "description" : "Gravity grenades are so great.",
+  "description" : "\"This weapon seems to alter gravity wherever it targets.\" -Researcher",
   "shortdescription" : "^#00FFFF;Gravity Cannon^reset;",
   "tooltipKind" : "base",
   "category" : "Grenade Launcher",

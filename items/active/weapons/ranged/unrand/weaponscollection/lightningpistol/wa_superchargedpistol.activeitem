@@ -3,7 +3,7 @@
   "price" : 5000,
   "maxStack" : 1,
   "rarity" : "legendary",
-  "description" : "An experimental pistol, charged with a quantum reactor.",
+  "description" : "\"Notice: Bumps may result in an electrical explosion.\" -Prodution Notes",
   "shortdescription" : "Supercharged Pistol",
   "tooltipKind" : "gun",
   "category" : "Experimental Weapon",
@@ -32,7 +32,7 @@
 
   "scripts" : ["/items/active/weapons/ranged/gun.lua"],
 
-  "elementalType" : "physical",
+  "elementalType" : "electric",
 
   "primaryAbility" : {
   "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],

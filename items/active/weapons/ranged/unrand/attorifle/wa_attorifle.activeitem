@@ -2,11 +2,11 @@
   "itemName" : "wa_attorifle",
   "price" : 10000,
   "maxStack" : 1,
-  "rarity" : "legendary",
-  "description" : "Guaranteed to hit your target.",
+  "rarity" : "Essential",
+  "description" : "\"When precision is needed, I answer with haste.\"",
   "shortdescription" : "One Attosecond",
   "tooltipKind" : "gun",
-  "category" : "Super Advanced Weapon",
+  "category" : "Sniper Rifle",
   "twoHanded" : true,
   "itemTags" : ["weapon","ranged","sniperrifle"],
   "level" : 7,
@@ -80,6 +80,9 @@
   }
   }
   },
+
+  "altAbilityType" : "deathbomb",
+  "altAbility" : {},
 
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }

@@ -3,7 +3,7 @@
   "price" : 5000,
   "maxStack" : 1,
   "rarity" : "legendary",
-  "description" : "Be careful, this one is shocking!",
+  "description" : "\"Radiation blasts from this gun seem to easily kill anything that's alive.\" -Researcher",
   "shortdescription" : "Dark Lightning Launcher",
   "tooltipKind" : "gun",
   "category" : "uniqueWeapon",
@@ -80,6 +80,9 @@
   }
   }
   },
+
+  "altAbilityType" : "spray",
+  "altAbility" : {},
 
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }

@@ -2,14 +2,14 @@
   "itemName" : "wa_supersubmachinegatling",
   "price" : 50000,
   "maxStack" : 1,
-  "rarity" : "legendary",
-  "description" : "A submachine gun that shoots very, very fast. Maybe flood the screen?",
+  "rarity" : "Essential",
+  "description" : "\"Tests have been cancelled due to continuous power outages during weapon use.\" -Researcher",
   "shortdescription" : "^yellow;Super Submachine Gatling^reset;",
   "tooltipKind" : "gun",
   "category" : "Experimental Weapon",
   "twoHanded" : false,
   "itemTags" : ["weapon","ranged","assaultrifle"],
-  "level" : 10,
+  "level" : 8,
 
   "inventoryIcon" : "wa_supersubmachinegatling.png",
 

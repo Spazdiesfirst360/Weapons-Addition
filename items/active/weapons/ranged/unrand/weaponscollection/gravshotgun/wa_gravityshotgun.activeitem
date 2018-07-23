@@ -3,7 +3,7 @@
   "price" : 5000,
   "maxStack" : 1,
   "rarity" : "legendary",
-  "description" : "An experimental shotgun",
+  "description" : "\"Notice: Just remember that grenades won't always be at your feet.\" -Production Notes",
   "shortdescription" : "Gravity Shotgun",
   "tooltipKind" : "gun",
   "category" : "Experimental Weapon",

@@ -3,7 +3,7 @@
   "price" : 5000,
   "maxStack" : 1,
   "rarity" : "legendary",
-  "description" : "An experimental assault rifle.",
+  "description" : "\"If you are not the first, then you are the last.\" -Systyma, Maddened A.I.",
   "shortdescription" : "The Prototype",
   "tooltipKind" : "gun",
   "category" : "Experimental Weapon",
@@ -80,6 +80,9 @@
   }
   }
   },
+
+  "altAbilityType" : "lance",
+  "altAbility" : {},
 
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }

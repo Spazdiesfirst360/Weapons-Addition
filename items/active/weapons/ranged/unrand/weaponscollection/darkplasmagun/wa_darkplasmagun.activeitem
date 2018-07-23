@@ -3,7 +3,7 @@
   "price" : 5000,
   "maxStack" : 1,
   "rarity" : "legendary",
-  "description" : "An experimental rocket launcher.",
+  "description" : "\"Notice: Attempts to reverse-engineer will result in death.\" -Production Notes",
   "shortdescription" : "Dark Plasma Launcher",
   "tooltipKind" : "gun",
   "category" : "Experimental Weapon",

@@ -3,7 +3,7 @@
   "price" : 5000,
   "maxStack" : 1,
   "rarity" : "legendary",
-  "description" : "An experimental rocket launcher designed to shoot projectiles similar to a mech's rocket launcher.",
+  "description" : "\"CAUTION: WEAPON IS HEAVY, HANDLE WITH CARE!\" -Production Notes",
   "shortdescription" : "Handheld Mech Rocket Launcher",
   "tooltipKind" : "gun",
   "category" : "Experimental Weapon",

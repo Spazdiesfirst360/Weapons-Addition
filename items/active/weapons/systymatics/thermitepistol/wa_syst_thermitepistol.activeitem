@@ -3,7 +3,7 @@
   "price" : 5000,
   "maxStack" : 1,
   "rarity" : "legendary",
-  "description" : "Developed by Systymatics, this is a one-handed version of the rifle variant.",
+  "description" : "\"An easier-to-use product of the thermite weapons line.\" -Production Notes",
   "shortdescription" : "^#ff0000;Thermite Pistol^reset;",
   "tooltipKind" : "gun",
   "category" : "Thermal Weapon",

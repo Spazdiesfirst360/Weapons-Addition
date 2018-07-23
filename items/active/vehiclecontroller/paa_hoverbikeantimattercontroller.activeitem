@@ -5,7 +5,7 @@
   "rarity" : "legendary",
   "category" : "vehicleController",
   "shortdescription" : "Anti-Matter Hoverbike Controller",
-  "description" : "Create an anti-matter fueled hoverbike from stored nanites. Now with anti-gravity thrusters!",
+  "description" : "Create an anti-matter fueled hoverbike from stored nanites.",
   "twoHanded" : true,
   "maxStack" : 1,
   "itemTags" : ["vehiclecontroller"],

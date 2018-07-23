@@ -3,7 +3,7 @@
   "price" : 10000,
   "maxStack" : 1,
   "rarity" : "legendary",
-  "description" : "Annihilate all that stands against you.",
+  "description" : "\"A grenade launcher set to fire faster.\" -Production Notes",
   "shortdescription" : "^#00FFFF;Obliterator^reset;",
   "tooltipKind" : "gun",
   "category" : "Grenade Launcher",

@@ -3,7 +3,7 @@
   "price" : 5000,
   "maxStack" : 1,
   "rarity" : "Legendary",
-  "description" : "A sniper rifle for the patient.",
+  "description" : "A sniper rifle utilizing plasma as ammo.",
   "shortdescription" : "Plasma Sniper Rifle",
   "tooltipKind" : "gun",
   "category" : "uniqueWeapon",

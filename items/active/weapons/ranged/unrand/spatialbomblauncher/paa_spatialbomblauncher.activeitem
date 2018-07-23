@@ -3,7 +3,7 @@
   "price" : 5000,
   "maxStack" : 1,
   "rarity" : "legendary",
-  "description" : "A grenade launcher that shoots spatial collapsing bombs.",
+  "description" : "\"Crush all that your foes have into nothingness, and they will submit.\" -Systyma, Maddened A.I.",
   "shortdescription" : "Spatial Bomb Launcher",
   "tooltipKind" : "gun",
   "category" : "Grenade Launcher",
