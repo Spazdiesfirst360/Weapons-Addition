@@ -1,0 +1,25 @@
+{
+  "objectName" : "paa_y=rootxgrid",
+  "colonyTags" : ["misc"],
+  "rarity" : "common",
+  "description" : "A graph of the y=root of x function.",
+  "shortdescription" : "Y=rootX Function Graph",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 0,
+  "printable" : false,
+
+  "inventoryIcon" : "paa_y=rootxgridicon.png",
+  "orientations" : [
+    {
+      "image" : "paa_y=rootxgrid.png:<color>",
+      "imagePosition" : [-80, -80],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

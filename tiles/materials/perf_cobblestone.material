@@ -1,0 +1,21 @@
+{
+  "materialId" : 558,
+  "materialName" : "perf_cobblestone",
+  "particleColor" : [0, 149, 0, 255],
+  "itemDrop" : "cobblestonematerial",
+  "shortdescription" : "Perfect Cobblestone",
+  "description" : "I have come across some perfect cobblestone.",
+  "footstepSound" : "/sfx/blocks/footstep_stone3.ogg",
+  "health" : 4,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "perf_cobblestone.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "multiColored" : true,
+    "occludesBelow" : true,
+    "zLevel" : 1640
+  }
+}

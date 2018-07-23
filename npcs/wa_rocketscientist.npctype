@@ -1,0 +1,43 @@
+{
+  "type" : "wa_rocketscientist",
+  "baseType" : "villager",
+  
+
+  "scriptConfig" : {
+    "behaviorConfig" : {
+      "greetingChance" : 0
+    },
+    "dialog" : {
+      "converse" : {
+        "default" : {
+          "default" : [
+            "We found this old building, so we decided to set up shop here.",
+			"No, Quantum Physics is not Rocket Science!",
+			"Propulsion is essential for liftoff. Are you silently dosing off while I'm speaking?",
+			"Science lectures are not boring, they're entertaining.",
+			"I used to be an adventurer like you. Then I took a bullet to the knee...",
+			"I'm working on some physics simulations, if you want to take a look."
+          ]
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [
+              { "name" : "scientisthead" }
+            ],
+            "chest" : [
+              { "name" : "scientistchest" }
+            ],
+            "legs" : [
+              { "name" : "scientistlegs" }
+            ]
+          }
+        ] ]
+    ]
+  }
+}

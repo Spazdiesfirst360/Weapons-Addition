@@ -1,0 +1,20 @@
+{
+"modId" : 901,
+"modName" : "palladium",
+"itemDrop" : "paa_palladiumore",
+"Description" : "Palladium ore.",
+"breaksWithTile" : true,
+"health" : 8,
+"harvestLevel" : 5,
+
+"miningSounds" : [ "/sfx/tools/pickaxe_ore.wav", "/sfx/tools/pickaxe_ore2.wav" ],
+"miningParticle" : "orespark",
+
+"renderTemplate" : "/tiles/classicmaterialtemplate.config",
+"renderParameters" : {
+"texture" : "palladium.png",
+"variants" : 8,
+"multiColored" : false,
+"zLevel" : 0
+}
+}

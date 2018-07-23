@@ -1,0 +1,9 @@
+[
+  {
+    "op": "add",
+    "path": "/interactData/items/0",
+    "value": {
+      "item": "paa_hoverbikeantimattercontroller"
+    }
+  }
+]

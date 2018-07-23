@@ -1,0 +1,10 @@
+{
+  "itemName" : "wa_superswordmaterial1",
+  "price" : 0,
+  "rarity" : "legendary",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "wa_superswordmaterial1.png",
+  "description" : "Some long forgotten piece of something.",
+  "shortdescription" : "^yellow;Strange Material^reset;",
+  "itemTags" : ["reagent"]
+}

@@ -1,0 +1,34 @@
+[
+  {
+    "op": "add",
+    "path": "/wa_ship",
+    "value": {
+      "warpAction": "InstanceWorld:wa_ship",
+      "skyParameters": {
+        "seed": 0,
+        "horizonClouds": false,
+        "horizonImages": [
+          {
+            "left": "/celestial/system/ships/shiphorizonleft.png",
+            "right": "/celestial/system/ships/shiphorizonright.png"
+          }
+        ]
+      },
+      "moving": true,
+      "speed": 8,
+      "orbitRange": [
+        1,
+        1
+      ],
+      "lifeTime": [
+        1500,
+        2100
+      ],
+      "parameters": {
+        "icon": "/celestial/system/ships/wa_weaponsfreighter.png",
+        "displayName": "Class E Freighter",
+        "description": "A very large freighter with dangerous cargo, probably on a classified mission. Don't come close to this without preparing for a major battle."
+      }
+    }
+  }
+]

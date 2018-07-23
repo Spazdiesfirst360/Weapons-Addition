@@ -1,0 +1,11 @@
+{
+  "itemName" : "paa_labpanel2",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "rare",
+  "inventoryIcon" : "lunarbaseblock.png",
+  "description" : "An extremely tough panel. ^red;Once placed, you may not be able to pick this up again!^reset;",
+  "shortdescription" : "Lab Blast Panel",
+
+  "materialId" : 553
+}

@@ -1,0 +1,10 @@
+{
+  "itemName" : "wa_moltensteel",
+  "price" : 1000,
+  "rarity" : "rare",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "wa_moltensteel.png",
+  "description" : "Very, very hot metal that can be used for a variety of purposes.",
+  "shortdescription" : "Molten Steel",
+  "itemTags" : ["reagent"]
+}

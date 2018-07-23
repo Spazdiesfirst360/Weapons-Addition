@@ -1,0 +1,19 @@
+{
+  "kind" : "paa_collapsemessage",
+  "definition" : {
+    "type" : "text",
+    "size" : 0.85,
+    "text" : "^#800080;Collapse^reset;",
+    "color" : [128, 0, 128, 255],
+    "light" : [128, 0, 128],
+    "initialVelocity" : [0.0, -10.0],
+    "finalVelocity" : [0.0, 0.0],
+    "approach" : [5, 70],
+    "position" : [0, -3],
+    "timeToLive" : 1.0,
+    "layer" : "front",
+    "destructionAction" : "shrink",
+    "destructionTime" : 0.5,
+    "flippable" : false
+  }
+}

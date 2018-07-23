@@ -1,0 +1,10 @@
+{
+  "itemName" : "wa_hitechplatematerial",
+  "price" : 100,
+  "rarity" : "rare",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "wa_hitechplatematerial.png",
+  "description" : "A very, very high slab of metal.",
+  "shortdescription" : "Hi-Tech Metal Slab",
+  "itemTags" : [ "reagent" ]
+}

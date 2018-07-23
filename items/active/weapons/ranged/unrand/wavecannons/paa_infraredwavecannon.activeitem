@@ -1,0 +1,90 @@
+{
+  "itemName" : "paa_infraredwavecannon",
+  "price" : 300,
+  "maxStack" : 1,
+  "rarity" : "uncommon",
+  "description" : "A weapons that launches infrared waves.",
+  "shortdescription" : "Infrared Wave Launcher",
+  "tooltipKind" : "gun",
+  "category" : "Rocket Launcher",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","ranged","rocketlauncher","reagant"],
+  "level" : 3,
+
+  "inventoryIcon" : "paa_infraredwavecannonicon.png",
+  "learnBlueprintsOnPickup" : [
+    "paa_uvwavecannon"
+  ],
+
+  "animation" : "/items/active/weapons/ranged/gun.animation",
+  "animationParts" : {
+  "butt" : "",
+  "middle" : "paa_infraredwavecannon.png",
+   "middlefullbright" : "",
+  "barrel" : "",
+  "muzzleFlash" : "/animations/muzzleflash/blankmuzzle/blankmuzzle.png"
+  },
+  "animationCustom" : {
+  "sounds" : {
+  "fire" : ["/sfx/gun/rifle1.ogg"]
+  }
+  },
+
+  "baseOffset" : [1.0, 0.375],
+  "muzzleOffset" : [2.5, 0],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbility" : {
+  "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+  "class" : "GunFire",
+
+  "fireTime" : 0.3,
+  "baseDps" : 25.0,
+  "energyUsage" : 50,
+  "inaccuracy" : 0.008,
+
+  "projectileCount" : 1,
+  "fireType" : "auto",
+
+  "projectileType" : "paa_wavecannon",
+  "projectileParameters" : {
+  "damageKind" : "default",
+  "knockback" : 5
+  },
+  "stances" : {
+  "idle" : {
+  "armRotation" : 0,
+  "weaponRotation" : 0,
+  "twoHanded" : true,
+
+  "allowRotate" : true,
+  "allowFlip" : true
+  },
+  "fire" : {
+  "duration" : 0.5,
+  "armRotation" : 3,
+  "weaponRotation" : 3,
+  "twoHanded" : true,
+
+  "allowRotate" : false,
+  "allowFlip" : false
+  },
+  "cooldown" : {
+  "duration" : 0.3,
+  "armRotation" : 3,
+  "weaponRotation" : 3,
+  "twoHanded" : true,
+
+  "allowRotate" : false,
+  "allowFlip" : false
+  }
+  }
+  },
+  "altAbilityType" : "markedshot",
+  "altAbility" : { },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

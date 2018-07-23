@@ -1,0 +1,30 @@
+{
+  "itemName" : "paa_rewardbomb",
+  "price" : 50,
+  "rarity" : "legendary",
+  "category" : "throwableItem",
+  "inventoryIcon" : "paa_rewardbomb.png",
+  "image" : "paa_rewardbomb.png",
+  "shortdescription" : "Reward Bag",
+  "description" : "Use this to open it and reveal its contents. How exciting!",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.4,
+
+  "projectileType" : "paa_zrewardbomb",
+  "projectileConfig" : {
+    "speed" : 25,
+    "power" : 1000000000000,
+    "periodicActions" : [
+      {
+        "time" : 0,
+        "repeat" : false,
+        "action" : "sound",
+        "options" : [ "/sfx/projectiles/throw_item.ogg" ]
+      }
+    ]
+  }
+}

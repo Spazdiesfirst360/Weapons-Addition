@@ -1,0 +1,15 @@
+{
+	"id": "paa_updatelog",
+	"title": "WA: What's New",
+	"description": "Check this to see what's new in WA development.",
+	"icon": "paa_updatelog.png",
+	"contentPages": [
+		"^orange;NEW IN 1.3.8.0;^reset;
+Ore generation! (this is not confirmed to be working so I need info!)
+Many recipe fixes, especially for the Particle Accelerator and Technetium!"
+	],
+	"itemConfig": {
+		"rarity": "common",
+		"price": 1
+	}
+}

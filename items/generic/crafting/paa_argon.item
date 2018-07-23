@@ -1,0 +1,10 @@
+{
+  "itemName" : "paa_argon",
+  "price" : 0,
+  "rarity" : "Uncommon",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "paa_argon.png",
+  "description" : "Some argon.",
+  "shortdescription" : "Argon",
+  "itemTags" : [ "reagent" ]
+}

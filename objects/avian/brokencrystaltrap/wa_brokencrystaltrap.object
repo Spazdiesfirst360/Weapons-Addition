@@ -1,0 +1,31 @@
+{
+  "objectName" : "wa_brokencrystaltrap",
+  "colonyTags" : ["nature"],
+  "rarity" : "Common",
+  "category" : "decorative",
+
+
+  "description" : "Holy crap, it's a broken trap!",
+  "shortdescription" : "Broken Crystal Trap",
+  "printable" : false,
+  "race" : "avian",
+
+  "inventoryIcon" : "crystaltrapicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "wa_brokencrystaltrap.png:<color>",
+      "imagePosition" : [0, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ],
+	  "collision" : "solid"
+    }
+  ],
+
+  "scripts" : ["/objects/scripts/breakoninteract.lua"],
+  "scriptDelta" : 0,
+
+  "breakDropOptions" : [
+    [ [ "wa_energycrystalshard", 3, { } ] ]
+  ]
+}

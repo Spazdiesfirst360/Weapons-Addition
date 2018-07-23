@@ -1,0 +1,22 @@
+[
+  {
+    "op": "add",
+    "path": "/perfectWeather",
+    "value": [
+      [
+        1,
+        "largemeteor"
+      ]
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/wa_volcanobase",
+    "value": [
+      [
+        1,
+        "wa_ashmeteorshower"
+      ]
+    ]
+  }
+]

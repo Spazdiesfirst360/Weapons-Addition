@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "fu_hydrogen", "count" : 2 }
+  ],
+  "output" : { "item" : "helium3gasliquid", "count" : 1 },
+  "groups" : [ "fusioncollider" ]
+}

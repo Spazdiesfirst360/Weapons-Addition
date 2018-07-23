@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "paa_proton", "count" : 7 },
+	{ "item" : "paa_electron", "count" : 7 }
+  ],
+  "output" : {
+    "item" : "fu_nitrogen",
+    "count" : 1
+  },
+  "groups" : [ "paa_partaccel", "all", "other" ]
+}

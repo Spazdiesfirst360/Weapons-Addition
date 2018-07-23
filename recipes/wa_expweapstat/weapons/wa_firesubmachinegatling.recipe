@@ -1,0 +1,14 @@
+{
+  "input" : [
+    { "item" : "wa_submachinegatling", "count" : 1 },
+	{ "item" : "wa_moltensteel", "count" : 10 },
+	{ "item" : "siliconboard", "count" : 10 },
+	{ "item" : "wire", "count" : 10 },
+	{ "item" : "wa_hitechlimiter", "count" : 5 }
+  ],
+  "output" : {
+    "item" : "wa_firesubmachinegatling",
+    "count" : 1
+  },
+  "groups" : [ "wa_expweapstat", "weapons" ]
+}

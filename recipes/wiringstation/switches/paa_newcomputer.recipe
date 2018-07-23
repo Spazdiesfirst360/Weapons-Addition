@@ -1,0 +1,14 @@
+{
+  "input" : [
+    { "item" : "paa_oldcomputer", "count" : 1 },
+	{ "item" : "durasteelbar", "count" : 2 },
+	{ "item" : "wire", "count" : 5 },
+	{ "item" : "battery", "count" : 2 },
+	{ "item" : "cpu", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "paa_newcomputer",
+    "count" : 1
+  },
+  "groups" : [ "craftingwiring", "switches" ]
+}

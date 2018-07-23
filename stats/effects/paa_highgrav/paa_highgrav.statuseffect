@@ -1,0 +1,16 @@
+{
+  "name" : "paa_highgrav",
+  "effectConfig" : {
+    "gravityModifier" : 5.0
+  },
+  "defaultDuration" : 120,
+
+  "scripts" : [
+    "paa_highgrav.lua"
+  ],
+
+  "animationConfig" : "paa_highgrav.animation",
+
+  "label" : "Extreme Gravity",
+  "icon" : "/interface/statuses/lowgrav.png"
+}

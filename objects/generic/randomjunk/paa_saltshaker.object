@@ -1,0 +1,25 @@
+{
+  "objectName" : "paa_saltshaker",
+  "colonyTags" : ["misc"],
+  "rarity" : "common",
+  "description" : "So salty!",
+  "shortdescription" : "Salt Shaker",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 0,
+  "printable" : false,
+
+  "inventoryIcon" : "paa_saltshaker.png",
+  "orientations" : [
+    {
+      "image" : "paa_saltshaker.png:<color>",
+      "imagePosition" : [-4, -16],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "itemName" : "wa_mythicblueprint",
+  "level" : 7,
+  "price" : 0,
+  "maxStack" : 1,
+  "rarity" : "essential",
+  "description" : "A blueprint for a mythical item in the ^green;[WA] Mythical ^white;collection.",
+  "shortdescription" : "Unique Blueprint",
+  "tooltipKind" : "base",
+  "category" : "Blueprint",
+  "twoHanded" : true,
+
+  "inventoryIcon" : "wa_mythicblueprint.png",
+
+  "animation" : "randomblueprint.animation",
+
+  "scripts" : ["randomblueprint.lua"],
+
+  "swingTime" : 0.15,
+
+  "allowDuplicateChance" : 0.1,
+  "recipes" : [
+    ["wa_superhammer", "wa_zsuperbullet", "wa_superbomb"],
+    //["paa_bleach", "paa_rewardbomb", "wa_unstablereactor1"],
+    ["wa_supersword", "wa_rangedbroadsword"],
+    ["wa_rocketsword", "wa_lightningdagger", "paa_superrocketspear", "paa_extrememiner"]
+  ]
+}

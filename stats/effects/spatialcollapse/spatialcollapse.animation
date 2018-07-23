@@ -1,0 +1,20 @@
+{
+  "particleEmitters" : {
+    "flames" : {
+      "enabled" : true,
+      "emissionRate" : 10.0,
+      "particles" : [
+        {
+          "particle" : "darkpurplephaseparticle"
+        }
+      ]
+    },
+  "lights" : {
+    "glow" : {
+      "active" : true,
+      "position" : [0, 0],
+      "color" : [60, 15, 70]
+    }
+  }
+ }
+}

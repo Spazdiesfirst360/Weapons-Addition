@@ -1,0 +1,15 @@
+{
+  "name" : "gettingwrecked",
+
+  "effectConfig" : {},
+  "defaultDuration" : 10.0,
+
+  "scripts" : [
+    "gettingwrecked.lua"
+  ],
+
+  "animationConfig" : "gettingwrecked.animation",
+
+  "label" : "Getting Wrecked",
+  "icon" : "/interface/statuses/wrecked.png"
+}

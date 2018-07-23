@@ -1,0 +1,15 @@
+{
+  "name" : "paa_spatialcollapse",
+
+  "effectConfig" : {},
+  "defaultDuration" : 10,
+
+  "scripts" : [
+    "spatialcollapse.lua"
+  ],
+
+  "animationConfig" : "spatialcollapse.animation",
+
+  "label" : "Spatial Collapse",
+  "icon" : "/interface/statuses/crash.png"
+}

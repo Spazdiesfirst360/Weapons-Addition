@@ -1,0 +1,32 @@
+{
+  "itemName" : "wa_expweapblueprint",
+  "level" : 7,
+  "price" : 0,
+  "maxStack" : 1000,
+  "rarity" : "rare",
+  "description" : "A blueprint that unlocks a recipe for an ^orange;Experimental Weapon^reset; at the ^red;Experimental Weapons Station^reset;.",
+  "shortdescription" : "Experimental Weapon Blueprint",
+  "tooltipKind" : "base",
+  "category" : "Blueprint",
+  "twoHanded" : true,
+  "itemTags" : [ "reagent" ],
+
+  "inventoryIcon" : "wa_expweapblueprint.png",
+
+  "animation" : "randomblueprint.animation",
+
+  "scripts" : ["randomblueprint.lua"],
+
+  "swingTime" : 0.15,
+
+  "allowDuplicateChance" : 0.005,
+  "recipes" : [
+    ["wa_capturepodrifle", "wa_darkplasmagun", "wa_dartrifle"],
+    ["wa_diamondassaultrifle", "wa_energycrystalrifle", "wa_extremeflamethrower"],
+    ["wa_gravityshotgun", "wa_handlunarbaselaser", "wa_handmechmissilelauncher"],
+    ["wa_lavaballoongun", "wa_molotovcannon", "wa_rapidgrenadelauncher", "wa_starcannon", "wa_submachinearrowgatling", "wa_submachinegatling", "wa_superchargedpistol", "wa_theprototype", "wa_trapboulder"]
+  ],
+  "learnBlueprintsOnPickup" : [
+    "wa_mythicblueprint"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "materialId" : 6900,
+  "materialName" : "wa_crate",
+  "particleColor" : [71, 43, 19, 255],
+  "itemDrop" : "wa_rewardcrate",
+  "description" : "This will give me stuff. For free.",
+  "shortdescription" : "Supply Crate",
+  "footstepSound" : "/sfx/blocks/footstep_wood.ogg",
+  "health" : 2,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "wa_crate.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "multiColored" : true,
+    "occludesBelow" : true,
+    "zLevel" : 3180
+  }
+}

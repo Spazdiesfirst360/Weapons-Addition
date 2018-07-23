@@ -1,0 +1,98 @@
+[
+  {
+    "op": "add",
+    "path": "/metadata/anchor/-",
+    "value": "labbiodome"
+  },
+  {
+    "op": "add",
+    "path": "/metadata/anchor/-",
+    "value": "desertabandonedlab"
+  },
+  {
+    "op": "add",
+    "path": "/metadata/anchor/-",
+    "value": "desertburiedlab"
+  },
+  {
+    "op": "add",
+    "path": "/metadata/anchor/-",
+    "value": "lockedlab"
+  },
+  {
+    "op": "add",
+    "path": "/parts/-",
+    "value": {
+      "name": "labbiodome",
+      "rules": [
+        [
+          "maxSpawnCount",
+          [
+            1
+          ]
+        ]
+      ],
+      "def": [
+        "tmx",
+        "labbiodome.json"
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/parts/-",
+    "value": {
+      "name": "desertabandonedlab",
+      "rules": [
+        [
+          "maxSpawnCount",
+          [
+            1
+          ]
+        ]
+      ],
+      "def": [
+        "tmx",
+        "desertabandonedlab.json"
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/parts/-",
+    "value": {
+      "name": "desertburiedlab",
+      "rules": [
+        [
+          "maxSpawnCount",
+          [
+            1
+          ]
+        ]
+      ],
+      "def": [
+        "tmx",
+        "desertburiedlab.json"
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/parts/-",
+    "value": {
+      "name": "lockedlab",
+      "rules": [
+        [
+          "maxSpawnCount",
+          [
+            1
+          ]
+        ]
+      ],
+      "def": [
+        "tmx",
+        "lockedlab.json"
+      ]
+    }
+  }
+]

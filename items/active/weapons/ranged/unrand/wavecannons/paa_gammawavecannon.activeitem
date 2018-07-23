@@ -1,0 +1,87 @@
+{
+  "itemName" : "paa_gammawavecannon",
+  "price" : 600,
+  "maxStack" : 1,
+  "rarity" : "legendary",
+  "description" : "A weapons that launches x-ray waves.",
+  "shortdescription" : "Gamma Ray Wave Launcher",
+  "tooltipKind" : "gun",
+  "category" : "Rocket Launcher",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","ranged","rocketlauncher"],
+  "level" : 6,
+
+  "inventoryIcon" : "paa_gammawavecannonicon.png",
+
+  "animation" : "/items/active/weapons/ranged/gun.animation",
+  "animationParts" : {
+  "butt" : "",
+  "middle" : "paa_gammawavecannon.png",
+   "middlefullbright" : "",
+  "barrel" : "",
+  "muzzleFlash" : "/animations/muzzleflash/blankmuzzle/blankmuzzle.png"
+  },
+  "animationCustom" : {
+  "sounds" : {
+  "fire" : ["/sfx/gun/rifle1.ogg"]
+  }
+  },
+
+  "baseOffset" : [1.0, 0.375],
+  "muzzleOffset" : [2.5, 0],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbility" : {
+  "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+  "class" : "GunFire",
+
+  "fireTime" : 0.3,
+  "baseDps" : 40.0,
+  "energyUsage" : 20,
+  "inaccuracy" : 0.005,
+
+  "projectileCount" : 1,
+  "fireType" : "auto",
+
+  "projectileType" : "paa_wavecannon",
+  "projectileParameters" : {
+  "damageKind" : "default",
+  "knockback" : 5
+  },
+  "stances" : {
+  "idle" : {
+  "armRotation" : 0,
+  "weaponRotation" : 0,
+  "twoHanded" : true,
+
+  "allowRotate" : true,
+  "allowFlip" : true
+  },
+  "fire" : {
+  "duration" : 0.5,
+  "armRotation" : 3,
+  "weaponRotation" : 3,
+  "twoHanded" : true,
+
+  "allowRotate" : false,
+  "allowFlip" : false
+  },
+  "cooldown" : {
+  "duration" : 0.15,
+  "armRotation" : 3,
+  "weaponRotation" : 3,
+  "twoHanded" : true,
+
+  "allowRotate" : false,
+  "allowFlip" : false
+  }
+  }
+  },
+  "altAbilityType" : "markedshot",
+  "altAbility" : { },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

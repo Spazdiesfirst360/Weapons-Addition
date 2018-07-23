@@ -1,0 +1,12 @@
+{
+  "name" : "wa_invisible",
+  "effectConfig" : {},
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "wa_invisible.lua"
+  ],
+
+  "label" : "Camoflauge",
+  "icon" : "/interface/statuses/invisible.png"
+}

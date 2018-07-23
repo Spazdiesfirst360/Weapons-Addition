@@ -1,0 +1,11 @@
+{
+  "name" : "paa_superenergyboostaugment",
+  "effectConfig" : {
+    "energyAmount" : 240
+  },
+  "defaultDuration" : 60,
+
+  "scripts" : [
+    "maxenergyboost.lua"
+  ]
+}

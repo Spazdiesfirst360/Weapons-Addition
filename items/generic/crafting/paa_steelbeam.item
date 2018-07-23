@@ -1,0 +1,14 @@
+{
+  "itemName" : "paa_steelbeam",
+  "price" : 100,
+  "rarity" : "common",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "paa_steelbeam.png",
+  "description" : "A nice, strong steel beam.",
+  "shortdescription" : "Steel Beam",
+  "itemTags" : [ "reagent" ],
+  "learnBlueprintsOnPickup" : [
+    "paa_steelladder",
+	"wa_moltensteel"
+  ]
+}

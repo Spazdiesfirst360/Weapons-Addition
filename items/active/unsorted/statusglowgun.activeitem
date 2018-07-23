@@ -1,0 +1,85 @@
+{
+  "itemName" : "statusglowgun",
+  "price" : 1000,
+  "maxStack" : 1,
+  "rarity" : "uncommon",
+  "description" : "The gas this gun shoots make you glow.",
+  "shortdescription" : "Glow Gas Gun",
+  "tooltipKind" : "gun",
+  "category" : "Gas Gun",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","ranged","machinepistol"],
+  "level" : 6,
+
+  "inventoryIcon" : "statusglowgun.png",
+
+  "animation" : "/items/active/weapons/ranged/gun.animation",
+  "animationParts" : {
+  "butt" : "",
+  "middle" : "statusglowgun.png",
+   "middlefullbright" : "",
+  "barrel" : "",
+  "muzzleFlash" : "/items/active/weapons/ranged/muzzleflashes/nomuzzle.png"
+  },
+  "animationCustom" : {
+  "sounds" : {
+  "fire" : ["/sfx/gun/flamethrower_stop.ogg"]
+  }
+  },
+
+  "baseOffset" : [1.0, 0.375],
+  "muzzleOffset" : [2.5, 0],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbility" : {
+  "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+  "class" : "GunFire",
+
+  "fireTime" : 0.001,
+  "baseDps" : 0.0,
+  "energyUsage" : 1,
+  "inaccuracy" : 0.1,
+
+  "projectileCount" : 1,
+  "fireType" : "auto",
+
+  "projectileType" : "glowstatusprojectile",
+  "projectileParameters" : {
+  "damageKind" : "default",
+  "knockback" : 5
+  },
+  "stances" : {
+  "idle" : {
+  "armRotation" : 0,
+  "weaponRotation" : 0,
+  "twoHanded" : false,
+
+  "allowRotate" : true,
+  "allowFlip" : true
+  },
+  "fire" : {
+  "duration" : 0.01,
+  "armRotation" : 3,
+  "weaponRotation" : 3,
+  "twoHanded" : false,
+
+  "allowRotate" : false,
+  "allowFlip" : false
+  },
+  "cooldown" : {
+  "duration" : 0.01,
+  "armRotation" : 3,
+  "weaponRotation" : 3,
+  "twoHanded" : false,
+
+  "allowRotate" : false,
+  "allowFlip" : false
+  }
+  }
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

@@ -1,0 +1,23 @@
+{
+  "projectileName" : "wa_gravgrenade",
+  "physics" : "grenade",
+  "bounces" : 0,
+  "timeToLive" : 4,
+  "image" : "wa_gravgrenade.png",
+  "animationCycle" : 1,
+  "lightColor" : [60, 15, 70],
+  "frameNumber" : 4,
+  "actionOnReap" : [
+    {
+      "action" : "projectile",
+      "type" : "pullzone",
+      "fuzzAngle" : 0,
+      "angleAdjust" : 0
+    }
+  ],
+  "power" : 0,
+  "damageType" : "NoDamage",
+  "damageKind" : "default",
+  "damagePoly" : [ [-6, 0], [-4, -4], [0, -6], [4, -4], [6, 0], [4, 4], [0, 6], [-4, 4] ],
+  "emitters" : [ "sparks" ]
+}

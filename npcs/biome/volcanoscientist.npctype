@@ -1,0 +1,43 @@
+{
+  "type" : "volcanoscientist",
+  "baseType" : "villager",
+  
+
+  "scriptConfig" : {
+    "behaviorConfig" : {
+      "greetingChance" : 0
+    },
+    "dialog" : {
+      "converse" : {
+        "default" : {
+          "default" : [
+            "It's pretty hot here! My lab coat isn't very cold... Do you know of any decent cooling equipment? That would be nice...",
+            "I wish my research didn't involve being sent to THIS planet...",
+            "This planet is so warm, I am constantly sweating and ruining my notes.",
+            "This planet is amazing in terms of scientific information.",
+            "What brings you here? Are you conducting research too?",
+			"Why are you on this planet? Get off while you still can!"
+          ]
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [
+              { "name" : "scientisthead" }
+            ],
+            "chest" : [
+              { "name" : "scientistchest" }
+            ],
+            "legs" : [
+              { "name" : "scientistlegs" }
+            ]
+          }
+        ] ]
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "objectName" : "paa_lablight",
+  "rarity" : "Common",
+  "race" : "generic",
+  "category" : "light",
+  "scannable" : true,
+  "printable" : false,
+  "price" : 500,
+  "collectablesOnPickup" : { "paa_kx1collection" : "paa_lablight" },
+
+  "lightColor" : [255, 255, 230],
+
+  "description" : "A big light for big labs.",
+  "shortdescription" : "Lab Fluorescent Light",
+
+  "inventoryIcon" : "paa_lablighticon.png",
+  "orientations" : [
+    {
+      "image" : "paa_lablighttop.png:<color>",
+      "imagePosition" : [-32, -3],
+      "frames" : 1,
+      "animationCycle" : 0.3,
+
+      "anchors" : [ "top" ]
+    },
+	{
+	  "image" : "paa_lablightbottom.png:<color>",
+	  "imagePosition" : [-32, 3],
+	  "frames" : 1,
+	  "animationCycle" : 0.3,
+	  
+	  "anchors" : [ "bottom" ]
+	},
+	{
+	  "image" : "paa_lablightleft.png:<color>",
+	  "imagePosition" : [3, -32],
+	  "frames" : 1,
+	  "animationCycle" : 0.3,
+	  
+	  "anchors" : [ "left" ]
+	},
+	{
+	  "image" : "paa_lablightright.png:<color>",
+	  "imagePosition" : [-3, -32],
+	  "frames" : 1,
+	  "animationCycle" : 0.3,
+	  
+	  "anchors" : [ "right" ]
+	}
+  ]
+}

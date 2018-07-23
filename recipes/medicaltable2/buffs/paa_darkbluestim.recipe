@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "liquidgravrain", "count" : 10 },
+	{ "item" : "bluestim", "count" : 2 },
+    { "item" : "syringe", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "paa_darkbluestim",
+    "count" : 1
+  },
+  "groups" : [ "craftingmedical2", "buffs" ]
+}

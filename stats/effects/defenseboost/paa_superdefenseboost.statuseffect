@@ -1,0 +1,14 @@
+{
+  "name" : "paa_superdefenseboost",
+  "effectConfig" : {
+    "defenseAmount" : 100
+  },
+  "defaultDuration" : 120,
+
+  "scripts" : [
+    "defenseboost.lua"
+  ],
+
+  "label" : "Tanking Def",
+  "icon" : "/interface/statuses/defense.png"
+}

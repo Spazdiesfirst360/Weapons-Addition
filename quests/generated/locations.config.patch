@@ -1,0 +1,16 @@
+[
+  {
+    "op": "add",
+    "path": "/wa_hangar",
+    "value": {
+      "wa_hangar": {
+        "name": "large industrial hangar",
+        "tags": [
+          "generic",
+          "friendly",
+          "largespace"
+        ]
+      }
+    }
+  }
+]

@@ -1,0 +1,85 @@
+{
+  "itemName" : "wa_molotovcannon",
+  "price" : 5000,
+  "maxStack" : 1,
+  "rarity" : "legendary",
+  "description" : "An experimental grenade launcher that launches molotovs. This looks familiar...",
+  "shortdescription" : "Molotov Launcher",
+  "tooltipKind" : "gun",
+  "category" : "Experimental Weapon",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","ranged","grenadelauncher"],
+  "level" : 7,
+
+  "inventoryIcon" : "wa_molotovcannon.png",
+
+  "animation" : "/items/active/weapons/ranged/gun.animation",
+  "animationParts" : {
+  "butt" : "",
+  "middle" : "wa_molotovcannon.png",
+   "middlefullbright" : "",
+  "barrel" : "",
+  "muzzleFlash" : "/items/active/weapons/ranged/muzzleflash.png"
+  },
+  "animationCustom" : {
+  "sounds" : {
+  "fire" : ["/sfx/gun/grenade2.ogg"]
+  }
+  },
+
+  "baseOffset" : [1.0, 0.375],
+  "muzzleOffset" : [2.5, 0],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbility" : {
+  "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+  "class" : "GunFire",
+
+  "fireTime" : 0.65,
+  "baseDps" : 17.5,
+  "energyUsage" : 25,
+  "inaccuracy" : 0.1,
+
+  "projectileCount" : 1,
+  "fireType" : "auto",
+
+  "projectileType" : "molotov",
+  "projectileParameters" : {
+  "damageKind" : "default",
+  "knockback" : 5
+  },
+  "stances" : {
+  "idle" : {
+  "armRotation" : 0,
+  "weaponRotation" : 0,
+  "twoHanded" : false,
+
+  "allowRotate" : true,
+  "allowFlip" : true
+  },
+  "fire" : {
+  "duration" : 0.15,
+  "armRotation" : 3,
+  "weaponRotation" : 3,
+  "twoHanded" : false,
+
+  "allowRotate" : false,
+  "allowFlip" : false
+  },
+  "cooldown" : {
+  "duration" : 0.1,
+  "armRotation" : 3,
+  "weaponRotation" : 3,
+  "twoHanded" : false,
+
+  "allowRotate" : false,
+  "allowFlip" : false
+  }
+  }
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

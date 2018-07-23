@@ -1,0 +1,10 @@
+{
+  "itemName" : "paa_specialliquid",
+  "rarity" : "uncommon",
+  "category" : "liquid",
+  "inventoryIcon" : "paa_specialliquidicon.png",
+  "shortdescription" : "Preservation Fluid",
+  "description" : "This liquid seems to be useful for preservation. Just ^red;don't^reset; touch it yourself!",
+
+  "liquid" : "paa_specialliquid1"
+}

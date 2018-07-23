@@ -1,0 +1,20 @@
+{
+  "itemName" : "paa_meltingstim",
+  "rarity" : "Common",
+  "price" : 100,
+  "category" : "medicine",
+  "inventoryIcon" : "paa_meltingstim.png",
+  "description" : "A stimpack full of delicious lava, ready to melt your insides.",
+  "shortdescription" : "Melting Stim Pack",
+  "effects" : [ [
+      {
+        "effect" : "melting",
+        "duration" : 10
+      }
+    ] ],
+  "emote" : "",
+  "emitters" : [ "stimuse" ],
+  "learnBlueprintsOnPickup" : [
+    "paa_meltingstim"
+  ]
+}

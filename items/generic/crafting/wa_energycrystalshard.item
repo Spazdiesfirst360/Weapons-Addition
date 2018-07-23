@@ -1,0 +1,10 @@
+{
+  "itemName" : "wa_energycrystalshard",
+  "price" : 0,
+  "rarity" : "rare",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "wa_energycrystalshard.png",
+  "description" : "A piece of an energy crystal. I can use this to make some hi-tech weaponry.",
+  "shortdescription" : "Energy Crystal Shard",
+  "itemTags" : [ "reagent" ]
+}

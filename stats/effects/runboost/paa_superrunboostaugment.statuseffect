@@ -1,0 +1,9 @@
+{
+  "name" : "paa_superrunboostaugment",
+  "effectConfig" : {},
+  "defaultDuration" : 15,
+
+  "scripts" : [
+    "paa_superrunboost.lua"
+  ]
+}

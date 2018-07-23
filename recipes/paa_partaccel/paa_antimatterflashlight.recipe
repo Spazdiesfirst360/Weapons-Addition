@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "paa_antimatter", "count" : 4 },
+	{ "item" : "flashlight", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "paa_antimatterflashlight",
+    "count" : 1
+  },
+  "groups" : [ "paa_partaccel", "all", "other" ]
+}

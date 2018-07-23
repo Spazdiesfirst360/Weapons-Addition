@@ -1,0 +1,87 @@
+{
+  "itemName" : "wa_flarepistol",
+  "price" : 1000,
+  "maxStack" : 1,
+  "rarity" : "rare",
+  "description" : "Woah, this gun shoots bullets and flares? Awesome!",
+  "shortdescription" : "Unique Pistol",
+  "tooltipKind" : "gun",
+  "category" : "Pistol",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","ranged","pistol"],
+  "level" : 5,
+
+  "inventoryIcon" : "wa_flarepistol.png",
+
+  "animation" : "/items/active/weapons/ranged/gun.animation",
+  "animationParts" : {
+  "butt" : "",
+  "middle" : "wa_flarepistol.png",
+   "middlefullbright" : "",
+  "barrel" : "",
+  "muzzleFlash" : "/items/active/weapons/ranged/muzzleflash.png"
+  },
+  "animationCustom" : {
+  "sounds" : {
+  "fire" : ["/sfx/gun/mp1.ogg"]
+  }
+  },
+
+  "baseOffset" : [1.0, 0.375],
+  "muzzleOffset" : [2.5, 0],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbility" : {
+  "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+  "class" : "GunFire",
+
+  "fireTime" : 0.45,
+  "baseDps" : 22.22,
+  "energyUsage" : 25,
+  "inaccuracy" : 0.01,
+
+  "projectileCount" : 1,
+  "fireType" : "auto",
+
+  "projectileType" : "wa_specialflare",
+  "projectileParameters" : {
+  "damageKind" : "default",
+  "knockback" : 5
+  },
+  "stances" : {
+  "idle" : {
+  "armRotation" : 0,
+  "weaponRotation" : 0,
+  "twoHanded" : true,
+
+  "allowRotate" : true,
+  "allowFlip" : true
+  },
+  "fire" : {
+  "duration" : 0.15,
+  "armRotation" : 0,
+  "weaponRotation" : 0,
+  "twoHanded" : true,
+
+  "allowRotate" : false,
+  "allowFlip" : false
+  },
+  "cooldown" : {
+  "duration" : 0.3,
+  "armRotation" : 0,
+  "weaponRotation" : 0,
+  "twoHanded" : true,
+
+  "allowRotate" : false,
+  "allowFlip" : false
+  }
+  }
+  },
+  "altAbilityType" : "flareshot",
+  "altAbility" : { },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

@@ -1,0 +1,10 @@
+{
+  "itemName" : "paa_xenon",
+  "price" : 0,
+  "rarity" : "Uncommon",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "paa_xenon.png",
+  "description" : "Some xenon.",
+  "shortdescription" : "Xenon",
+  "itemTags" : [ "reagent" ]
+}

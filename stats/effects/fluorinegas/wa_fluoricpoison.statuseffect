@@ -1,0 +1,16 @@
+{
+  "name" : "wa_fluoricpoison",
+  "blockingStat" : "gasImmunity",
+
+  "effectConfig" : {},
+  "defaultDuration" : 30,
+
+  "scripts" : [
+    "wa_fluoricpoison.lua"
+  ],
+
+  "animationConfig" : "wa_fluoricpoison.animation",
+
+  "label" : "Fluorine Gas",
+  "icon" : "/interface/statuses/poison.png"
+}

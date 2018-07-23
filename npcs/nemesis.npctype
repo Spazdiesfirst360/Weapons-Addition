@@ -1,0 +1,39 @@
+{
+  "type" : "nemesis",
+  "baseType" : "hostile",
+
+  "dropPools" : [ "nemesisDrops" ],
+
+  "scriptConfig" : {
+    "dialog" : {
+      "attack" : {
+        "default" : {
+          "default" : [
+            "Initiating attack protocol! Get ready to die!"
+          ]
+        },
+        "human" : {
+          "default" : [
+            "Initiating attack protocol! Get ready to die!"
+          ]
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [ { "name" : "wa_nemesishead" } ],
+            "chest" : [ { "name" : "wa_nemesischest" } ],
+            "legs" : [ { "name" : "wa_nemesislegs" } ],
+            "primary" : [
+              "wa_supersword",
+			  "wa_superswordbroken"
+            ]
+          }
+        ] ]
+    ]
+  }
+}

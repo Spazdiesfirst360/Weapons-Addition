@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "perfectlygenericitem", "count" : 1000 }
+  ],
+  "output" : {
+    "item" : "wa_superbomb",
+    "count" : 1
+  },
+  "groups" : [ "wa_expweapstat", "weapons" ]
+}

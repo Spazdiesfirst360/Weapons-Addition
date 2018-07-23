@@ -1,0 +1,85 @@
+{
+  "itemName" : "paa_spatialbomblauncher",
+  "price" : 5000,
+  "maxStack" : 1,
+  "rarity" : "legendary",
+  "description" : "A grenade launcher that shoots spatial collapsing bombs.",
+  "shortdescription" : "Spatial Bomb Launcher",
+  "tooltipKind" : "gun",
+  "category" : "Grenade Launcher",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","ranged","grenadelauncher"],
+  "level" : 7,
+
+  "inventoryIcon" : "paa_spatialbomblauncher.png",
+
+  "animation" : "/items/active/weapons/ranged/gun.animation",
+  "animationParts" : {
+  "butt" : "",
+  "middle" : "paa_spatialbomblauncher.png",
+   "middlefullbright" : "",
+  "barrel" : "",
+  "muzzleFlash" : "/items/active/weapons/ranged/muzzleflash.png"
+  },
+  "animationCustom" : {
+  "sounds" : {
+  "fire" : ["/sfx/gun/grenade1.ogg"]
+  }
+  },
+
+  "baseOffset" : [0.625, 0.125],
+  "muzzleOffset" : [1.875, 0.125],
+
+  "scripts" : ["/items/active/weapons/ranged/shotgun.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbility" : {
+  "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+  "class" : "GunFire",
+
+  "fireTime" : 1.5,
+  "baseDps" : 0.0,
+  "energyUsage" : 100,
+  "inaccuracy" : 0.25,
+
+  "projectileCount" : 1,
+  "fireType" : "auto",
+
+  "projectileType" : "paa_spatialgrenade",
+  "projectileParameters" : {
+  "damageKind" : "default",
+  "knockback" : 0
+  },
+  "stances" : {
+  "idle" : {
+  "armRotation" : 0,
+  "weaponRotation" : 0,
+  "twoHanded" : false,
+
+  "allowRotate" : true,
+  "allowFlip" : true
+  },
+  "fire" : {
+  "duration" : 1.0,
+  "armRotation" : 15,
+  "weaponRotation" : 15,
+  "twoHanded" : false,
+
+  "allowRotate" : false,
+  "allowFlip" : false
+  },
+  "cooldown" : {
+  "duration" : 0.5,
+  "armRotation" : 15,
+  "weaponRotation" : 15,
+  "twoHanded" : false,
+
+  "allowRotate" : false,
+  "allowFlip" : false
+  }
+  }
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

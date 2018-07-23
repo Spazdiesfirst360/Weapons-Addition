@@ -1,0 +1,38 @@
+{
+  "projectileName" : "wa_cratespawnersource",
+  "physics" : "grenade",
+  "bounces" : -1,
+  "timeToLive" : 0.5,
+  "damageKindImage" : "icon.png",
+  "image" : "wa_cratespawnersource.png",
+  "animationCycle" : 0.5,
+  "frameNumber" : 4,
+  "actionOnReap" : [
+    {
+      "action" : "projectile",
+      "type" : "wa_cratespawner",
+      "fuzzAngle" : 0,
+      "angleAdjust" : -45
+    },
+    {
+      "action" : "projectile",
+      "type" : "wa_cratespawner",
+      "fuzzAngle" : 0,
+      "angleAdjust" : -50
+    },
+    {
+      "action" : "projectile",
+      "type" : "wa_cratespawner",
+      "fuzzAngle" : 0,
+      "angleAdjust" : -55
+    }
+  ],
+  "power" : 0,
+  "piercing" : true,
+  "damageKind" : "default",
+  "damageType" : "ignoresdef",
+  "damagePoly" : [ [-36, 0], [-24, -24], [0, -36], [24, -24], [36, 0], [24, 24], [0, 36], [-24, 24] ],
+  "flippable" : true,
+  "damageTeam" : { "type" : "indiscriminate" }
+
+}

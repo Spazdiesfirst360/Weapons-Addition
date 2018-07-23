@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "greenstim", "count" : 2 },
+    { "item" : "syringe", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "paa_darkgreenstim",
+    "count" : 1
+  },
+  "groups" : [ "craftingmedical2", "buffs" ]
+}

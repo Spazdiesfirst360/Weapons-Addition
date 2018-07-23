@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "paa_palladiumore", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "paa_refinedpalladium",
+    "count" : 1
+  },
+  "duration" : 0.15,
+  "groups" : [ "craftingfurnace2", "bars", "all" ]
+}

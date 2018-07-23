@@ -1,0 +1,84 @@
+{
+  "itemName" : "wa_pathfinder",
+  "price" : 5000,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "Batteries not required. Now one-handed!",
+  "shortdescription" : "The Pathfinder",
+  "tooltipKind" : "base",
+  "category" : "Shotgun",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","ranged","shotgun"],
+  "level" : 4,
+
+  "inventoryIcon" : "wa_pathfinder.png:idle",
+
+  "animation" : "wa_pathfinder.animation",
+  "animationParts" : {
+    "gun" : "wa_pathfinder.png",
+    "gunfullbright" : "wa_pathfinderfullbright.png"
+  },
+  "animationCustom" : {},
+  "muzzleOffset" : [2.5, 0.3125],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbility" : {
+    "name" : "Rocket Stack",
+    "scripts" : ["/items/active/weapons/bossdrop/miniknoglauncher/rocketstack.lua"],
+    "class" : "RocketStack",
+
+    "baseDamage" : 8.75,
+    "energyPerShot" : 10,
+
+    "reloadTime" : 0.3,
+    "maxStack" : 10,
+    "spread" : 0.1,
+
+    "inaccuracy" : 0,
+
+    "projectileType" : "standardbullet",
+    "projectileParameters" : {},
+
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : false,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "charge" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : false,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 3,
+        "weaponRotation" : 3,
+        "twoHanded" : false,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "cooldown" : {
+        "duration" : 0.25,
+        "armRotation" : 3,
+        "weaponRotation" : 3,
+        "twoHanded" : false,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+    }
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

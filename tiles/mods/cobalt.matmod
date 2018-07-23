@@ -1,0 +1,20 @@
+{
+"modId" : 900,
+"modName" : "cobalt",
+"itemDrop" : "paa_cobaltore",
+"Description" : "Cobalt ore.",
+"breaksWithTile" : true,
+"health" : 2,
+"harvestLevel" : 5,
+
+"miningSounds" : [ "/sfx/tools/pickaxe_ore.wav", "/sfx/tools/pickaxe_ore2.wav" ],
+"miningParticle" : "orespark",
+
+"renderTemplate" : "/tiles/classicmaterialtemplate.config",
+"renderParameters" : {
+"texture" : "cobalt.png",
+"variants" : 6,
+"multiColored" : false,
+"zLevel" : 0
+}
+}

@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "paa_protactinium", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "paa_proton",
+    "count" : 91
+  },
+  "groups" : [ "paa_partaccel", "all", "other" ]
+}

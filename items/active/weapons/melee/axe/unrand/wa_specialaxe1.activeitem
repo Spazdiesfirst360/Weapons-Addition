@@ -1,0 +1,43 @@
+{
+  "itemName" : "wa_specialaxe1",
+  "level" : 6,
+  "price" : 5000,
+  "maxStack" : 1,
+  "rarity" : "rare",
+  "description" : "This axe is rather exotic.",
+  "shortdescription" : "Exquisite Axe",
+  "tooltipKind" : "sword",
+  "category" : "axe",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","melee","axe"],
+
+  "inventoryIcon" : "wa_specialaxe1.png",
+
+  "animation" : "/items/active/weapons/melee/axe/axe.animation",
+  "animationParts" : {
+    "blade" : "wa_specialaxe1.png",
+    "handle" : ""
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : [ "/sfx/melee/swing_axe.ogg" ]
+    }
+  },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "fire",
+
+  "aimOffset" : -1.0,
+
+  "primaryAbilityType" : "axecleave",
+  "primaryAbility" : {
+    "fireTime" : 0.9,
+    "baseDps" : 12.5,
+    "damageConfig" : {
+      "knockback" : 35
+    }
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

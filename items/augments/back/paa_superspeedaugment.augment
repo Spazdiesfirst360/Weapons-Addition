@@ -1,0 +1,22 @@
+{
+  "itemName" : "paa_superspeedaugment",
+  "price" : 10000,
+  "rarity" : "Rare",
+  "tooltipKind" : "eppaugment",
+  "category" : "eppAugment",
+  "inventoryIcon" : "paa_superspeedaugment.png",
+  "description" : "An EPP module that boosts your movement speed ridiculously.",
+  "shortdescription" : "Super Speed Augment",
+
+  "augment" : {
+    "type" : "back",
+    "name" : "paa_superspeed",
+    "displayName" : "Super Speed",
+    "displayIcon" : "/items/augments/back/paa_superspeedaugment.png",
+    "effects" : [ "paa_superrunboostaugment" ]
+  },
+
+  "radioMessagesOnPickup" : [ "pickupaugment" ],
+
+  "scripts" : [ "/scripts/augments/augment.lua" ]
+}

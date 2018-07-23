@@ -1,0 +1,26 @@
+{
+  "objectName" : "loadinglogo",
+  "colonyTags" : ["misc"],
+  "rarity" : "legendary",
+  "description" : "All it does is loop...",
+  "shortdescription" : "...",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 0,
+  "scannable" : false,
+  "printable" : false,
+
+  "inventoryIcon" : "blackblock.png",
+  "orientations" : [
+    {
+      "image" : "loadinglogo.png:default.<frame>",
+      "imagePosition" : [-24, -16],
+      "frames" : 30,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

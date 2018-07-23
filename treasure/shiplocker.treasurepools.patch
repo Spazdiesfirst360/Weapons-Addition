@@ -1,0 +1,16 @@
+[
+  {
+    "op": "add",
+    "path": "/starterTreasure/0/1/fill/-",
+    "value": {
+      "item": "paa_preface-codex"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/starterTreasure/0/1/fill/-",
+    "value": {
+      "item": "paa_updatelog-codex"
+    }
+  }
+]

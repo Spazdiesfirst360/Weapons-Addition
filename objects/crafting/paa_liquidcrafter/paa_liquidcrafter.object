@@ -1,0 +1,32 @@
+{
+  "objectName" : "paa_liquidcrafter",
+  "printable" : false,
+  "rarity" : "Essential",
+  "price" : 10000,
+  "description" : "A station that allows you to mess with ^orange;liquids^reset;.",
+  "shortdescription" : "^orange;Liquids Station^reset;",
+  "race" : "generic",
+  "category" : "crafting",
+  "collectablesOnPickup" : { "paa_kx1collection" : "paa_liquidcrafter" },
+
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/paa_liquidcrafter.config",
+    "filter" : [ "paa_liqcraft" ]
+  },
+
+  "inventoryIcon" : "paa_liquidcraftericon.png",
+  "orientations" : [
+    {
+      "dualImage" : "paa_liquidcrafter.png:default.<frame>",
+     
+      "imagePosition" : [-16, 0],
+      "frames" : 12,
+      "animationCycle" : 2.0,
+     
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

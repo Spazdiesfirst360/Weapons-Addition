@@ -1,0 +1,84 @@
+{
+  "itemName" : "wa_syst_tidalwave",
+  "price" : 5000,
+  "maxStack" : 1,
+  "rarity" : "legendary",
+  "description" : "\"The bullets flew like a wave of death.\"",
+  "shortdescription" : "^#ff0000;Tidal Wave^reset;",
+  "tooltipKind" : "gun",
+  "category" : "Assault Rifle",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","ranged","assaultrifle"],
+  "level" : 6,
+
+  "inventoryIcon" : "wa_syst_tidalwave.png:idle",
+
+  "animation" : "/items/active/weapons/systymatics/tidalwave/wa_syst_tidalwave.animation",
+  "animationParts" : {
+  "butt" : "",
+  "middle" : "wa_syst_tidalwave.png:idle",
+   "middlefullbright" : "",
+  "barrel" : "",
+  "muzzleFlash" : "/items/active/weapons/ranged/muzzleflash.png"
+  },
+  "animationCustom" : {
+  "sounds" : {
+  "fire" : ["/sfx/gun/ar4.ogg"]
+  }
+  },
+
+  "baseOffset" : [1.0, 0.375],
+  "muzzleOffset" : [2.5, 0],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbility" : {
+  "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+  "class" : "GunFire",
+
+  "fireTime" : 0.0001,
+  "baseDps" : 10.0,
+  "energyUsage" : 25,
+  "inaccuracy" : 0.35,
+  "projectileCount" : 1,
+  "fireType" : "auto",
+
+  "projectileType" : "standardbullet",
+  "projectileParameters" : {
+  "damageKind" : "default",
+  "knockback" : 5
+  },
+  "stances" : {
+  "idle" : {
+  "armRotation" : 0,
+  "weaponRotation" : 0,
+  "twoHanded" : false,
+
+  "allowRotate" : true,
+  "allowFlip" : true
+  },
+  "fire" : {
+  "duration" : 0.035,
+  "armRotation" : -2,
+  "weaponRotation" : 3,
+  "twoHanded" : false,
+
+  "allowRotate" : false,
+  "allowFlip" : false
+  },
+  "cooldown" : {
+  "duration" : 0.0001,
+  "armRotation" : -2,
+  "weaponRotation" : 3,
+  "twoHanded" : false,
+
+  "allowRotate" : false,
+  "allowFlip" : false
+  }
+  }
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

@@ -1,0 +1,22 @@
+{
+  "itemName" : "paa_superenergyaugment",
+  "price" : 15000,
+  "rarity" : "Legendary",
+  "tooltipKind" : "eppaugment",
+  "category" : "eppAugment",
+  "inventoryIcon" : "paa_superenergyaugment.png",
+  "description" : "An EPP module that boosts your total energy ridiculously.",
+  "shortdescription" : "Super Energy Augment",
+
+  "augment" : {
+    "type" : "back",
+    "name" : "paa_superenergy",
+    "displayName" : "Super Energy",
+    "displayIcon" : "/items/augments/back/paa_superenergyaugment.png",
+    "effects" : [ "paa_superenergyboostaugment" ]
+  },
+
+  "radioMessagesOnPickup" : [ "pickupaugment" ],
+
+  "scripts" : [ "/scripts/augments/augment.lua" ]
+}

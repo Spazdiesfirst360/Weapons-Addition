@@ -1,0 +1,30 @@
+{
+  "objectName" : "wa_azuriumnotes",
+  "colonyTags" : ["misc"],
+  "rarity" : "common",
+  "category" : "decorative",
+
+
+  "description" : "It's a blueprint display. I should take it.",
+  "shortdescription" : "Blueprint",
+  "printable" : false,
+  "race" : "generic",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "wa_azuriumnotes.png:<color>",
+      "imagePosition" : [-16, -16],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "scripts" : ["/objects/scripts/breakoninteract.lua"],
+  "scriptDelta" : 0,
+
+  "breakDropOptions" : [
+    [ [ "paa_refined200-recipe", 1, { } ] ]
+  ]
+}

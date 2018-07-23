@@ -1,0 +1,25 @@
+{
+  "objectName" : "wa_superswordplaque",
+  "colonyTags" : ["ancient"],
+  "rarity" : "legendary",
+  "description" : "This plaque depicts a sword more powerful than the Protector's Broadsword... wait, WHAT?",
+  "shortdescription" : "Sword Plaque",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 0,
+  "printable" : false,
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "wa_superswordplaque.png:<color>",
+      "imagePosition" : [-32, -76],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

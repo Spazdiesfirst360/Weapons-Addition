@@ -1,0 +1,67 @@
+{
+  "metadata" : {
+    "name" : "wa_experimentalscientistencounter",
+    "species" : "generic",
+    "rules" : [
+    ],
+
+    "anchor" : [ "wa_experimentalscientistencounterhuman", "wa_experimentalscientistencounterhylotl", "wa_experimentalscientistencounterglitch", "wa_experimentalscientistencounteravian", "wa_experimentalscientistencounterapex", "wa_experimentalscientistencounterfloran", "wa_experimentalscientistencounternovakid" ],
+
+    "gravity" : 80,
+    "maxRadius" : 1000000,
+    "maxParts" : 10,
+    "protected" : false
+  },
+
+  "parts" : [
+    {
+      "name" : "wa_experimentalscientistencounterapex",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "wa_experimentalscientistencounterapex.json" ]
+    },
+	{
+      "name" : "wa_experimentalscientistencounteravian",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "wa_experimentalscientistencounteravian.json" ]
+    },
+    {
+      "name" : "wa_experimentalscientistencounterfloran",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "wa_experimentalscientistencounterfloran.json" ]
+    },
+	{
+      "name" : "wa_experimentalscientistencounterglitch",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "wa_experimentalscientistencounterglitch.json" ]
+    },
+	{
+      "name" : "wa_experimentalscientistencounterhuman",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "wa_experimentalscientistencounterhuman.json" ]
+    },
+	{
+      "name" : "wa_experimentalscientistencounterhylotl",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "wa_experimentalscientistencounterhylotl.json" ]
+    },
+	{
+      "name" : "wa_experimentalscientistencounternovakid",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "wa_experimentalscientistencounternovakid.json" ]
+    }
+  ]
+}

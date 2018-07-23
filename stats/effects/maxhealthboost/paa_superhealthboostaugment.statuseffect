@@ -1,0 +1,11 @@
+{
+  "name" : "paa_superhealthboostaugment",
+  "effectConfig" : {
+    "healthAmount" : 240
+  },
+  "defaultDuration" : 180,
+
+  "scripts" : [
+    "maxhealthboost.lua"
+  ]
+}

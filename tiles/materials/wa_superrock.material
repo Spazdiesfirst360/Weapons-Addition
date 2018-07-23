@@ -1,0 +1,21 @@
+{
+  "materialId" : 555,
+  "materialName" : "wa_superrock",
+  "particleColor" : [34, 34, 34, 255],
+  "itemDrop" : "meteoriterock",
+  "description" : "What is this? It seems unbreakable!",
+  "shortdescription" : "Meteorite Rock",
+  "footstepSound" : "/sfx/blocks/footstep_rock.ogg",
+  "health" : 1000,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "wa_superrock.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 1910
+  }
+}

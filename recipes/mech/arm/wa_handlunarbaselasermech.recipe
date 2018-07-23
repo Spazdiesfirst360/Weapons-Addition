@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "wa_handlunarbaselaser", "count" : 1 },
+    { "item" : "solariumstar", "count" : 30 },
+    { "item" : "salvagearm", "count" : 50 },
+    { "item" : "salvagetier6", "count" : 25 },
+	{ "item" : "wa_weaponsblueprint", "count" : 1 }
+  ],
+  "duration" : 5,
+  "output" : { "item" : "wa_handlunarbaselasermech_item", "count" : 1 },
+  "groups" : [ "craftingmech", "mecharm" ]
+}

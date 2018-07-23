@@ -1,0 +1,46 @@
+{
+  "itemName" : "wa_electricbow",
+  "price" : 1000,
+  "inventoryIcon" : "wa_electricbowicon.png",
+  "maxStack" : 1,
+  "rarity" : "rare",
+  "tooltipKind" : "bow",
+  "category" : "bow",
+  "description" : "Rather shocking for a bow.",
+  "shortdescription" : "Electricity Bow",
+  "twoHanded" : true,
+  "itemTags" : ["weapon", "ranged", "bow"],
+
+  "radioMessagesOnPickup" : [ "pickupbow" ],
+
+  "level" : 5,
+
+  "animation" : "/items/active/weapons/bow/bow.animation",
+  "animationParts" : {
+    "bow" : "bowfull.png"
+  },
+  "animationCustom" : {
+    "animatedParts" : { "parts" : { "bow" : { "properties" : {
+      "offset" : [0.25, 0]
+    }}}},
+    "sounds" : {
+      "draw" : [ "/sfx/gun/bow_draw1.ogg", "/sfx/gun/bow_draw2.ogg", "/sfx/gun/bow_draw3.ogg" ],
+      "release" : [ "/sfx/gun/bow_loose.ogg" ],
+      "perfectRelease" : [ "/sfx/gun/bow_loose_perfect.ogg" ]
+    }
+  },
+
+  "scripts" : ["/items/active/weapons/bow/bow.lua"],
+
+  "primaryAbilityType" : "electricbowshot",
+  "primaryAbility" : {
+
+  },
+
+  "altAbilityType" : "zenshot",
+  "altAbility" : {
+
+  },
+
+  "builder" : "/items/buildscripts/buildbow.lua"
+}

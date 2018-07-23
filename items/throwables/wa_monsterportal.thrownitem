@@ -1,0 +1,30 @@
+{
+  "itemName" : "wa_monsterportal",
+  "price" : 0,
+  "rarity" : "common",
+  "category" : "throwableItem",
+  "inventoryIcon" : "wa_monsterportal.png",
+  "image" : "wa_monsterportal.png",
+  "shortdescription" : "Monster Portal Opener",
+  "description" : "How would this help you at all?",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.4,
+
+  "projectileType" : "moontantspawn",
+  "projectileConfig" : {
+    "speed" : 50,
+    "power" : 0,
+    "periodicActions" : [
+      {
+        "time" : 0,
+        "repeat" : false,
+        "action" : "sound",
+        "options" : [ "/sfx/projectiles/throw_item.ogg" ]
+      }
+    ]
+  }
+}

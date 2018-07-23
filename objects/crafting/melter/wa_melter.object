@@ -1,0 +1,53 @@
+{
+  "objectName" : "wa_melter",
+  "colonyTags" : ["misc"],
+  "rarity" : "Rare",
+  "description" : "Melt stuff, burn stuff, especially metal.",
+  "shortdescription" : "^orange;Melter^white;",
+  "subtitle" : "Melt stuff.",
+  "race" : "generic",
+  "category" : "crafting",
+  "price" : 1250,
+  "objectType" : "container",
+  "printable" : false,
+  "health" : 10,
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "wa_melter.png:default.<frame>", "fullbright" : true }, { "image" : "wa_melterlit.png:default.<frame>" } ],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "imagePosition" : [-4, -4],
+      "frames" : 4,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    },
+    {
+      "imageLayers" : [ { "image" : "wa_melter.png:default.<frame>", "fullbright" : true }, { "image" : "wa_melterlit.png:default.<frame>" } ],
+      "direction" : "right",
+
+      "imagePosition" : [-4, -4],
+      "frames" : 4,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/campfire.ogg",
+  "soundEffectRangeMultiplier" : 0.5,
+
+  "statusEffects" : [ ],
+
+  "recipeGroup" : "wa_melter",
+  "openSounds" : [ "/sfx/objects/console_generic_switchon.ogg" ],
+  "slotCount" : 2,
+  "uiConfig" : "/interface/objectcrafting/wa_melter.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

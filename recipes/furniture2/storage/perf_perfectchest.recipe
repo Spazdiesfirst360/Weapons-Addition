@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "perfectlygenericitem", "count" : 4 }
+  ],
+  "output" : {
+    "item" : "perf_perfectchest",
+    "count" : 1
+  },
+  "groups" : [ "craftingfurniture2", "storage", "all" ]
+}

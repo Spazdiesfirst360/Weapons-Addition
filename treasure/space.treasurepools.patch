@@ -1,0 +1,162 @@
+[
+  {
+    "op": "add",
+    "path": "/salvageComponent/0/1/pool/-",
+    "value": {
+      "weight": 0.1,
+      "item": "wa_hitechactuator"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/salvageComponent/0/1/pool/-",
+    "value": {
+      "weight": 0.1,
+      "item": "wa_hitechbattery"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/salvageComponent/0/1/pool/-",
+    "value": {
+      "weight": 0.1,
+      "item": "wa_hitechlimiter"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/salvageComponent/0/1/pool/-",
+    "value": {
+      "weight": 0.1,
+      "item": "wa_hitechplatematerial"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/salvageComponent/0/1/pool/-",
+    "value": {
+      "weight": 0.1,
+      "item": "wa_ionbattery"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/salvageComponent/1/1/pool/-",
+    "value": {
+      "weight": 1.1,
+      "item": "wa_hitechactuator"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/salvageComponent/1/1/pool/-",
+    "value": {
+      "weight": 1.1,
+      "item": "wa_hitechbattery"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/salvageComponent/1/1/pool/-",
+    "value": {
+      "weight": 0.1,
+      "item": "wa_hitechlimiter"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/salvageComponent/1/1/pool/-",
+    "value": {
+      "weight": 1.1,
+      "item": "wa_hitechplatematerial"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/salvageComponent/1/1/pool/-",
+    "value": {
+      "weight": 1.1,
+      "item": "wa_ionbattery"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/salvageComponent/2/1/pool/-",
+    "value": {
+      "weight": 2.1,
+      "item": "wa_hitechactuator"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/salvageComponent/2/1/pool/-",
+    "value": {
+      "weight": 1.1,
+      "item": "wa_hitechbattery"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/salvageComponent/2/1/pool/-",
+    "value": {
+      "weight": 0.1,
+      "item": "wa_hitechlimiter"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/salvageComponent/2/1/pool/-",
+    "value": {
+      "weight": 1.1,
+      "item": "wa_hitechplatematerial"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/salvageComponent/2/1/pool/-",
+    "value": {
+      "weight": 2.1,
+      "item": "wa_ionbattery"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/salvageComponent/3/1/pool/-",
+    "value": {
+      "weight": 3.1,
+      "item": "wa_hitechactuator"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/salvageComponent/3/1/pool/-",
+    "value": {
+      "weight": 2.1,
+      "item": "wa_hitechbattery"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/salvageComponent/3/1/pool/-",
+    "value": {
+      "weight": 1.1,
+      "item": "wa_hitechlimiter"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/salvageComponent/3/1/pool/-",
+    "value": {
+      "weight": 0.1,
+      "item": "wa_hitechplatematerial"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/salvageComponent/3/1/pool/-",
+    "value": {
+      "weight": 1.1,
+      "item": "wa_ionbattery"
+    }
+  }
+]

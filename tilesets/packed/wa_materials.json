@@ -1,0 +1,126 @@
+{
+	"columns": 0,
+	"grid": {
+		"height": 1,
+		"orientation": "orthogonal",
+		"width": 1
+	},
+	"margin": 0,
+	"name": "wa_materials",
+	"spacing": 0,
+	"tilecount": 7,
+	"tileheight": 8,
+	"tileproperties": {
+		"0": {
+			"//description": "How does this not explode when touching matter?",
+			"//name": "antimatter",
+			"//shortdescription": "Anti Matter",
+			"material": "antimatter"
+		},
+		"1": {
+			"//description": "A sleek metal wall panel.",
+			"//name": "paa_labpanel1",
+			"//shortdescription": "Lab Floor Panel",
+			"material": "paa_labpanel1"
+		},
+		"2": {
+			"//description": "This alloy looks incredibly durable.",
+			"//name": "paa_labpanel2",
+			"//shortdescription": "Lab Blast Panel",
+			"material": "paa_labpanel2"
+		},
+		"3": {
+			"//description": "A nice wall support.",
+			"//name": "paa_labsupport",
+			"//shortdescription": "Lab Support Beam",
+			"material": "paa_labsupport"
+		},
+		"4": {
+			"//description": "What is this? It seems unbreakable!",
+			"//name": "wa_superrock",
+			"//shortdescription": "Meteorite Rock",
+			"material": "wa_superrock"
+		},
+		"5": {
+			"//name": "wa_fluorine_source",
+			"//shortdescription": "Endless fluorine",
+			"liquid": "wa_fluorine",
+			"source": "true"
+		},
+		"6": {
+			"//name": "wa_fluorine",
+			"liquid": "wa_fluorine"
+		}
+	},
+	"tilepropertytypes": {
+		"0": {
+			"//description": "string",
+			"//name": "string",
+			"//shortdescription": "string",
+			"material": "string"
+		},
+		"1": {
+			"//description": "string",
+			"//name": "string",
+			"//shortdescription": "string",
+			"material": "string"
+		},
+		"2": {
+			"//description": "string",
+			"//name": "string",
+			"//shortdescription": "string",
+			"material": "string"
+		},
+		"3": {
+			"//description": "string",
+			"//name": "string",
+			"//shortdescription": "string",
+			"material": "string"
+		},
+		"4": {
+			"//description": "string",
+			"//name": "string",
+			"//shortdescription": "string",
+			"material": "string"
+		}
+	},
+	"tiles": {
+		"0": {
+			"image": "C:\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/tiled\/packed\/materials\/antimatter.png",
+			"imageheight": 8,
+			"imagewidth": 8
+		},
+		"1": {
+			"image": "C:\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/tiled\/packed\/materials\/paa_labpanel1.png",
+			"imageheight": 8,
+			"imagewidth": 8
+		},
+		"2": {
+			"image": "C:\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/tiled\/packed\/materials\/paa_labpanel2.png",
+			"imageheight": 8,
+			"imagewidth": 8
+		},
+		"3": {
+			"image": "C:\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/tiled\/packed\/materials\/paa_labsupport.png",
+			"imageheight": 8,
+			"imagewidth": 8
+		},
+		"4": {
+			"image": "C:\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/tiled\/packed\/materials\/meteoriterock.png",
+			"imageheight": 8,
+			"imagewidth": 8
+		},
+		"5": {
+			"image": "C:\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/tiled\/packed\/liquids\/wa_fluorinetex.png",
+			"imageheight": 8,
+			"imagewidth": 8
+		},
+		"6": {
+			"image": "C:\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/tiled\/packed\/liquids\/wa_fluorinetex.png",
+			"imageheight": 8,
+			"imagewidth": 8
+		}
+	},
+	"tilewidth": 8,
+	"type": "tileset"
+}

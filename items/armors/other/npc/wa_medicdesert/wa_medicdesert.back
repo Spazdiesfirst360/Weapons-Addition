@@ -1,0 +1,14 @@
+{
+  "itemName" : "wa_medicdesertback",
+  "price" : 1200,
+  "inventoryIcon" : "icons.png:back",
+  "rarity" : "Common",
+  "category" : "backwear",
+  "description" : "A medic's military backpack.",
+  "shortdescription" : "Medic Backpack",
+  "tooltipKind" : "back",
+
+  "maleFrames" : "back.png",
+  "femaleFrames" : "back.png",
+  "maxStack" : 1
+}

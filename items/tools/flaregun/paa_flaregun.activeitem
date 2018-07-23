@@ -1,0 +1,70 @@
+{
+  "itemName" : "paa_flaregun",
+  "price" : 5000,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "Shoot flares! Now with loading animation!",
+  "shortdescription" : "Flare Gun",
+  "tooltipKind" : "gun",
+  "category" : "uniqueWeapon",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","ranged"],
+  "level" : 1,
+
+  "inventoryIcon" : "/items/tools/flaregun/paa_flaregun.png:empty",
+
+  "animation" : "/items/tools/flaregun/paa_flaregun.animation",
+  "animationParts" : {
+    "gun" : "/items/tools/flaregun/paa_flaregun.png",
+    "gunfullbright" : "/items/tools/flaregun/paa_flaregunfullbright.png"
+  },
+  "animationCustom" : {},
+  "muzzleOffset" : [2.5, 0.5],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "fire",
+
+  "primaryAbilityType" : "chargefire",
+  "primaryAbility" : {
+    "chargeLevels" : [
+      {
+        "time" : 0,
+        "energyCost" : 1,
+        "cooldown" : 0.1,
+        "projectileType" : "wa_sparks",
+        "projectileCount" : 1,
+        "projectileParameters" : {},
+        "inaccuracy" : 0,
+        "baseDamage" : 1,
+        "fireSound" : "fire"
+      },
+      {
+        "time" : 0.25,
+        "energyCost" : 0,
+        "cooldown" : 0.1,
+        "projectileType" : "invisibleprojectile",
+        "projectileCount" : 1,
+        "spreadAngle" : 0,
+        "projectileParameters" : {},
+        "inaccuracy" : 0,
+        "baseDamage" : 0,
+        "fireSound" : "fire"
+      },
+      {
+        "time" : 1.0,
+        "energyCost" : 25,
+        "cooldown" : 0.1,
+        "projectileType" : "wa_flareshot",
+        "projectileCount" : 1,
+        "spreadAngle" : 0,
+        "projectileParameters" : {},
+        "inaccuracy" : 0,
+        "baseDamage" : 10,
+        "fireSound" : "fire"
+      }
+    ]
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

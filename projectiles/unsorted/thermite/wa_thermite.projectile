@@ -1,0 +1,20 @@
+{
+  "projectileName" : "wa_thermite",
+  "image" : "wa_thermite.png",
+  "physics" : "gravitybullet",
+  "animationCycle" : 0.25,
+  "frameNumber" : 1,
+  "damageKind" : "standardbullet",
+  "pointLight" : false,
+  "flippable" : true,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/cutslikebutter/cutslikebutter.config"
+    }
+  ],
+  "statusEffects" : [ "melting" ],
+  "power" : 25,
+  "speed" : 75,
+  "knockback" : 0
+}

@@ -1,0 +1,84 @@
+{
+  "itemName" : "wa_lavaballoongun",
+  "price" : 5000,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "An experimental grenade launcher that launches lava balloons.",
+  "shortdescription" : "Lava Balloon Launcher",
+  "tooltipKind" : "base",
+  "category" : "Experimental Weapon",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","ranged","grenadelauncher"],
+  "level" : 7,
+
+  "inventoryIcon" : "wa_lavaballoongun.png:idle",
+
+  "animation" : "wa_lavaballoongun.animation",
+  "animationParts" : {
+    "gun" : "wa_lavaballoongun.png",
+    "gunfullbright" : "wa_lavaballoongunfullbright.png"
+  },
+  "animationCustom" : {},
+  "muzzleOffset" : [1.875, 0.125],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbility" : {
+    "name" : "Rocket Stack",
+    "scripts" : ["/items/active/weapons/bossdrop/miniknoglauncher/rocketstack.lua"],
+    "class" : "RocketStack",
+
+    "baseDamage" : 8.75,
+    "energyPerShot" : 25,
+
+    "reloadTime" : 0.25,
+    "maxStack" : 3,
+    "spread" : 0.1,
+
+    "inaccuracy" : 0,
+
+    "projectileType" : "lavaballoon",
+    "projectileParameters" : {},
+
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : false,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "charge" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : false,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 3,
+        "weaponRotation" : 3,
+        "twoHanded" : false,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "cooldown" : {
+        "duration" : 0.25,
+        "armRotation" : 3,
+        "weaponRotation" : 3,
+        "twoHanded" : false,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+    }
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

@@ -1,0 +1,28 @@
+{
+    "projectileName" : "wa_quantumshot",
+    "image" : "wa_quantumshot.png",
+    "animationCycle" : 0.2,
+    "frameNumber" : 9,
+    "damageKindImage" : "icon.png",
+    "lightColor" : [255, 255, 128],
+    "pointLight" : true,
+    "actionOnReap" : [
+        {
+        "action" : "config",
+        "file" : "/projectiles/explosions/extremeexplosion/paa_extremeexplosion.config"
+        }
+    ],
+    "statusEffects" : [ ],
+    "emitters" : [ ],
+    "flippable" : true,
+    "power" : 75.0,
+    "speed" : 50.0,
+    "physics" : "rocket",
+    "damageType" : "NoDamage",
+    "damageKind" : "default",
+
+    "scripts" : [ "paa_extremeprojectile.lua" ],
+    "maxSpeed" : 75,
+    "controlForce" : 100
+}
+  

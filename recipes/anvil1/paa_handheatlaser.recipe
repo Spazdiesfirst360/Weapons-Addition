@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "paa_refinedpalladium", "count" : 5 },
+	{ "item" : "paa_refinedcobalt", "count" : 5 },
+	{ "item" : "salvagearm", "count" : 5 },
+	{ "item" : "salvagetier5", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "paa_handheatlaser",
+    "count" : 1
+  },
+  "groups" : [ "craftinganvil", "weapons", "all" ]
+}

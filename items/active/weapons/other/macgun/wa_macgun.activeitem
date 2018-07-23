@@ -1,0 +1,70 @@
+{
+  "itemName" : "wa_macgun",
+  "price" : 5000,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "It took engineer's years to master this massive scaled-down version of a MAC.",
+  "shortdescription" : "Magnetic Accelerator Cannon",
+  "tooltipKind" : "gun",
+  "category" : "Gauss Weapon",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","ranged"],
+  "level" : 7,
+
+  "inventoryIcon" : "wa_macgun.png:empty",
+
+  "animation" : "wa_macgun.animation",
+  "animationParts" : {
+    "gun" : "wa_macgun.png",
+    "gunfullbright" : "wa_macgunfullbright.png"
+  },
+  "animationCustom" : {},
+  "muzzleOffset" : [2.5, 0.5],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "chargefire",
+  "primaryAbility" : {
+    "chargeLevels" : [
+      {
+        "time" : 0,
+        "energyCost" : 0,
+        "cooldown" : 0.01,
+        "projectileType" : "invisibleprojectile",
+        "projectileCount" : 1,
+        "projectileParameters" : {},
+        "inaccuracy" : 0,
+        "baseDamage" : 0,
+        "fireSound" : "fire"
+      },
+      {
+        "time" : 0.5,
+        "energyCost" : 0,
+        "cooldown" : 0.01,
+        "projectileType" : "invisibleprojectile",
+        "projectileCount" : 1,
+        "spreadAngle" : 0,
+        "projectileParameters" : {},
+        "inaccuracy" : 0,
+        "baseDamage" : 0,
+        "fireSound" : "fire"
+      },
+      {
+        "time" : 1.0,
+        "energyCost" : 1000,
+        "cooldown" : 1.0,
+        "projectileType" : "wa_macbullet",
+        "projectileCount" : 1,
+        "spreadAngle" : 0,
+        "projectileParameters" : {},
+        "inaccuracy" : 0,
+        "baseDamage" : 1000,
+        "fireSound" : "fire"
+      }
+    ]
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

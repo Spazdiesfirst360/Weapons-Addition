@@ -1,0 +1,11 @@
+{
+  "itemName" : "paa_superfuel",
+  "rarity" : "legendary",
+  "category" : "fuel",
+  "inventoryIcon" : "paa_superfuel.png",
+  "description" : "This is a highly explosive material that is a very good fuel source... if you can prevent it from exploding.",
+  "shortdescription" : "CL 20",
+  "fuelAmount" : 900,
+  "price" : 10000,
+  "itemTags" : [ "reagent" ]
+}

@@ -1,0 +1,14 @@
+{
+  "name" : "paa_elevator",
+  "effectConfig" : {},
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "paa_elevator.lua"
+  ],
+
+  "animationConfig" : "jumpboost.animation",
+
+  "label" : "Elevator Liquid",
+  "icon" : "/interface/statuses/jumpboost.png"
+}

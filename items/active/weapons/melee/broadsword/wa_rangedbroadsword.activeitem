@@ -1,0 +1,32 @@
+{
+  "itemName" : "wa_rangedbroadsword",
+  "price" : 5000,
+  "level" : 6,
+  "maxStack" : 1,
+  "rarity" : "legendary",
+  "description" : "The design of a gun infused with the metal of a blade.",
+  "shortdescription" : "Gun Sword",
+  "tooltipKind" : "sword",
+  "category" : "Sword",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","broadsword"],
+
+  "inventoryIcon" : "wa_rangedbroadsword.png",
+
+  "animation" : "wa_rangedbroadsword.animation",
+  "animationCustom" : {},
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "fire",
+
+  "primaryAbilityType" : "broadswordcombo",
+  "primaryAbility" : {
+	"fireTime" : 0.276,
+	"baseDps" : 30.0
+  },
+  
+  "altAbilityType" : "assaultriflemelee",
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

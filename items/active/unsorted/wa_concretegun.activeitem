@@ -1,0 +1,86 @@
+{
+  "itemName" : "wa_concretegun",
+  "price" : 0,
+  "maxStack" : 1,
+  "rarity" : "rare",
+  "description" : "Use this to build walls in a snap.
+^red;Not back layer compatible!^reset;",
+  "shortdescription" : "Diamond Bomb Gun",
+  "tooltipKind" : "gun",
+  "category" : "uniqueWeapon",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","ranged"],
+  "level" : 1,
+
+  "inventoryIcon" : "wa_concretegun.png",
+
+  "animation" : "/items/active/weapons/ranged/gun.animation",
+  "animationParts" : {
+  "butt" : "",
+  "middle" : "wa_concretegun.png",
+   "middlefullbright" : "",
+  "barrel" : "",
+  "muzzleFlash" : "/items/active/weapons/ranged/muzzleflashes/nomuzzle.png"
+  },
+  "animationCustom" : {
+  "sounds" : {
+  "fire" : ["/sfx/gun/grenade2.ogg"]
+  }
+  },
+
+  "baseOffset" : [1.0, 0.375],
+  "muzzleOffset" : [2.5, 0],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbility" : {
+  "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+  "class" : "GunFire",
+
+  "fireTime" : 0.1,
+  "baseDps" : 0.0,
+  "energyUsage" : 1,
+  "inaccuracy" : 0.25,
+
+  "projectileCount" : 1,
+  "fireType" : "auto",
+
+  "projectileType" : "wa_concreteblock",
+  "projectileParameters" : {
+  "damageKind" : "default",
+  "knockback" : 5
+  },
+  "stances" : {
+  "idle" : {
+  "armRotation" : 0,
+  "weaponRotation" : 0,
+  "twoHanded" : false,
+
+  "allowRotate" : true,
+  "allowFlip" : true
+  },
+  "fire" : {
+  "duration" : 0.01,
+  "armRotation" : 3,
+  "weaponRotation" : 3,
+  "twoHanded" : false,
+
+  "allowRotate" : false,
+  "allowFlip" : false
+  },
+  "cooldown" : {
+  "duration" : 0.01,
+  "armRotation" : 3,
+  "weaponRotation" : 3,
+  "twoHanded" : false,
+
+  "allowRotate" : false,
+  "allowFlip" : false
+  }
+  }
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

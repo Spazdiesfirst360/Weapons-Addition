@@ -1,0 +1,17 @@
+[  
+  {
+    "op": "add",
+    "path": "/customCollectionsFU/-",
+    "value": "wa_weaponscollection"
+  },
+  {
+    "op": "add",
+	"path": "/customCollectionsFU/-",
+	"value": "wa_supercollection"
+  },
+  {
+    "op": "add",
+	"path": "/customCollectionsFU/-",
+	"value": "paa_kx1collection"
+  }
+]

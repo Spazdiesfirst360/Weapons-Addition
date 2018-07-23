@@ -1,0 +1,13 @@
+{
+  "itemName" : "paa_liquidbase",
+  "price" : 0,
+  "rarity" : "Uncommon",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "paa_liquidbase.png",
+  "description" : "A very odd material used for making liquids.",
+  "shortdescription" : "Liquid Base",
+  "itemTags" : [ "reagent" ],
+  "learnBlueprintsOnPickup" : [
+    "paa_liquidelevator"
+  ]
+}

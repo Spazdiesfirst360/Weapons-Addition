@@ -1,0 +1,10 @@
+{
+  "itemName" : "paa_liquidelevator",
+  "rarity" : "rare",
+  "category" : "liquid",
+  "inventoryIcon" : "paa_liquidelevatoricon.png",
+  "shortdescription" : "Elevator Fluid",
+  "description" : "This liquid would be useful for making one-way elevators. ^blue;You will need to jump manually!^reset;",
+
+  "liquid" : "paa_elevatorliquid"
+}

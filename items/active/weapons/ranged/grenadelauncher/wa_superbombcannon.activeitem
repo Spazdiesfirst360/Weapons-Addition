@@ -1,0 +1,85 @@
+{
+  "itemName" : "wa_superbombcannon",
+  "price" : 5000,
+  "maxStack" : 1,
+  "rarity" : "legendary",
+  "description" : "An experimental grenade launcher that launches super bombs. Ovewpowered!",
+  "shortdescription" : "Super Bomb Launcher",
+  "tooltipKind" : "gun",
+  "category" : "Experimental Weapon",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","ranged","grenadelauncher"],
+  "level" : 7,
+
+  "inventoryIcon" : "wa_superbombcannon.png",
+
+  "animation" : "/items/active/weapons/ranged/gun.animation",
+  "animationParts" : {
+  "butt" : "",
+  "middle" : "wa_superbombcannon.png",
+   "middlefullbright" : "",
+  "barrel" : "",
+  "muzzleFlash" : "/items/active/weapons/ranged/muzzleflash.png"
+  },
+  "animationCustom" : {
+  "sounds" : {
+  "fire" : ["/sfx/gun/grenade1.ogg"]
+  }
+  },
+
+  "baseOffset" : [1.0, 0.375],
+  "muzzleOffset" : [2.5, 0],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbility" : {
+  "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+  "class" : "GunFire",
+
+  "fireTime" : 0.5,
+  "baseDps" : 9999.0,
+  "energyUsage" : 100,
+  "inaccuracy" : 1.0,
+
+  "projectileCount" : 1,
+  "fireType" : "auto",
+
+  "projectileType" : "zsuperbomb",
+  "projectileParameters" : {
+  "damageKind" : "default",
+  "knockback" : 100
+  },
+  "stances" : {
+  "idle" : {
+  "armRotation" : 0,
+  "weaponRotation" : 0,
+  "twoHanded" : false,
+
+  "allowRotate" : true,
+  "allowFlip" : true
+  },
+  "fire" : {
+  "duration" : 0.25,
+  "armRotation" : 20,
+  "weaponRotation" : 20,
+  "twoHanded" : false,
+
+  "allowRotate" : false,
+  "allowFlip" : false
+  },
+  "cooldown" : {
+  "duration" : 0.5,
+  "armRotation" : 3,
+  "weaponRotation" : 3,
+  "twoHanded" : false,
+
+  "allowRotate" : false,
+  "allowFlip" : false
+  }
+  }
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

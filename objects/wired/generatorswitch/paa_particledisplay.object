@@ -1,0 +1,75 @@
+{
+  "objectName" : "paa_particledisplay",
+  "colonyTags" : ["industrial","electronic","wired","science"],
+  "printable" : true,
+  "rarity" : "Uncommon",
+  "description" : "A display showing information about particle data.",
+  "shortdescription" : "Particle Display",
+  "race" : "generic",
+  "category" : "wire",
+  "price" : 105,
+
+  "lightColor" : [0, 255, 255],
+  "flickerPeriod" : 0.3,
+  "flickerMinIntensity" : 0.95,
+  "flickerMaxIntensity" : 1,
+  "flickerPeriodVariance" : 0.1,
+  "flickerIntensityVariance" : 0.0,
+
+  "inventoryIcon" : "paa_particledisplayicon.png",
+  "orientations" : [
+    {
+      "image" : "paa_particledisplay.png:default.<frame>",
+      "imagePosition" : [-16, 0],
+      "direction" : "left",
+      "flipImages" : true,
+      "lightPosition" : [-1, 1],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    },
+    {
+      "image" : "paa_particledisplay.png:default.<frame>",
+      "imagePosition" : [-16, 0],
+      "direction" : "right",
+      "lightPosition" : [0, 1],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "animation" : "paa_particledisplay.animation",
+  "animationParts" : {
+    "bg" : "paa_particledisplay.png",
+    "fg" : "paa_particledisplaylit.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "on" : [ "/sfx/objects/console_generic_switchon.ogg" ],
+      "off" : [ "/sfx/objects/console_generic_switchoff.ogg" ]
+    }
+  },
+  "animationPosition" : [-16, 0],
+
+  "scripts" : [ 
+    "/objects/wired/switch/switchwithinput.lua",
+    "/scripts/npcToyObject.lua"
+  ],
+
+  "scriptDelta" : 5,
+
+  "inputNodes" : [ [-1, 1] ],
+  "outputNodes" : [ [0, 0] ],
+
+  "npcToy" : {
+    "ownerOnly" : true,
+    "influence" : [
+      "wallbutton"
+    ],
+    "defaultReactions" : {},
+    "preciseStandPositionLeft" : [-1.0, 0.0],
+    "preciseStandPositionRight" : [1.0, 0.0],
+    "maxNpcs" : 1
+  }
+}

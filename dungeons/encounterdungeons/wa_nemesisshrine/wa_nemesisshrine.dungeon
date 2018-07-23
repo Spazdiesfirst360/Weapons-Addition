@@ -1,0 +1,24 @@
+{
+  "metadata" : {
+    "name" : "wa_nemesisshrine",
+    "species" : "generic",
+    "rules" : [
+    ],
+	"gravity" : 80,
+    "protected" : false,
+    "anchor" : [ "wa_nemesisshrine" ],
+    "maxRadius" : 1000000,
+    "maxParts" : 1,
+    "extendSurfaceFreeSpace" : 100
+  },
+
+  "parts" : [
+    {
+      "name" : "wa_nemesisshrine",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "wa_nemesisshrine.json" ]
+    }
+  ]
+}

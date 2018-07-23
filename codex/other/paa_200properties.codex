@@ -1,0 +1,13 @@
+{
+	"id": "paa_200properties",
+	"title": "Azurium Properties",
+	"description": "Notes on the properties of Azurium.",
+	"icon": "paa_notes.png",
+	"contentPages": [
+		"help"
+	],
+	"itemConfig": {
+		"rarity": "common",
+		"price": 1
+	}
+}

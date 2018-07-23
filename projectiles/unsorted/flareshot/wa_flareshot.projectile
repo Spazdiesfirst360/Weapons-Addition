@@ -1,0 +1,92 @@
+{
+  "projectileName" : "wa_flareshot",
+  "image" : "wa_flareshot.png",
+  "animationCycle" : 0.2,
+  "physics" : "grenade",
+  "frameNumber" : 3,
+  "lightColor" : [255, 2, 2],
+  "pointLight" : true,
+  "speed" : 60,
+  "damagePoly" : [ [-6, 0], [-4, -4], [0, -6], [4, -4], [6, 0], [4, 4], [0, 6], [-4, 4] ],
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/globeexplosions/redglobeexplosion/redglobeexplosion.config"
+    },
+    {
+      "action" : "projectile",
+      "type" : "wa_flareflame",
+      "fuzzAngle" : 0,
+      "inheritDamageFactor" : 0.5,
+      "angleAdjust" : 35
+    },
+    {
+      "action" : "projectile",
+      "type" : "wa_flareflame",
+      "fuzzAngle" : 0,
+      "inheritDamageFactor" : 0.5,
+      "angleAdjust" : -35
+    },
+    {
+      "action" : "projectile",
+      "type" : "wa_flareflame",
+      "fuzzAngle" : 0,
+      "inheritDamageFactor" : 0.5,
+      "angleAdjust" : 1
+    },
+    {
+      "action" : "projectile",
+      "type" : "wa_flareflame",
+      "fuzzAngle" : 0,
+      "inheritDamageFactor" : 0.5,
+      "angleAdjust" : -18
+    },
+    {
+      "action" : "projectile",
+      "type" : "wa_flareflame",
+      "fuzzAngle" : 0,
+      "inheritDamageFactor" : 0.5,
+      "angleAdjust" : 18
+    },
+    {
+      "action" : "projectile",
+      "type" : "wa_flareflame",
+      "fuzzAngle" : 0,
+      "inheritDamageFactor" : 0.5,
+      "angleAdjust" : 55
+    },
+    {
+      "action" : "projectile",
+      "type" : "wa_flareflame",
+      "fuzzAngle" : 0,
+      "inheritDamageFactor" : 0.5,
+      "angleAdjust" : -55
+    },
+    {
+      "action" : "projectile",
+      "type" : "wa_flareflame",
+      "fuzzAngle" : 0,
+      "inheritDamageFactor" : 0.5,
+      "angleAdjust" : -1
+    },
+    {
+      "action" : "projectile",
+      "type" : "wa_flareflame",
+      "fuzzAngle" : 0,
+      "inheritDamageFactor" : 0.5,
+      "angleAdjust" : -65
+    },
+    {
+      "action" : "projectile",
+      "type" : "wa_flareflame",
+      "fuzzAngle" : 0,
+      "inheritDamageFactor" : 0.5,
+      "angleAdjust" : 65
+    }
+  ],
+  "power" : 10.0,
+  "damageKind" : "fire",
+  "statusEffects" : [ "burning" ]
+}
+
+

@@ -1,0 +1,18 @@
+{
+  "name" : "waveradiation",
+
+  "effectConfig" : {
+    "healthPercentage" : 1.0,
+    "directives" : "fade=AAFF88FF;0.15?border=2;AAFF8822;00000000"
+  },
+  "defaultDuration" : 60,
+
+  "scripts" : [
+    "waveradiation.lua"
+  ],
+
+  "animationConfig" : "waveradiation.animation",
+
+  "label" : "Wave Radiation",
+  "icon" : "/interface/statuses/biomeradioactive.png"
+}

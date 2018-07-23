@@ -1,0 +1,20 @@
+{
+  "itemName" : "paa_orangegravstim",
+  "rarity" : "Common",
+  "price" : 100,
+  "category" : "medicine",
+  "inventoryIcon" : "paa_orangegravstim.png",
+  "description" : "A stimpack full of orange liquid, for when your jump boost is too much.",
+  "shortdescription" : "Orange Gravity Stim Pack",
+  "effects" : [ [
+      {
+        "effect" : "paa_highgrav",
+        "duration" : 60
+      }
+    ] ],
+  "emote" : "",
+  "emitters" : [ "stimuse" ],
+  "learnBlueprintsOnPickup" : [
+    "paa_orangegravstim"
+  ]
+}

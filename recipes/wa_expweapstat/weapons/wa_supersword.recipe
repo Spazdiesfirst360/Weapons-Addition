@@ -1,0 +1,14 @@
+{
+  "input" : [
+    { "item" : "wa_superswordbroken", "count" : 1 },
+	{ "item" : "wa_superswordmaterial1", "count" : 25 },
+	{ "item" : "wa_superswordmaterial2", "count" : 25 },
+	{ "item" : "wa_superswordmaterial3", "count" : 25 },
+	{ "item" : "wa_superswordmaterial4", "count" : 25 }
+  ],
+  "output" : {
+    "item" : "wa_supersword",
+    "count" : 1
+  },
+  "groups" : [ "wa_expweapstat", "weapons" ]
+}

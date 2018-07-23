@@ -1,0 +1,45 @@
+{
+  "itemName" : "wa_specialweapon1",
+  "price": 3000,
+  "level" : 6,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "^red;Very destructive!^reset;",
+  "shortdescription" : "Remote Grenade Launcher ^yellow;2^reset;",
+  "tooltipKind" : "base",
+  "category" : "grenadeLauncher",
+  "twoHanded" : true,
+  "itemTags" : ["weapon"],
+
+  "inventoryIcon" : "wa_specialweapon1.png",
+  "animation" : "remotegrenadelauncher.animation",
+  "animationParts" : {
+    "gun" : "wa_specialweapon1.png"
+  },
+  "animationCustom" : { },
+  "animationScripts" : [
+    "/items/active/effects/laserbeam.lua"
+  ],
+  "scriptedAnimationParameters" : {
+    "beams" : [
+      {
+        "offset" : [3.25, 0.625],
+        "color" : [255, 0, 0, 128],
+        "length" : 60,
+        "segments" : 6,
+        "angle" : 0
+      }
+    ]
+  },
+  "scripts" : ["remotegrenadelauncher.lua"],
+  "fireOffset" : [3.25, 0.625],
+  "fireTime" : 1.25,
+  "inaccuracy" : 0.0,
+
+  "projectileType" : "remotestickygrenade2",
+  "projectileParameters" : {
+    "power" : 8,
+    "timeToLive" : 16
+  },
+  "energyUsage" : 32
+}

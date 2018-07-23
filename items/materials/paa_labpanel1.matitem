@@ -1,0 +1,11 @@
+{
+  "itemName" : "paa_labpanel1",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "rare",
+  "inventoryIcon" : "apexshipwall.png",
+  "description" : "A nice panel for lab flooring.",
+  "shortdescription" : "Lab Floor Panel",
+
+  "materialId" : 552
+}

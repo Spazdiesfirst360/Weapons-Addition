@@ -1,0 +1,13 @@
+{
+  "itemName" : "paa_palladiumore",
+  "price" : 46,
+  "rarity" : "uncommon",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "paa_palladiumore.png",
+  "description" : "Some palladium. This seems familiar...",
+  "shortdescription" : "Palladium Ore",
+  "itemTags" : ["reagent"],
+  "learnBlueprintsOnPickup" : [
+    "paa_refinedpalladium"
+  ]
+}

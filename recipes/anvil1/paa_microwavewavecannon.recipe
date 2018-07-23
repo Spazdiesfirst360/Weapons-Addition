@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "paa_radiowavecannon", "count" : 1 },
+    { "item" : "siliconboard", "count" : 5 },
+	{ "item" : "tungstenbar", "count" : 20 }
+	
+  ],
+  "output" : {
+    "item" : "paa_microwavewavecannon",
+    "count" : 1
+  },
+  "groups" : [ "craftinganvil", "weapons", "all" ]
+}

@@ -1,0 +1,14 @@
+{
+  "name" : "darkstimjumpboost",
+  "effectConfig" : {},
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "darkstimjumpboost.lua"
+  ],
+
+  "animationConfig" : "jumpboost.animation",
+
+  "label" : "Extreme Jump Boost",
+  "icon" : "/interface/statuses/jumpboost.png"
+}

@@ -1,0 +1,13 @@
+{
+  "itemName" : "paa_refinedcobalt",
+  "price" : 54,
+  "rarity" : "uncommon",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "paa_refinedcobalt.png",
+  "description" : "Some cobalt, in a usable form. This seems familiar...",
+  "shortdescription" : "Cobalt Bar",
+  "itemTags" : ["reagent"],
+  "learnBlueprintsOnPickup" : [
+    "paa_cobaltpistol"
+  ]
+}

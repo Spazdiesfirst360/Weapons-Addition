@@ -1,0 +1,882 @@
+[
+  {
+    "op": "add",
+    "path": "/depth1/0/1/-",
+    "value": [
+      "cobalt",
+      0.75
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/depth1/0/1/-",
+    "value": [
+      "palladium",
+      0.375
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/depth1/0/1/-",
+    "value": [
+      "protactinium",
+      0.375
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/depth1/1/1/-",
+    "value": [
+      "cobalt",
+      0.3755
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/depth1/1/1/-",
+    "value": [
+      "palladium",
+      0.3755
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/depth1/1/1/-",
+    "value": [
+      "protactinium",
+      0.3755
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/depth1/2/1/-",
+    "value": [
+      "cobalt",
+      0.4
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/depth1/2/1/-",
+    "value": [
+      "palladium",
+      0.4
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/depth1/2/1/-",
+    "value": [
+      "protactinium",
+      0.4
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/depth1/3/1/-",
+    "value": [
+      "cobalt",
+      0.45
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/depth1/3/1/-",
+    "value": [
+      "palladium",
+      0.45
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/depth1/3/1/-",
+    "value": [
+      "protactinium",
+      0.45
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/depth1/4/1/-",
+    "value": [
+      "cobalt",
+      0.45
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/depth1/4/1/-",
+    "value": [
+      "palladium",
+      0.45
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/depth1/4/1/-",
+    "value": [
+      "protactinium",
+      0.45
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/depth1/5/1/-",
+    "value": [
+      "cobalt",
+      0.455
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/depth1/5/1/-",
+    "value": [
+      "palladium",
+      0.455
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/depth1/5/1/-",
+    "value": [
+      "protactinium",
+      0.455
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/depth2/0/1/-",
+    "value": [
+      "cobalt",
+      0.375
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/depth2/0/1/-",
+    "value": [
+      "palladium",
+      0.375
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/depth2/0/1/-",
+    "value": [
+      "protactinium",
+      0.375
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/depth2/1/1/-",
+    "value": [
+      "cobalt",
+      0.3755
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/depth2/1/1/-",
+    "value": [
+      "palladium",
+      0.3755
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/depth2/1/1/-",
+    "value": [
+      "protactinium",
+      0.3755
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/depth2/2/1/-",
+    "value": [
+      "cobalt",
+      0.4
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/depth2/2/1/-",
+    "value": [
+      "palladium",
+      0.4
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/depth2/2/1/-",
+    "value": [
+      "protactinium",
+      0.4
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/depth2/3/1/-",
+    "value": [
+      "cobalt",
+      0.45
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/depth2/3/1/-",
+    "value": [
+      "palladium",
+      0.45
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/depth2/3/1/-",
+    "value": [
+      "protactinium",
+      0.45
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/depth2/4/1/-",
+    "value": [
+      "cobalt",
+      0.45
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/depth2/4/1/-",
+    "value": [
+      "palladium",
+      0.45
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/depth2/4/1/-",
+    "value": [
+      "protactinium",
+      0.45
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/depth2/5/1/-",
+    "value": [
+      "cobalt",
+      0.455
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/depth2/5/1/-",
+    "value": [
+      "palladium",
+      0.455
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/depth2/5/1/-",
+    "value": [
+      "protactinium",
+      0.455
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/depth3/0/1/-",
+    "value": [
+      "cobalt",
+      0.375
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/depth3/0/1/-",
+    "value": [
+      "palladium",
+      0.375
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/depth3/0/1/-",
+    "value": [
+      "protactinium",
+      0.375
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/depth3/1/1/-",
+    "value": [
+      "cobalt",
+      0.3755
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/depth3/1/1/-",
+    "value": [
+      "palladium",
+      0.3755
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/depth3/1/1/-",
+    "value": [
+      "protactinium",
+      0.3755
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/depth3/2/1/-",
+    "value": [
+      "cobalt",
+      0.4
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/depth3/2/1/-",
+    "value": [
+      "palladium",
+      0.4
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/depth3/2/1/-",
+    "value": [
+      "protactinium",
+      0.4
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/depth3/3/1/-",
+    "value": [
+      "cobalt",
+      0.45
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/depth3/3/1/-",
+    "value": [
+      "palladium",
+      0.45
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/depth3/3/1/-",
+    "value": [
+      "protactinium",
+      0.45
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/depth3/4/1/-",
+    "value": [
+      "cobalt",
+      0.45
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/depth3/4/1/-",
+    "value": [
+      "palladium",
+      0.45
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/depth3/4/1/-",
+    "value": [
+      "protactinium",
+      0.45
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/depth3/5/1/-",
+    "value": [
+      "cobalt",
+      0.455
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/depth3/5/1/-",
+    "value": [
+      "palladium",
+      0.455
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/depth3/5/1/-",
+    "value": [
+      "protactinium",
+      0.455
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/core/0/1/-",
+    "value": [
+      "cobalt",
+      0.375
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/core/0/1/-",
+    "value": [
+      "palladium",
+      0.375
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/core/0/1/-",
+    "value": [
+      "protactinium",
+      0.375
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/core/1/1/-",
+    "value": [
+      "cobalt",
+      0.3755
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/core/1/1/-",
+    "value": [
+      "palladium",
+      0.3755
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/core/1/1/-",
+    "value": [
+      "protactinium",
+      0.3755
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/core/2/1/-",
+    "value": [
+      "cobalt",
+      0.4
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/core/2/1/-",
+    "value": [
+      "palladium",
+      0.4
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/core/2/1/-",
+    "value": [
+      "protactinium",
+      0.4
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/core/3/1/-",
+    "value": [
+      "cobalt",
+      0.45
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/core/3/1/-",
+    "value": [
+      "palladium",
+      0.45
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/core/3/1/-",
+    "value": [
+      "protactinium",
+      0.45
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/core/4/1/-",
+    "value": [
+      "cobalt",
+      0.45
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/core/4/1/-",
+    "value": [
+      "palladium",
+      0.45
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/core/4/1/-",
+    "value": [
+      "protactinium",
+      0.45
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/core/5/1/-",
+    "value": [
+      "cobalt",
+      0.455
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/core/5/1/-",
+    "value": [
+      "palladium",
+      0.455
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/core/5/1/-",
+    "value": [
+      "protactinium",
+      0.455
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/depth1/0/1/-",
+    "value": [
+      "paa_technetium",
+      0.2
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/depth1/1/1/-",
+    "value": [
+      "paa_technetium",
+      0.2
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/depth1/2/1/-",
+    "value": [
+      "paa_technetium",
+      0.2
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/depth1/3/1/-",
+    "value": [
+      "paa_technetium",
+      0.2
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/depth1/4/1/-",
+    "value": [
+      "paa_cl20",
+      0.2
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/depth1/4/1/-",
+    "value": [
+      "paa_element200",
+      0.2
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/depth1/4/1/-",
+    "value": [
+      "paa_technetium",
+      0.2
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/depth1/5/1/-",
+    "value": [
+      "paa_cl20",
+      0.2
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/depth1/5/1/-",
+    "value": [
+      "paa_element200",
+      0.2
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/depth1/5/1/-",
+    "value": [
+      "paa_technetium",
+      0.2
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/depth2/0/1/-",
+    "value": [
+      "paa_technetium",
+      0.5
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/depth2/1/1/-",
+    "value": [
+      "paa_technetium",
+      0.5
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/depth2/2/1/-",
+    "value": [
+      "paa_technetium",
+      0.5
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/depth2/3/1/-",
+    "value": [
+      "paa_technetium",
+      0.5
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/depth2/4/1/-",
+    "value": [
+      "paa_cl20",
+      0.5
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/depth2/4/1/-",
+    "value": [
+      "paa_element200",
+      0.5
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/depth2/4/1/-",
+    "value": [
+      "paa_technetium",
+      0.5
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/depth2/5/1/-",
+    "value": [
+      "paa_cl20",
+      0.5
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/depth2/5/1/-",
+    "value": [
+      "paa_element200",
+      0.5
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/depth2/5/1/-",
+    "value": [
+      "paa_technetium",
+      0.5
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/depth3/0/1/-",
+    "value": [
+      "paa_technetium",
+      1.2
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/depth3/1/1/-",
+    "value": [
+      "paa_technetium",
+      1.2
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/depth3/2/1/-",
+    "value": [
+      "paa_technetium",
+      1.2
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/depth3/3/1/-",
+    "value": [
+      "paa_technetium",
+      1.2
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/depth3/4/1/-",
+    "value": [
+      "paa_cl20",
+      0.6
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/depth3/4/1/-",
+    "value": [
+      "paa_element200",
+      0.6
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/depth3/4/1/-",
+    "value": [
+      "paa_technetium",
+      0.6
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/depth3/5/1/-",
+    "value": [
+      "paa_cl20",
+      0.6
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/depth3/5/1/-",
+    "value": [
+      "paa_element200",
+      0.6
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/depth3/5/1/-",
+    "value": [
+      "paa_technetium",
+      0.6
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/core/0/1/-",
+    "value": [
+      "paa_technetium",
+      0.6
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/core/1/1/-",
+    "value": [
+      "paa_technetium",
+      0.6
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/core/2/1/-",
+    "value": [
+      "paa_technetium",
+      0.6
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/core/3/1/-",
+    "value": [
+      "paa_technetium",
+      0.6
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/core/4/1/-",
+    "value": [
+      "paa_cl20",
+      0.455
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/core/4/1/-",
+    "value": [
+      "paa_element200",
+      0.65
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/core/5/1/-",
+    "value": [
+      "paa_cl20",
+      0.9
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/core/5/1/-",
+    "value": [
+      "paa_element200",
+      0.65
+    ]
+  }
+]

@@ -1,0 +1,56 @@
+{
+  "objectName" : "paa_blastdoorold",
+  "colonyTags" : ["human","door"],
+  "rarity" : "Common",
+
+  "category" : "door",
+  "price" : 125,
+  "description" : "This looks like one of those old blast doors.",
+  "shortdescription" : "Old Blast Door",
+  "race" : "human",
+
+  "inventoryIcon" : "paa_blastdoorold.png:closed",
+  "orientations" : [
+    {
+      "image" : "paa_blastdoorold.png:default",
+      "flipImages" : true,
+      "imagePosition" : [-24, -8],
+      "renderLayer" : "Object+5",
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ],
+      "direction" : "left"
+    },
+    {
+      "image" : "paa_blastdoorold.png:default",
+      "imagePosition" : [-24, -8],
+      "renderLayer" : "Object+5",
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ],
+      "direction" : "right"
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/door/door.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/door/door.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "open" : {
+        "pool" : [ "/sfx/objects/airlock_heavy_open.ogg" ],
+        "rangeMultiplier" : 0.5
+      },
+      "close" : {
+        "pool" : [ "/sfx/objects/airlock_heavy_close.ogg" ],
+        "rangeMultiplier" : 0.5
+      }
+    }
+  },
+  "animationParts" : {
+    "door" : "paa_blastdoorold.png"
+  },
+  "animationPosition" : [-24, -8],
+
+  "inputNodes" : [ [4, -1] ],
+  "outputNodes" : [ [0, 0] ]
+}

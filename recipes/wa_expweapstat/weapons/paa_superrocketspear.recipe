@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "solariumstar", "count" : 25 },
+	{ "item" : "refinedviolium", "count" : 25 },
+	{ "item" : "refinedferozium", "count" : 25 },
+	{ "item" : "refinedaegisalt", "count" : 25 }
+  ],
+  "output" : {
+    "item" : "paa_superrocketspear",
+    "count" : 1
+  },
+  "groups" : [ "wa_expweapstat", "weapons" ]
+}

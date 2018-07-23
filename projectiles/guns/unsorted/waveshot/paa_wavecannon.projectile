@@ -1,0 +1,20 @@
+{
+  "projectileName" : "paa_wavecannon",
+  "image" : "wavecannon.png",
+  "physics" : "laser",
+  "animationCycle" : 0.1,
+  "frameNumber" : 26,
+  "damageKind" : "standardbullet",
+  "pointLight" : false,
+  "flippable" : true,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/bulletexplosion/bulletexplosion.config"
+    }
+  ],
+  "statusEffects" : [ "waveradiation" ],
+  "power" : 21.0,
+  "speed" : 150,
+  "knockback" : 0
+}

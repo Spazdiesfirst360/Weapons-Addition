@@ -1,0 +1,29 @@
+{
+  "objectName" : "paa_oldcomputer",
+  "colonyTags" : ["industrial","wreck"],
+  "rarity" : "common",
+  "description" : "An old computer.",
+  "shortdescription" : "Old Computer",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 20,
+  "printable" : true,
+  "itemTags" : [ "reagant" ],
+
+  "inventoryIcon" : "paa_oldcomputer.png",
+  "orientations" : [
+    {
+      "image" : "paa_oldcomputer.png:<color>",
+      "imagePosition" : [-24, -16],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+  "learnBlueprintsOnPickup" : [
+    "paa_newcomputer"
+  ]
+}

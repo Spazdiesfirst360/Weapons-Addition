@@ -1,0 +1,22 @@
+[
+  {
+    "op": "add",
+    "path": "/recipes/1/-",
+    "value": "wa_handlunarbaselasermech"
+  },
+  {
+    "op": "add",
+    "path": "/recipes/1/-",
+    "value": "wa_submachinegatlingmech"
+  },
+  {
+    "op": "add",
+    "path": "/recipes/1/-",
+    "value": "wa_theprototypemecharm"
+  },
+  {
+    "op": "add",
+	"path": "/recipes/1/-",
+	"value": "wa_nemesismechblade"
+  }
+]

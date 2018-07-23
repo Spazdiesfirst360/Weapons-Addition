@@ -1,0 +1,28 @@
+{
+  "objectName" : "wnw_wallnavwindow",
+  "colonyTags" : ["misc"],
+  "rarity" : "legendary",
+  "category" : "decorative",
+  "price" : 10000, 
+  "description" : "A relic from Starbound 1.2",
+  "shortdescription" : "Navigation Window",
+  "race" : "generic", 
+  "apexDescription" : "It has returned",
+  "avianDescription" : "Why...",
+  "floranDescription" : "Floran likesss ssscreen",
+  "glitchDescription" : "But the navigation window has changed!",
+  "humanDescription" : "Denial.",
+  "hylotlDescription" : "A reference to Starbound within Starbound! Preposterous!",
+  "novakidDescription" : "I am triggered just from looking at this.", 
+  
+  "inventoryIcon" : "wnw_wallnavwindowicon.png",
+  "orientations" : [
+    { "dualImage" : "wnw_wallnavwindow.png:default.<frame>",
+	  "imagePosition" : [-181.5, -77.5],
+	  "frames" : 200,
+	  "animationCycle" : 20.0, 
+      "spaceScan" : 0.1,
+	  "anchors" : [ "background" ]
+    }
+  ]
+} 

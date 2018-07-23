@@ -1,0 +1,17 @@
+{
+  "itemName" : "paa_reversegravstim",
+  "rarity" : "legendary",
+  "price" : 1000,
+  "category" : "medicine",
+  "inventoryIcon" : "paa_reversegravstim.png",
+  "description" : "A stimpack full of purple fluid. It seems to reverse gravity!",
+  "shortdescription" : "Dark Purple Stim Pack",
+  "effects" : [ [
+      {
+        "effect" : "paa_reversegrav",
+        "duration" : 30
+      }
+    ] ],
+  "emote" : "",
+  "emitters" : [ "stimuse" ]
+}

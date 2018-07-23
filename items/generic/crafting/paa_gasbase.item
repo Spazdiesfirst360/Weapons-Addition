@@ -1,0 +1,14 @@
+{
+  "itemName" : "paa_gasbase",
+  "price" : 0,
+  "rarity" : "Uncommon",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "paa_gasbase.png",
+  "description" : "A very odd material used for making gases.",
+  "shortdescription" : "Gas Base",
+  "itemTags" : [ "reagent" ],
+  "learnBlueprintsOnPickup" : [
+    "paa_sulfurhexafluoride",
+	"paa_helium3gasliquid"
+  ]
+}

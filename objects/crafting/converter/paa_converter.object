@@ -1,0 +1,32 @@
+{
+  "objectName" : "paa_converter",
+  "printable" : false,
+  "rarity" : "Essential",
+  "price" : 0,
+  "description" : "A machine that can convert virtually anything into... virtually anything.",
+  "shortdescription" : "^orange;Conversion Machine^reset;",
+  "race" : "generic",
+  "category" : "crafting",
+  "collectablesOnPickup" : { "paa_kx1collection" : "paa_converter" },
+  
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/paa_converter.config",
+    "filter" : [ "paa_convert" ]
+  },
+
+  "inventoryIcon" : "paa_convertericon.png",
+  "orientations" : [
+    {
+      "dualImage" : "paa_converter.png:default.<frame>",
+     
+      "imagePosition" : [-28, 0],
+      "frames" : 20,
+      "animationCycle" : 0.25,
+     
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

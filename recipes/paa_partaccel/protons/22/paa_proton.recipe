@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "titaniumore", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "paa_proton",
+    "count" : 22
+  },
+  "groups" : [ "paa_partaccel", "all", "other" ]
+}

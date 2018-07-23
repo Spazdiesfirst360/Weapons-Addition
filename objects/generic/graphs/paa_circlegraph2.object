@@ -1,0 +1,25 @@
+{
+  "objectName" : "paa_circlegraph2",
+  "colonyTags" : ["misc"],
+  "rarity" : "common",
+  "description" : "A graph of a circle.",
+  "shortdescription" : "Circle Function Graph",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 0,
+  "printable" : false,
+
+  "inventoryIcon" : "paa_circlegraph2icon.png",
+  "orientations" : [
+    {
+      "image" : "paa_circlegraph2.png:<color>",
+      "imagePosition" : [-80, -80],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

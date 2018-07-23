@@ -1,0 +1,16 @@
+{
+	"input": [{
+			"item": "titaniumbar",
+			"count": 10
+		},
+		{
+			"item": "battery",
+			"count": 4
+		}
+	],
+	"output": {
+		"item": "paa_liquidcrafter",
+		"count": 1
+	},
+	"groups": ["inventorstable2", "craftingstations", "all"]
+}

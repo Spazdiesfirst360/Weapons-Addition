@@ -1,0 +1,27 @@
+{
+  "objectName" : "paa_steelladder",
+  "colonyTags" : ["misc"],
+  "rarity" : "common",
+  "description" : "A sturdy, well made ladder.",
+  "shortdescription" : "Steel Ladder",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 100,
+  "scannable" : true,
+  "printable" : true,
+
+  "inventoryIcon" : "paa_steelladder.png",
+  "orientations" : [
+    {
+      "image" : "paa_steelladder.png:<color>",
+      "imagePosition" : [-8, -8],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ],
+      "collision" : "platform"
+    }
+  ]
+
+}

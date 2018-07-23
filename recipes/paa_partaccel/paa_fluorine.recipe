@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "paa_proton", "count" : 9 },
+	{ "item" : "paa_electron", "count" : 9 }
+  ],
+  "output" : {
+    "item" : "paa_fluorine",
+    "count" : 1
+  },
+  "groups" : [ "paa_partaccel", "all", "other" ]
+}

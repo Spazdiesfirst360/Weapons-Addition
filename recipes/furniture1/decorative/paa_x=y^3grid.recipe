@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "paper", "count" : 8 },
+	{ "item" : "blackdye", "count" : 4 }
+  ],
+  "output" : {
+    "item" : "paa_x=y^3grid",
+    "count" : 1
+  },
+  "groups" : [ "craftingfurniture", "decoration", "all" ]
+}

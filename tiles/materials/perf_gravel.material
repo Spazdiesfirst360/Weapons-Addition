@@ -1,0 +1,26 @@
+{
+  "materialId" : 559,
+  "materialName" : "perf_gravel",
+  "particleColor" : [135, 126, 117, 255],
+  "itemDrop" : "gravelmaterial",
+  "description" : "Coarse green gravel.",
+  "shortdescription" : "Perfect Gravel",
+  "glitchDescription" : "Irratated. Coarse, cascading gravel.",
+  "floranDescription" : "Crusshed gravel.",
+  "novakidDescription" : "Crushed rocks an' gravel.",
+  "footstepSound" : "/sfx/blocks/footstep_gravel.ogg",
+  "falling" : true,
+  "cascading" : true,
+  "health" : 1,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "perf_gravel.png",
+    "variants" : 3,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 440
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "projectileName" : "paa_strangeletshot",
+  "image" : "paa_strangeletshot.png",
+  "physics" : "laser",
+  "animationCycle" : 0.25,
+  "frameNumber" : 5,
+  "damageKind" : "standardbullet",
+  "pointLight" : false,
+  "flippable" : true,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/strangeletexplosion/strangeletexplosion.config"
+    }
+  ],
+  "statusEffects" : [ "strangeletconversion" ],
+  "power" : 0,
+  "speed" : 75,
+  "knockback" : 0
+}

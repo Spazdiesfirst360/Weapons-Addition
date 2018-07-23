@@ -1,0 +1,217 @@
+{
+  "type" : "wa_soldiermerchantsnow",
+  "baseType" : "base",
+  
+  "persistent" : true,
+  "damageTeamType" : "friendly",
+
+  "dropPools" : [ "wa_soldierloot" ],
+
+  "scripts" : [
+    "/npcs/bmain.lua"
+  ],
+  "initialScriptDelta" : 5,
+  "scriptConfig" : {
+    "behavior" : "merchant",
+
+    "behaviorConfig" : {
+      "noticePlayersRadius" : 20,
+
+      "hostileDamageTeam" : { "type" : "enemy", "team" : 1 }
+    },
+
+    "questGenerator" : {
+      "pools" : ["common", "merchant"],
+      "enableParticipation" : true,
+
+      "timeLimit" : 30,
+      "chance" : 0.02,
+      "nearbyQuestLimit" : 2,
+      "nearbyQuestRange" : 50
+    },
+
+    "reactions" : {
+      "spontaneous" : [
+        [5.0, "sleep", { "timeRange" : [0.7, 0.9] }],
+        [1.0, "sit", { "timeRange" : [0.6,0.2]}],
+        [1.0, "wander", { "timeRange" : [0.2, 0.6] }]
+      ]
+    },
+
+    "merchant" : {
+      "waitTime" : 40,
+      "storeRadius" : 16,
+      "poolsFile" : "/npcs/merchantpools.config",
+      "categories" : {
+        "default" : ["genericarmour", "randomguns", "wa_militarysupplies", "wa_medicmerchant"],
+        "apex" : ["genericarmour", "randomguns", "apexarmour", "wa_militarysupplies", "wa_medicmerchant" ],
+        "avian" : ["genericarmour", "randomguns", "avianarmour", "wa_militarysupplies", "wa_medicmerchant" ],
+        "floran" : ["genericarmour", "randomguns", "floranarmour", "wa_militarysupplies", "wa_medicmerchant" ],
+        "glitch" : ["genericarmour", "randomguns", "glitcharmour", "wa_militarysupplies", "wa_medicmerchant" ],
+        "human" : ["genericarmour", "randomguns", "humanarmour", "wa_militarysupplies", "wa_medicmerchant" ],
+        "hylotl" : ["genericarmour", "randomguns", "hylotlarmour", "wa_militarysupplies", "wa_medicmerchant" ],
+        "novakid" : ["genericarmour", "randomguns", "novakidarmour", "wa_militarysupplies", "wa_medicmerchant" ]
+      },
+      "buyFactorRange" : [ 0.9, 1.2 ],
+      "sellFactorRange" : [ 0.2, 0.6 ],
+      "numItems" : 30
+    },
+    "dialog" : {
+      "merchant" : {
+        "start" : "/dialog/merchant.config:merchantStart",
+        "end" : "/dialog/merchant.config:merchantEnd",
+        "follow" : "/dialog/merchant.config:follow",
+        "welcome" : "/dialog/merchant.config:welcome",
+        "tout" : "/dialog/merchant.config:tout"
+      },
+      "flee" : {
+        "helpme" : "/dialog/flee.config:helpme",
+        "safe" : "/dialog/flee.config:safe"
+      },
+      "tenant" : {
+        "grumbles" : {
+          "tagCriteria" : "/dialog/merchant.config:tagCriteria",
+          "enclosedArea" : "/dialog/merchant.config:enclosedArea",
+          "otherDeed" : "/dialog/merchant.config:otherDeed",
+          "severe" : "/dialog/merchant.config:severe",
+          "final" : "/dialog/merchant.config:final"
+        },
+        "arrivedHome" : {
+          "beacon" : "/dialog/merchant.config:beacon",
+          "rent" : "/dialog/merchant.config:rent"
+        }
+      },
+      "accuse" : "/dialog/thief.config:accuse",
+      "alert" : "/dialog/thief.config:alert"
+    }
+  },
+
+  "items" : {
+    "human" : [
+      [0, [
+          {
+            "head" : [
+              { "name" : "wa_medicsnowhead" }
+            ],
+            "back" : [
+              { "name" : "wa_medicsnowback" }
+            ],
+            "chest" : [
+              { "name" : "wa_medicsnowchest" }
+            ],
+            "legs" : [
+              { "name" : "wa_medicsnowlegs" }
+            ]
+          }
+      ]]
+    ],
+    "avian" : [
+      [0, [
+          {
+            "head" : [
+              { "name" : "wa_medicsnowhead" }
+            ],
+            "back" : [
+              { "name" : "wa_medicsnowback" }
+            ],
+            "chest" : [
+              { "name" : "wa_medicsnowchest" }
+            ],
+            "legs" : [
+              { "name" : "wa_medicsnowlegs" }
+            ]
+          }
+      ]]
+    ],
+    "apex" : [
+      [0, [
+          {
+            "head" : [
+              { "name" : "wa_medicsnowhead" }
+            ],
+            "back" : [
+              { "name" : "wa_medicsnowback" }
+            ],
+            "chest" : [
+              { "name" : "wa_medicsnowchest" }
+            ],
+            "legs" : [
+              { "name" : "wa_medicsnowlegs" }
+            ]
+          }
+      ]]
+    ],
+    "floran" : [
+      [0, [
+          {
+            "head" : [
+              { "name" : "wa_medicsnowhead" }
+            ],
+            "back" : [
+              { "name" : "wa_medicsnowback" }
+            ],
+            "chest" : [
+              { "name" : "wa_medicsnowchest" }
+            ],
+            "legs" : [
+              { "name" : "wa_medicsnowlegs" }
+            ]
+          }
+      ]]
+    ],
+    "glitch" : [
+      [0, [
+          {
+            "head" : [
+              { "name" : "wa_medicsnowhead" }
+            ],
+            "back" : [
+              { "name" : "wa_medicsnowback" }
+            ],
+            "chest" : [
+              { "name" : "wa_medicsnowchest" }
+            ],
+            "legs" : [
+              { "name" : "wa_medicsnowlegs" }
+            ]
+          }
+      ]]
+    ],
+    "hylotl" : [
+      [0, [
+          {
+            "head" : [
+              { "name" : "wa_medicsnowhead" }
+            ],
+            "back" : [
+              { "name" : "wa_medicsnowback" }
+            ],
+            "chest" : [
+              { "name" : "wa_medicsnowchest" }
+            ],
+            "legs" : [
+              { "name" : "wa_medicsnowlegs" }
+            ]
+          }
+      ]]
+    ],
+    "novakid" : [
+      [0, [
+          {
+            "head" : [
+              { "name" : "wa_medicsnowhead" }
+            ],
+            "back" : [
+              { "name" : "wa_medicsnowback" }
+            ],
+            "chest" : [
+              { "name" : "wa_medicsnowchest" }
+            ],
+            "legs" : [
+              { "name" : "wa_medicsnowlegs" }
+            ]
+          }
+      ]]
+    ]
+  }
+}

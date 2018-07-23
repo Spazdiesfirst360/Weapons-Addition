@@ -1,0 +1,92 @@
+[
+  {
+    "op": "add",
+    "path": "/assaultriflemelee",
+    "value": "/items/active/weapons/melee/abilities/broadsword/assaultriflemelee/assaultriflemelee.weaponability"
+  },
+  {
+    "op": "add",
+    "path": "/superrocketspear",
+    "value": "/items/active/weapons/melee/abilities/spear/superrocketspear/superrocketspear.weaponability"
+  },
+  {
+    "op": "add",
+    "path": "/supershockwave",
+    "value": "/items/active/weapons/melee/abilities/hammer/supershockwave/supershockwave.weaponability"
+  },
+  {
+    "op": "add",
+	"path": "/rocketlaunchermelee",
+	"value": "/items/active/weapons/melee/abilities/broadsword/rocketlaunchermelee/rocketlaunchermelee.weaponability"
+  },
+  {
+    "op": "add",
+	"path": "/swordlaserbeam",
+	"value": "/items/active/weapons/melee/abilities/broadsword/swordlaserbeam/swordlaserbeam.weaponability"
+  },
+  {
+    "op": "add",
+	"path": "/electricbowshot",
+	"value": "/items/active/weapons/bow/abilities/electricbowshot.weaponability"
+  },
+  {
+    "op": "add",
+	"path": "/tacticalflashlight",
+	"value": "/items/active/weapons/ranged/abilities/tacticalflashlight/tacticalflashlight.weaponability"
+  },
+  {
+    "op": "add",
+	"path": "/flareshot",
+	"value": "/items/active/weapons/ranged/abilities/flareshot/flareshot.weaponability"
+  },
+  {
+    "op": "add",
+	"path": "/superpickslash",
+	"value": "/items/active/weapons/melee/pickaxe/superpickslash.weaponability"
+  },
+  {
+    "op": "add",
+	"path": "/wa_multiflamer",
+	"value": "/items/active/weapons/other/multiflamer/wa_multiflamer.weaponability"
+  },
+  {
+    "op": "add",
+	"path": "/wa_multirocketlauncher",
+	"value": "/items/active/weapons/other/multirocketlauncher/wa_multirocketlauncher.weaponability"
+  },
+  {
+    "op": "add",
+	"path": "/wa_hammerthrow",
+	"value": "/items/active/weapons/melee/abilities/hammer/wa_hammerthrow/wa_hammerthrow.weaponability"
+  },
+  {
+    "op": "add",
+	"path": "/wa_moltenspew",
+	"value": "/items/active/weapons/melee/abilities/broadsword/moltenspew/wa_moltenspew.weaponability"
+  },
+  {
+    "op": "add",
+	"path": "/wa_slayerslash",
+	"value": "/items/active/weapons/melee/abilities/broadsword/wa_slayerslash/wa_slayerslash.weaponability"
+  },
+  {
+    "op": "add",
+	"path": "/wa_multiclip",
+	"value": "/items/active/weapons/other/sidearm/wa_multiclip.weaponability"
+  },
+  {
+    "op": "add",
+	"path": "/wa_multigrenade",
+	"value": "/items/active/weapons/other/multigrenadelauncher/wa_multigrenade.weaponability"
+  },
+  {
+    "op": "add",
+	"path": "/wa_superknockbackcombo",
+	"value": "/items/active/weapons/melee/abilities/wa_superknockbackcombo.weaponability"
+  },
+  {
+    "op": "add",
+	"path": "/wa_gravcharge",
+	"value": "/items/active/weapons/melee/abilities/broadsword/gravcharge/wa_gravcharge.weaponability"
+  }
+]

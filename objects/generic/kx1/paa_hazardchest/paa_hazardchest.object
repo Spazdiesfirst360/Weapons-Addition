@@ -1,0 +1,33 @@
+{
+  "objectName" : "paa_hazardchest",
+  "colonyTags" : ["storage","science"],
+  "rarity" : "Common",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+  "collectablesOnPickup" : { "paa_kx1collection" : "paa_hazardchest" },
+
+  "category" : "storage",
+  "price" : 70,
+  "description" : "A very specially designed crate for hazardous substances. ^red;Does not work with Enhanced Storage!^reset;",
+  "shortdescription" : "Hazard Chest",
+  "race" : "generic",
+  "health" : 1.5,
+
+  "inventoryIcon" : "paa_hazardchesticon.png",
+  "orientations" : [
+    {
+      "dualImage" : "paa_hazardchest.png:<color>.<key>",
+      "imagePosition" : [-8, 0],
+
+      "spaces" : [ [-1, 0], [0, 0], [1, 0], [-1, 1], [0, 1], [1, 1], [-1, 2], [0, 2], [1, 2] ],
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/miningchest_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/miningchest_close.ogg" ],
+  "slotCount" : 32,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 32,
+  "autoCloseCooldown" : 3600
+}

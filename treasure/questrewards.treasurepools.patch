@@ -1,0 +1,18 @@
+[
+  {
+    "op": "add",
+	"path": "/highValueQuestRewards/0/1/pool/-",
+	"value": {
+	  "weight": 0.05,
+	  "pool": "uniqueWeapon"
+	}
+  },
+  {
+    "op": "add",
+    "path": "/mediumValueQuestRewards/0/1/pool/-",
+    "value": {
+      "weight": 0.4,
+      "item": "wa_expweapblueprint"
+    }
+  }
+]

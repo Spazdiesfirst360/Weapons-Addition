@@ -1,0 +1,14 @@
+{
+  "name" : "paa_extremeslow",
+  "effectConfig" : {},
+  "defaultDuration" : 600,
+
+  "scripts" : [
+    "paa_extremeslow.lua"
+  ],
+
+  "animationConfig" : "paa_extremeslow.animation",
+
+  "label" : "Extreme Slow",
+  "icon" : "/interface/statuses/slow.png"
+}

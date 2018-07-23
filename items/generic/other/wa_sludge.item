@@ -1,0 +1,9 @@
+{
+  "itemName" : "wa_sludge",
+  "price" : 10000,
+  "rarity" : "common",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "wa_sludge.png",
+  "description" : "Useless, but it could fetch a high price.",
+  "shortdescription" : "Radioactive Sludge"
+}

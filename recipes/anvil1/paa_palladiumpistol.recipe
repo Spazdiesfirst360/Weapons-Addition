@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "paa_refinedpalladium", "count" : 10 }
+  ],
+  "output" : {
+    "item" : "paa_palladiumpistol",
+    "count" : 1
+  },
+  "groups" : [ "craftinganvil", "weapons", "all" ]
+}

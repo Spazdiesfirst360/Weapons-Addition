@@ -1,0 +1,48 @@
+{
+  "objectName" : "wa_strangeradar",
+  "colonyTags" : ["ancient"],
+  "rarity" : "Legendary",
+  "category" : "other",
+  "price" : 0,
+  "printable" : false,
+
+  "description" : "A radar that has detected a distress signal. I wonder where it's coming from?",
+  "shortdescription" : "Challenge Door",
+  "race" : "ancient",
+
+  "lightColor" : [0, 255, 244],
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "wa_strangeradar.png:<color>.<frame>", "fullbright" : true }, { "image" : "wa_strangeradarlit.png:<color>.<frame>" } ],
+      "imagePosition" : [-24, 0],
+      "animationPosition" : [-24, 0],
+      "spaceScan" : 0.1,
+
+      "anchors" : [ "bottom" ],
+      "direction" : "right",
+
+      "lightPosition" : [0, 3],
+
+      "detectArea" : [ [-3, 0], [3, 5] ]
+    }
+  ],
+
+  "animation" : "/objects/industrial/strangeradar/wa_strangeradar.animation",
+  "animationParts" : {
+    "bg" : "wa_strangeradar.png",
+    "fg" : "wa_strangeradarlit.png"
+  },
+
+  "scripts" : [ "/objects/industrial/strangeradar/wa_strangeradar.lua" ],
+  "scriptDelta" : 20,
+
+  "vanishTime" : 15,
+
+  "messagePlayerInterval" : 0.5,
+  "messagePlayerRange" : 30,
+
+  "health" : 10,
+  "smashOnBreak" : true
+}

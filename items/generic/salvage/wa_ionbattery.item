@@ -1,0 +1,10 @@
+{
+  "itemName" : "wa_ionbattery",
+  "price" : 1000,
+  "rarity" : "rare",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "wa_ionbattery.png",
+  "description" : "A very, very high end ion power source.",
+  "shortdescription" : "Hi-Tech Ion Power Source",
+  "itemTags" : [ "reagent" ]
+}

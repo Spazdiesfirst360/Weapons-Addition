@@ -1,0 +1,98 @@
+[
+  {
+    "op": "add",
+    "path": "/metadata/anchor/-",
+    "value": "jungleabandonedlab1"
+  },
+  {
+    "op": "add",
+    "path": "/parts/-",
+    "value": {
+      "name": "jungleabandonedlab1",
+      "rules": [
+        [
+          "maxSpawnCount",
+          [
+            1
+          ]
+        ]
+      ],
+      "def": [
+        "tmx",
+        "jungleabandonedlab1.json"
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/metadata/anchor/-",
+    "value": "jungleabandonedlab2"
+  },
+  {
+    "op": "add",
+    "path": "/parts/-",
+    "value": {
+      "name": "jungleabandonedlab2",
+      "rules": [
+        [
+          "maxSpawnCount",
+          [
+            1
+          ]
+        ]
+      ],
+      "def": [
+        "tmx",
+        "jungleabandonedlab2.json"
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/metadata/anchor/-",
+    "value": "jungleabandonedlab3"
+  },
+  {
+    "op": "add",
+    "path": "/parts/-",
+    "value": {
+      "name": "jungleabandonedlab3",
+      "rules": [
+        [
+          "maxSpawnCount",
+          [
+            1
+          ]
+        ]
+      ],
+      "def": [
+        "tmx",
+        "jungleabandonedlab3.json"
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/metadata/anchor/-",
+    "value": "lockedlab"
+  },
+  {
+    "op": "add",
+    "path": "/parts/-",
+    "value": {
+      "name": "lockedlab",
+      "rules": [
+        [
+          "maxSpawnCount",
+          [
+            1
+          ]
+        ]
+      ],
+      "def": [
+        "tmx",
+        "lockedlab.json"
+      ]
+    }
+  }
+]

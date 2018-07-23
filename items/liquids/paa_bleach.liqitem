@@ -1,0 +1,10 @@
+{
+  "itemName" : "paa_bleach",
+  "rarity" : "legendary",
+  "category" : "liquid",
+  "inventoryIcon" : "paa_bleach.png",
+  "shortdescription" : "Bleach",
+  "description" : "Better not swim in it.",
+
+  "liquid" : "paa_bleachliquid"
+}

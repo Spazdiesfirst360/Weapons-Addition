@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "wa_expweapblueprint", "count" : 10 }
+  ],
+  "output" : {
+    "item" : "wa_mythicblueprint",
+    "count" : 1
+  },
+  "groups" : [ "paa_convert", "all" ]
+}

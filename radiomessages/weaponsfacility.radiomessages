@@ -1,0 +1,47 @@
+{
+// ---Weapons Facility Mission---
+ "weaponsfacility01" : {
+    "type" : "mission",
+    "text" : "This facility is one of the most secretive buildings in the entire known universe. They will stop at nothing to silence anyone who tries to leak information out."
+  },
+
+  "weaponsfacility02" : {
+    "type" : "mission",
+    "text" : "Due to the extreme heat and radiation that this planet experiences, the planet appears to be locked in a continuous storm of hot air and irradiated material. I would advise that you quickly seek shelter."
+  },
+
+  "weaponsfacility03" : {
+    "type" : "mission",
+    "text" : "The soldiers here appear to be trained extensively. You may want to be equipped with high-tier equipment before you take them on."
+  },
+
+  "weaponsfacility04" : {
+    "type" : "mission",
+    "text" : "Some of the weapons these scientists are carrying look exceptionally deadly to my scanners. Do not wander within range of these weapons, or you will suffer greatly."
+  },
+
+  "weaponsfacility05" : {
+    "type" : "mission",
+    "text" : "Logs contained in this room hint at an advanced super weapon at the center of this facility. I advise against investigating."
+  },
+
+  "weaponsfacility06" : {
+    "type" : "mission",
+    "text" : "The weapon this person is carrying is capable of incinerating you instantly. You are courageous to take on this foe."
+  },
+
+  "weaponsfacility07" : {
+    "type" : "mission",
+    "text" : "The material powering the nuclear core of this facility messes with gravity. Be cautious so that you don't lose your footing."
+  },
+
+  "weaponsfacility08" : {
+    "type" : "mission",
+    "text" : "After this experience, I sure hope that you do not decide to do anything like this again."
+  },
+  
+  "wa_misc1" : {
+    "type" : "mission",
+	"text" : "This radar dish is receiving a distress signal. I suggest that you investigate as soon as possible."
+  }
+}

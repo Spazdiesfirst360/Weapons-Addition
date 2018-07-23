@@ -1,0 +1,11 @@
+{
+  "name" : "wa_phaseturret",
+  "category" : "wa_phaseturret",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "body.png",
+    "bodyfullbright" : "bodyfullbright.png",
+    "turret" : "turret.png"
+  }
+}

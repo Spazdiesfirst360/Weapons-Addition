@@ -1,0 +1,50 @@
+{
+  "objectName" : "paa_randomseed",
+  "colonyTags" : ["science"],
+  "rarity" : "rare",
+  "category" : "seed",
+  "description" : "What exactly does this do?",
+  "shortdescription" : "Strange Plant",
+  "objectType" : "farmable",
+  "printable" : false,
+  "price" : 0,
+
+  "floranDescription" : "Thiss iss a sstrange plant.",
+
+  "inventoryIcon" : "paa_randomseedicon.png",
+
+  "tooltipKind" : "seed",
+  "largeImage" : "randomseed.png:default.2.0",
+
+
+  "orientations" : [
+    {
+      "dualImage" : "randomseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "requireTilledAnchors" : true,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "radioMessagesOnPickup" : [ "pickupseed" ],
+
+  "stages" : [
+    {
+      "duration" : [570, 630]
+    },
+    {
+      "duration" : [570, 630]
+    },
+    {
+      "alts" : 5,
+      "harvestPool" : "paa_randomHarvest"
+    }
+  ],
+
+  "maxImmersion" : 0.25
+}

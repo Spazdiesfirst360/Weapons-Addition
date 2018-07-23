@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "fu_hydrogen", "count" : 2 }
+  ],
+  "output" : { "item" : "deuterium", "count" : 1 },
+  "groups" : [ "fusioncollider" ]
+}

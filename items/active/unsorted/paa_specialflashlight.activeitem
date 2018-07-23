@@ -1,0 +1,43 @@
+{
+  "itemName" : "paa_specialflashlight",
+  "price" : 0,
+  "maxStack" : 1,
+  "rarity" : "rare",
+  "description" : "This flashlight has two modes; normal, and tactical.",
+  "shortdescription" : "Unique Flashlight",
+  "tooltipKind" : "gun",
+  "category" : "Unique Tool",
+  "twoHanded" : true,
+  "itemTags" : ["weapon"],
+  "level" : 3,
+
+  "inventoryIcon" : "paa_specialflashlighticon.png",
+
+  "animation" : "/items/active/weapons/ranged/gun.animation",
+  "animationParts" : {
+  "butt" : "",
+  "middle" : "paa_specialflashlight.png",
+   "middlefullbright" : "",
+  "barrel" : "",
+  "muzzleFlash" : "/animations/muzzleflash/blankmuzzle.png"
+  },
+  "animationCustom" : {
+  "sounds" : {
+  "fire" : ["/sfx/gun/grenade2.ogg"]
+  }
+  },
+
+  "baseOffset" : [1.0, 0.375],
+  "muzzleOffset" : [2.5, 0],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "flashlight",
+  "primaryAbility" : {},
+  "altAbilityType" : "tacticalflashlight",
+  "altAbility" : {},
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

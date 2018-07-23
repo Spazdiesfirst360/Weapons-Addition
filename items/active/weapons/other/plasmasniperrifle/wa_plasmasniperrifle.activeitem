@@ -1,0 +1,70 @@
+{
+  "itemName" : "wa_plasmasniperrifle",
+  "price" : 5000,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "A sniper rifle for the patient.",
+  "shortdescription" : "Plasma Sniper Rifle",
+  "tooltipKind" : "gun",
+  "category" : "uniqueWeapon",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","ranged"],
+  "level" : 6,
+
+  "inventoryIcon" : "wa_plasmasniperrifleicon.png",
+
+  "animation" : "wa_plasmasniperrifle.animation",
+  "animationParts" : {
+    "gun" : "wa_plasmasniperrifle.png",
+    "gunfullbright" : "wa_plasmasniperriflefullbright.png"
+  },
+  "animationCustom" : {},
+  "muzzleOffset" : [2.5, 0.5],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "chargefire",
+  "primaryAbility" : {
+    "chargeLevels" : [
+      {
+        "time" : 0,
+        "energyCost" : 25,
+        "cooldown" : 0.25,
+        "projectileType" : "purpleplasma",
+        "projectileCount" : 1,
+        "projectileParameters" : {},
+        "inaccuracy" : 0,
+        "baseDamage" : 7.5,
+        "fireSound" : "fire"
+      },
+      {
+        "time" : 0.5,
+        "energyCost" : 50,
+        "cooldown" : 0.25,
+        "projectileType" : "pulse",
+        "projectileCount" : 2,
+        "spreadAngle" : 0,
+        "projectileParameters" : {},
+        "inaccuracy" : 0,
+        "baseDamage" : 15,
+        "fireSound" : "fire"
+      },
+      {
+        "time" : 1.0,
+        "energyCost" : 75,
+        "cooldown" : 0.25,
+        "projectileType" : "electroball",
+        "projectileCount" : 1,
+        "spreadAngle" : 0,
+        "projectileParameters" : {},
+        "inaccuracy" : 0,
+        "baseDamage" : 30,
+        "fireSound" : "fire"
+      }
+    ]
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "paa_refinedcobalt", "count" : 10 }
+  ],
+  "output" : {
+    "item" : "paa_cobaltpistol",
+    "count" : 1
+  },
+  "groups" : [ "craftinganvil", "weapons", "all" ]
+}

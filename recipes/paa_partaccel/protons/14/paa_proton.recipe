@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "ff_silicon", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "paa_proton",
+    "count" : 14
+  },
+  "groups" : [ "paa_partaccel", "all", "other" ]
+}

@@ -1,0 +1,10 @@
+{
+  "itemName" : "paa_proton",
+  "price" : 0,
+  "rarity" : "essential",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "paa_proton.png",
+  "description" : "A proton. I can use these to make other elements out of elements.",
+  "shortdescription" : "Proton",
+  "itemTags" : [ "reagent" ]
+}

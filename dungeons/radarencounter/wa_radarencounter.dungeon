@@ -1,0 +1,24 @@
+{
+  "metadata" : {
+    "name" : "wa_radarencounter",
+    "species" : "generic",
+    "rules" : [
+    ],
+	"gravity" : 80,
+    "protected" : true,
+    "anchor" : [ "wa_radarencounter" ],
+    "maxRadius" : 1000000,
+    "maxParts" : 1,
+    "extendSurfaceFreeSpace" : 100
+  },
+
+  "parts" : [
+    {
+      "name" : "wa_radarencounter",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "wa_radarencounter.json" ]
+    }
+  ]
+}

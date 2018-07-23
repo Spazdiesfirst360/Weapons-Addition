@@ -1,0 +1,22 @@
+{
+  "projectileName" : "wa_deathlaser",
+  "image" : "wa_deathlaser.png",
+  "physics" : "laser",
+  "animationCycle" : 0.25,
+  "frameNumber" : 1,
+  "damageKind" : "standardbullet",
+  "pointLight" : false,
+  "flippable" : true,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/doomgrenadeexplosion/doomgrenadeexplosion.config"
+    }
+  ],
+  "statusEffects" : [
+    "16doomed"
+  ],
+  "power" : 400,
+  "speed" : 150,
+  "knockback" : 400
+}

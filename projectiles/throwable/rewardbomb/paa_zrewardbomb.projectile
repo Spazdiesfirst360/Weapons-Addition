@@ -1,0 +1,21 @@
+{
+  "projectileName" : "paa_zrewardbomb",
+  "physics" : "grenade",
+  "bounces" : -1,
+  "timeToLive" : 5,
+  "image" : "paa_zrewardbomb.png",
+  "animationCycle" : 5,
+  "lightColor" : [0, 0, 0],
+  "frameNumber" : 1,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/rewardexplosion/paa_rewardexplosion.config"
+    }
+  ],
+  "power" : 1000000000000,
+  "damageType" : "NoDamage",
+  "damageKind" : "default",
+  "damagePoly" : [ [-6, 0], [-4, -4], [0, -6], [4, -4], [6, 0], [4, 4], [0, 6], [-4, 4] ],
+  "emitters" : [ "sparks" ]
+}

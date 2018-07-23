@@ -1,0 +1,15 @@
+{
+  "itemName" : "wa_handlunarbaselasermech_item",
+  "price" : 10000,
+  "maxStack" : 1,
+  "rarity" : "legendary",
+  "category" : "mechPart",
+  "tooltipKind" : "mecharm",
+  "builder" : "/items/buildscripts/buildmechpart.lua",
+  "inventoryIcon" : "wa_handlunarbaselasermech_item.png",
+  "description" : "A Lunar Laser, engineered to be usable by mechs.",
+  "shortdescription" : "Lunar Laser",
+  "itemTags" : [ ],
+
+  "mechPart" : ["arm", "handlunarbaselasermech"]
+}

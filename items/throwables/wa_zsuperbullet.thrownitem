@@ -1,0 +1,33 @@
+{
+  "itemName" : "wa_zsuperbullet",
+  "price" : 1000000,
+  "rarity" : "legendary",
+  "category" : "throwableItem",
+  "inventoryIcon" : "wa_zsuperbullet.png",
+  "image" : "wa_zsuperbullet.png",
+  "shortdescription" : "Super Bullet",
+  "description" : "This item is one of the most advanced of it's kind.",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.4,
+
+  "projectileType" : "wa_superbullet",
+  "projectileConfig" : {
+    "speed" : 150,
+    "power" : 1000000,
+    "periodicActions" : [
+      {
+        "time" : 0,
+        "repeat" : false,
+        "action" : "sound",
+        "options" : [ "/sfx/projectiles/throw_item.ogg" ]
+      }
+    ]
+  },
+  "learnBlueprintsOnPickup" : [
+    "wa_zsuperbullet"
+  ]
+}

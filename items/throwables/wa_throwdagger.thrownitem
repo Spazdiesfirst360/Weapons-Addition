@@ -1,0 +1,30 @@
+{
+  "itemName" : "wa_throwdagger",
+  "price" : 5000,
+  "rarity" : "legendary",
+  "category" : "throwableItem",
+  "inventoryIcon" : "wa_throwdaggericon.png",
+  "image" : "wa_throwdagger.png",
+  "shortdescription" : "^#00FFFF;Enchanted Dagger^reset;",
+  "description" : "You may know where this is going...",
+
+  "ammoUsage" : 0,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.01,
+
+  "projectileType" : "wa_zthrowdagger",
+  "projectileConfig" : {
+    "speed" : 180,
+    "power" : 80,
+    "periodicActions" : [
+      {
+        "time" : 0,
+        "repeat" : false,
+        "action" : "sound",
+        "options" : [ "/sfx/projectiles/throw_item_small.ogg" ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "itemName" : "paa_superpixelgun",
+  "price" : 0,
+  "rarity" : "uncommon",
+  "category" : "throwableItem",
+  "inventoryIcon" : "paa_flaregun.png",
+  "image" : "paa_flaregun.png",
+  "shortdescription" : "Pixel Gun",
+  "description" : "What's the difference between this and the actual gun?",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.1,
+  "cooldown" : 1.0,
+
+  "projectileType" : "moneystatusprojectile",
+  "projectileConfig" : {
+    "speed" : 10,
+    "power" : 0,
+    "periodicActions" : [
+      {
+        "time" : 0,
+        "repeat" : false,
+        "action" : "sound",
+        "options" : [ "/sfx/projectiles/throw_item.ogg" ]
+      }
+    ]
+  }
+}

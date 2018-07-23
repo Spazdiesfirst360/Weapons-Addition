@@ -1,0 +1,84 @@
+{
+  "itemName" : "wa_multigrenadelauncher",
+  "price" : 5000,
+  "inventoryIcon" : "wa_multigrenadelauncher.png:wooden.1",
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "\"Pick a grenade, any grenade.\"",
+  "shortdescription" : "ELS Grenade Launcher",
+  "level" : 6,
+  "tooltipKind" : "gun",
+  "category" : "uniqueWeapon",
+  "itemTags" : ["weapon","ranged","rifle"],
+  "twoHanded" : true,
+
+  "animation" : "/items/active/weapons/ranged/gun.animation",
+  "animationParts" : {
+    "butt" : "",
+    "middle" : "wa_multigrenadelauncher.png",
+    "barrel" : "",
+    "muzzleFlash" : ""
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : [ "/sfx/gun/grenade2.ogg" ]
+    }
+  },
+
+  "baseOffset" : [1.0, 0.0],
+  "muzzleOffset" : [1.975, 0.25],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
+
+    "fireTime" : 0.5,
+    "baseDps" : 13,
+    "energyUsage" : 25,
+    "inaccuracy" : 0.05,
+
+    "projectileCount" : 1,
+    "fireType" : "auto",
+
+    "projectileType" : "clustergrenade",
+    "projectileParameters" : {
+      "knockback" : 50,
+	  "speed" : 100
+    },
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 5,
+        "weaponRotation" : 5,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "cooldown" : {
+        "duration" : 0.65,
+        "armRotation" : 5,
+        "weaponRotation" : 5,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+    }
+  },
+
+  "altAbilityType" : "wa_multigrenade",
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

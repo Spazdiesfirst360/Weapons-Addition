@@ -1,0 +1,32 @@
+{
+  "itemName" : "wa_rocketsword",
+  "price" : 5000,
+  "level" : 6,
+  "maxStack" : 1,
+  "rarity" : "legendary",
+  "description" : "A rocket launcher and a sword combined will defeat all who oppose.",
+  "shortdescription" : "Rocket Sword",
+  "tooltipKind" : "sword",
+  "category" : "Sword",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","broadsword"],
+
+  "inventoryIcon" : "wa_rocketsword.png",
+
+  "animation" : "wa_rocketsword.animation",
+  "animationCustom" : {},
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "fire",
+
+  "primaryAbilityType" : "broadswordcombo",
+  "primaryAbility" : {
+  "fireTime" : 0.276,
+  "baseDps" : 30.0
+  },
+  
+  "altAbilityType" : "rocketlaunchermelee",
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

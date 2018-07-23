@@ -1,0 +1,34 @@
+[
+ {
+    "op": "add",
+    "path": "/paa_superresearchlab",
+    "value": {
+      "warpAction": "InstanceWorld:paa_superresearchlab",
+      "skyParameters": {
+        "seed": 0,
+        "horizonClouds": false,
+        "horizonImages": [
+          {
+            "left": "/celestial/system/spacestation/stationhorizonleft.png",
+            "right": "/celestial/system/spacestaion/stationhorizonright.png"
+          }
+        ]
+      },
+      "moving": false,
+      "speed": 5.0,
+      "orbitRange": [
+        10,
+        10
+      ],
+      "lifeTime": [
+        0,
+        0
+      ],
+      "parameters": {
+        "icon": "/celestial/system/station/spacestationicon.png",
+        "displayName": "Massive Research Lab",
+        "description": "A very large research lab. Only the inhabitants know what it is used for."
+      }
+    }
+   }
+]

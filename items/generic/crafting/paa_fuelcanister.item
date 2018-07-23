@@ -1,0 +1,14 @@
+{
+  "itemName" : "paa_fuelcanister",
+  "rarity" : "rare",
+  "category" : "fuel",
+  "inventoryIcon" : "paa_fuelcanister.png",
+  "description" : "A canister containing fuel.",
+  "shortdescription" : "Erchius Fuel Canister",
+  "fuelAmount" : 60,
+  "price" : 300,
+  "itemTags" : [ "reagent" ],
+  "learnBlueprintsOnPickup" : [
+    "wa_rapidenergygun"
+  ]
+}

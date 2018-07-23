@@ -1,0 +1,24 @@
+{
+  "projectileName" : "wa_chainhead",
+  "physics" : "laser",
+  "bounces" : -1,
+  "timeToLive" : 0.01,
+  "damageKindImage" : "icon.png",
+  "image" : "wa_chainhead.png",
+  "animationCycle" : 0.5,
+  "frameNumber" : 1,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/bulletexplosion/bulletexplosion.config"
+    }
+  ],
+  "power" : 50,
+  "piercing" : true,
+  "damageKind" : "default",
+  "damageType" : "ignoresdef",
+  "damagePoly" : [ [-36, 0], [-24, -24], [0, -36], [24, -24], [36, 0], [24, 24], [0, 36], [-24, 24] ],
+  "flippable" : true,
+  "damageTeam" : { "type" : "indiscriminate" }
+
+}

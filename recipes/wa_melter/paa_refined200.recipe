@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "paa_element200", "count" : 2 }
+  ],
+  "output" : { "item" : "paa_refined200", "count" : 1 },
+  "groups" : [ "wa_melter" ]
+}

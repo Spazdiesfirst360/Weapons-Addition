@@ -1,0 +1,30 @@
+{
+  "itemName" : "wa_supermolotov",
+  "price" : 0,
+  "rarity" : "Common",
+  "category" : "throwableItem",
+  "inventoryIcon" : "molotov.png",
+  "image" : "molotov.png",
+  "shortdescription" : "Super Molotov",
+  "description" : "For pyromaniacs.",
+
+  "ammoUsage" : 0,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.01,
+
+  "projectileType" : "molotov",
+  "projectileConfig" : {
+    "speed" : 40,
+    "power" : 50,
+    "periodicActions" : [
+      {
+        "time" : 0,
+        "repeat" : false,
+        "action" : "sound",
+        "options" : [ "/sfx/projectiles/throw_item_small.ogg" ]
+      }
+    ]
+  }
+}

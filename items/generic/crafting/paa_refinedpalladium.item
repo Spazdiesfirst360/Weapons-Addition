@@ -1,0 +1,13 @@
+{
+  "itemName" : "paa_refinedpalladium",
+  "price" : 92,
+  "rarity" : "uncommon",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "paa_refinedpalladium.png",
+  "description" : "Some palladium, in a usable form. This seems familiar...",
+  "shortdescription" : "Palladium Bar",
+  "itemTags" : ["reagent"],
+  "learnBlueprintsOnPickup" : [
+    "paa_palladiumpistol"
+  ]
+}

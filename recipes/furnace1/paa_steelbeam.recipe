@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "ironbar", "count" : 1 },
+	{ "item" : "fu_carbon", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "paa_steelbeam",
+    "count" : 2
+  },
+  "groups" : [ "craftingfurnace", "ingredients", "all" ]
+}

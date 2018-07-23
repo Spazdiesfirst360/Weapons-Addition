@@ -1,0 +1,14 @@
+{
+  "itemName" : "wa_nemesisback",
+  "price" : 5000,
+  "inventoryIcon" : "icons.png:back",
+  "rarity" : "Legendary",
+  "category" : "backwear",
+  "description" : "A stylish enhancement to any outfit.",
+  "shortdescription" : "Nemesis Disc",
+  "tooltipKind" : "back",
+
+  "maleFrames" : "back.png",
+  "femaleFrames" : "back.png",
+  "maxStack" : 1
+}

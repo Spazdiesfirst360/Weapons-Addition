@@ -1,0 +1,85 @@
+{
+  "itemName" : "wa_vindicator",
+  "price" : 10000,
+  "maxStack" : 1,
+  "rarity" : "legendary",
+  "description" : "It will set you free.",
+  "shortdescription" : "^#00FFFF;Vindicator^reset;",
+  "tooltipKind" : "gun",
+  "category" : "Pistol",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","ranged","pistol"],
+  "level" : 7,
+
+  "inventoryIcon" : "wa_vindicator.png",
+
+  "animation" : "/items/active/weapons/ranged/gun.animation",
+  "animationParts" : {
+  "butt" : "",
+  "middle" : "wa_vindicator.png",
+   "middlefullbright" : "",
+  "barrel" : "",
+  "muzzleFlash" : "/items/active/weapons/ranged/muzzleflash.png"
+  },
+  "animationCustom" : {
+  "sounds" : {
+  "fire" : ["/sfx/gun/pistol3.ogg"]
+  }
+  },
+
+  "baseOffset" : [1.0, 0.375],
+  "muzzleOffset" : [2.5, 0],
+
+  "scripts" : ["/items/active/weapons/ranged/wa_supersniper.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbility" : {
+  "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+  "class" : "GunFire",
+
+  "fireTime" : 0.075,
+  "baseDps" : 45.0,
+  "energyUsage" : 25,
+  "inaccuracy" : 0.001,
+
+  "projectileCount" : 1,
+  "fireType" : "auto",
+
+  "projectileType" : "grenade",
+  "projectileParameters" : {
+  "damageKind" : "default",
+  "knockback" : 5
+  },
+  "stances" : {
+  "idle" : {
+  "armRotation" : 0,
+  "weaponRotation" : 0,
+  "twoHanded" : true,
+
+  "allowRotate" : true,
+  "allowFlip" : true
+  },
+  "fire" : {
+  "duration" : 0.25,
+  "armRotation" : 10,
+  "weaponRotation" : 10,
+  "twoHanded" : true,
+
+  "allowRotate" : false,
+  "allowFlip" : false
+  },
+  "cooldown" : {
+  "duration" : 0.25,
+  "armRotation" : 10,
+  "weaponRotation" : 10,
+  "twoHanded" : true,
+
+  "allowRotate" : false,
+  "allowFlip" : false
+  }
+  }
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

@@ -1,0 +1,57 @@
+{
+  "objectName" : "paa_fusioncollider",
+  "colonyTags" : ["science"],
+  "rarity" : "Rare",
+  "description" : "I get to fuse stuff together using this.",
+  "shortdescription" : "^orange;Fusion Collider^white;",
+  "subtitle" : "Fuse stuff.",
+  "race" : "generic",
+  "category" : "crafting",
+  "price" : 1250,
+  "objectType" : "container",
+  "printable" : false,
+  "health" : 10,
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "paa_fusioncollider.png:default.<frame>", "fullbright" : true }, { "image" : "paa_fusioncolliderlit.png:default.<frame>" } ],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "imagePosition" : [-40, 0],
+      "frames" : 14,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "imageLayers" : [ { "image" : "paa_fusioncollider.png:default.<frame>", "fullbright" : true }, { "image" : "paa_fusioncolliderlit.png:default.<frame>" } ],
+      "direction" : "right",
+
+      "imagePosition" : [-40, 0],
+      "frames" : 14,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/campfire.ogg",
+  "soundEffectRangeMultiplier" : 0.5,
+
+  "statusEffects" : [ ],
+
+  "recipeGroup" : "fusioncollider",
+  "openSounds" : [ "/sfx/objects/console_generic_switchon.ogg" ],
+  "slotCount" : 2,
+  "uiConfig" : "/interface/objectcrafting/fusioncollider.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600,
+  "learnBlueprintsOnPickup" : [
+    "fu_hydrogen2",
+	"deuterium2"
+  ]
+}

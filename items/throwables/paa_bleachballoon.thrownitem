@@ -1,0 +1,29 @@
+{
+  "itemName" : "paa_bleachballoon",
+  "rarity" : "legendary",
+  "category" : "throwableItem",
+  "inventoryIcon" : "paa_bleachballoon.png",
+  "image" : "paa_bleachballoon.png",
+  "shortdescription" : "Bleach Balloon",
+  "description" : "Better not swim in it.",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.4,
+
+  "projectileType" : "bleachballoon",
+  "projectileConfig" : {
+    "speed" : 40,
+    "power" : 0,
+    "periodicActions" : [
+      {
+        "time" : 0,
+        "repeat" : false,
+        "action" : "sound",
+        "options" : [ "/sfx/projectiles/throw_item_small.ogg" ]
+      }
+    ]
+  }
+}

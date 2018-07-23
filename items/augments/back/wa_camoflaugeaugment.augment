@@ -1,0 +1,22 @@
+{
+  "itemName" : "wa_camoflaugeaugment",
+  "price" : 5000,
+  "rarity" : "legendary",
+  "tooltipKind" : "eppaugment",
+  "category" : "eppAugment",
+  "inventoryIcon" : "thornsaugment.png",
+  "description" : "This augment gives you 80% camoflauge in exchange for speed.",
+  "shortdescription" : "Camoflauge Augment",
+
+  "augment" : {
+    "type" : "back",
+    "name" : "wa_camoaugment",
+    "displayName" : "Camoflauge",
+    "displayIcon" : "/items/augments/back/thornsaugment.png",
+    "effects" : [ "wa_invisible", "staffslow" ]
+  },
+
+  "radioMessagesOnPickup" : [ "pickupaugment" ],
+
+  "scripts" : [ "/scripts/augments/augment.lua" ]
+}

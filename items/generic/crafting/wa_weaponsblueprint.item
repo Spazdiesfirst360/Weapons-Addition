@@ -1,0 +1,10 @@
+{
+  "itemName" : "wa_weaponsblueprint",
+  "price" : 0,
+  "rarity" : "Uncommon",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "wa_weaponsblueprint.png",
+  "description" : "A blueprint for weapons.",
+  "shortdescription" : "Weapon Blueprint",
+  "itemTags" : [ "reagent" ]
+}

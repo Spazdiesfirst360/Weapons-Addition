@@ -1,0 +1,13 @@
+{
+  "itemName" : "paa_statuspodshell",
+  "price" : 0,
+  "rarity" : "common",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "paa_statuspodshell.png",
+  "description" : "A status pod shell. I can use this to make status pods.",
+  "shortdescription" : "Status Pod Shell",
+  "itemTags" : [ "reagent" ],
+  "learnBlueprintsOnPickup" : [
+    "statuspod"
+  ]
+}

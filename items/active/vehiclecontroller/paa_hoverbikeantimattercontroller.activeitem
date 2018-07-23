@@ -1,0 +1,33 @@
+{
+  "itemName" : "paa_hoverbikeantimattercontroller",
+  "level" : 1,
+  "price" : 110000,
+  "rarity" : "legendary",
+  "category" : "vehicleController",
+  "shortdescription" : "Anti-Matter Hoverbike Controller",
+  "description" : "Create an anti-matter fueled hoverbike from stored nanites. Now with anti-gravity thrusters!",
+  "twoHanded" : true,
+  "maxStack" : 1,
+  "itemTags" : ["vehiclecontroller"],
+
+  "animation" : "vehiclecontroller.animation",
+  "scripts" : ["vehiclecontroller.lua"],
+  "animationScripts" : ["vehiclecursor.lua"],
+  "filled" : true,
+  "tooltipKind" : "vehicle",
+  "largeImage" : "antimatter.png",
+
+  "respawnTime" : 1.0,
+
+  "vehicleType" : "paa_hoverbikeantimatter",
+  "vehicleBoundingBox" : [-5, -3, 5, 3],
+  "vehicleImage" : "/vehicles/hoverbike/hoverbikewarp.png:warp.7",
+
+  "animationParts" : {
+    "casing" : "paa_hoverbikeantimattercontroller.png"
+  },
+
+  "inventoryIcon" : "paa_hoverbikeantimattercontroller.png:full",
+  "emptyInventoryIcon" : "/items/active/vehiclecontroller/paa_hoverbikeantimattercontroller.png:empty",
+  "filledInventoryIcon" : "/items/active/vehiclecontroller/paa_hoverbikeantimattercontroller.png:full"
+}

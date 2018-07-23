@@ -1,0 +1,11 @@
+{
+  "input" : [
+	{ "item" : "siliconboard", "count" : 2 },
+	{ "item" : "wire", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "paa_statisticaldisplay",
+    "count" : 1
+  },
+  "groups" : [ "craftingwiring", "mechanics" ]
+}

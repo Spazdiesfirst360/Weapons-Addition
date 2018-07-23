@@ -1,0 +1,24 @@
+{
+  "metadata" : {
+    "name" : "wa_minorcampfriendlysnow",
+    "species" : "generic",
+    "rules" : [
+    ],
+	"gravity" : 80,
+    "protected" : false,
+    "anchor" : [ "wa_minorcampfriendlysnow" ],
+    "maxRadius" : 1000000,
+    "maxParts" : 1,
+    "extendSurfaceFreeSpace" : 60
+  },
+
+  "parts" : [
+    {
+      "name" : "wa_minorcampfriendlysnow",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "wa_minorcampfriendlysnow.json" ]
+    }
+  ]
+}

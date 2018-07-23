@@ -1,0 +1,106 @@
+{
+  "metadata" : {
+    "name" : "wa_industrialencounter",
+    "species" : "generic",
+    "rules" : [
+    ],
+    "anchor" : [ "wa_industrialencounterentranceleft", "wa_industrialencounterentranceright" ],
+    "gravity" : 80,
+    "maxRadius" : 1000000,
+    "maxParts" : 6,
+    "extendSurfaceFreeSpace" : 100,
+    "protected" : true
+  },
+
+  "parts" : [
+    {
+      "name" : "wa_industrialencountercrane1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotConnectToPart", [ "wa_industrialencountercrane1" ] ]
+
+      ],
+      "def" : [ "tmx", "wa_industrialencountercrane1.json" ]
+    },
+    {
+      "name" : "wa_industrialencountercrane2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotConnectToPart", [ "wa_industrialencountercrane2" ] ]
+
+      ],
+      "def" : [ "tmx", "wa_industrialencountercrane2.json" ]
+    },
+    {
+      "name" : "wa_industrialencounterwaste1",
+      "rules" : [
+        [ "maxSpawnCount", [2] ],
+        [ "doNotConnectToPart", [ "wa_industrialencounterwaste1" ] ]
+
+      ],
+      "def" : [ "tmx", "wa_industrialencounterwaste1.json" ]
+    },
+    {
+      "name" : "wa_industrialencounterwaste2",
+      "rules" : [
+        [ "maxSpawnCount", [2] ],
+        [ "doNotConnectToPart", [ "wa_industrialencounterwaste2" ] ]
+
+      ],
+      "def" : [ "tmx", "wa_industrialencounterwaste2.json" ]
+    },
+    {
+      "name" : "wa_industrialencounternormal1",
+      "rules" : [
+        [ "maxSpawnCount", [3] ],
+        [ "doNotConnectToPart", [ "wa_industrialencounternormal1" ] ]
+
+      ],
+      "def" : [ "tmx", "wa_industrialencounternormal1.json" ]
+    },
+    {
+      "name" : "wa_industrialencounternormal2",
+      "rules" : [
+        [ "maxSpawnCount", [3] ],
+        [ "doNotConnectToPart", [ "wa_industrialencounternormal2" ] ]
+
+      ],
+      "def" : [ "tmx", "wa_industrialencounternormal2.json" ]
+    },
+    {
+      "name" : "wa_industrialencountersecret2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotConnectToPart", [ "wa_industrialencountersecret2" ] ]
+
+      ],
+      "def" : [ "tmx", "wa_industrialencountersecret2.json" ]
+    },
+    {
+      "name" : "wa_industrialencountersecret1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotConnectToPart", [ "wa_industrialencountersecret1" ] ]
+
+      ],
+      "def" : [ "tmx", "wa_industrialencountersecret1.json" ]
+    },
+    {
+      "name" : "wa_industrialencounterentranceleft",
+      "rules" : [
+        [ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", [ "wa_industrialencounterentranceleft.json" ] ],
+      "chance" : 0
+    },
+
+    {
+      "name" : "wa_industrialencounterentranceright",
+      "rules" : [
+        [ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", [ "wa_industrialencounterentranceright.json" ] ],
+      "chance" : 0
+    }
+  ]
+}

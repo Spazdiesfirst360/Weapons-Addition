@@ -1,0 +1,24 @@
+{
+  "metadata" : {
+    "name" : "wa_landedship1",
+    "species" : "generic",
+    "rules" : [
+    ],
+	"gravity" : 80,
+    "protected" : true,
+    "anchor" : [ "wa_landedship1" ],
+    "maxRadius" : 1000000,
+    "maxParts" : 1,
+    "extendSurfaceFreeSpace" : 100
+  },
+
+  "parts" : [
+    {
+      "name" : "wa_landedship1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "wa_landedship1.json" ]
+    }
+  ]
+}

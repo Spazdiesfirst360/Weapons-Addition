@@ -1,0 +1,20 @@
+{
+	"input": [{
+			"item": "titaniumbar",
+			"count": 20
+		},
+		{
+			"item": "glass",
+			"count": 20
+		},
+		{
+			"item": "battery",
+			"count": 4
+		}
+	],
+	"output": {
+		"item": "paa_particleaccelerator",
+		"count": 1
+	},
+	"groups": ["inventorstable2", "craftingstations", "all"]
+}

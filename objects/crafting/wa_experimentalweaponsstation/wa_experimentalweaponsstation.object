@@ -1,0 +1,31 @@
+{
+  "objectName" : "wa_experimentalweaponsstation",
+  "printable" : false,
+  "rarity" : "essential",
+  "price" : 10000,
+  "description" : "A very big machine that allows you to craft experimental weapons.",
+  "shortdescription" : "^red;Experimental Weapons Station^reset;",
+  "race" : "generic",
+  "category" : "crafting",
+
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/wa_experimentalweaponsstation.config",
+    "filter" : [ "wa_expweapstat" ]
+  },
+
+  "inventoryIcon" : "wa_experimentalweaponsstationicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "wa_experimentalweaponsstation.png:<color>.<frame>",
+     
+      "imagePosition" : [-32, 0],
+      "frames" : 41,
+      "animationCycle" : 4.1,
+     
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

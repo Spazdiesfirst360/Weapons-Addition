@@ -1,0 +1,115 @@
+{
+  "itemName" : "wa_syst_scorchlaser",
+  "price" : 10000,
+  "inventoryIcon" : "wa_syst_scorchlaser.png:idle",
+  "maxStack" : 1,
+  "rarity" : "legendary",
+  "description" : "\"Just another day, burning everything.\"",
+  "shortdescription" : "^#ff0000;Scorch Laser^reset;",
+  "category" : "uniqueWeapon",
+  "itemTags" : [ "weapon","ranged" ],
+  "twoHanded" : true,
+  "tooltipKind" : "gun",
+  "level" : 6,
+	
+  "animation" : "wa_syst_scorchlaser.animation",
+  "animationParts" : {
+    "beamorigin" : "wa_scorchorigin.png",
+    "gnome" : "wa_syst_scorchlaser.png",
+    "gnomefullbright" : "wa_syst_scorchlaserfullbright.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fireStart" : [ "/sfx/melee/mech_drill_windup2.ogg" ],
+      "fireLoop" : [ "/sfx/melee/mech_drill_active2.ogg" ],
+      "fireEnd" : [ "/sfx/melee/mech_drill_winddown2.ogg" ],
+      "beamImpact" : [ "/sfx/gun/gnomebeam_hit_ground.ogg" ]
+    }
+  },
+  "animationScripts" : ["/items/active/effects/chain.lua"],
+  "baseOffset" : [2.0, 0.375],
+  "muzzleOffset" : [3.0, 0.1],
+  
+  "scripts" : [ "/items/active/weapons/ranged/plasmagun.lua" ],
+  
+
+  "elementalType" : "fire",
+  
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/beamfire.lua"],
+    "class" : "BeamFire",
+
+    "fireTime" : 1.0,
+    "baseDps" : 10000.0,
+    "energyUsage" : 1000,
+
+    "damageConfig" : {
+      "statusEffects" : [ "melting" ],
+      "damageSourceKind" : "fire",
+      "knockback" : 5
+    },
+
+    "beamLength" : 100,
+
+    "chain" : {
+      "startOffset" : [0, 0],
+      "startSegmentImage" : "/items/active/weapons/systymatics/scorchlaser/wa_scorchstart.png",
+      "segmentImage" : "/items/active/weapons/systymatics/scorchlaser/wa_scorchmiddle.png",
+      "endSegmentImage" : "/items/active/weapons/systymatics/scorchlaser/wa_scorchend.png",
+      "segmentSize" : 0.18,
+      "overdrawLength" : 0.0,
+      "taper" : 0,
+      "waveform" : {
+        "frequency" : 0.01,
+        "amplitude" : 0.0,
+        "movement" : 0.0
+      },
+      "fullbright" : true
+    },
+
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true,
+
+        "animationStates" : {
+          "gnome" : "squirm",
+          "gnomefullbright" : "squirm"
+        }
+      },
+      "fire" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true,
+
+        "animationStates" : {
+          "gnome" : "fire",
+          "gnomefullbright" : "fire"
+        }
+      },
+      "cooldown" : {
+        "duration" : 0.75,
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true,
+
+        "animationStates" : {
+          "gnome" : "idle",
+          "gnomefullbright" : "idle"
+        }
+      }
+    }
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

@@ -1,0 +1,21 @@
+{
+  "projectileName" : "wa_electricreactor",
+  "physics" : "grenade",
+  "bounces" : -1,
+  "timeToLive" : 1,
+  "image" : "wa_electricreactor.png",
+  "animationCycle" : 0.1,
+  "lightColor" : [0, 255, 244],
+  "frameNumber" : 10,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/reactorexplosion/wa_electricreactor.config"
+    }
+  ],
+  "power" : 1000,
+  "damageType" : "NoDamage",
+  "damageKind" : "default",
+  "damagePoly" : [ [-6, 0], [-4, -4], [0, -6], [4, -4], [6, 0], [4, 4], [0, 6], [-4, 4] ],
+  "emitters" : [ "sparks" ]
+}

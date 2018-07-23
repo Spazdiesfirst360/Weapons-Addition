@@ -1,0 +1,81 @@
+{
+  "metadata" : {
+    "name" : "wa_troopdungeonsnow",
+    "species" : "generic",
+    "rules" : [
+    ],
+
+    "anchor" : [ "wa_barracks", "wa_armory", "wa_majorcamp", "wa_minorcamp", "wa_outpost", "wa_majorcampfriendlysnow", "wa_minorcampfriendlysnow", "wa_outpostfriendlysnow", "wa_friendlyscoutcampsnow" ],
+
+    "gravity" : 80,
+    "maxRadius" : 1000000,
+    "maxParts" : 100,
+    "protected" : false
+  },
+
+  "parts" : [
+    {
+      "name" : "wa_barracks",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "wa_barracks.json" ]
+    },
+	{
+      "name" : "wa_armory",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "wa_armory.json" ]
+    },
+    {
+      "name" : "wa_majorcamp",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "wa_majorcamp.json" ]
+    },
+	{
+      "name" : "wa_minorcamp",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "wa_minorcamp.json" ]
+    },
+	{
+      "name" : "wa_outpost",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "wa_outpost.json" ]
+    },
+	{
+      "name" : "wa_majorcampfriendlysnow",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "wa_majorcampfriendlysnow.json" ]
+    },
+	{
+      "name" : "wa_minorcampfriendlysnow",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "wa_minorcampfriendlysnow.json" ]
+    },
+	{
+      "name" : "wa_outpostfriendlysnow",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "wa_outpostfriendlysnow.json" ]
+    },
+	{
+      "name" : "wa_friendlyscoutcampsnow",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "wa_friendlyscoutcampsnow.json" ]
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+[
+  {
+    "op": "add",
+    "path": "/initialObjectPools/0/1/1/-",
+    "value": [
+      0.1,
+      "paa_superresearchlab"
+    ]
+  }
+]

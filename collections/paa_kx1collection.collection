@@ -1,0 +1,69 @@
+{
+  "name" : "paa_kx1collection",
+  "title" : "[PAA] KX-1",
+  "type" : "item",
+
+  "collectables" : {
+
+    "paa_labblastdoor" : {
+      "order" : 1,
+      "item" : "paa_labblastdoor"
+    },
+    "paa_labceilingmonitor" : {
+      "order" : 2,
+      "item" : "paa_labceilingmonitor"
+    },
+    "paa_labserver1" : {
+      "order" : 3,
+      "item" : "paa_labserver1"
+    },
+    "paa_labserver2" : {
+      "order" : 4,
+      "item" : "paa_labserver2"
+    },
+    "paa_defensegrid" : {
+      "order" : 5,
+      "item" : "paa_defensegrid"
+    },
+    "paa_gascanister" : {
+      "order" : 6,
+      "item" : "paa_gascanister"
+    },
+    "paa_hazardchest" : {
+      "order" : 7,
+      "item" : "paa_hazardchest"
+    },
+    "paa_labcrate" : {
+      "order" : 8,
+      "item" : "paa_labcrate"
+    },
+    "paa_labdoor1" : {
+      "order" : 9,
+      "item" : "paa_labdoor1"
+    },
+    "paa_labdoor2" : {
+      "order" : 10,
+      "item" : "paa_labdoor2"
+    },
+    "paa_lablight" : {
+      "order" : 11,
+      "item" : "paa_lablight"
+    },
+    "paa_roundgreeble" : {
+      "order" : 12,
+      "item" : "paa_roundgreeble"
+    },
+    "paa_particleaccelerator" : {
+      "order" : 13,
+      "item" : "paa_particleaccelerator"
+    },
+	"paa_liquidcrafter" : {
+	  "order" : 14,
+	  "item" : "paa_liquidcrafter"
+	},
+	"paa_converter" : {
+	  "order" : 15,
+	  "item" : "paa_converter"
+	}
+  }
+}

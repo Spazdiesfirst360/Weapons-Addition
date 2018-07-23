@@ -1,0 +1,106 @@
+{
+  "animationParts" : { },
+  "animationCustom" : {
+    "animatedParts" : {
+      "stateTypes" : {
+        "chargeSwoosh" : {
+          "default" : "idle",
+          "states" : {
+            "idle" : {
+            },
+            "charge" : {
+              "frames" : 4,
+              "cycle" : 0.5,
+              "properties" : {
+                // "immediateSound" : "/sfx/melee/charge_up15.ogg"
+              }
+            },
+            "full" : {
+              "properties" : {
+                // "persistentSound" : "/sfx/gun/flamethrower.ogg"
+              }
+            }
+          }
+        }
+      },
+      "parts" : {
+        "chargeSwoosh" : {
+          "properties" : {
+            "zLevel" : 1,
+            "centered" : true,
+            "transformationGroups" : ["swoosh"],
+            "offset" : [3.75, 0.0625],
+            "fullbright" : true,
+            "damageArea" : [[-6, 0], [-3.5, 1], [-1.5, 1], [1.5, 0], [-1.5, -1], [-3.5, -1]],
+            "projectileSource" : [0,0]
+          }
+        }
+      }
+    },
+    "sounds" : {
+      "fireStart" : [ "/sfx/gun/erchiuseyebeam_start.ogg" ],
+      "fireBlast" : [ "/sfx/gun/erchiuseyebeam_loop.ogg" ],
+      "fireEnd" : [ "/sfx/gun/erchiuseyebeam_stop.ogg" ],
+      "iceStart" : [ "/sfx/gun/erchiuseyebeam_start.ogg", "/sfx/gun/erchiuseyebeam_start.ogg", "/sfx/gun/erchiuseyebeam_start.ogg" ],
+      "iceBlast" : [ "/sfx/gun/erchiuseyebeam_loop.ogg" ],
+      "iceEnd" : [ "/sfx/gun/erchiuseyebeam_stop.ogg" ],
+      "electricStart" : [ "/sfx/gun/erchiuseyebeam_start.ogg", "/sfx/gun/erchiuseyebeam_start.ogg", "/sfx/gun/erchiuseyebeam_start.ogg" ],
+      "electricBlast" : [ "/sfx/gun/erchiuseyebeam_loop.ogg" ],
+      "electricEnd" : [ "/sfx/gun/erchiuseyebeam_stop.ogg" ],
+      "poisonStart" : [ "/sfx/gun/erchiuseyebeam_start.ogg", "/sfx/gun/erchiuseyebeam_start.ogg", "/sfx/gun/erchiuseyebeam_start.ogg" ],
+      "poisonBlast" : [ "/sfx/gun/erchiuseyebeam_loop.ogg" ],
+      "poisonEnd" : [ "/sfx/gun/erchiuseyebeam_stop.ogg" ]
+    }
+  },
+
+  "ability" : {
+    "name" : "Laser Beam",
+    "type" : "swordlaserbeam",
+    "scripts" : ["/items/active/weapons/melee/abilities/spear/rocketspear/rocketspear.lua"],
+    "class" : "RocketSpear",
+
+    "baseDps" : 153.8,
+    "cooldownTime" : 0.5,
+    "energyUsage" : 45,
+    "fireTime" : 0.065,
+    "inaccuracy" : 0.01,
+
+    "elementalConfig" : {
+      "fire" : {
+        "projectileType" : "swordlaserbeam"
+      },
+      "ice" : {
+        "projectileType" : "swordlaserbeam"
+      },
+      "poison" : {
+        "projectileType" : "swordlaserbeam"
+      },
+      "electric" : {
+        "projectileType" : "swordlaserbeam"
+      }
+    },
+    "projectileParameters" : {
+      "speed" : 20
+    },
+
+    "stances" : {
+      "windup" : {
+        "duration" : 0.0,
+        "armRotation" : 0,
+        "weaponRotation" : -90,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "armRotation" : 0,
+        "weaponRotation" : -90,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      }
+    }
+  }
+}

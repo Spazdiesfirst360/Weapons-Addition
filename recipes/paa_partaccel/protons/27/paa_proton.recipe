@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "paa_cobaltore", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "paa_proton",
+    "count" : 27
+  },
+  "groups" : [ "paa_partaccel", "all", "other" ]
+}

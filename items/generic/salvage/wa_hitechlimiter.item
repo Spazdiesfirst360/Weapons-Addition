@@ -1,0 +1,10 @@
+{
+  "itemName" : "wa_hitechlimiter",
+  "price" : 100,
+  "rarity" : "rare",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "wa_hitechlimiter.png",
+  "description" : "A very, very high end proton limiter.",
+  "shortdescription" : "Hi-Tech Proton Limiter",
+  "itemTags" : [ "reagent" ]
+}

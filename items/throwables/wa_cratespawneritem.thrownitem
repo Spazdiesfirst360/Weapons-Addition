@@ -1,0 +1,30 @@
+{
+  "itemName" : "wa_cratespawneritem",
+  "price" : 0,
+  "rarity" : "uncommon",
+  "category" : "throwableItem",
+  "inventoryIcon" : "paa_flaregun.png",
+  "image" : "paa_flaregun.png",
+  "shortdescription" : "Supply Caller",
+  "description" : "Use this to spawn some loot.",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.1,
+  "cooldown" : 1.0,
+
+  "projectileType" : "wa_cratespawnersource",
+  "projectileConfig" : {
+    "speed" : 300,
+    "power" : 0,
+    "periodicActions" : [
+      {
+        "time" : 0,
+        "repeat" : false,
+        "action" : "sound",
+        "options" : [ "/sfx/projectiles/throw_item.ogg" ]
+      }
+    ]
+  }
+}

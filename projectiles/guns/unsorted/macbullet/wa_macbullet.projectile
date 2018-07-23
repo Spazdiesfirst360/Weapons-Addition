@@ -1,0 +1,20 @@
+{
+  "projectileName" : "wa_macbullet",
+  "image" : "wa_macbullet.png",
+  "physics" : "laser",
+  "animationCycle" : 0.25,
+  "frameNumber" : 4,
+  "damageKind" : "standardbullet",
+  "pointLight" : false,
+  "flippable" : true,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/bulletexplosion/bulletexplosion.config"
+    }
+  ],
+  "statusEffects" : [ ],
+  "power" : 1000,
+  "speed" : 300,
+  "knockback" : 0
+}

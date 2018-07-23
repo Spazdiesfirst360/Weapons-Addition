@@ -1,0 +1,24 @@
+
+{
+  "materialId" : 554,
+  "materialName" : "paa_labsupport",
+  "frames" : "paa_labsupport.png",
+  "particleColor" : [220, 220, 220, 255],
+  "variants" : 1,
+  "itemDrop" : "paa_labsupport",
+  "description" : "A nice wall support.",
+  "shortdescription" : "Lab Support Beam",
+  "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
+  "health" : 8,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/girdertemplate.config",
+  "renderParameters" : {
+    "texture" : "paa_labsupport.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "occludesBelow" : false,
+    "multiColored" : true,
+    "zLevel" : 3340
+  }
+}

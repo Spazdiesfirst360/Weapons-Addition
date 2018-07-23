@@ -1,0 +1,28 @@
+{
+  "objectName" : "perf_perfecttable",
+  "colonyTags" : ["commerce"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 60,
+  "description" : "A table with no imperfections.",
+  "shortdescription" : "Perfect Table",
+  "race" : "generic",
+
+  "floranDescription" : "Perfect table.",
+
+  "inventoryIcon" : "perf_perfecttableicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "perf_perfecttable.png:<color>",
+
+      "imagePosition" : [-20, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+	  "collision" : "platform"
+
+    }
+  ]
+}

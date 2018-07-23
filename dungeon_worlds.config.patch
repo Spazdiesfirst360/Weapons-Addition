@@ -1,0 +1,255 @@
+[
+  {
+    "op": "add",
+    "path": "/labmission1",
+    "value": {
+      "primaryDungeon": "labmission1",
+      "threatLevel": 1,
+      "gravity": 80,
+      "worldSize": [
+        300,
+        300
+      ],
+      "dungeonBaseHeight": 750,
+      "ambientLightLevel": [
+        128,
+        128,
+        128
+      ],
+      "ambientNoises": "/sfx/environmental/space_loop4.ogg",
+      "musicTrack": "/music/lava-exploration1.ogg"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/wa_ship",
+    "value": {
+      "primaryDungeon": "wa_ship",
+      "threatLevel": 1,
+      "gravity": 80,
+      "worldSize": [
+        1000,
+        300
+      ],
+      "dungeonBaseHeight": 750,
+      "ambientLightLevel": [
+        128,
+        128,
+        128
+      ],
+      "ambientNoises": "/sfx/environmental/space_loop4.ogg",
+      "musicTrack": "/music/lava-exploration1.ogg"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/wa_volcanobase",
+    "value": {
+      "primaryDungeon": "wa_volcanobase",
+      "threatLevel": 6,
+      "gravity": 80,
+      "worldSize": [
+        550,
+        500
+      ],
+      "dungeonBaseHeight": 750,
+      "ambientLightLevel": [
+        1,
+        1,
+        1
+      ],
+      "ambientNoises": "/sfx/environmental/space_loop4.ogg",
+      "musicTrack": "/music/ocean-battle1-loop.ogg"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/paa_superresearchlab",
+    "value": {
+      "primaryDungeon": "paa_superresearchlab",
+      "threatLevel": 6,
+      "gravity": 80,
+      "worldSize": [
+        100000,
+        100000
+      ],
+      "dungeonBaseHeight": 750,
+      "ambientLightLevel": [
+        50,
+        50,
+        50
+      ],
+      "ambientNoises": "/sfx/environmental/space_loop4.ogg",
+      "musicTrack": "/music/body-electric-loop.ogg"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/wa_unstablebase",
+    "value": {
+      "primaryDungeon": "wa_unstablebase",
+      "threatLevel": 6,
+      "gravity": 80,
+      "worldSize": [
+        500,
+        500
+      ],
+      "dungeonBaseHeight": 750,
+      "ambientLightLevel": [
+        100,
+        100,
+        100
+      ],
+      "ambientNoises": "/sfx/environmental/space_loop4.ogg",
+      "musicTrack": "/music/gravitational-collapse.ogg"
+    }
+  },
+  /*
+  {
+    "op": "add",
+    "path": "/wa_ultrabase_forest",
+    "value": {
+      "primaryDungeon": "wa_ultrabase_forest",
+      "threatLevel": 6,
+      "gravity": 80,
+      "worldSize": [
+        100000,
+        100000
+      ],
+      "dungeonBaseHeight": 750,
+      "ambientLightLevel": [
+        200,
+        200,
+        200
+      ],
+      "ambientNoises": "/sfx/environmental/space_loop4.ogg",
+      "musicTrack": "/music/ultramarine.ogg"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/wa_ultrabase_desert",
+    "value": {
+      "primaryDungeon": "wa_ultrabase_desert",
+      "threatLevel": 6,
+      "gravity": 80,
+      "worldSize": [
+        100000,
+        100000
+      ],
+      "dungeonBaseHeight": 750,
+      "ambientLightLevel": [
+        200,
+        200,
+        200
+      ],
+      "ambientNoises": "/sfx/environmental/space_loop4.ogg",
+      "musicTrack": "/music/desert-exploration2.ogg"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/wa_ultrabase_toxic",
+    "value": {
+      "primaryDungeon": "wa_ultrabase_toxic",
+      "threatLevel": 6,
+      "gravity": 80,
+      "worldSize": [
+        100000,
+        100000
+      ],
+      "dungeonBaseHeight": 750,
+      "ambientLightLevel": [
+        50,
+        200,
+        50
+      ],
+      "ambientNoises": "/sfx/environmental/space_loop4.ogg",
+      "musicTrack": "/music/the-deep.ogg"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/wa_ultrabase_tundra",
+    "value": {
+      "primaryDungeon": "wa_ultrabase_tundra",
+      "threatLevel": 6,
+      "gravity": 80,
+      "worldSize": [
+        100000,
+        100000
+      ],
+      "dungeonBaseHeight": 750,
+      "ambientLightLevel": [
+        50,
+        50,
+        50
+      ],
+      "ambientNoises": "/sfx/environmental/space_loop4.ogg",
+      "musicTrack": "/music/impact-event.ogg"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/wa_ultrabase_volcanic",
+    "value": {
+      "primaryDungeon": "wa_ultrabase_volcanic",
+      "threatLevel": 6,
+      "gravity": 80,
+      "worldSize": [
+        100000,
+        100000
+      ],
+      "dungeonBaseHeight": 750,
+      "ambientLightLevel": [
+        100,
+        100,
+        100
+      ],
+      "ambientNoises": "/sfx/environmental/space_loop4.ogg",
+      "musicTrack": "/music/lava-exploration2.ogg"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/wa_ultrabase_scorched",
+    "value": {
+      "primaryDungeon": "wa_ultrabase_scorched",
+      "threatLevel": 6,
+      "gravity": 80,
+      "worldSize": [
+        100000,
+        100000
+      ],
+      "dungeonBaseHeight": 750,
+      "ambientLightLevel": [
+        200,
+        150,
+        100
+      ],
+      "ambientNoises": "/sfx/environmental/space_loop4.ogg",
+      "musicTrack": "/music/the-apex.ogg"
+    }
+  }, */
+  {
+    "op": "add",
+    "path": "/wa_ultrabase_station",
+    "value": {
+      "primaryDungeon": "wa_ultrabase_station",
+      "threatLevel": 6,
+      "gravity": 80,
+      "worldSize": [
+        100000,
+        100000
+      ],
+      "dungeonBaseHeight": 750,
+      "ambientLightLevel": [
+        10,
+        10,
+        10
+      ],
+      "ambientNoises": "/sfx/environmental/space_loop4.ogg",
+      "musicTrack": "/music/scorian-flow.ogg"
+    }
+  }
+]

@@ -1,0 +1,53 @@
+{
+  "type" : "wa_captain",
+  "baseType" : "hostile",
+
+  "dropPools" : [ "wa_soldierloot" ],
+
+  "scriptConfig" : {
+    "dialog" : {
+      "attack" : {
+        "default" : {
+          "default" : [
+            "Open fire!",
+			"Hold your position!",
+			"Engage hostiles!",
+			"Enemy sighted!",
+			"We have more men than you have bullets!",
+			"This is a one-way battle, and it's going my direction!",
+			"Whatever you do, don't fall back!"
+          ]
+        },
+        "human" : {
+          "default" : [
+            "Open fire!",
+			"Hold your position!",
+			"Engage hostiles!",
+			"Enemy sighted!",
+			"We have more men than you have bullets!",
+			"This is a one-way battle, and it's going my direction!",
+			"Whatever you do, don't fall back!"
+          ]
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [ { "name" : "wa_captainshead" } ],
+            "chest" : [ { "name" : "wa_soldierchest" } ],
+            "legs" : [ { "name" : "wa_soldierlegs" } ],
+            "primary" : [
+			  "wa_tacticalpistol",
+			  "wa_tacticalrifle",
+			  "wa_tacticalrocketlauncher",
+			  "wa_tacticalshotgun"
+            ]
+          }
+        ] ]
+    ]
+  }
+}

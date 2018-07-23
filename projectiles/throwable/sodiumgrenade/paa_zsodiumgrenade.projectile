@@ -1,0 +1,21 @@
+{
+  "projectileName" : "paa_zsodiumgrenade",
+  "physics" : "grenade",
+  "bounces" : -1,
+  "timeToLive" : 5,
+  "image" : "paa_zsodiumgrenade.png",
+  "animationCycle" : 5,
+  "lightColor" : [0, 0, 0],
+  "frameNumber" : 1,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/sodiumexplosion/paa_sodiumexplosion.config"
+    }
+  ],
+  "power" : 43,
+  "damageType" : "NoDamage",
+  "damageKind" : "default",
+  "damagePoly" : [ [-6, 0], [-4, -4], [0, -6], [4, -4], [6, 0], [4, 4], [0, 6], [-4, 4] ],
+  "emitters" : [ "sparks" ]
+}

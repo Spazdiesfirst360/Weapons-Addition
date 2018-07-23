@@ -1,0 +1,10 @@
+{
+  "itemName" : "paa_technetium",
+  "price" : 500,
+  "rarity" : "Uncommon",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "paa_technetium.png",
+  "description" : "Some lovely technetium.",
+  "shortdescription" : "Technetium",
+  "itemTags" : [ "reagent" ]
+}

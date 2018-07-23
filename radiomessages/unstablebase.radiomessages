@@ -1,0 +1,27 @@
+{
+// ---Unstable Base Mission---
+  "wa_unstableIntro1" : {
+    "type" : "mission",
+    "text" : "Scans indicate that this base has been built on a gas giant. Pressure readings are off the charts."
+  },
+  "wa_unstableIntro2" : {
+  "type" : "mission",
+  "text" : "I am also detecting large amounts of fluorine in the area. I advise that you proceed with caution."
+  },
+  "wa_unstableBase1" : {
+  "type" : "mission",
+  "text" : "The building currently has no power. I hope you brought a light source."
+  },
+  "wa_unstableBase2" : {
+    "type" : "mission",
+    "text" : "The door ahead is locked. You will have to find a way around it."
+  },
+  "wa_unstableBase3" : {
+    "type" : "mission",
+    "text" : "The room to your right is filled with fluorine. If you step in, you will die very quickly."
+  },
+  "wa_unstableBase4" : {
+    "type" : "mission",
+    "text" : "There is a pathway to the control room on your left. From there you can drain the passage to your right and activate the power supply."
+  }
+}

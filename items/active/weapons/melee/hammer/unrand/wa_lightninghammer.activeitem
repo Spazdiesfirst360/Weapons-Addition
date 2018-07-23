@@ -1,0 +1,40 @@
+{
+  "itemName" : "wa_lightninghammer",
+  "price" : 5000,
+  "level" : 6,
+  "maxStack" : 1,
+  "rarity" : "legendary",
+  "description" : "This hammer is rather exquisitely crafted. That's a shocker.",
+  "shortdescription" : "Thunder Hammer",
+  "tooltipKind" : "sword",
+  "category" : "hammer",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","hammer"],
+
+  "inventoryIcon" : "wa_lightninghammer.png",
+
+  "animation" : "/items/active/weapons/melee/hammer/hammer.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "wa_lightninghammer.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : [ "/sfx/melee/swing_hammer.ogg" ]
+    }
+  },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "electric",
+
+  "primaryAbilityType" : "hammersmash",
+  "primaryAbility" : {
+    "fireTime" : 0.9,
+    "baseDps" : 19.56
+  },
+
+  "altAbilityType" : "shockwave",
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

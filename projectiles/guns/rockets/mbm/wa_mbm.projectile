@@ -1,0 +1,91 @@
+{
+  "projectileName" : "wa_mbm",
+  "image" : "wa_mbm.png",
+  "animationCycle" : 0.25,
+  "physics" : "highgravgrenade",
+  "frameNumber" : 4,
+  "lightColor" : [255, 255, 128],
+  "pointLight" : true,
+  "speed" : 180,
+  "damagePoly" : [ [-6, 0], [-4, -4], [0, -6], [4, -4], [6, 0], [4, 4], [0, 6], [-4, 4] ],
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/mbmexplosion/wa_mbmexplosion.config"
+    },
+    {
+      "action" : "projectile",
+      "type" : "wa_mbmflame",
+      "fuzzAngle" : 0,
+      "inheritDamageFactor" : 0.5,
+      "angleAdjust" : 35
+    },
+    {
+      "action" : "projectile",
+      "type" : "wa_mbmflame",
+      "fuzzAngle" : 0,
+      "inheritDamageFactor" : 0.5,
+      "angleAdjust" : -35
+    },
+    {
+      "action" : "projectile",
+      "type" : "wa_mbmflame",
+      "fuzzAngle" : 0,
+      "inheritDamageFactor" : 0.5,
+      "angleAdjust" : 1
+    },
+    {
+      "action" : "projectile",
+      "type" : "wa_mbmflame",
+      "fuzzAngle" : 0,
+      "inheritDamageFactor" : 0.5,
+      "angleAdjust" : -18
+    },
+    {
+      "action" : "projectile",
+      "type" : "wa_mbmflame",
+      "fuzzAngle" : 0,
+      "inheritDamageFactor" : 0.5,
+      "angleAdjust" : 18
+    },
+    {
+      "action" : "projectile",
+      "type" : "wa_mbmflame",
+      "fuzzAngle" : 0,
+      "inheritDamageFactor" : 0.5,
+      "angleAdjust" : 55
+    },
+    {
+      "action" : "projectile",
+      "type" : "wa_mbmflame",
+      "fuzzAngle" : 0,
+      "inheritDamageFactor" : 0.5,
+      "angleAdjust" : -55
+    },
+    {
+      "action" : "projectile",
+      "type" : "wa_mbmflame",
+      "fuzzAngle" : 0,
+      "inheritDamageFactor" : 0.5,
+      "angleAdjust" : -1
+    },
+    {
+      "action" : "projectile",
+      "type" : "wa_mbmflame",
+      "fuzzAngle" : 0,
+      "inheritDamageFactor" : 0.5,
+      "angleAdjust" : -65
+    },
+    {
+      "action" : "projectile",
+      "type" : "wa_mbmflame",
+      "fuzzAngle" : 0,
+      "inheritDamageFactor" : 0.5,
+      "angleAdjust" : 65
+    }
+  ],
+  "power" : 100.0,
+  "damageKind" : "poison"
+}
+
+

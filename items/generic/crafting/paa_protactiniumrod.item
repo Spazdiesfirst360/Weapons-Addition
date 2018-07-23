@@ -1,0 +1,19 @@
+{
+  "itemName" : "paa_protactiniumrod",
+  "price" : 182,
+  "rarity" : "Rare",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "paa_protactiniumrod.png",
+  "description" : "Some lovely protactinium, condensed into a rod for supposedly easier storage.",
+  "shortdescription" : "Protactinium Rod",
+  "builder" : "/items/buildscripts/buildisotope.lua",
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "itemTags" : [ "reagent" ],
+  "learnBlueprintsOnPickup" : [
+    "paa_protactiniumpistol",
+	"statusglowgun",
+	"statushealgun",
+	"statusdiamondbombgun"
+  ]
+}

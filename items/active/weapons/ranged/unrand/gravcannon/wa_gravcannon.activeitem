@@ -1,0 +1,84 @@
+{
+  "itemName" : "wa_gravcannon",
+  "price" : 190000,
+  "maxStack" : 1,
+  "rarity" : "Essential",
+  "description" : "Gravity grenades are so great.",
+  "shortdescription" : "^#00FFFF;Gravity Cannon^reset;",
+  "tooltipKind" : "base",
+  "category" : "Grenade Launcher",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","ranged","grenadelauncher"],
+  "level" : 7,
+
+  "inventoryIcon" : "wa_gravcannon.png:idle",
+
+  "animation" : "wa_gravcannon.animation",
+  "animationParts" : {
+    "gun" : "wa_gravcannon.png",
+    "gunfullbright" : "wa_gravcannonfullbright.png"
+  },
+  "animationCustom" : {},
+  "muzzleOffset" : [2.5, 0.3125],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbility" : {
+    "name" : "Rocket Stack",
+    "scripts" : ["/items/active/weapons/bossdrop/miniknoglauncher/rocketstack.lua"],
+    "class" : "RocketStack",
+
+    "baseDamage" : 10.0,
+    "energyPerShot" : 50,
+
+    "reloadTime" : 0.6667,
+    "maxStack" : 3,
+    "spread" : 0.1,
+
+    "inaccuracy" : 0,
+
+    "projectileType" : "wa_gravgrenade",
+    "projectileParameters" : {},
+
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : false,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "charge" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : false,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 3,
+        "weaponRotation" : 3,
+        "twoHanded" : false,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "cooldown" : {
+        "duration" : 0.25,
+        "armRotation" : 3,
+        "weaponRotation" : 3,
+        "twoHanded" : false,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+    }
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

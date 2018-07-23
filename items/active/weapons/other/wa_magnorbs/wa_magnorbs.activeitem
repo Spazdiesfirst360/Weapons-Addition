@@ -1,0 +1,57 @@
+{
+  "itemName" : "wa_magnorbs",
+  "level" : 6,
+  "price" : 5000,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "Specialized magnetic bracers for throwing and catching specially designed orbs.",
+  "shortdescription" : "Unique Magnorbs",
+  "tooltipKind" : "base",
+  "category" : "uniqueWeapon",
+  "twoHanded" : true,
+  "itemTags" : ["weapon"],
+
+  "inventoryIcon" : "icon.png",
+  "animation" : "wa_magnorbs.animation",
+  "animationParts" : {
+    "glove" : "glove.png",
+    "orb1" : "orb.png",
+    "orb2" : "orb.png",
+    "orb3" : "orb.png"
+  },
+  "animationCustom" : { },
+
+  "scripts" : ["wa_magnorbs.lua"],
+
+  "orbitRate" : 1.5,
+
+  "projectileType" : "magnorb",
+  "projectileParameters" : {
+    "power" : 12.5,
+    "knockback" : 40,
+
+    "returnOnHit" : true,
+    "ignoreTerrain" : true,
+    "controlForce" : 140,
+    "pickupDistance" : 1.5,
+    "snapDistance" : 4.0
+  },
+
+  "shieldKnockback" : 20,
+  "shieldEnergyCost" : 40,
+
+  "stances" : {
+    "idle" : {
+      "armRotation" : 10,
+      "twoHanded" : false,
+      "allowRotate" : true,
+      "allowFlip" : true
+    },
+    "shield" : {
+      "armRotation" : 0,
+      "twoHanded" : false,
+      "allowRotate" : true,
+      "allowFlip" : true
+    }
+  }
+}

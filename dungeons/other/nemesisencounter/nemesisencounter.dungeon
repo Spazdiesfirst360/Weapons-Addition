@@ -1,0 +1,24 @@
+{
+  "metadata" : {
+    "name" : "nemesisencounter",
+    "species" : "generic",
+    "rules" : [
+    ],
+	"gravity" : 80,
+    "protected" : false,
+    "anchor" : [ "nemesisencounter" ],
+    "maxRadius" : 1000000,
+    "maxParts" : 1,
+    "extendSurfaceFreeSpace" : 100
+  },
+
+  "parts" : [
+    {
+      "name" : "nemesisencounter",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "nemesisencounter.json" ]
+    }
+  ]
+}

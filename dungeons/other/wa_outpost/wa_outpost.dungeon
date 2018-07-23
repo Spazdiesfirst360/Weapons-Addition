@@ -1,0 +1,24 @@
+{
+  "metadata" : {
+    "name" : "wa_outpost",
+    "species" : "generic",
+    "rules" : [
+    ],
+	"gravity" : 80,
+    "protected" : false,
+    "anchor" : [ "wa_outpost" ],
+    "maxRadius" : 1000000,
+    "maxParts" : 1,
+    "extendSurfaceFreeSpace" : 100
+  },
+
+  "parts" : [
+    {
+      "name" : "wa_outpost",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "wa_outpost.json" ]
+    }
+  ]
+}

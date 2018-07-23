@@ -1,0 +1,20 @@
+{
+  "itemName" : "paa_darkbluestim",
+  "rarity" : "Common",
+  "price" : 100,
+  "category" : "medicine",
+  "inventoryIcon" : "paa_darkbluestim.png",
+  "description" : "A stimpack full of dark blue liquid, it gives your jump a BIG boost!",
+  "shortdescription" : "Dark Blue Stim Pack",
+  "effects" : [ [
+      {
+        "effect" : "darkstimjumpboost",
+        "duration" : 10
+      }
+    ] ],
+  "emote" : "",
+  "emitters" : [ "stimuse" ],
+  "learnBlueprintsOnPickup" : [
+    "paa_darkbluestim"
+  ]
+}

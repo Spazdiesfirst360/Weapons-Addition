@@ -1,0 +1,56 @@
+{
+  "objectName" : "wa_nukepile",
+  "colonyTags" : ["combat","industrial"],
+  "rarity" : "rare",
+  "category" : "seed",
+  "description" : "Looks like someone's been stocking up quite a pile.",
+  "shortdescription" : "Nuclear Stockpile",
+  "objectType" : "farmable",
+  "printable" : false,
+  "price" : 0,
+  
+  "avianDescription" : "I never understood why missiles have feathers on them. Or are they fins?",
+  "floranDescription" : "Misssiles scare floran.",
+  "glitchDescription" : "Concerned. These missiles are capable of leveling entire cities.",
+  "novakidDescription" : "A big pile o' nukes.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "wa_nukepile.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+
+      "spaces" : [ [0, 0], [1, 0], [2, 0], [3, 0], [4, 0], [5, 0], [6, 0], [7, 0], [0, 1], [1, 1], [2, 1], [3, 1], [4, 1], [5, 1], [6, 1], [7, 1], [0, 2], [1, 2], [2, 2], [3, 2], [4, 2], [5, 2], [6, 2], [7, 2], [0, 3], [1, 3], [2, 3], [3, 3], [4, 3], [5, 3], [6, 3], [7, 3], [0, 4], [1, 4], [2, 4], [3, 4], [4, 4], [5, 4], [6, 4], [7, 4] ],
+      "requireTilledAnchors" : false,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "radioMessagesOnPickup" : [ "pickupseed" ],
+
+  "stages" : [
+    {
+      "duration" : [280, 320]
+    },
+    {
+      "duration" : [280, 320]
+    },
+    {
+      "alts" : 5,
+      "duration" : [1170, 1230]
+    },
+    {
+      "alts" : 5,
+      "harvestPool" : "wa_nukeHarvest",
+      "resetToStage" : 1
+    }
+  ],
+
+  "breakDropOptions" : [
+    [ [ "wa_nukethrown", 1, { } ] ]
+  ],
+
+  "maxImmersion" : 1.0,
+  "consumeSoilMoisture" : false
+}

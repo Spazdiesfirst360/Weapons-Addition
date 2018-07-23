@@ -1,0 +1,10 @@
+{
+  "itemName" : "paa_sulfurhexafluoride",
+  "rarity" : "Common",
+  "category" : "liquid",
+  "inventoryIcon" : "paa_sulfurhexafluorideicon.png",
+  "shortdescription" : "Sulfur Hexafluoride",
+  "description" : "A very dense gas.",
+
+  "liquid" : "paa_sulfurhexafluoridegas"
+}

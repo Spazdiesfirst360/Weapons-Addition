@@ -1,0 +1,23 @@
+{
+  "itemName" : "paa_crazyminer",
+  "price" : 0,
+  "category" : "Tool",
+  "inventoryIcon" : "paa_extrememinericon.png",
+  "maxStack" : 1,
+  "rarity" : "essential",
+  "description" : "Pickaxes are so last millennium! Lasers are the future.",
+  "shortdescription" : "Modified Quantum Laser",
+  "tooltipKind" : "tool",
+  "largeImage" : "paa_extrememinerbig.png",
+
+  "image" : "paa_extrememiner.png:{frame}",
+  "frames" : 2,
+  "animationCycle" : 0.5,
+  "handPosition" : [-5, -5],
+  "fireTime" : 0.25,
+  "blockRadius" : 100,
+  "altBlockRadius" : 1,
+  "twoHanded" : true,
+  "strikeSounds" : [ "/sfx/tools/pickaxe_hit.ogg" ],
+  "durability" : 1000000
+}

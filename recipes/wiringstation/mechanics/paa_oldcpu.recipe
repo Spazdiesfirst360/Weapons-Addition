@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "wire", "count" : 5 },
+	{ "item" : "silverbar", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "paa_oldcpu",
+    "count" : 1
+  },
+  "groups" : [ "craftingwiring", "mechanics" ]
+}

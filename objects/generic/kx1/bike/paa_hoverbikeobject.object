@@ -1,0 +1,25 @@
+{
+  "objectName" : "paa_hoverbikeobject",
+  "colonyTags" : ["misc"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 0,
+  "description" : "An anti-matter fueled hoverbike on display.",
+  "shortdescription" : "Hoverbike",
+  "race" : "generic",
+
+  "inventoryIcon" : "paa_hoverbikeobject.png",
+  "orientations" : [
+    {
+      "dualImage" : "paa_hoverbikeobject.png:<color>",
+
+      "imagePosition" : [-20, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

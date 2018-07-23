@@ -1,0 +1,34 @@
+{
+  "objectName" : "paa_particleaccelerator",
+  "printable" : false,
+  "rarity" : "essential",
+  "price" : 5000,
+  "description" : "A machine that allows you to mess with particles.",
+  "shortdescription" : "Particle Accelerator",
+  "race" : "generic",
+  "category" : "crafting",
+  "collectablesOnPickup" : { "paa_kx1collection" : "paa_particleaccelerator" },
+
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/paa_particleaccelerator.config",
+    "filter" : [ "paa_partaccel" ]
+  },
+
+  "inventoryIcon" : "paa_particleacceleratoricon.png",
+  "orientations" : [
+    {
+      "dualImage" : "paa_particleaccelerator.png:default.<frame>",
+     
+      "imagePosition" : [-40, 0],
+      "frames" : 6,
+      "animationCycle" : 0.2,
+     
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+  "soundEffect" : "/sfx/objects/steel_elevator_hit.ogg"
+
+}

@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "paa_steelbeam", "count" : 3 }
+  ],
+  "output" : {
+    "item" : "paa_steelladder",
+    "count" : 30
+  },
+  "groups" : [ "craftingfurniture", "decoration", "all" ]
+}

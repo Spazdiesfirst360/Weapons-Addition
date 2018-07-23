@@ -1,0 +1,30 @@
+{
+  "objectName" : "wa_macgundisplay",
+  "colonyTags" : ["industrial"],
+  "rarity" : "legendary",
+  "category" : "decorative",
+
+
+  "description" : "It's a Magnetic Accelerator Cannon. I should take it.",
+  "shortdescription" : "Magnetic Accelerator Cannon",
+  "printable" : false,
+  "race" : "generic",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "wa_macgundisplay.png:<color>",
+      "imagePosition" : [-20, -8],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "scripts" : ["/objects/scripts/breakoninteract.lua"],
+  "scriptDelta" : 0,
+
+  "breakDropOptions" : [
+    [ [ "wa_macgun", 1, { } ] ]
+  ]
+}

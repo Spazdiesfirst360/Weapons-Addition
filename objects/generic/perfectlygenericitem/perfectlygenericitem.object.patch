@@ -1,0 +1,42 @@
+[
+  {
+    "op": "add",
+    "path": "/learnBlueprintsOnPickup/-",
+    "value": "perf_perfectchest"
+  },
+  {
+    "op": "add",
+    "path": "/learnBlueprintsOnPickup/-",
+    "value": "perf_perfectchair"
+  },
+  {
+    "op": "add",
+    "path": "/learnBlueprintsOnPickup/-",
+    "value": "perf_perfectdoor"
+  },
+  {
+    "op": "add",
+    "path": "/learnBlueprintsOnPickup/-",
+    "value": "perf_perfecthatch"
+  },
+  {
+    "op": "add",
+    "path": "/learnBlueprintsOnPickup/-",
+    "value": "perf_perfectlight"
+  },
+  {
+    "op": "add",
+    "path": "/learnBlueprintsOnPickup/-",
+    "value": "perf_perfectswitch"
+  },
+  {
+    "op": "add",
+    "path": "/learnBlueprintsOnPickup/-",
+    "value": "perf_perfecttable"
+  },
+  {
+    "op": "add",
+	"path": "/learnBlueprintsOnPickup/-",
+	"value": "paa_randomseed"
+  }
+]

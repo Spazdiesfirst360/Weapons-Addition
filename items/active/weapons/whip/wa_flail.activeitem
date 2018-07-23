@@ -1,0 +1,46 @@
+{
+  "itemName" : "wa_flail",
+  "price" : 1000,
+  "level" : 2,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "The flail is the key, not the whip.",
+  "shortdescription" : "Chain Flail",
+  "tooltipKind" : "sword",
+  "category" : "whip",
+  "twoHanded" : false,
+  "itemTags" : ["weapon"],
+
+  "inventoryIcon" : "wa_flail.png:idle",
+  "animation" : "whip.animation",
+  "animationParts" : {
+    "weapon" : "wa_flail.png",
+    "weaponFullbright" : ""
+  },
+  "animationCustom" : {
+    "particleEmitters" : { "crack" : { "particles" : [ ]}},
+    "sounds" : {
+      "swing" : [ "/sfx/melee/whip_swing1.ogg", "/sfx/melee/whip_swing2.ogg", "/sfx/melee/whip_swing3.ogg" ],
+      "crack" : [ "/sfx/melee/whip_impact1.ogg", "/sfx/melee/whip_impact2.ogg", "/sfx/melee/whip_impact3.ogg" ]
+    }
+  },
+
+  "chain" : {
+    "startOffset" : [0.625, 0.0625],
+    "length" : [3, 14],
+    "segmentImage" : "/items/active/weapons/whip/wa_flailsegment.png",
+    "endSegmentImage" : "/items/active/weapons/whip/wa_flailsegmentend.png",
+    "segmentSize" : 0.375
+  },
+
+  "scripts" : [ "whip.lua" ],
+
+  "primaryAbilityType" : "whipcrack",
+  "primaryAbility" : {
+    "fireTime" : 1.2,
+    "chainDps" : 1.0,
+    "crackDps" : 12.0
+  },
+
+  "builder" : "/items/buildscripts/buildwhip.lua"
+}

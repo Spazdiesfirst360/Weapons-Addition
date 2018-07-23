@@ -1,0 +1,15 @@
+{
+  "itemName" : "wa_nemesismechblade_item",
+  "price" : 5600,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "category" : "mechPart",
+  "tooltipKind" : "mecharm",
+  "builder" : "/items/buildscripts/buildmechpart.lua",
+  "inventoryIcon" : "wa_nemesismechblade_item.png",
+  "description" : "An up to date version of *everyone's* favorite broadsword.",
+  "shortdescription" : "Nemesis, Supersword",
+  "itemTags" : [ ],
+
+  "mechPart" : ["arm", "wa_nemesisblade"]
+}

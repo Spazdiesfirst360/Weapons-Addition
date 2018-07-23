@@ -1,0 +1,15 @@
+{
+  "itemName" : "wa_theprototypemecharm_item",
+  "price" : 5600,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "category" : "mechPart",
+  "tooltipKind" : "mecharm",
+  "builder" : "/items/buildscripts/buildmechpart.lua",
+  "inventoryIcon" : "wa_theprototypemecharm_item.png",
+  "description" : "Is it safe? No. Yes. Maybe.",
+  "shortdescription" : "The Prototype Mech Arm",
+  "itemTags" : [ ],
+
+  "mechPart" : ["arm", "theprototype"]
+}

@@ -1,0 +1,34 @@
+[
+  {
+    "op": "add",
+    "path": "/wa_fire",
+    "value": {
+      "mass": 1,
+      "gravityMultiplier": 0,
+      "maxMovementPerStep": 0.4,
+      "collisionPoly": [
+        [
+          -0.25,
+          -0.25
+        ],
+        [
+          0.25,
+          -0.25
+        ],
+        [
+          0.25,
+          0.25
+        ],
+        [
+          -0.25,
+          0.25
+        ]
+      ],
+      "ignorePlatformCollision": true,
+      "airFriction": 1,
+      "liquidFriction": 1,
+      "groundFriction": 1,
+      "maximumCorrection": 0.75
+    }
+  }
+]

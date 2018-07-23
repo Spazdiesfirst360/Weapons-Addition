@@ -1,0 +1,14 @@
+[
+  {
+    "op": "add",
+    "path": "/learnBleprintsOnPickup",
+    "value": [
+      "wa_extremeflamethrower"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/itemTags/-",
+    "value": "reagant"
+  }
+]

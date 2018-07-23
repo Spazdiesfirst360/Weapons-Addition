@@ -1,0 +1,166 @@
+[
+  {
+    "op": "replace",
+    "path": "/banditTreasure/0/1/pool/0/weight",
+    "value": 0.9639
+  },
+  {
+    "op": "add",
+    "path": "/banditTreasure/0/1/pool/-",
+    "value": {
+      "weight": 0.001,
+      "item": "wa_blueglowstickgun"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/banditTreasure/0/1/pool/-",
+    "value": {
+      "weight": 0.001,
+      "item": "wa_greenglowstickgun"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/banditTreasure/0/1/pool/-",
+    "value": {
+      "weight": 0.001,
+      "item": "wa_orangeglowstickgun"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/banditTreasure/0/1/pool/-",
+    "value": {
+      "weight": 0.001,
+      "item": "wa_yellowglowstickgun"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/banditTreasure/0/1/pool/-",
+    "value": {
+      "weight": 0.001,
+      "item": "paa_flaregun"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/hangarguardtreasure",
+    "value": [
+      [
+        1,
+        {
+          "pool": [
+            {
+              "weight": 0.86,
+              "pool": "money"
+            },
+            {
+              "weight": 0.1,
+              "pool": "healingItem"
+            },
+            {
+              "weight": 0.02,
+              "pool": "weapon"
+            },
+            {
+              "weight": 0.02,
+              "pool": "uniqueWeapon"
+            }
+          ],
+          "poolRounds": [
+            [
+              0.25,
+              0
+            ],
+            [
+              0.75,
+              1
+            ]
+          ],
+          "allowDuplication": false
+        }
+      ]
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/wa_soldierloot",
+    "value": [
+      [
+        0,
+        {
+          "pool": [
+            {
+              "weight": 0.6,
+              "pool": "money"
+            },
+            {
+              "weight": 0.18,
+              "pool": "healingItem"
+            },
+            {
+              "weight": 0.02,
+              "pool": "wa_soldierWeapon"
+            },
+			{
+			  "weight": 0.2,
+			  "item": "wa_expweapblueprint"
+			}
+          ]
+        }
+      ]
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/wa_spacecaptainloot",
+    "value": [
+      [
+        0,
+        {
+          "fill": [
+            {
+              "pool": "money"
+            },
+            {
+              "pool": "healingItem"
+            },
+            {
+              "item": "paa_superpickaxe"
+            },
+			{
+			  "item": "wa_shiplog-codex"
+			}
+          ]
+        }
+      ]
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/wa_soldierbossloot",
+    "value": [
+      [
+        0,
+        {
+          "fill": [
+            {
+              "pool": "money"
+            },
+            {
+              "pool": "healingItem"
+            },
+            {
+              "item": "paa_superpickaxe"
+            },
+			{
+			  "pool": "wa_specialweaponloot"
+			}
+          ]
+        }
+      ]
+    ]
+  }
+]

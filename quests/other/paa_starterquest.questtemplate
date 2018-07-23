@@ -1,0 +1,36 @@
+{
+  "id" : "paa_starterquest",
+  "title" : "^orange;Where To Start",
+  "text" : "To start your experience with deconstruction, start by crafting a ^orange;Neutron ^green;with just your hands^white;.",
+  "completionText" : "You just learned ^green;how to craft ^orange;Protons^green;. ^white;Now you are one pixel short of what you were before.",
+  "moneyRange" : [0,0],
+  "ephemeral" : true,
+  "rewards" : [
+    [ [ "rewardbag", 1 ] ]
+  ],
+
+  "updateDelta" : 10,
+  "script" : "/quests/scripts/main.lua",
+  "scriptConfig" : {
+    "portraits" : {
+        "portrait" : [ {"image" : "/objects/outpost/randomscientist/paa_scientist1icon.png"} ],
+        "title" : "Physical Scientist"
+      },
+      "questComplete" : {
+        "portrait" : [ {"image" : "/objects/outpost/randomscientist/paa_scientist1icon.png"} ],
+        "title" : "Physical Scientist"
+      }
+    },
+
+    "requireTurnIn" : true,
+
+    "conditions" : [
+      {
+        "type" : "gatherItem",
+        "itemName" : "paa_nuetron",
+        "count" : 1,
+        "consume" : false
+      }
+    ]
+  }
+

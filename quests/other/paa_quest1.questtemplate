@@ -1,0 +1,36 @@
+{
+  "id" : "paa_quest1",
+  "title" : "^orange;The Beginning",
+  "text" : "Next, you should ^green;craft a ^orange;Particle Accelerator ^white;at the ^green;Inventor's Table^white;.",
+  "completionText" : "You did it! Now you can ^green;mess with particles^white;.",
+  "moneyRange" : [0,0],
+  "ephemeral" : true,
+  "rewards" : [
+    [ [ "rewardbag", 1 ] ]
+  ],
+
+  "updateDelta" : 10,
+  "script" : "/quests/scripts/main.lua",
+  "scriptConfig" : {
+    "portraits" : {
+        "portrait" : [ {"image" : "/objects/outpost/randomscientist/paa_scientist1icon.png"} ],
+        "title" : "Physical Scientist"
+      },
+      "questComplete" : {
+        "portrait" : [ {"image" : "/objects/outpost/randomscientist/paa_scientist1icon.png"} ],
+        "title" : "Physical Scientist"
+      }
+    },
+
+    "requireTurnIn" : true,
+
+    "conditions" : [
+      {
+        "type" : "gatherItem",
+        "itemName" : "paa_particleaccelerator",
+        "count" : 1,
+        "consume" : false
+      }
+    ]
+  }
+

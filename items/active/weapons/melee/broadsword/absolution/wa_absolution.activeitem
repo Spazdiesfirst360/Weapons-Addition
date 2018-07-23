@@ -1,0 +1,87 @@
+{
+  "itemName" : "wa_absolution",
+  "price" : 5000,
+  "level" : 7,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "This sword is believed to have been used in early Earthen times.",
+  "shortdescription" : "^#00FFFF;Absolution^reset;",
+  "tooltipKind" : "sword",
+  "category" : "broadsword",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","broadsword"],
+
+  "inventoryIcon" : "wa_absolution.png:inactive",
+
+  "animation" : "/items/active/weapons/melee/broadsword/absolution/wa_absolution.animation",
+  "animationParts" : {
+    "sword" : "wa_absolution.png",
+    "swordfullbright" : "wa_absolutionfullbright.png"
+  },
+  "animationCustom" : { },
+
+  "scripts" : ["/items/active/weapons/melee/broadsword/absolution/wa_absolution.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "broadswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 0.7,
+    "baseDps" : 21,
+
+    "animKeyPrefix" : "inactive"
+  },
+
+  "inactiveBaseDps" : 21,
+  "activeBaseDps" : 31,
+
+  "altAbility" : {
+    "name" : "Empowerment",
+    "type" : "empowerment",
+    "scripts" : ["/items/active/weapons/melee/broadsword/absolution/empowerment.lua"],
+    "class" : "Empowerment",
+
+    "energyPerSecond" : 30,
+
+    "projectileOffset" : [1, 0],
+    "projectileType" : "energytravelingswoosh",
+    "baseDamage" : 21,
+
+    "cooldownTime" : 1.0,
+
+    "stances" : {
+      "empower" : {
+        "durationBefore" : 0.2,
+        "durationAfter" : 0.5,
+        "armRotation" : 90,
+        "weaponRotation" : -90,
+        "twoHanded" : true,
+
+        "weaponOffset" : [0.5, -0.375],
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "windup" : {
+        "duration" : 0.25,
+        "armRotation" : 70,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "fire" : {
+        "duration" : 0.4,
+        "armRotation" : -45,
+        "weaponRotation" : -55,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+    }
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

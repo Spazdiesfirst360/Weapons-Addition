@@ -1,0 +1,42 @@
+{
+  "itemName" : "endlessclimbingrope",
+  "price" : 1000,
+  "inventoryIcon" : "endlessropeicon.png",
+  "rarity" : "legendary",
+  "maxStack" : 1,
+  "description" : "Some very tactical rope.",
+  "shortdescription" : "Tactical Rope",
+  "category" : "Tool",
+  "twoHanded" : false,
+
+  "scripts" : ["/items/active/grapplinghooks/grapplinghook.lua"],
+  "animationScripts" : ["/items/active/effects/renderrope.lua"],
+
+  "animation" : "endlessrope.animation",
+
+  "fireOffset" : [0, 0],
+  "ropeOffset" : [-1.75, 0],
+  "ropeVisualOffset" : [-0.5, 0.0],
+
+  "consumeOnUse" : false,
+
+  "projectileType" : "climbingropehook",
+  "projectileParameters" : {
+    "speed" : 100,
+    "timeToLive" : 5.0
+  },
+
+  "ropeWidth" : 1.8,
+  "ropeColor" : [118, 118, 118, 255],
+
+  "reelInDistance" : 5.0,
+  "reelOutLength" : 1000,
+  "breakLength" : 1010,
+
+  "minSwingDistance" : 1.5,
+
+  "reelSpeed" : 16,
+  "controlForce" : 2000,
+
+  "groundLagTime" : 0.2
+}

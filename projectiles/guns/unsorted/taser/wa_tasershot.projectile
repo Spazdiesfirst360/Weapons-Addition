@@ -1,0 +1,20 @@
+{
+  "projectileName" : "wa_tasershot",
+  "image" : "wa_tasershot.png",
+  "physics" : "laser",
+  "animationCycle" : 0.25,
+  "frameNumber" : 1,
+  "damageKind" : "standardbullet",
+  "pointLight" : false,
+  "flippable" : true,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/bulletexplosion/bulletexplosion.config"
+    }
+  ],
+  "statusEffects" : [ "paralysis" ],
+  "power" : 5.0,
+  "speed" : 150,
+  "knockback" : 0
+}

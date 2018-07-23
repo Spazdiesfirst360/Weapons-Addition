@@ -1,0 +1,29 @@
+{
+  "objectName" : "paa_roundgreeble",
+  "colonyTags" : ["misc"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 60,
+  "description" : "A panel for filling spaces.",
+  "shortdescription" : "Lab Panel",
+  "race" : "generic",
+  "collectablesOnPickup" : { "paa_kx1collection" : "paa_roundgreeble" },
+
+  "floranDescription" : "Ssspace filler...",
+
+  "inventoryIcon" : "paa_roundgreeble.png",
+  "orientations" : [
+    {
+      "dualImage" : "paa_roundgreeble.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ],
+	  "collision" : "solid"
+
+    }
+  ]
+}

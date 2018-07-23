@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "paa_statuspodshell", "count" : 1 },
+    { "item" : "paa_protactiniumrod", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "statuspod",
+    "count" : 1
+  },
+  "groups" : [ "craftingfurniture", "decoration", "all" ]
+}

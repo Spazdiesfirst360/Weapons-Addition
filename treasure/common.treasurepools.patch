@@ -1,0 +1,1007 @@
+[
+  {
+    "op": "add",
+    "path": "/uniqueWeapon/0/1/pool/-",
+    "value": {
+      "weight": 1,
+      "item": "wa_energylancegun"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/uniqueWeapon/2/1/pool/-",
+    "value": {
+      "weight": 1,
+      "item": "wa_energylancegunnew"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/wa_expweapbagfill",
+    "value": [
+      [
+        0,
+        {
+          "pool": [
+            {
+              "weight": 1,
+              "item": "experimentalweaponsguide-codex"
+            }
+          ]
+        }
+      ]
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/stim/1/1/pool/-",
+    "value": {
+      "weight": 0.25,
+      "item": [
+        "paa_darkbluestim",
+        3
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/stim/1/1/pool/-",
+    "value": {
+      "weight": 0.25,
+      "item": [
+        "paa_darkgreenstim",
+        3
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/stim/1/1/pool/-",
+    "value": {
+      "weight": 0.25,
+      "item": [
+        "paa_orangegravstim",
+        3
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/stim/1/1/pool/-",
+    "value": {
+      "weight": 0.25,
+      "item": [
+        "paa_meltingstim",
+        3
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/wa_glowstickgun",
+    "value": [
+      [
+        0,
+        {
+          "pool": [
+            {
+              "weight": 0.005,
+              "item": "wa_blueglowstickgun"
+            },
+            {
+              "weight": 0.005,
+              "item": "wa_greenglowstickgun"
+            },
+            {
+              "weight": 0.005,
+              "item": "wa_orangeglowstickgun"
+            },
+            {
+              "weight": 0.005,
+              "item": "wa_yellowglowstickgun"
+            }
+          ]
+        }
+      ],
+      [
+        1.9,
+        {
+          "pool": [
+            {
+              "weight": 0.0075,
+              "item": "wa_blueglowstickgun"
+            },
+            {
+              "weight": 0.0075,
+              "item": "wa_greenglowstickgun"
+            },
+            {
+              "weight": 0.0075,
+              "item": "wa_orangeglowstickgun"
+            },
+            {
+              "weight": 0.0075,
+              "item": "wa_yellowglowstickgun"
+            }
+          ]
+        }
+      ],
+      [
+        2.9,
+        {
+          "pool": [
+            {
+              "weight": 0.01,
+              "item": "wa_blueglowstickgun"
+            },
+            {
+              "weight": 0.01,
+              "item": "wa_greenglowstickgun"
+            },
+            {
+              "weight": 0.01,
+              "item": "wa_orangeglowstickgun"
+            },
+            {
+              "weight": 0.01,
+              "item": "wa_yellowglowstickgun"
+            }
+          ]
+        }
+      ],
+      [
+        3.9,
+        {
+          "pool": [
+            {
+              "weight": 0.0125,
+              "item": "wa_blueglowstickgun"
+            },
+            {
+              "weight": 0.0125,
+              "item": "wa_greenglowstickgun"
+            },
+            {
+              "weight": 0.0125,
+              "item": "wa_orangeglowstickgun"
+            },
+            {
+              "weight": 0.0125,
+              "item": "wa_yellowglowstickgun"
+            }
+          ]
+        }
+      ],
+      [
+        4.9,
+        {
+          "pool": [
+            {
+              "weight": 0.015,
+              "item": "wa_blueglowstickgun"
+            },
+            {
+              "weight": 0.015,
+              "item": "wa_greenglowstickgun"
+            },
+            {
+              "weight": 0.015,
+              "item": "wa_orangeglowstickgun"
+            },
+            {
+              "weight": 0.015,
+              "item": "wa_yellowglowstickgun"
+            }
+          ]
+        }
+      ],
+      [
+        5.9,
+        {
+          "pool": [
+            {
+              "weight": 0.0175,
+              "item": "wa_blueglowstickgun"
+            },
+            {
+              "weight": 0.0175,
+              "item": "wa_greenglowstickgun"
+            },
+            {
+              "weight": 0.0175,
+              "item": "wa_orangeglowstickgun"
+            },
+            {
+              "weight": 0.0175,
+              "item": "wa_yellowglowstickgun"
+            }
+          ]
+        }
+      ],
+      [
+        6.9,
+        {
+          "pool": [
+            {
+              "weight": 0.02,
+              "item": "wa_blueglowstickgun"
+            },
+            {
+              "weight": 0.02,
+              "item": "wa_greenglowstickgun"
+            },
+            {
+              "weight": 0.02,
+              "item": "wa_orangeglowstickgun"
+            },
+            {
+              "weight": 0.02,
+              "item": "wa_yellowglowstickgun"
+            }
+          ]
+        }
+      ]
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/tool/0/1/pool/-",
+    "value": {
+      "weight": 0.01,
+      "pool": "wa_glowstickgun"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/uniqueWeapon/2/1/pool/-",
+    "value": {
+      "weight": 1,
+      "item": "paa_superminer"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/uniqueWeapon/2/1/pool/-",
+    "value": {
+      "weight": 1,
+      "item": "wa_superbombcannon"
+    }
+  },
+  {
+    "op": "add",
+	"path": "/uniqueWeapon/0/1/pool/-",
+	"value": {
+	  "weight": 1,
+	  "item": "wa_tripleflamethrower"
+	}
+  },
+  {
+    "op": "add",
+	"path": "/uniqueWeapon/2/1/pool/-",
+	"value": {
+	  "weight": 1,
+	  "item": "wa_flamegun"
+	}
+  },
+  {
+    "op": "add",
+    "path": "/valuableTreasure/0/1/pool/-",
+    "value": {
+      "weight": 0.01,
+      "item": "wa_nukethrown"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/valuableTreasure/1/1/pool/-",
+    "value": {
+      "weight": 0.02,
+      "item": "wa_nukethrown"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/valuableTreasure/2/1/pool/-",
+    "value": {
+      "weight": 0.03,
+      "item": "wa_nukethrown"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/valuableTreasure/3/1/pool/-",
+    "value": {
+      "weight": 0.04,
+      "item": "wa_nukethrown"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/valuableTreasure/0/1/pool/-",
+    "value": {
+      "weight": 0.1,
+      "item": "paa_gasbase"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/valuableTreasure/1/1/pool/-",
+    "value": {
+      "weight": 0.2,
+      "item": "paa_gasbase"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/valuableTreasure/2/1/pool/-",
+    "value": {
+      "weight": 0.3,
+      "item": "paa_gasbase"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/valuableTreasure/3/1/pool/-",
+    "value": {
+      "weight": 0.4,
+      "item": "paa_gasbase"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/valuableTreasure/0/1/pool/-",
+    "value": {
+      "weight": 0.1,
+      "item": "paa_liquidbase"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/valuableTreasure/1/1/pool/-",
+    "value": {
+      "weight": 0.2,
+      "item": "paa_liquidbase"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/valuableTreasure/2/1/pool/-",
+    "value": {
+      "weight": 0.3,
+      "item": "paa_liquidbase"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/valuableTreasure/3/1/pool/-",
+    "value": {
+      "weight": 0.4,
+      "item": "paa_liquidbase"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/paa_randomstuff",
+    "value": [
+      [
+        0,
+        {
+          "pool": [
+            {
+              "weight": 1.0,
+              "item": "paa_saltshaker"
+            },
+            {
+              "weight": 0.1,
+              "item": "paa_magneticgenerator"
+            }
+          ]
+        }
+      ],
+      [
+        1.9,
+        {
+          "pool": [
+            {
+              "weight": 0.1,
+              "item": "paa_hazardchest"
+            },
+            {
+              "weight": 0.1,
+              "item": "paa_labcrate"
+            },
+            {
+              "weight": 0.1,
+              "item": "paa_gascanister"
+            },
+            {
+              "weight": 0.1,
+              "item": "paa_plutoniumbarrel"
+            }
+          ]
+        }
+      ],
+      [
+        2.9,
+        {
+          "pool": [
+            {
+              "weight": 0.1,
+              "item": "paa_antimattergenerator"
+            },
+            {
+              "weight": 0.1,
+              "item": "paa_powergenerator"
+            },
+            {
+              "weight": 0.1,
+              "item": "paa_wallkeypad"
+            }
+          ]
+        }
+      ],
+      [
+        4.9,
+        {
+          "pool": [
+            {
+              "weight": 0.05,
+              "item": "paa_shockitem"
+            },
+			{
+			  "weight": 0.1,
+			  "item": "paa_extrememiner"
+			}
+          ]
+        }
+      ],
+      [
+        5.9,
+        {
+          "pool": [
+            {
+              "weight": 0.05,
+              "item": "wa_rangedbroadsword"
+            },
+            {
+              "weight": 0.05,
+              "item": "ragecannon"
+            },
+            {
+              "weight": 0.25,
+              "item": "rocketpistol"
+            },
+            {
+              "weight": 0.075,
+              "item": "wa_pathfinder"
+            },
+            {
+              "weight": 0.001,
+              "item": "paa_destroyerofworlds"
+            }
+          ]
+        }
+      ]
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/valuableTreasure/0/1/pool/-",
+    "value": {
+      "weight": 0.25,
+      "item": "paa_objectblueprint"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/valuableTreasure/1/1/pool/-",
+    "value": {
+      "weight": 0.3,
+      "item": "paa_objectblueprint"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/valuableTreasure/2/1/pool/-",
+    "value": {
+      "weight": 0.35,
+      "item": "paa_objectblueprint"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/valuableTreasure/3/1/pool/-",
+    "value": {
+      "weight": 0.4,
+      "item": "paa_objectblueprint"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/wa_salty",
+    "value": [
+      [
+        0,
+        {
+          "pool": [
+            {
+              "weight": 1,
+              "item": [
+                "wa_monsterportal",
+                100
+              ]
+            }
+          ]
+        }
+      ]
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/valuableTreasure/0/1/pool/-",
+    "value": {
+      "weight": 0.01,
+      "item": "paa_bleachballoon"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/valuableTreasure/1/1/pool/-",
+    "value": {
+      "weight": 0.01,
+      "item": "paa_bleachballoon"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/valuableTreasure/2/1/pool/-",
+    "value": {
+      "weight": 0.01,
+      "item": "paa_bleachballoon"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/valuableTreasure/3/1/pool/-",
+    "value": {
+      "weight": 0.01,
+      "item": "paa_bleachballoon"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/wa_laserweaponpool",
+    "value": [
+      [
+        0,
+        {
+          "pool": [
+            {
+              "weight": 1,
+              "item": "wa_lasersnipergun"
+            },
+            {
+              "weight": 1,
+              "item": "wa_lasersnipergun2"
+            }
+          ]
+        }
+      ]
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/thrownWeapon/0/1/pool/2/weight",
+    "value": 0.49
+  },
+  {
+    "op": "replace",
+    "path": "/thrownWeapon/0/1/pool/3/weight",
+    "value": 0.5
+  },
+  {
+    "op": "add",
+    "path": "/thrownWeapon/0/1/pool/-",
+    "value": {
+      "weight": 0.01,
+      "item": [
+        "paa_bleachballoon",
+        3
+      ]
+    }
+  },
+  {
+    "op": "replace",
+    "path": "/thrownWeapon/5/1/pool/2/weight",
+    "value": 0.55
+  },
+  {
+    "op": "add",
+    "path": "/uniqueWeapon/1/1/pool/-",
+    "value": {
+      "weight": 1,
+      "item": "paa_stunknife"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/uniqueWeapon/2/1/pool/-",
+    "value": {
+      "weight": 1,
+      "item": "wa_rangedbroadsword"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/uniqueWeapon/2/1/pool/-",
+    "value": {
+      "weight": 1,
+      "item": "wa_rocketsword"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/uniqueWeapon/2/1/pool/-",
+    "value": {
+      "weight": 1,
+      "item": "wa_lightningdagger"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/nemesisChestTreasure",
+    "value": [
+      [
+        0,
+        {
+          "fill": [
+            {
+              "pool": "basicTreasure"
+            },
+            {
+              "item": "wa_superswordbroken"
+            }
+          ]
+        }
+      ]
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/nemesisShrineTreasure",
+    "value": [
+      [
+        0,
+        {
+          "poolRounds": [
+            [
+              0.34,
+              1
+            ],
+            [
+              0.33,
+              2
+            ],
+            [
+              0.33,
+              3
+            ]
+          ],
+          "pool": [
+            {
+              "weight": 0.25,
+              "item": "wa_superswordmaterial1"
+            },
+            {
+              "weight": 0.25,
+              "item": "wa_superswordmaterial2"
+            },
+            {
+              "weight": 0.25,
+              "item": "wa_superswordmaterial3"
+            },
+            {
+              "weight": 0.25,
+              "item": "wa_superswordmaterial4"
+            }
+          ]
+        }
+      ]
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/uniqueWeapon/2/1/pool/-",
+    "value": {
+      "weight": 1,
+      "item": "wa_tacticalpistol"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/uniqueWeapon/2/1/pool/-",
+    "value": {
+      "weight": 1,
+      "item": "wa_tacticalrifle"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/uniqueWeapon/2/1/pool/-",
+    "value": {
+      "weight": 1,
+      "item": "wa_tacticalrocketlauncher"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/uniqueWeapon/2/1/pool/-",
+    "value": {
+      "weight": 1,
+      "item": "wa_tacticalshotgun"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/uniqueWeapon/2/1/pool/-",
+    "value": {
+      "weight": 1,
+      "item": "wa_tacticalsniper"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/wa_soldierWeapon",
+    "value": [
+      [
+        0,
+        {
+          "pool": [
+            {
+              "weight": 0.16,
+              "item": "wa_basicassaultrifle"
+            },
+            {
+              "weight": 0.16,
+              "item": "wa_basicsniperrifle"
+            },
+            {
+              "weight": 0.16,
+              "item": "wa_basicpistol"
+            },
+            {
+              "weight": 0.16,
+              "item": "wa_basicshotgun"
+            },
+            {
+              "weight": 0.16,
+              "item": "wa_basicrocketlauncher"
+            },
+            {
+              "weight": 0.16,
+              "item": "wa_basicgrenadelauncher"
+            },
+            {
+              "weight": 0.04,
+              "pool": "hangarguardtreasure"
+            }
+          ]
+        }
+      ]
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/wa_armoryLoot",
+    "value": [
+      [
+        0,
+        {
+          "fill": [
+            {
+              "pool": "wa_soldierWeapon"
+            },
+            {
+              "pool": "wa_soldierloot"
+            }
+          ]
+        }
+      ]
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/wa_vehicleLoot",
+    "value": [
+      [
+        0,
+        {
+          "pool": [
+            {
+              "weight": 0.25,
+              "item": "boatcontrollergreen"
+            },
+            {
+              "weight": 0.25,
+              "item": "hoverbikecontrollergreen"
+            },
+            {
+              "weight": 0.25,
+              "item": "hoverbikecontrollerred"
+            },
+            {
+              "weight": 0.25,
+              "item": "hoverbikecontrollerkhaki"
+            }
+          ]
+        }
+      ]
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/wa_humanshipLoot",
+    "value": [
+      [
+        0,
+        {
+          "pool": [
+            {
+			        "weight": 0.5,
+              "pool": "humanprisonLore"
+            },
+            {
+			        "weight": 0.499,
+              "pool": "maybeWeaponTreasure"
+            },
+            {
+              "weight": 0.001,
+              "item": "wa_shiplog-codex"
+            }
+          ]
+        }
+      ]
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/wa_shipLoot",
+    "value": [
+      [
+        0,
+        {
+          "fill": [
+            {
+              "pool": "wa_humanshipLoot"
+            },
+            {
+              "pool": "money"
+            }
+          ],
+          "poolRounds": [
+            [
+              0.1,
+              1
+            ],
+            [
+              0.4,
+              2
+            ],
+            [
+              0.4,
+              3
+            ],
+            [
+              0.1,
+              4
+            ]
+          ],
+          "pool": [
+            {
+              "weight": 1,
+              "pool": "basicTreasure"
+            }
+          ]
+        }
+      ]
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/wa_specialweaponloot",
+    "value": [
+      [
+        0,
+        {
+          "pool": [
+            {
+			        "weight": 0.2,
+              "item": "wa_thermitegun"
+            },
+            {
+			        "weight": 0.2,
+              "item": "wa_macgun"
+            },
+            {
+              "weight": 0.2,
+              "item": "wa_microrocketlauncher"
+            },
+            {
+              "weight": 0.2,
+              "item": "wa_attorifle"
+            },
+            {
+              "weight": 0.2,
+              "item": "wa_multiflamethrower"
+            }
+          ]
+        }
+      ]
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/wa_supplycrateLoot",
+    "value": [
+      [
+        0,
+        {
+          "fill": [
+            {
+              "pool": "valuableTreasure"
+            },
+            {
+              "pool": "healingItem"
+            },
+			      {
+              "pool": "stim"
+            },
+			      {
+              "pool": "weapon"
+            },
+			      {
+              "pool": "food"
+            }
+          ]
+        }
+      ]
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/wa_shippingLoot",
+    "value": [
+      [
+        0,
+        {
+          "fill": [
+            {
+              "pool": "basicChestTreasure"
+            },
+            {
+              "pool": "weaponChestTreasure"
+            }
+          ],
+          "poolRounds": [
+            [
+              0.5,
+              4
+            ],
+            [
+              0.2,
+              5
+            ],
+            [
+              0.2,
+              6
+            ],
+            [
+              0.1,
+              7
+            ]
+          ]
+        }
+      ]
+    ]
+  }
+]

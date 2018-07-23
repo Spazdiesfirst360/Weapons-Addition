@@ -1,0 +1,81 @@
+{
+  "metadata" : {
+    "name" : "wa_troopdungeondesert",
+    "species" : "generic",
+    "rules" : [
+    ],
+
+    "anchor" : [ "wa_barracks", "wa_armory", "wa_majorcamp", "wa_minorcamp", "wa_outpost", "wa_majorcampfriendlydesert", "wa_minorcampfriendlydesert", "wa_outpostfriendlydesert", "wa_friendlyscoutcampdesert" ],
+
+    "gravity" : 80,
+    "maxRadius" : 1000000,
+    "maxParts" : 100,
+    "protected" : false
+  },
+
+  "parts" : [
+    {
+      "name" : "wa_barracks",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "wa_barracks.json" ]
+    },
+	{
+      "name" : "wa_armory",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "wa_armory.json" ]
+    },
+    {
+      "name" : "wa_majorcamp",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "wa_majorcamp.json" ]
+    },
+	{
+      "name" : "wa_minorcamp",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "wa_minorcamp.json" ]
+    },
+	{
+      "name" : "wa_outpost",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "wa_outpost.json" ]
+    },
+	{
+      "name" : "wa_majorcampfriendlydesert",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "wa_majorcampfriendlydesert.json" ]
+    },
+	{
+      "name" : "wa_minorcampfriendlydesert",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "wa_minorcampfriendlydesert.json" ]
+    },
+	{
+      "name" : "wa_outpostfriendlydesert",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "wa_outpostfriendlydesert.json" ]
+    },
+	{
+      "name" : "wa_friendlyscoutcampdesert",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "wa_friendlyscoutcampdesert.json" ]
+    }
+  ]
+}

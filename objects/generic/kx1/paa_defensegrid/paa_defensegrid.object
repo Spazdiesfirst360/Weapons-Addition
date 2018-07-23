@@ -1,0 +1,50 @@
+{
+  "objectName" : "paa_defensegrid",
+  "colonyTags" : ["science","door"],
+  "rarity" : "rare",
+  "collectablesOnPickup" : { "paa_kx1collection" : "paa_defensegrid" },
+  "category" : "door",
+  "price" : 1000,
+  "description" : "A very fancy way of keeping people out.",
+  "shortdescription" : "Laser Defense Grid",
+  "race" : "generic",
+
+  "health" : 100,
+
+  "inventoryIcon" : "paa_defensegridicon.png",
+  "orientations" : [
+    {
+      "image" : "paa_defensegrid.png:<key>",
+      "imagePosition" : [-12, 0],
+      "renderLayer" : "Object+5",
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/door/door.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/door/door.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "open" : {
+        "pool" : [ "/sfx/objects/crystaltrap_on1.ogg" ],
+        "rangeMultiplier" : 0.5
+      },
+      "close" : {
+        "pool" : [ "/sfx/objects/crystaltrap_off.ogg" ],
+        "rangeMultiplier" : 0.5
+      }
+    }
+  },
+  "animationParts" : {
+    "door" : "paa_defensegrid.png"
+  },
+  "animationPosition" : [-12, 0],
+
+  "inputNodes" : [ [-2, 9] ],
+  "outputNodes" : [ [1, 0] ]
+}

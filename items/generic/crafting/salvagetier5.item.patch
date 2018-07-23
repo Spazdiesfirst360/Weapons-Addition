@@ -1,0 +1,11 @@
+[
+  {
+    "op": "add",
+    "path": "/learnBlueprintsOnPickup",
+    "value": [
+      "paa_handheatlaser",
+      "paa_handflakgun",
+      "paa_handenergybeam"
+    ]
+  }
+]

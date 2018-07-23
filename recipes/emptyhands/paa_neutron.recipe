@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "money", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "paa_neutron",
+    "count" : 1
+  },
+  "groups" : [ "plain", "all", "other" ]
+}

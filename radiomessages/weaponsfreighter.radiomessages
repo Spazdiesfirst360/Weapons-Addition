@@ -1,0 +1,39 @@
+{
+// ---Weapons Freighter Mission---
+  "wa_shipintro" : {
+    "type" : "mission",
+    "text" : "I am receiving a string of transmissions coming from the freighter. Patching them through to you now."
+  },
+  "wa_shipmessage1" : {
+  "type" : "mission",
+  "senderName" : "???",
+  "portraitImage" : "/interface/chatbubbles/static.png:<frame>",
+  "text" : "Unknown craft, this is a Class E Transport Freighter. Please identify yourself.",
+  "portraitFrames" : 4,
+  "portraitSpeed" : 0.30
+  },
+  "wa_shipmessage2" : {
+  "type" : "mission",
+  "senderName" : "???",
+  "portraitImage" : "/interface/chatbubbles/static.png:<frame>",
+  "text" : "Unknown craft, we have phasers locked onto you. Please surrender now.",
+  "portraitFrames" : 4,
+  "portraitSpeed" : 0.30
+  },
+  "wa_shipmessage2a" : {
+    "type" : "mission",
+    "text" : "It is highly likely that if you surrender that they will kill you. I strongly advise that you formulate a plan quickly."
+  },
+  "wa_shipmessage3" : {
+    "type" : "mission",
+    "text" : "The troops on this ship are equipped with ^#FF4F00;Experimental Weapons^reset;. I urge that you proceed with extreme caution."
+  },
+  "wa_shipmessage4" : {
+    "type" : "mission",
+    "text" : "The captain in the next room is wielding a Handheld Lunar Laser. The likelihood of you being incinerated instantly is very high. You must be careful."
+  },
+  "wa_shipmessage5" : {
+    "type" : "mission",
+    "text" : "Well, that was rather... insane. Well done. I suggest that you take that device hung on the wall. It is an advanced weapon like no other that matches my database."
+  }
+}

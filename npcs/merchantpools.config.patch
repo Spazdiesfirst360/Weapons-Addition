@@ -1,0 +1,374 @@
+[
+  {
+    "op": "add",
+    "path": "/wa_militarysupplies",
+    "value": [
+      [
+        0,
+        [
+          {
+            "item": {
+              "name": "wa_militarylantern"
+            },
+            "rarity": 1
+          },
+		  {
+            "item": {
+              "name": "wa_blueglowstickgun"
+            },
+            "rarity": 0.5
+          },
+          {
+            "item": {
+              "name": "wa_greenglowstickgun"
+            },
+            "rarity": 0.5
+          },
+          {
+            "item": {
+              "name": "wa_orangeglowstickgun"
+            },
+            "rarity": 0.5
+          },
+          {
+            "item": {
+              "name": "wa_yellowglowstickgun"
+            },
+            "rarity": 0.5
+          }
+        ]
+      ],
+      [
+        1.9,
+        [
+          {
+            "item": {
+              "name": "endlessclimbingrope"
+            },
+            "rarity": 0.5
+          },
+          {
+            "item": {
+              "name": "statusglowgun"
+            },
+            "rarity": 0.5
+          },
+          {
+            "item": {
+              "name": "statushealgun"
+            },
+            "rarity": 0.5
+          },
+          {
+            "item": {
+              "name": "wa_energylancegun"
+            },
+            "rarity": 0.5
+          }
+        ]
+      ],
+	  [
+        3.9,
+        [
+          {
+            "item": {
+              "name": "wa_basicassaultrifle"
+            },
+            "rarity": 0.05
+          },
+          {
+            "item": {
+              "name": "wa_basicgrenadelauncher"
+            },
+            "rarity": 0.05
+          },
+          {
+            "item": {
+              "name": "wa_basicpistol"
+            },
+            "rarity": 0.05
+          },
+          {
+            "item": {
+              "name": "wa_basicrocketlauncher"
+            },
+            "rarity": 0.05
+          },
+          {
+            "item": {
+              "name": "wa_basicshotgun"
+            },
+            "rarity": 0.05
+          },
+          {
+            "item": {
+              "name": "wa_basicsniperrifle"
+            },
+            "rarity": 0.05
+          }
+        ]
+      ],
+      [
+        4.9,
+        [
+          {
+            "item": {
+              "name": "wa_soldierknife"
+            },
+            "rarity": 0.5
+          },
+          {
+            "item": {
+              "name": "wa_lightbaton"
+            },
+            "rarity": 0.5
+          },
+          {
+            "item": {
+              "name": "wa_plasmasniperrifle"
+            },
+            "rarity": 0.5
+          },
+          {
+            "item": {
+              "name": "wa_specialweapon1"
+            },
+            "rarity": 0.5
+          },
+          {
+            "item": {
+              "name": "wa_specialweapon2"
+            },
+            "rarity": 0.5
+          },
+          {
+            "item": {
+              "name": "wa_specialweapon3"
+            },
+            "rarity": 0.5
+          },
+          {
+            "item": {
+              "name": "wa_basicassaultrifle"
+            },
+            "rarity": 0.5
+          },
+          {
+            "item": {
+              "name": "wa_basicgrenadelauncher"
+            },
+            "rarity": 0.5
+          },
+          {
+            "item": {
+              "name": "wa_basicpistol"
+            },
+            "rarity": 0.5
+          },
+          {
+            "item": {
+              "name": "wa_basicrocketlauncher"
+            },
+            "rarity": 0.5
+          },
+          {
+            "item": {
+              "name": "wa_basicshotgun"
+            },
+            "rarity": 0.5
+          },
+          {
+            "item": {
+              "name": "wa_basicsniperrifle"
+            },
+            "rarity": 0.5
+          },
+          {
+            "item": {
+              "name": "wa_assaultrifle"
+            },
+            "rarity": 0.5
+          },
+          {
+            "item": {
+              "name": "wa_hydralauncher"
+            },
+            "rarity": 0.5
+          },
+          {
+            "item": {
+              "name": "wa_saw"
+            },
+            "rarity": 0.5
+          },
+          {
+            "item": {
+              "name": "wa_smg"
+            },
+            "rarity": 0.5
+          },
+          {
+            "item": {
+              "name": "wa_submachinegatling"
+            },
+            "rarity": 0.5
+          }
+        ]
+      ]
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/wa_medicmerchant",
+    "value": [
+      [
+        0,
+        [
+          {
+            "item": {
+              "name": "bandage",
+              "rarity": 0.75
+            }
+          },
+          {
+            "item": {
+              "name": "medkit",
+              "rarity": 0.75
+            }
+          },
+          {
+            "item": {
+              "name": "nanowrap",
+              "rarity": 0.75
+            }
+          },
+          {
+            "item": {
+              "name": "salve",
+              "rarity": 0.75
+            }
+          }
+        ]
+      ]
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/wa_experimentalweapons",
+    "value": [
+      [
+        0,
+        [
+          {
+            "item": {
+              "name": "wa_lasersnipergun",
+              "rarity": 0.75
+            }
+          },
+          {
+            "item": {
+              "name": "wa_lasersnipergun2",
+              "rarity": 0.75
+            }
+          },
+          {
+            "item": {
+              "name": "paa_shockitem",
+              "rarity": 0.75
+            }
+          },
+          {
+            "item": {
+              "name": "paa_spatialbomblauncher",
+              "rarity": 0.75
+            }
+          },
+		  {
+            "item": {
+              "name": "wa_lavaballoongun",
+              "rarity": 0.75
+            }
+          },
+		  {
+            "item": {
+              "name": "wa_poisonballoongun",
+              "rarity": 0.75
+            }
+          },
+		  {
+            "item": {
+              "name": "wa_darkplasmagun",
+              "rarity": 0.75
+            }
+          },
+		  {
+            "item": {
+              "name": "wa_gravityshotgun",
+              "rarity": 0.75
+            }
+          },
+		  {
+            "item": {
+              "name": "wa_superchargedpistol",
+              "rarity": 0.75
+            }
+          },
+		  {
+            "item": {
+              "name": "wa_theprototype",
+              "rarity": 0.75
+            }
+          },
+		  {
+            "item": {
+              "name": "wa_supersubmachinegatling",
+              "rarity": 0.75
+            }
+          },
+		  {
+            "item": {
+              "name": "wa_syst_torrent",
+              "rarity": 0.75
+            }
+          },
+		  {
+            "item": {
+              "name": "wa_syst_supergrenade",
+              "rarity": 0.75
+            }
+          },
+		  {
+            "item": {
+              "name": "wa_syst_thermitepistol",
+              "rarity": 0.75
+            }
+          },
+		  {
+            "item": {
+              "name": "wa_syst_orbitallauncher",
+              "rarity": 0.75
+            }
+          },
+		  {
+            "item": {
+              "name": "wa_syst_sidearm",
+              "rarity": 0.75
+            }
+          },
+		  {
+            "item": {
+              "name": "wa_gravcannon",
+              "rarity": 0.75
+            }
+          },
+		  {
+            "item": {
+              "name": "wa_syst_flamer",
+              "rarity": 0.75
+            }
+          }
+        ]
+      ]
+    ]
+  }
+]

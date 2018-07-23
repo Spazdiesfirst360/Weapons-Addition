@@ -1,0 +1,25 @@
+{
+  "objectName" : "wa_expweapguide",
+  "colonyTags" : ["misc"],
+  "rarity" : "essential",
+  "description" : "You may need to zoom out a lot to see it.",
+  "shortdescription" : "Experimental Weapons Guide",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 0,
+  "printable" : false,
+
+  "inventoryIcon" : "wa_expweapguideicon.png",
+  "orientations" : [
+    {
+      "image" : "wa_expweapguide.png:<color>",
+      "imagePosition" : [-454, -0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ ],
+	  "collision" : "platform"
+    }
+  ]
+}

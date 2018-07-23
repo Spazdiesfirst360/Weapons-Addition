@@ -1,0 +1,85 @@
+{
+  "itemName" : "paa_palladiumpistol",
+  "price" : 920,
+  "maxStack" : 1,
+  "rarity" : "uncommon",
+  "description" : "A pistol made of palladium.",
+  "shortdescription" : "Palladium Pistol",
+  "tooltipKind" : "gun",
+  "category" : "Pistol",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","ranged","pistol"],
+  "level" : 3,
+
+  "inventoryIcon" : "paa_palladiumpistol.png",
+
+  "animation" : "/items/active/weapons/ranged/gun.animation",
+  "animationParts" : {
+  "butt" : "",
+  "middle" : "paa_palladiumpistol.png",
+   "middlefullbright" : "",
+  "barrel" : "",
+  "muzzleFlash" : "/animations/muzzleflash/bulletmuzzle1.png"
+  },
+  "animationCustom" : {
+  "sounds" : {
+  "fire" : ["/sfx/gun/pistol2.ogg"]
+  }
+  },
+
+  "baseOffset" : [1.0, 0.375],
+  "muzzleOffset" : [2.5, 0],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "fire",
+
+  "primaryAbility" : {
+  "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+  "class" : "GunFire",
+
+  "fireTime" : 0.3,
+  "baseDps" : 250,
+  "energyUsage" : 10,
+  "inaccuracy" : 0.05,
+
+  "projectileCount" : 3,
+  "fireType" : "auto",
+
+  "projectileType" : "standardbullet",
+  "projectileParameters" : {
+  "damageKind" : "default",
+  "knockback" : 5
+  },
+  "stances" : {
+  "idle" : {
+  "armRotation" : 0,
+  "weaponRotation" : 0,
+  "twoHanded" : false,
+
+  "allowRotate" : true,
+  "allowFlip" : true
+  },
+  "fire" : {
+  "duration" : 0.1,
+  "armRotation" : 3,
+  "weaponRotation" : 3,
+  "twoHanded" : false,
+
+  "allowRotate" : false,
+  "allowFlip" : false
+  },
+  "cooldown" : {
+  "duration" : 0.1,
+  "armRotation" : 3,
+  "weaponRotation" : 3,
+  "twoHanded" : false,
+
+  "allowRotate" : false,
+  "allowFlip" : false
+  }
+  }
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

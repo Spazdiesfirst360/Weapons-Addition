@@ -1,0 +1,20 @@
+{
+  "itemName" : "paa_darkgreenstim",
+  "rarity" : "Common",
+  "price" : 100,
+  "category" : "medicine",
+  "inventoryIcon" : "paa_darkgreenstim.png",
+  "description" : "A stimpack full of dark green liquid, it gives your run a BIG boost!",
+  "shortdescription" : "Dark Green Stim Pack",
+  "effects" : [ [
+      {
+        "effect" : "darkstimrunboost",
+        "duration" : 10
+      }
+    ] ],
+  "emote" : "",
+  "emitters" : [ "stimuse" ],
+  "learnBlueprintsOnPickup" : [
+    "paa_darkgreenstim"
+  ]
+}

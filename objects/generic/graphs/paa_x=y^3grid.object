@@ -1,0 +1,25 @@
+{
+  "objectName" : "paa_x=y^3grid",
+  "colonyTags" : ["misc"],
+  "rarity" : "common",
+  "description" : "Okay then.",
+  "shortdescription" : "X=Y^3 Graph",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 0,
+  "printable" : false,
+
+  "inventoryIcon" : "paa_x=y^3gridicon.png",
+  "orientations" : [
+    {
+      "image" : "paa_x=y^3grid.png:<color>",
+      "imagePosition" : [-80, -80],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "metadata" : {
+    "name" : "wa_majorcampfriendlysnow",
+    "species" : "generic",
+    "rules" : [
+    ],
+    "anchor" : [ "wa_majorcampfriendlysnowfront", "wa_majorcampfriendlysnowback" ],
+    "gravity" : 80,
+    "maxRadius" : 1000000,
+    "maxParts" : 15,
+    "extendSurfaceFreeSpace" : 100,
+    "protected" : true
+  },
+
+  "parts" : [
+    {
+      "name" : "wa_majorcampfriendlysnowtower1",
+      "rules" : [
+        [ "maxSpawnCount", [3] ],
+        [ "doNotConnectToPart", [ "wa_majorcampfriendlysnowtower1" ] ]
+
+      ],
+      "def" : [ "tmx", "wa_majorcampfriendlysnowtower1.json" ]
+    },
+    {
+      "name" : "wa_majorcampfriendlysnowtower2",
+      "rules" : [
+        [ "maxSpawnCount", [3] ],
+        [ "doNotConnectToPart", [ "wa_majorcampfriendlysnowtower2" ] ]
+
+      ],
+      "def" : [ "tmx", "wa_majorcampfriendlysnowtower2.json" ]
+    },
+    {
+      "name" : "wa_majorcampfriendlysnowstorage1",
+      "rules" : [
+        [ "maxSpawnCount", [3] ],
+        [ "doNotConnectToPart", [ "wa_majorcampfriendlysnowstorage1" ] ]
+
+      ],
+      "def" : [ "tmx", "wa_majorcampfriendlysnowstorage1.json" ]
+    },
+    {
+      "name" : "wa_majorcampfriendlysnowstorage1secret",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotConnectToPart", [ "wa_majorcampfriendlysnowstorage1secret" ] ],
+        [ "doNotCombineWith", [ "wa_majorcampfriendlysnowstorage1", "wa_majorcampfriendlysnowstorage2secret", "wa_majorcampfriendlysnowstorage3secret", "wa_majorcampfriendlysnowtents3secret", "wa_majorcampfriendlysnowcraftingsecret" ] ]
+
+      ],
+      "def" : [ "tmx", "wa_majorcampfriendlysnowstorage1secret.json" ]
+    },
+    {
+      "name" : "wa_majorcampfriendlysnowstorage2",
+      "rules" : [
+        [ "maxSpawnCount", [3] ],
+        [ "doNotConnectToPart", [ "wa_majorcampfriendlysnowstorage2" ] ]
+
+      ],
+      "def" : [ "tmx", "wa_majorcampfriendlysnowstorage2.json" ]
+    },
+    {
+      "name" : "wa_majorcampfriendlysnowstorage2secret",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotConnectToPart", [ "wa_majorcampfriendlysnowstorage2secret" ] ],
+        [ "doNotCombineWith", [ "wa_majorcampfriendlysnowstorage2", "wa_majorcampfriendlysnowstorage1secret", "wa_majorcampfriendlysnowstorage3secret", "wa_majorcampfriendlysnowtents3secret", "wa_majorcampfriendlysnowcraftingsecret" ] ]
+
+      ],
+      "def" : [ "tmx", "wa_majorcampfriendlysnowstorage2secret.json" ]
+    },
+    {
+      "name" : "wa_majorcampfriendlysnowstorage3",
+      "rules" : [
+        [ "maxSpawnCount", [3] ],
+        [ "doNotConnectToPart", [ "wa_majorcampfriendlysnowstorage3" ] ]
+
+      ],
+      "def" : [ "tmx", "wa_majorcampfriendlysnowstorage3.json" ]
+    },
+    {
+      "name" : "wa_majorcampfriendlysnowstorage3secret",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotConnectToPart", [ "wa_majorcampfriendlysnowstorage3secret" ] ],
+        [ "doNotCombineWith", [ "wa_majorcampfriendlysnowstorage3", "wa_majorcampfriendlysnowstorage1secret", "wa_majorcampfriendlysnowstorage2secret", "wa_majorcampfriendlysnowtents3secret", "wa_majorcampfriendlysnowcraftingsecret" ] ]
+
+      ],
+      "def" : [ "tmx", "wa_majorcampfriendlysnowstorage3secret.json" ]
+    },
+    {
+      "name" : "wa_majorcampfriendlysnowtents1",
+      "rules" : [
+        [ "maxSpawnCount", [3] ],
+        [ "doNotConnectToPart", [ "wa_majorcampfriendlysnowtents1" ] ]
+
+      ],
+      "def" : [ "tmx", "wa_majorcampfriendlysnowtents1.json" ]
+    },
+    {
+      "name" : "wa_majorcampfriendlysnowtents2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotConnectToPart", [ "wa_majorcampfriendlysnowtents2" ] ]
+
+      ],
+      "def" : [ "tmx", "wa_majorcampfriendlysnowtents2.json" ]
+    },
+    {
+      "name" : "wa_majorcampfriendlysnowtents3",
+      "rules" : [
+        [ "maxSpawnCount", [3] ],
+        [ "doNotConnectToPart", [ "wa_majorcampfriendlysnowtents3" ] ]
+
+      ],
+      "def" : [ "tmx", "wa_majorcampfriendlysnowtents3.json" ]
+    },
+    {
+      "name" : "wa_majorcampfriendlysnowtents3secret",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotConnectToPart", [ "wa_majorcampfriendlysnowtents3secret" ] ],
+        [ "doNotCombineWith", [ "wa_majorcampfriendlysnowtents3", "wa_majorcampfriendlysnowstorage1secret", "wa_majorcampfriendlysnowstorage2secret", "wa_majorcampfriendlysnowstorage3secret", "wa_majorcampfriendlysnowcraftingsecret"  ] ]
+
+      ],
+      "def" : [ "tmx", "wa_majorcampfriendlysnowtents3secret.json" ]
+    },
+    {
+      "name" : "wa_majorcampfriendlysnowcrafting",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotConnectToPart", [ "wa_majorcampfriendlysnowcrafting" ] ]
+
+      ],
+      "def" : [ "tmx", "wa_majorcampfriendlysnowcrafting.json" ]
+    },
+    {
+      "name" : "wa_majorcampfriendlysnowcraftingsecret",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotConnectToPart", [ "wa_majorcampfriendlysnowcraftingsecret" ] ],
+        [ "doNotCombineWith", [ "wa_majorcampfriendlysnowcrafting", "wa_majorcampfriendlysnowstorage1secret", "wa_majorcampfriendlysnowstorage2secret", "wa_majorcampfriendlysnowstorage3secret", "wa_majorcampfriendlysnowtents3secret"  ] ]
+
+      ],
+      "def" : [ "tmx", "wa_majorcampfriendlysnowcraftingsecret.json" ]
+    },
+    {
+      "name" : "wa_majorcampfriendlysnowfront",
+      "rules" : [
+        [ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", [ "wa_majorcampfriendlysnowfront.json" ] ],
+      "chance" : 0
+    },
+
+    {
+      "name" : "wa_majorcampfriendlysnowback",
+      "rules" : [
+        [ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", [ "wa_majorcampfriendlysnowback.json" ] ],
+      "chance" : 0
+    }
+  ]
+}

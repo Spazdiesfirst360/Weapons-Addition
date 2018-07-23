@@ -1,0 +1,32 @@
+{
+  "itemName" : "wa_ceremonialblade",
+  "price" : 10000,
+  "level" : 6,
+  "maxStack" : 1,
+  "rarity" : "essential",
+  "description" : "This blade was used in ancient Earthen ceremonies.",
+  "shortdescription" : "^#00FFFF;Ceremonial Blade^reset;",
+  "tooltipKind" : "sword",
+  "category" : "broadsword",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","broadsword"],
+
+  "inventoryIcon" : "wa_ceremonialblade.png",
+
+  "animation" : "/items/active/weapons/melee/broadsword/wa_ceremonialblade.animation",
+  "animationCustom" : { },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "poison",
+
+  "primaryAbilityType" : "broadswordcombo",
+  "primaryAbility" : {
+	"fireTime" : 0.276,
+    "baseDps" : 60.5
+  },
+
+  "altAbilityType" : "giantsword",
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

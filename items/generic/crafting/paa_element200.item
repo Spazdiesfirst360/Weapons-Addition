@@ -1,0 +1,10 @@
+{
+  "itemName" : "paa_element200",
+  "price" : 5000,
+  "rarity" : "legendary",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "paa_element200.png",
+  "description" : "Is this even a natural element?",
+  "shortdescription" : "^#00FFFF;Azurium Fragment^reset;",
+  "itemTags" : [ "reagent" ]
+}

@@ -1,0 +1,15 @@
+{
+  "itemName" : "wa_submachinegatlingmech_item",
+  "price" : 5600,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "category" : "mechPart",
+  "tooltipKind" : "mecharm",
+  "builder" : "/items/buildscripts/buildmechpart.lua",
+  "inventoryIcon" : "wa_submachinegatlingmech_item.png",
+  "description" : "The amount of firepower this gun provides is insane.",
+  "shortdescription" : "Submachine Gatling",
+  "itemTags" : [ ],
+
+  "mechPart" : ["arm", "wa_submachinegatlingmech"]
+}

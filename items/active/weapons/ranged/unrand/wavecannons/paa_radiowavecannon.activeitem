@@ -1,0 +1,90 @@
+{
+  "itemName" : "paa_radiowavecannon",
+  "price" : 100,
+  "maxStack" : 1,
+  "rarity" : "common",
+  "description" : "A weapons that launches radio waves.",
+  "shortdescription" : "Radio Wave Launcher",
+  "tooltipKind" : "gun",
+  "category" : "Rocket Launcher",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","ranged","rocketlauncher","reagant"],
+  "level" : 1,
+
+  "inventoryIcon" : "paa_radiowavecannonicon.png",
+  "learnBlueprintsOnPickup" : [
+    "paa_microwavewavecannon"
+  ],
+
+  "animation" : "/items/active/weapons/ranged/gun.animation",
+  "animationParts" : {
+  "butt" : "",
+  "middle" : "paa_radiowavecannon.png",
+   "middlefullbright" : "",
+  "barrel" : "",
+  "muzzleFlash" : "/animations/muzzleflash/blankmuzzle/blankmuzzle.png"
+  },
+  "animationCustom" : {
+  "sounds" : {
+  "fire" : ["/sfx/gun/rifle1.ogg"]
+  }
+  },
+
+  "baseOffset" : [1.0, 0.375],
+  "muzzleOffset" : [2.5, 0],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbility" : {
+  "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+  "class" : "GunFire",
+
+  "fireTime" : 0.3,
+  "baseDps" : 15.0,
+  "energyUsage" : 70,
+  "inaccuracy" : 0.01,
+
+  "projectileCount" : 1,
+  "fireType" : "auto",
+
+  "projectileType" : "paa_wavecannon",
+  "projectileParameters" : {
+  "damageKind" : "default",
+  "knockback" : 5
+  },
+  "stances" : {
+  "idle" : {
+  "armRotation" : 0,
+  "weaponRotation" : 0,
+  "twoHanded" : true,
+
+  "allowRotate" : true,
+  "allowFlip" : true
+  },
+  "fire" : {
+  "duration" : 0.5,
+  "armRotation" : 3,
+  "weaponRotation" : 3,
+  "twoHanded" : true,
+
+  "allowRotate" : false,
+  "allowFlip" : false
+  },
+  "cooldown" : {
+  "duration" : 0.4,
+  "armRotation" : 3,
+  "weaponRotation" : 3,
+  "twoHanded" : true,
+
+  "allowRotate" : false,
+  "allowFlip" : false
+  }
+  }
+  },
+  "altAbilityType" : "markedshot",
+  "altAbility" : { },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

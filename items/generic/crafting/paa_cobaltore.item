@@ -1,0 +1,14 @@
+{
+  "itemName" : "paa_cobaltore",
+  "price" : 27,
+  "rarity" : "uncommon",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "paa_cobaltore.png",
+  "description" : "Some cobalt. This seems familiar...",
+  "shortdescription" : "Cobalt Ore",
+  "itemTags" : ["reagent"],
+  
+  "learnBlueprintsOnPickup" : [
+    "paa_refinedcobalt"
+  ]
+}

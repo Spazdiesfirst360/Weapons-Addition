@@ -1,0 +1,38 @@
+{
+  "type" : "wa_hangarsniper",
+  "baseType" : "hostile",
+
+  "dropPools" : [ "hangarguardtreasure" ],
+
+  "scriptConfig" : {
+    "dialog" : {
+      "attack" : {
+        "default" : {
+          "default" : [
+            "..."
+          ]
+        },
+        "human" : {
+          "default" : [
+            "..."
+          ]
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [ { "name" : "pathfinderhead" }, { "name" : "voyagerhead" } ],
+            "chest" : [ { "name" : "pathfinderchest" }, { "name" : "voyagerchest" } ],
+            "legs" : [ { "name" : "pathfinderlegs" }, { "name" : "voyagerlegs" } ],
+            "primary" : [
+              "wa_tacticalsniper"
+            ]
+          }
+        ] ]
+    ]
+  }
+}

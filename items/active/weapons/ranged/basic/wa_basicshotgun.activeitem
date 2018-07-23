@@ -1,0 +1,87 @@
+{
+  "itemName" : "wa_basicshotgun",
+  "price" : 1080,
+  "maxStack" : 1,
+  "rarity" : "common",
+  "description" : "A shotgun commonly issued to military troops.",
+  "shortdescription" : "Standard Issue Shotgun",
+  "tooltipKind" : "gun",
+  "category" : "Shotgun",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","ranged","shotgun"],
+  "level" : 6,
+
+  "inventoryIcon" : "wa_basicshotgun.png",
+
+  "animation" : "/items/active/weapons/ranged/gun.animation",
+  "animationParts" : {
+  "butt" : "",
+  "middle" : "wa_basicshotgun.png",
+   "middlefullbright" : "",
+  "barrel" : "",
+  "muzzleFlash" : "/items/active/weapons/ranged/muzzleflash.png"
+  },
+  "animationCustom" : {
+  "sounds" : {
+  "fire" : ["/sfx/gun/shotgun2.ogg"]
+  }
+  },
+
+  "baseOffset" : [1.25, 0.25],
+  "muzzleOffset" : [2.5, 0.3125],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbility" : {
+  "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+  "class" : "GunFire",
+
+  "fireTime" : 0.825,
+  "baseDps" : 10.0,
+  "energyUsage" : 31.5,
+  "inaccuracy" : 0.13,
+
+  "projectileCount" : 5,
+  "fireType" : "auto",
+
+  "projectileType" : "standardbullet",
+  "projectileParameters" : {
+  "damageKind" : "default",
+  "knockback" : 25
+  },
+  "stances" : {
+  "idle" : {
+  "armRotation" : 0,
+  "weaponRotation" : 0,
+  "twoHanded" : true,
+
+  "allowRotate" : true,
+  "allowFlip" : true
+  },
+  "fire" : {
+  "duration" : 0,
+  "armRotation" : 8,
+  "weaponRotation" : 8,
+  "twoHanded" : true,
+
+  "allowRotate" : false,
+  "allowFlip" : false
+  },
+  "cooldown" : {
+  "duration" : 0.2,
+  "armRotation" : 8,
+  "weaponRotation" : 8,
+  "twoHanded" : true,
+
+  "allowRotate" : false,
+  "allowFlip" : false
+  }
+  }
+  },
+  "altAbilityType" : "burstshot",
+  "altAbility" : { },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

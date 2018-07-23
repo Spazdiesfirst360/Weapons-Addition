@@ -1,0 +1,42 @@
+{
+  "type" : "wa_scientistmission",
+  "baseType" : "villager",
+  
+
+  "scriptConfig" : {
+    "behaviorConfig" : {
+      "greetingChance" : 0
+    },
+    "dialog" : {
+      "converse" : {
+        "default" : {
+          "default" : [
+            "Help! The lab's been decimated by an accident!",
+			"Someone rigged explosives in numerous locations. I don't know where they went, though.",
+			"Most of the equipment has been destroyed. There's little to salvage, and a lot lost.",
+			"My research is gone.",
+			"What happens now?"
+          ]
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [
+              { "name" : "scientisthead" }
+            ],
+            "chest" : [
+              { "name" : "scientistchest" }
+            ],
+            "legs" : [
+              { "name" : "scientistlegs" }
+            ]
+          }
+        ] ]
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "materialId" : 551,
+  "materialName" : "antimatter",
+  "particleColor" : [255, 255, 255, 255],
+  "itemDrop" : "paa_antimatter",
+  "description" : "How does this not explode when touching matter?",
+  "shortdescription" : "Anti Matter",
+  "footstepSound" : "/sfx/blocks/footstep_rock.ogg",
+  "health" : 4,
+  "category" : "materials",
+  
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "antimatter.png",
+    "variants" : 15,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 1720
+  }
+}

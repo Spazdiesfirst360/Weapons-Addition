@@ -1,0 +1,40 @@
+{
+  "objectName" : "paa_particledisplaybig",
+  "colonyTags" : ["wired","science","electronic"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 300,
+
+  "description" : "The amount of data that is on this screen is ridiculous.",
+  "shortdescription" : "Large Particle Data Screen",
+  "race" : "generic",
+
+  "lightColor" : [89, 149, 179],
+
+  "inventoryIcon" : "paa_particledisplaybigicon.png",
+  "orientations" : [
+    {
+      "image" : "paa_particledisplaybig.png:default.<frame>",
+      "imagePosition" : [-40, -24],
+
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "animation" : "paa_particledisplaybig.animation",
+  "animationParts" : {
+    "bg" : "paa_particledisplaybig.png",
+    "fg" : "paa_particledisplaybiglit.png"
+  },
+  "animationPosition" : [-40, -24],
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+  
+  "interactive" : true,
+
+  "inputNodes" : [ [0, 0] ]
+}

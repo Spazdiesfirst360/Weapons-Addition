@@ -1,0 +1,10 @@
+{
+  "itemName" : "paa_helium",
+  "price" : 0,
+  "rarity" : "Uncommon",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "paa_helium.png",
+  "description" : "Some helium.",
+  "shortdescription" : "Helium",
+  "itemTags" : [ "reagent" ]
+}

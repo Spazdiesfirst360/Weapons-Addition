@@ -1,0 +1,4 @@
+-Releases will occur for large-ish updates (ex.: 1.3.1 or 1.4, but not 1.3.0.1).
+-Minor updates may not ever reach the Steam version.
+-This mod is subject to have bugs and issues. Hopefully you will understand that.
+-This mod is not one-sided. Feel free to suggest ideas and post comments related to the mod.

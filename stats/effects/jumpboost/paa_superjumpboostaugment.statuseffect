@@ -1,0 +1,9 @@
+{
+  "name" : "paa_superjumpboostaugment",
+  "effectConfig" : {},
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "paa_superjumpboost.lua"
+  ]
+}

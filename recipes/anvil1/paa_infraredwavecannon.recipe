@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "paa_microwavewavecannon", "count" : 1 },
+    { "item" : "siliconboard", "count" : 5 },
+	{ "item" : "titaniumbar", "count" : 20 }
+	
+  ],
+  "output" : {
+    "item" : "paa_infraredwavecannon",
+    "count" : 1
+  },
+  "groups" : [ "craftinganvil", "weapons", "all" ]
+}

@@ -1,0 +1,24 @@
+{
+  "metadata" : {
+    "name" : "wa_barracks",
+    "species" : "generic",
+    "rules" : [
+    ],
+	"gravity" : 80,
+    "protected" : false,
+    "anchor" : [ "wa_barracks" ],
+    "maxRadius" : 1000000,
+    "maxParts" : 1,
+    "extendSurfaceFreeSpace" : 100
+  },
+
+  "parts" : [
+    {
+      "name" : "wa_barracks",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "wa_barracks.json" ]
+    }
+  ]
+}

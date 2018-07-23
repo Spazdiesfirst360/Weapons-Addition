@@ -1,0 +1,11 @@
+{
+  "itemName" : "paa_labsupport",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "rare",
+  "inventoryIcon" : "apexshipsupport.png",
+  "description" : "A nice wall support.",
+  "shortdescription" : "Lab Support Beam",
+
+  "materialId" : 554
+}

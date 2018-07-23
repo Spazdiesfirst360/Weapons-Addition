@@ -1,0 +1,97 @@
+{
+  "name" : "wa_weaponscollection",
+  "title" : "[WA] Experimental",
+  "type" : "item",
+
+  "collectables" : {
+
+    "wa_theprototype" : {
+      "order" : 1,
+      "item" : "wa_theprototype"
+    },
+    "wa_superbombcannon" : {
+      "order" : 2,
+      "item" : "wa_superbombcannon"
+    },
+    "wa_rapidgrenadelauncher" : {
+      "order" : 3,
+      "item" : "wa_rapidgrenadelauncher"
+    },
+    "wa_lavaballoongun" : {
+      "order" : 4,
+      "item" : "wa_lavaballoongun"
+    },
+    "wa_poisonballoongun" : {
+      "order" : 5,
+      "item" : "wa_poisonballoongun"
+    },
+    "wa_capturepodrifle" : {
+      "order" : 6,
+      "item" : "wa_capturepodrifle"
+    },
+    "wa_energycrystalrifle" : {
+      "order" : 7,
+      "item" : "wa_energycrystalrifle"
+    },
+    "wa_darkplasmagun" : {
+      "order" : 8,
+      "item" : "wa_darkplasmagun"
+    },
+    "wa_diamondassaultrifle" : {
+      "order" : 9,
+      "item" : "wa_diamondassaultrifle"
+    },
+    "wa_gravityshotgun" : {
+      "order" : 10,
+      "item" : "wa_gravityshotgun"
+    },
+    "wa_molotovcannon" : {
+      "order" : 11,
+      "item" : "wa_molotovcannon"
+    },
+    "wa_trapboulder" : {
+      "order" : 12,
+      "item" : "wa_trapboulder"
+    },
+    "wa_superchargedpistol" : {
+      "order" : 13,
+      "item" : "wa_superchargedpistol"
+    },
+    "wa_handmechmissilelauncher" : {
+      "order" : 14,
+      "item" : "wa_handmechmissilelauncher"
+    },
+    "wa_supersubmachinegatling" : {
+      "order" : 15,
+      "item" : "wa_supersubmachinegatling"
+    },
+    "wa_firesubmachinegatling" : {
+      "order" : 16,
+      "item" : "wa_firesubmachinegatling"
+    },
+    "wa_submachinearrowgatling" : {
+      "order" : 17,
+      "item" : "wa_submachinearrowgatling"
+    },
+    "wa_submachinegatling" : {
+      "order" : 18,
+      "item" : "wa_submachinegatling"
+    },
+    "paa_destroyerofworlds" : {
+      "order" : 19,
+      "item" : "paa_destroyerofworlds"
+    },
+    "wa_starcannon" : {
+      "order" : 20,
+      "item" : "wa_starcannon"
+    },
+    "wa_enhanceddoomcannon" : {
+      "order" : 21,
+      "item" : "wa_enhanceddoomcannon"
+    },
+    "wa_handlunarbaselaser" : {
+      "order" : 22,
+      "item" : "wa_handlunarbaselaser"
+    }
+  }
+}

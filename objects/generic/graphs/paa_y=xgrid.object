@@ -1,0 +1,25 @@
+{
+  "objectName" : "paa_y=xgrid",
+  "colonyTags" : ["misc"],
+  "rarity" : "common",
+  "description" : "A graph of the y=x function. Or is it a graph of the x=y function?",
+  "shortdescription" : "Y=X Function Graph",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 0,
+  "printable" : false,
+
+  "inventoryIcon" : "paa_y=xgridicon.png",
+  "orientations" : [
+    {
+      "image" : "paa_y=xgrid.png:<color>",
+      "imagePosition" : [-80, -80],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "itemName" : "paa_sodiumgrenade",
+  "price" : 50,
+  "rarity" : "Common",
+  "category" : "throwableItem",
+  "inventoryIcon" : "paa_sodiumgrenade.png",
+  "image" : "paa_sodiumgrenade.png",
+  "shortdescription" : "Sodium Grenade",
+  "description" : "Not the best grenade out there, but it will do.",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.4,
+
+  "projectileType" : "paa_zsodiumgrenade",
+  "projectileConfig" : {
+    "speed" : 25,
+    "power" : 43,
+    "periodicActions" : [
+      {
+        "time" : 0,
+        "repeat" : false,
+        "action" : "sound",
+        "options" : [ "/sfx/projectiles/throw_item.ogg" ]
+      }
+    ]
+  }
+}

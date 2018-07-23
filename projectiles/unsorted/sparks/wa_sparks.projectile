@@ -1,0 +1,20 @@
+{
+  "projectileName" : "wa_sparks",
+  "image" : "wa_sparks.png",
+  "physics" : "grenade",
+  "animationCycle" : 0.25,
+  "frameNumber" : 1,
+  "damageKind" : "standardbullet",
+  "pointLight" : false,
+  "flippable" : true,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/bulletexplosion/bulletexplosion.config"
+    }
+  ],
+  "statusEffects" : [ "melting" ],
+  "power" : 10,
+  "speed" : 50,
+  "knockback" : 0
+}

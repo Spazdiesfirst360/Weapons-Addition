@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "sulphur", "count" : 15 }
+  ],
+  "output" : {
+    "item" : "paa_proton",
+    "count" : 16
+  },
+  "groups" : [ "paa_partaccel", "all", "other" ]
+}

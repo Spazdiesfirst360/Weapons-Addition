@@ -1,0 +1,20 @@
+{
+  "projectileName" : "starcannonshot",
+  "image" : "starcannonshot.png",
+  "physics" : "laser",
+  "animationCycle" : 0.05,
+  "frameNumber" : 4,
+  "damageKind" : "standardbullet",
+  "pointLight" : false,
+  "flippable" : true,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/bulletexplosion/bulletexplosion.config"
+    }
+  ],
+  "statusEffects" : [ ],
+  "power" : 50.0,
+  "speed" : 125,
+  "knockback" : 0
+}

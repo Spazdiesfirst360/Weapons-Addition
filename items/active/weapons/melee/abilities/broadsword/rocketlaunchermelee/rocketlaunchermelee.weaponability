@@ -1,0 +1,61 @@
+{
+  "animationParts" : { },
+  "animationCustom" : {
+    "sounds" : {
+      "fireTravelSlash" : [ "/sfx/gun/rocket_fire1.ogg" ],
+      "iceTravelSlash" : [ "/sfx/gun/rocket_ice1.ogg" ],
+      // "electricTravelSlash" : [ "/sfx/melee/travelingslash_electric1.ogg", "/sfx/melee/travelingslash_electric2.ogg", "/sfx/melee/travelingslash_electric3.ogg" ],
+      "electricTravelSlash" : [ "/sfx/gun/rocket_electric1.ogg" ],
+      "poisonTravelSlash" : [ "/sfx/gun/rocket_poison1.ogg" ]
+    }
+  },
+
+  "ability" : {
+    "name" : "Rocket Launcher",
+    "type" : "rocketlaunchermelee",
+    "scripts" : ["/items/active/weapons/melee/abilities/broadsword/rocketlaunchermelee/rocketlaunchermelee.lua"],
+    "class" : "RocketMelee",
+
+    "projectileOffset" : [2.0, 0.3],
+    "elementalConfig" : {
+      "physical" : { },
+      "fire" : {
+        "projectileType" : "fireplasmarocketstatus"
+      },
+      "ice" : {
+        "projectileType" : "iceplasmarocketstatus"
+      },
+      "poison" : {
+        "projectileType" : "poisonplasmarocketstatus"
+      },
+      "electric" : {
+        "projectileType" : "electricplasmarocketstatus"
+      }
+    },
+
+    "baseDamage" : 10.5,
+    "energyUsage" : 38,
+    "cooldownTime" : 0.5,
+
+    "stances" : {
+      "windup" : {
+        "duration" : 0.0,
+        "armRotation" : 5,
+        "weaponRotation" : -95,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "fire" : {
+        "duration" : 1.25,
+        "armRotation" : 10,
+        "weaponRotation" : -95,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+    }
+  }
+}

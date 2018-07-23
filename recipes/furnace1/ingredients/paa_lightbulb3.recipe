@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "paa_tungstenwire", "count" : 2 },
+	{ "item" : "glass", "count" : 4 }
+  ],
+  "output" : {
+    "item" : "lightbulb3",
+    "count" : 1
+  },
+  "groups" : [ "craftingfurnace", "ingredients" ]
+}

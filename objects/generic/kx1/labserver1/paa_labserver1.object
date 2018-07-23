@@ -1,0 +1,65 @@
+{
+  "objectName" : "paa_labserver1",
+  "colonyTags" : ["science","electronic"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 135,
+  "description" : "It's a large server cabinet, made to handle large servers.",
+  "shortdescription" : "Lab Server Cabinet",
+  "race" : "generic",
+  "collectablesOnPickup" : { "paa_kx1collection" : "paa_labserver1" },
+
+  "apexDescription" : "A server cabinet.",
+  "avianDescription" : "An unremarkable server cabinet.",
+  "floranDescription" : "Beepy machines do not interessst this Floran.",
+  "glitchDescription" : "Curious. A server cabinet. What information could it contain?",
+  "humanDescription" : "A server.",
+  "hylotlDescription" : "A server cluster.",
+  "novakidDescription" : "A machine containin' information.",
+
+  "lightColor" : [38, 50, 64],
+
+  "inventoryIcon" : "bunkerservericon.png",
+  "orientations" : [
+    {
+      "image" : "paa_labserver1.png:default.<frame>",
+      "imagePosition" : [-16, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "lightPosition" : [0, 3],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    },
+    {
+      "image" : "paa_labserver1.png:default.<frame>",
+      "imagePosition" : [-16, 0],
+      "direction" : "right",
+
+      "lightPosition" : [0, 3],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+  ],
+
+  "animation" : "/objects/wired/light/lighttogglebgfullbright.animation",
+  "animationParts" : {
+    "bg" : "paa_labserver1.png",
+    "fg" : "paa_labserver1lit.png"
+  },
+  "animationPosition" : [ -16, 0 ],
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "inputNodes" : [ [0, 3] ],
+
+  "interactive" : false,
+
+  "soundEffect" : "/sfx/objects/bunkerserver.ogg"
+
+}

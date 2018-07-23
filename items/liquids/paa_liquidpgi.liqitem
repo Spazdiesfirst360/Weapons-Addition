@@ -1,0 +1,10 @@
+{
+  "itemName" : "paa_liquidpgi",
+  "rarity" : "legendary",
+  "category" : "liquid",
+  "inventoryIcon" : "paa_liquidpgiicon.png",
+  "shortdescription" : "Perfectly Generic Liquid",
+  "description" : "Molten Perfectly Generic Items? What a waste!",
+
+  "liquid" : "paa_pgiliquid"
+}

@@ -1,0 +1,24 @@
+{
+  "itemName" : "paa_extrememiner",
+  "price" : 0,
+  "category" : "Tool",
+  "inventoryIcon" : "paa_extrememinericon.png",
+  "maxStack" : 1,
+  "rarity" : "legendary",
+  "description" : "Pickaxes are so last millennium! Lasers are the future.",
+  "shortdescription" : "Quantum Laser",
+  "tooltipKind" : "tool",
+  "largeImage" : "paa_extrememinerbig.png",
+  "collectablesOnPickup" : { "wa_supercollection" : "paa_extrememiner" },
+
+  "image" : "paa_extrememiner.png:{frame}",
+  "frames" : 2,
+  "animationCycle" : 0.5,
+  "handPosition" : [-5, -5],
+  "fireTime" : 0.25,
+  "blockRadius" : 20,
+  "altBlockRadius" : 1,
+  "twoHanded" : true,
+  "strikeSounds" : [ "/sfx/tools/pickaxe_hit.ogg" ],
+  "durability" : 1000000
+}

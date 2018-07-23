@@ -1,0 +1,165 @@
+{
+  "metadata" : {
+    "name" : "wa_majorcampfriendlydesert",
+    "species" : "generic",
+    "rules" : [
+    ],
+    "anchor" : [ "wa_majorcampfriendlydesertfront", "wa_majorcampfriendlydesertback" ],
+    "gravity" : 80,
+    "maxRadius" : 1000000,
+    "maxParts" : 15,
+    "extendSurfaceFreeSpace" : 100,
+    "protected" : true
+  },
+
+  "parts" : [
+    {
+      "name" : "wa_majorcampfriendlydeserttower1",
+      "rules" : [
+        [ "maxSpawnCount", [3] ],
+        [ "doNotConnectToPart", [ "wa_majorcampfriendlydeserttower1" ] ]
+
+      ],
+      "def" : [ "tmx", "wa_majorcampfriendlydeserttower1.json" ]
+    },
+    {
+      "name" : "wa_majorcampfriendlydeserttower2",
+      "rules" : [
+        [ "maxSpawnCount", [3] ],
+        [ "doNotConnectToPart", [ "wa_majorcampfriendlydeserttower2" ] ]
+
+      ],
+      "def" : [ "tmx", "wa_majorcampfriendlydeserttower2.json" ]
+    },
+    {
+      "name" : "wa_majorcampfriendlydesertstorage1",
+      "rules" : [
+        [ "maxSpawnCount", [3] ],
+        [ "doNotConnectToPart", [ "wa_majorcampfriendlydesertstorage1" ] ]
+
+      ],
+      "def" : [ "tmx", "wa_majorcampfriendlydesertstorage1.json" ]
+    },
+    {
+      "name" : "wa_majorcampfriendlydesertstorage1secret",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotConnectToPart", [ "wa_majorcampfriendlydesertstorage1secret" ] ],
+        [ "doNotCombineWith", [ "wa_majorcampfriendlydesertstorage1", "wa_majorcampfriendlydesertstorage2secret", "wa_majorcampfriendlydesertstorage3secret", "wa_majorcampfriendlydeserttents3secret", "wa_majorcampfriendlydesertcraftingsecret" ] ]
+
+      ],
+      "def" : [ "tmx", "wa_majorcampfriendlydesertstorage1secret.json" ]
+    },
+    {
+      "name" : "wa_majorcampfriendlydesertstorage2",
+      "rules" : [
+        [ "maxSpawnCount", [3] ],
+        [ "doNotConnectToPart", [ "wa_majorcampfriendlydesertstorage2" ] ]
+
+      ],
+      "def" : [ "tmx", "wa_majorcampfriendlydesertstorage2.json" ]
+    },
+    {
+      "name" : "wa_majorcampfriendlydesertstorage2secret",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotConnectToPart", [ "wa_majorcampfriendlydesertstorage2secret" ] ],
+        [ "doNotCombineWith", [ "wa_majorcampfriendlydesertstorage2", "wa_majorcampfriendlydesertstorage1secret", "wa_majorcampfriendlydesertstorage3secret", "wa_majorcampfriendlydeserttents3secret", "wa_majorcampfriendlydesertcraftingsecret" ] ]
+
+      ],
+      "def" : [ "tmx", "wa_majorcampfriendlydesertstorage2secret.json" ]
+    },
+    {
+      "name" : "wa_majorcampfriendlydesertstorage3",
+      "rules" : [
+        [ "maxSpawnCount", [3] ],
+        [ "doNotConnectToPart", [ "wa_majorcampfriendlydesertstorage3" ] ]
+
+      ],
+      "def" : [ "tmx", "wa_majorcampfriendlydesertstorage3.json" ]
+    },
+    {
+      "name" : "wa_majorcampfriendlydesertstorage3secret",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotConnectToPart", [ "wa_majorcampfriendlydesertstorage3secret" ] ],
+        [ "doNotCombineWith", [ "wa_majorcampfriendlydesertstorage3", "wa_majorcampfriendlydesertstorage1secret", "wa_majorcampfriendlydesertstorage2secret", "wa_majorcampfriendlydeserttents3secret", "wa_majorcampfriendlydesertcraftingsecret" ] ]
+
+      ],
+      "def" : [ "tmx", "wa_majorcampfriendlydesertstorage3secret.json" ]
+    },
+    {
+      "name" : "wa_majorcampfriendlydeserttents1",
+      "rules" : [
+        [ "maxSpawnCount", [3] ],
+        [ "doNotConnectToPart", [ "wa_majorcampfriendlydeserttents1" ] ]
+
+      ],
+      "def" : [ "tmx", "wa_majorcampfriendlydeserttents1.json" ]
+    },
+    {
+      "name" : "wa_majorcampfriendlydeserttents2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotConnectToPart", [ "wa_majorcampfriendlydeserttents2" ] ]
+
+      ],
+      "def" : [ "tmx", "wa_majorcampfriendlydeserttents2.json" ]
+    },
+    {
+      "name" : "wa_majorcampfriendlydeserttents3",
+      "rules" : [
+        [ "maxSpawnCount", [3] ],
+        [ "doNotConnectToPart", [ "wa_majorcampfriendlydeserttents3" ] ]
+
+      ],
+      "def" : [ "tmx", "wa_majorcampfriendlydeserttents3.json" ]
+    },
+    {
+      "name" : "wa_majorcampfriendlydeserttents3secret",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotConnectToPart", [ "wa_majorcampfriendlydeserttents3secret" ] ],
+        [ "doNotCombineWith", [ "wa_majorcampfriendlydeserttents3", "wa_majorcampfriendlydesertstorage1secret", "wa_majorcampfriendlydesertstorage2secret", "wa_majorcampfriendlydesertstorage3secret", "wa_majorcampfriendlydesertcraftingsecret"  ] ]
+
+      ],
+      "def" : [ "tmx", "wa_majorcampfriendlydeserttents3secret.json" ]
+    },
+    {
+      "name" : "wa_majorcampfriendlydesertcrafting",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotConnectToPart", [ "wa_majorcampfriendlydesertcrafting" ] ]
+
+      ],
+      "def" : [ "tmx", "wa_majorcampfriendlydesertcrafting.json" ]
+    },
+    {
+      "name" : "wa_majorcampfriendlydesertcraftingsecret",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotConnectToPart", [ "wa_majorcampfriendlydesertcraftingsecret" ] ],
+        [ "doNotCombineWith", [ "wa_majorcampfriendlydesertcrafting", "wa_majorcampfriendlydesertstorage1secret", "wa_majorcampfriendlydesertstorage2secret", "wa_majorcampfriendlydesertstorage3secret", "wa_majorcampfriendlydeserttents3secret"  ] ]
+
+      ],
+      "def" : [ "tmx", "wa_majorcampfriendlydesertcraftingsecret.json" ]
+    },
+    {
+      "name" : "wa_majorcampfriendlydesertfront",
+      "rules" : [
+        [ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", [ "wa_majorcampfriendlydesertfront.json" ] ],
+      "chance" : 0
+    },
+
+    {
+      "name" : "wa_majorcampfriendlydesertback",
+      "rules" : [
+        [ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", [ "wa_majorcampfriendlydesertback.json" ] ],
+      "chance" : 0
+    }
+  ]
+}

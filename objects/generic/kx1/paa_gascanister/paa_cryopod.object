@@ -1,0 +1,37 @@
+{
+  "objectName" : "paa_cryopod",
+  "colonyTags" : ["industrial","storage"],
+  "rarity" : "Common",
+  "category" : "fridgeStorage",
+  "price" : 180,
+  "printable" : false,
+  "description" : "Uses liquid nitrogen to keep things \"very\" cold.",
+  "shortdescription" : "Cylindrical Blast Freezer",
+  "race" : "generic",
+  "health" : 10,
+
+  "inventoryIcon" : "paa_gascanistericon.png",
+  "orientations" : [
+    {
+      "dualImage" : "paa_gascanister.png:<color>.<key>",
+      "imagePosition" : [-12, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+
+  ],
+
+  "objectType" : "container",
+  "tooltipKind" : "container",
+  "openSounds" : [ "/sfx/objects/metaldoor_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/metaldoor_close.ogg" ],
+  "slotCount" : 24,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600,
+
+  "itemAgeMultiplier" : 0.0,
+
+  "soundEffect" : "/sfx/objects/fridge_hum.ogg"
+}

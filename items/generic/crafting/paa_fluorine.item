@@ -1,0 +1,10 @@
+{
+  "itemName" : "paa_fluorine",
+  "price" : 10,
+  "rarity" : "common",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "paa_fluorine.png",
+  "description" : "Some fluorine.",
+  "shortdescription" : "Fluorine",
+  "itemTags" : [ "reagent" ]
+}

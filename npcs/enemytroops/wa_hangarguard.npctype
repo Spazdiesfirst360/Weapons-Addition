@@ -1,0 +1,38 @@
+{
+  "type" : "wa_hangarguard",
+  "baseType" : "hostile",
+
+  "dropPools" : [ "hangarguardtreasure" ],
+
+  "scriptConfig" : {
+    "dialog" : {
+      "attack" : {
+        "default" : {
+          "default" : [
+            "Leave now!"
+          ]
+        },
+        "human" : {
+          "default" : [
+            "Leave now!"
+          ]
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [ { "name" : "pathfinderhead" }, { "name" : "voyagerhead" } ],
+            "chest" : [ { "name" : "pathfinderchest" }, { "name" : "voyagerchest" } ],
+            "legs" : [ { "name" : "pathfinderlegs" }, { "name" : "voyagerlegs" } ],
+            "primary" : [
+              "wa_taserrifle"
+            ]
+          }
+        ] ]
+    ]
+  }
+}

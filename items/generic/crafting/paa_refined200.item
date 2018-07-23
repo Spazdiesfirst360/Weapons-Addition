@@ -1,0 +1,10 @@
+{
+  "itemName" : "paa_refined200",
+  "price" : 10000,
+  "rarity" : "legendary",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "paa_refined200.png",
+  "description" : "This took a long time to melt...",
+  "shortdescription" : "^#00FFFF;Azurium Crystal^reset;",
+  "itemTags" : [ "reagent" ]
+}

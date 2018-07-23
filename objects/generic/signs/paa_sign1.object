@@ -1,0 +1,25 @@
+{
+  "objectName" : "paa_sign1",
+  "colonyTags" : ["misc"],
+  "rarity" : "common",
+  "description" : "A sign for a Lab Equipment and Material manufacturer.",
+  "shortdescription" : "KX-1 Facilities Sign",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 0,
+  "printable" : false,
+
+  "inventoryIcon" : "paa_sign1.png",
+  "orientations" : [
+    {
+      "image" : "paa_sign1.png:<color>",
+      "imagePosition" : [-52, -16],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

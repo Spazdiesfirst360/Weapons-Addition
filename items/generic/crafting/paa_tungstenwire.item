@@ -1,0 +1,13 @@
+{
+  "itemName" : "paa_tungstenwire",
+  "price" : 10,
+  "rarity" : "common",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "paa_tungstenwire.png",
+  "description" : "Wire made of tungsten.",
+  "shortdescription" : "Tungsten Wire",
+  "itemTags" : [ "reagent" ],
+  "learnBlueprintsOnPickup" : [
+    "paa_lightbulb3"
+  ]
+}

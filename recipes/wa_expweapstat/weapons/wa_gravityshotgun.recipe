@@ -1,0 +1,14 @@
+{
+  "input" : [
+    { "item" : "durasteelbar", "count" : 10 },
+	{ "item" : "titaniumbar", "count" : 10 },
+	{ "item" : "siliconboard", "count" : 10 },
+	{ "item" : "wire", "count" : 10 },
+	{ "item" : "wa_hitechlimiter", "count" : 5 }
+  ],
+  "output" : {
+    "item" : "wa_gravityshotgun",
+    "count" : 1
+  },
+  "groups" : [ "wa_expweapstat", "weapons" ]
+}

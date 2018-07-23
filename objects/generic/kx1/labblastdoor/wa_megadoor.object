@@ -1,0 +1,58 @@
+{
+  "objectName" : "wa_megadoor",
+  "colonyTags" : ["science","door"],
+  "rarity" : "legendary",
+
+  "category" : "door",
+  "price" : 0,
+  "description" : "Holy crap, that is enormous!",
+  "shortdescription" : "Hangar Blast Door",
+  "race" : "generic",
+  "health" : 1000,
+
+  "inventoryIcon" : "paa_labblastdooricon.png",
+  "orientations" : [
+    {
+      "image" : "wa_megadoor.png:default",
+      "flipImages" : true,
+      "imagePosition" : [-40, 0],
+      "renderLayer" : "Object+5",
+      "spaceScan" : 0.99,
+      "anchors" : [ "bottom", "top" ],
+      "direction" : "left"
+    },
+    {
+      "image" : "wa_megadoor.png:default",
+      "imagePosition" : [-40, 0],
+      "renderLayer" : "Object+5",
+      "spaceScan" : 0.99,
+      "anchors" : [ "bottom", "top" ],
+      "direction" : "right"
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/door/door.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/door/fullbrightbasicdoor.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "open" : {
+        "pool" : [ "/sfx/objects/apexcooldoor_open.ogg" ],
+        "rangeMultiplier" : 0.5
+      },
+      "close" : {
+        "pool" : [ "/sfx/objects/apexcooldoor_close.ogg" ],
+        "rangeMultiplier" : 0.5
+      }
+    }
+  },
+  "animationParts" : {
+    "bg" : "wa_megadoor.png",
+	"fg" : "wa_megadoorlit.png"
+  },
+  "animationPosition" : [-40, 0],
+
+  "inputNodes" : [ [-1, 4] ],
+  "outputNodes" : [ [0, 0] ]
+}

@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "paa_handheatlaser", "count" : 1 },
+	{ "item" : "paa_handflakgun", "count" : 1 },
+	{ "item" : "paa_handenergybeam", "count" : 1 },
+	{ "item" : "paa_fuelcanister", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "wa_theprototype",
+    "count" : 1
+  },
+  "groups" : [ "wa_expweapstat", "weapons" ]
+}

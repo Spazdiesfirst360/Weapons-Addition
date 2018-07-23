@@ -1,0 +1,39 @@
+{
+// ---Ultra Base Campaign---
+  "wa_ultrabaseIntro" : {
+    "type" : "mission",
+    "text" : "This is a unknown forest planet at an unknown location. I advise that you come up with a plan quickly."
+  },
+  "wa_ultrabaseLoop" : {
+  "type" : "mission",
+  "text" : "This radar will beam you to an unknown location. I advise you proceed with caution."
+  },
+  "wa_ultrabase1" : {
+  "type" : "mission",
+  "text" : "This planet has unknown coordinates. Proceed with caution, or you may put yourself in danger."
+  },
+  "wa_ultrabase2" : {
+    "type" : "mission",
+    "text" : "^red;DANGER! HIGH ENEMY ACTIVITY DETECTED! PROCEED CAUTIOUSLY!^reset;"
+  },
+  "wa_ultrabase3" : {
+    "type" : "mission",
+    "text" : "This station was developed to contain weapon development activity. There is probably a large number of enemies on board."
+  },
+  "wa_ultrabase4" : {
+    "type" : "mission",
+    "text" : "The motion sensors onboard have detected you. The system has deactivated main power to re-route it into the weapons system."
+  },
+  "wa_ultrabase5" : {
+    "type" : "mission",
+    "text" : "It will be very dark, you may want a light source. Also a very good weapon."
+  },
+  "wa_ultrabaseDetectWeapon" : {
+    "type" : "mission",
+    "text" : "My scanners are detecting an unknown danger source ahead. Be cautious."
+  },
+  "wa_ultrabaseBoss" : {
+    "type" : "mission",
+    "text" : "The facility is controlled by an artificial intelligence. You may want to grab something that can put a dent in just about anything."
+  }
+}

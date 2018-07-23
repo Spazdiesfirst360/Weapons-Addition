@@ -1,0 +1,87 @@
+{
+  "itemName" : "paa_shockitem",
+  "price" : 10000,
+  "maxStack" : 1,
+  "rarity" : "rare",
+  "description" : "A device that uses electrical energy.",
+  "shortdescription" : "Shock Device",
+  "tooltipKind" : "gun",
+  "category" : "Assault Rifle/Shotgun",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","ranged","assaultrifle","shotgun"],
+  "level" : 6,
+
+  "inventoryIcon" : "paa_shockitem.png",
+
+  "animation" : "/items/active/weapons/ranged/gun.animation",
+  "animationParts" : {
+  "butt" : "",
+  "middle" : "paa_shockitem.png",
+   "middlefullbright" : "",
+  "barrel" : "",
+  "muzzleFlash" : "/items/active/weapons/ranged/muzzleflashes/nomuzzle.png"
+  },
+  "animationCustom" : {
+  "sounds" : {
+  "fire" : ["/sfx/gun/rifle2.ogg"]
+  }
+  },
+
+  "baseOffset" : [0.2, 0.375],
+  "muzzleOffset" : [2.5, 0],
+
+  "scripts" : ["/items/active/weapons/ranged/shockgun.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbility" : {
+  "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+  "class" : "GunFire",
+
+  "fireTime" : 0.45,
+  "baseDps" : 66.6,
+  "energyUsage" : 50,
+  "inaccuracy" : 0.5,
+
+  "projectileCount" : 3,
+  "fireType" : "auto",
+
+  "projectileType" : "railgunlightning",
+  "projectileParameters" : {
+  "damageKind" : "default",
+  "knockback" : 5
+  },
+  "stances" : {
+  "idle" : {
+  "armRotation" : 0,
+  "weaponRotation" : 0,
+  "twoHanded" : true,
+
+  "allowRotate" : true,
+  "allowFlip" : true
+  },
+  "fire" : {
+  "duration" : 0.01,
+  "armRotation" : 3,
+  "weaponRotation" : 3,
+  "twoHanded" : true,
+
+  "allowRotate" : false,
+  "allowFlip" : false
+  },
+  "cooldown" : {
+  "duration" : 0.025,
+  "armRotation" : 3,
+  "weaponRotation" : 3,
+  "twoHanded" : true,
+
+  "allowRotate" : false,
+  "allowFlip" : false
+  }
+  }
+  },
+  "altAbilityType" : "spray",
+  "altAbility" : { },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

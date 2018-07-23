@@ -1,0 +1,115 @@
+{
+  "itemName" : "wa_lasersnipergun2",
+  "price" : 10000,
+  "inventoryIcon" : "wa_lasersnipergun2.png:idle",
+  "maxStack" : 1,
+  "rarity" : "legendary",
+  "description" : "In case of overheat, replace user first.",
+  "shortdescription" : "Laser Sniper Rifle",
+  "category" : "Laser Weapon",
+  "itemTags" : [ "weapon","ranged" ],
+  "twoHanded" : true,
+  "tooltipKind" : "gun",
+  "level" : 7,
+	
+  "animation" : "wa_lasersnipergun.animation",
+  "animationParts" : {
+    "beamorigin" : "beamorigin.png",
+    "gnome" : "wa_lasersnipergun2.png",
+    "gnomefullbright" : "wa_lasersnipergun2fullbright.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fireStart" : [ "/sfx/gun/erchiuseyebeam_start.ogg" ],
+      "fireLoop" : [ "/sfx/gun/erchiuseyebeam_loop.ogg" ],
+      "fireEnd" : [ "/sfx/gun/erchiuseyebeam_stop.ogg" ],
+      "beamImpact" : [ "/sfx/gun/gnomebeam_hit_ground.ogg" ]
+    }
+  },
+  "animationScripts" : ["/items/active/effects/chain.lua"],
+  "baseOffset" : [1.0, 0.375],
+  "muzzleOffset" : [3.0, 0.1],
+  
+  "scripts" : [ "/items/active/weapons/ranged/plasmagun.lua" ],
+  
+
+  "elementalType" : "fire",
+  
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/beamfire.lua"],
+    "class" : "BeamFire",
+
+    "fireTime" : 0.35,
+    "baseDps" : 571.4,
+    "energyUsage" : 100,
+
+    "damageConfig" : {
+      "statusEffects" : [ "burning" ],
+      "damageSourceKind" : "fire",
+      "knockback" : 5
+    },
+
+    "beamLength" : 100,
+
+    "chain" : {
+      "startOffset" : [0, 0],
+      "startSegmentImage" : "/items/active/weapons/ranged/unrand/beamsniper/beamstart.png",
+      "segmentImage" : "/items/active/weapons/ranged/unrand/beamsniper/beammiddle.png",
+      "endSegmentImage" : "/items/active/weapons/ranged/unrand/beamsniper/beamend.png",
+      "segmentSize" : 0.28,
+      "overdrawLength" : 0.0,
+      "taper" : 0,
+      "waveform" : {
+        "frequency" : 0.01,
+        "amplitude" : 0.0,
+        "movement" : 0.0
+      },
+      "fullbright" : true
+    },
+
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true,
+
+        "animationStates" : {
+          "gnome" : "squirm",
+          "gnomefullbright" : "squirm"
+        }
+      },
+      "fire" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true,
+
+        "animationStates" : {
+          "gnome" : "fire",
+          "gnomefullbright" : "fire"
+        }
+      },
+      "cooldown" : {
+        "duration" : 0.75,
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true,
+
+        "animationStates" : {
+          "gnome" : "idle",
+          "gnomefullbright" : "idle"
+        }
+      }
+    }
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

@@ -1,0 +1,20 @@
+{
+	"input": [{
+			"item": "titaniumbar",
+			"count": 20
+		},
+		{
+			"item": "durasteelbar",
+			"count": 20
+		},
+		{
+			"item": "battery",
+			"count": 4
+		}
+	],
+	"output": {
+		"item": "ms_masssmelter",
+		"count": 1
+	},
+	"groups": ["inventorstable3", "craftingstations", "all"]
+}

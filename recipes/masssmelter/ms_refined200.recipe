@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "paa_element200", "count" : 2 }
+  ],
+  "output" : { "item" : "paa_refined200", "count" : 1 },
+  "duration" : 0.25,
+  "groups" : [ "ms_masssmelter" ]
+}

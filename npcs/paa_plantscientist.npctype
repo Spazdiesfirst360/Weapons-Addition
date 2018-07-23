@@ -1,0 +1,44 @@
+{
+  "type" : "paa_plantscientist",
+  "baseType" : "villager",
+  
+
+  "scriptConfig" : {
+    "behaviorConfig" : {
+      "greetingChance" : 0
+    },
+    "dialog" : {
+      "converse" : {
+        "default" : {
+          "default" : [
+            "This facility is designed to grow and maintain plants of any type. Can be fun, but can also be a pain.",
+			"You wouldn't want to work here for a living.",
+			"Are you interested in Botany? I am.",
+			"My research took a bad turn recently. Do you have any advice?",
+			"I often wonder how the rest of the universe is doing. We don't get to go outside very often.",
+			"Give me a microscope, some paper and a pen, and I'm good to go.",
+			"Shipments only come once every month. If you run out of supplies in a facility like this, you're doomed."
+          ]
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [
+              { "name" : "scientisthead" }
+            ],
+            "chest" : [
+              { "name" : "scientistchest" }
+            ],
+            "legs" : [
+              { "name" : "scientistlegs" }
+            ]
+          }
+        ] ]
+    ]
+  }
+}

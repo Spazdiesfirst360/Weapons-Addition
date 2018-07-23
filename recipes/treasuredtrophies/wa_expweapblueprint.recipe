@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "perfectlygenericitem", "count" : 10 }
+  ],
+  "output" : {
+    "item" : "wa_expweapblueprint",
+    "count" : 1
+  },
+  "groups" : [ "treasuredtrophies", "all" ]
+}

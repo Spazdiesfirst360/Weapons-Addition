@@ -1,0 +1,84 @@
+[
+  {
+    "op": "add",
+    "path": "/paa_randomHarvest",
+    "value": [
+      [
+        0,
+        {
+          "pool": [
+            {
+              "weight": 0.20,
+              "item": "paa_specialliquid"
+            },
+			{
+			  "weight": 0.16,
+			  "item": "perfectlygenericitem"
+			},
+			{
+			  "weight": 0.16,
+			  "item": "wa_superswordmaterial1"
+			},
+			{
+			  "weight": 0.16,
+			  "item": "wa_superswordmaterial2"
+			},
+			{
+			  "weight": 0.16,
+			  "item": "wa_superswordmaterial3"
+			},
+			{
+			  "weight": 0.16,
+			  "item": "wa_superswordmaterial4"
+			}
+          ],
+          "poolRounds": [
+            [
+              0.5,
+              1
+            ],
+            [
+              0.25,
+              2
+            ],
+            [
+              0.25,
+              3
+            ]
+          ]
+        }
+      ]
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/wa_nukeHarvest",
+    "value": [
+      [
+        0,
+        {
+          "pool": [
+            {
+              "weight": 1.0,
+              "item": "wa_nukethrown"
+            }
+          ],
+          "poolRounds": [
+            [
+              0.4,
+              1
+            ],
+            [
+              0.3,
+              2
+            ],
+            [
+              0.3,
+              3
+            ]
+          ]
+        }
+      ]
+    ]
+  }
+]

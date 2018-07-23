@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "paa_proton", "count" : 93 },
+	{ "item" : "paa_electron", "count" : 93 }
+  ],
+  "output" : {
+    "item" : "neptuniumore",
+    "count" : 1
+  },
+  "groups" : [ "paa_partaccel", "all", "other" ]
+}

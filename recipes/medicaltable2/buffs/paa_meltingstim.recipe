@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "liquidlava", "count" : 10 },
+    { "item" : "syringe", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "paa_meltingstim",
+    "count" : 1
+  },
+  "groups" : [ "craftingmedical2", "buffs" ]
+}

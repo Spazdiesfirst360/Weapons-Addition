@@ -1,0 +1,54 @@
+{
+  "type" : "wa_hangar",
+  "baseType" : "hostile",
+
+  "dropPools" : [ "hangarguardtreasure" ],
+
+  "scriptConfig" : {
+    "dialog" : {
+      "attack" : {
+        "default" : {
+          "default" : [
+            "Hey! Your not supposed to be here!",
+			"What are you doing here?!",
+			"Not one of you again!",
+			"Only people with special security clearance can access this area!",
+			"We might want to take this outside...",
+			"Can't you see we're busy right now? Well, I guess we have the time to take care of you...",
+			"You are outnumbered! Surrender or fall!"
+          ]
+        },
+        "human" : {
+          "default" : [
+            "Hey! Your not supposed to be here!",
+			"What are you doing here?!",
+			"Not one of you again!",
+			"Only people with special security clearance can access this area!",
+			"We might want to take this outside...",
+			"Can't you see we're busy right now? Well, I guess we have the time to take care of you...",
+			"You are outnumbered! Surrender or fall!"
+          ]
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [ { "name" : "pathfinderhead" }, { "name" : "voyagerhead" } ],
+            "chest" : [ { "name" : "pathfinderchest" }, { "name" : "voyagerchest" } ],
+            "legs" : [ { "name" : "pathfinderlegs" }, { "name" : "voyagerlegs" } ],
+            "primary" : [
+              "wa_tacticalpistol",
+			  "wa_tacticalrifle",
+			  "wa_tacticalrocketlauncher",
+			  "wa_tacticalshotgun",
+			  "wa_rangedbroadsword"
+            ]
+          }
+        ] ]
+    ]
+  }
+}

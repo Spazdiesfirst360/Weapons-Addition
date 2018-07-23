@@ -1,0 +1,61 @@
+{
+  "animationParts" : { },
+  "animationCustom" : {
+    "sounds" : {
+      "fireTravelSlash" : [ "/sfx/gun/ar2.ogg" ],
+      "iceTravelSlash" : [ "/sfx/gun/ar3.ogg" ],
+      // "electricTravelSlash" : [ "/sfx/melee/travelingslash_electric1.ogg", "/sfx/melee/travelingslash_electric2.ogg", "/sfx/melee/travelingslash_electric3.ogg" ],
+      "electricTravelSlash" : [ "/sfx/gun/ar4.ogg" ],
+      "poisonTravelSlash" : [ "/sfx/gun/ar5.ogg" ]
+    }
+  },
+
+  "ability" : {
+    "name" : "Assault Rifle",
+    "type" : "assaultriflemelee",
+    "scripts" : ["/items/active/weapons/melee/abilities/broadsword/assaultriflemelee/assaultriflemelee.lua"],
+    "class" : "AssaultMelee",
+
+    "projectileOffset" : [2.0, 0.3],
+    "elementalConfig" : {
+      "physical" : { },
+      "fire" : {
+        "projectileType" : "gunswordbullet"
+      },
+      "ice" : {
+        "projectileType" : "gunswordbullet"
+      },
+      "poison" : {
+        "projectileType" : "gunswordbullet"
+      },
+      "electric" : {
+        "projectileType" : "gunswordbullet"
+      }
+    },
+
+    "baseDamage" : 21.0,
+    "energyUsage" : 5,
+    "cooldownTime" : 0.1,
+
+    "stances" : {
+      "windup" : {
+        "duration" : 0.02,
+        "armRotation" : 5,
+        "weaponRotation" : -95,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "fire" : {
+        "duration" : 0.01,
+        "armRotation" : 7,
+        "weaponRotation" : -95,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "type" : "wa_soldierboss",
+  "baseType" : "wa_hostileleader",
+
+  "dropPools" : [ "wa_soldierbossloot" ],
+
+  "scriptConfig" : {
+    "dialog" : {
+      "attack" : {
+        "default" : {
+          "default" : [
+            "You will never win! The force your fighting will always exist!"
+          ]
+        },
+        "human" : {
+          "default" : [
+            "You will never win! The force your fighting will always exist!"
+          ]
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [ { "name" : "wa_captainshead" } ],
+            "chest" : [ { "name" : "wa_soldierchest" } ],
+            "legs" : [ { "name" : "wa_soldierlegs" } ],
+            "primary" : [
+			  "wa_handlunarbaselaser"
+            ]
+          }
+        ] ]
+    ]
+  }
+}

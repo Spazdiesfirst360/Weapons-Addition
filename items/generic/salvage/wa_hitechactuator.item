@@ -1,0 +1,10 @@
+{
+  "itemName" : "wa_hitechactuator",
+  "price" : 100,
+  "rarity" : "rare",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "wa_hitechactuator.png",
+  "description" : "A very, very high end actuator.",
+  "shortdescription" : "Hi-Tech Actuator",
+  "itemTags" : [ "reagent" ]
+}

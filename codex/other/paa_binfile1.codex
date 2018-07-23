@@ -1,0 +1,13 @@
+{
+	"id": "paa_binfile1",
+	"title": "Binary File 0001",
+	"description": "A random file in binary.",
+	"icon": "wa_shiplog.png",
+	"contentPages": [
+		""
+	],
+	"itemConfig": {
+		"rarity": "common",
+		"price": 1
+	}
+}

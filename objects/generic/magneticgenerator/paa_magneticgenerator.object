@@ -1,0 +1,26 @@
+{
+  "objectName" : "paa_magneticgenerator",
+  "colonyTags" : ["science", "odd"],
+  "rarity" : "rare",
+  "category" : "decorative",
+  "price" : 1000,
+  "description" : "A machine that generates a magnetic field.",
+  "shortdescription" : "Magnetic Field Generator",
+  "race" : "generic",
+
+  "inventoryIcon" : "paa_magneticgeneratoricon.png",
+  "orientations" : [
+    {
+      "dualImage" : "paa_magneticgenerator.png:default.<frame>",
+
+      "imagePosition" : [-36, 0],
+      "frames" : 55,
+      "animationCycle" : 0.1,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ]
+
+    }
+  ],
+  "soundEffect" : "/sfx/objects/plasmadisc.ogg"
+}

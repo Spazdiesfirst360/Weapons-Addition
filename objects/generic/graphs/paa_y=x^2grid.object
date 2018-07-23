@@ -1,0 +1,25 @@
+{
+  "objectName" : "paa_y=x^2grid",
+  "colonyTags" : ["misc"],
+  "rarity" : "common",
+  "description" : "A graph of the y=x^2 function.",
+  "shortdescription" : "Y=X^2 Function Graph",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 0,
+  "printable" : false,
+
+  "inventoryIcon" : "paa_y=x^2gridicon.png",
+  "orientations" : [
+    {
+      "image" : "paa_y=x^2grid.png:<color>",
+      "imagePosition" : [-80, -80],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

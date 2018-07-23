@@ -1,0 +1,24 @@
+{
+  "materialId" : 553,
+  "materialName" : "paa_labpanel2",
+  "particleColor" : [110, 110, 110, 255],
+  "itemDrop" : "paa_labpanel2",
+  "description" : "This alloy looks incredibly durable.",
+  "shortdescription" : "Lab Blast Panel",
+  "glitchDescription" : "Interested. This durable alloy is not familiar.",
+  "floranDescription" : "Ssstrong metal blockss.",
+  "novakidDescription" : "Some sorta tough lookin' metal.",
+  "footstepSound" : "/sfx/blocks/footstep_girder.ogg",
+  "health" : 1000,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "paa_labpanel2.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "multiColored" : true,
+    "occludesBelow" : true,
+    "zLevel" : 3180
+  }
+}

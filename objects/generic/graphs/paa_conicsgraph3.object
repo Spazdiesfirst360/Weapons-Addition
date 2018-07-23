@@ -1,0 +1,25 @@
+{
+  "objectName" : "paa_conicsgraph3",
+  "colonyTags" : ["misc"],
+  "rarity" : "common",
+  "description" : "Okay then.",
+  "shortdescription" : "Conics Graph",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 0,
+  "printable" : false,
+
+  "inventoryIcon" : "paa_conicsgraph3icon.png",
+  "orientations" : [
+    {
+      "image" : "paa_conicsgraph3.png:<color>",
+      "imagePosition" : [-80, -80],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

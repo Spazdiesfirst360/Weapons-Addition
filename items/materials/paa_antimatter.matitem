@@ -1,0 +1,11 @@
+{
+  "itemName" : "paa_antimatter",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "rare",
+  "inventoryIcon" : "antimattericon.png",
+  "description" : "How does this not explode when touching matter?",
+  "shortdescription" : "Anti Matter",
+
+  "materialId" : 551
+}

@@ -1,0 +1,50 @@
+{
+  "objectName" : "paa_bookpile1",
+  "colonyTags" : ["science","storage","knowledge"],
+  "rarity" : "Common",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+  "description" : "A pile of books. ^red;Does not work with Enhanced Storage!^reset;",
+  "shortdescription" : "Lab Crate",
+  "race" : "generic",
+  "category" : "storage",
+  "price" : 220,
+  "health" : 10.0,
+
+  "humanDescription" : "A pile of books. Looks like someone has been studying.",
+
+  "inventoryIcon" : "paa_bookpile1.png",
+  "orientations" : [
+    {
+
+      "image" : "paa_bookpile1.png:default",
+      "imagePosition" : [-8, 0],
+
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    },
+    {
+
+      "image" : "paa_bookpile1.png:default",
+      "imagePosition" : [-8, 0],
+
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/bookcase_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/bookcase_close.ogg" ],
+  "slotCount" : 9,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+
+}

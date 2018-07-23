@@ -1,0 +1,11 @@
+{
+  "name" : "darkstimrunboost",
+  "effectConfig" : {},
+  "defaultDuration" : 15,
+
+  "scripts" : [
+    "darkstimrunboost.lua"
+  ],
+  "label" : "Extreme Run Boost",
+  "icon" : "/interface/statuses/runboost.png"
+}

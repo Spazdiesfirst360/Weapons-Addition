@@ -1,0 +1,1210 @@
+{ "columns":0,
+ "grid":
+    {
+     "height":1,
+     "orientation":"orthogonal",
+     "width":1
+    },
+ "margin":0,
+ "name":"wa_objects",
+ "spacing":0,
+ "tilecount":43,
+ "tileheight":233,
+ "tileproperties":
+    {
+     "0":
+        {
+         "//description":"This looks like one of those old blast doors.",
+         "//name":"paa_blastdoorold",
+         "//shortdescription":"Old Blast Door",
+         "imagePositionX":"-24",
+         "imagePositionY":"-8",
+         "object":"paa_blastdoorold",
+         "tilesetDirection":"right"
+        },
+     "1":
+        {
+         "//description":"This looks like one of those old blast doors.",
+         "//name":"paa_blastdoorold_orientation2",
+         "//shortdescription":"Old Blast Door",
+         "imagePositionX":"-24",
+         "imagePositionY":"-8",
+         "object":"paa_blastdoorold",
+         "tilesetDirection":"right"
+        },
+     "10":
+        {
+         "//description":"A flickering light to set that creepy mood.",
+         "//name":"paa_industrialfloodlight2Broken_orientation2",
+         "//shortdescription":"Small Broken Floodlight",
+         "imagePositionX":"-8",
+         "imagePositionY":"-8",
+         "object":"paa_industrialfloodlight2Broken",
+         "tilesetDirection":"right"
+        },
+     "11":
+        {
+         "//description":"A flickering light to set that creepy mood.",
+         "//name":"paa_industrialfloodlight2Broken_orientation3",
+         "//shortdescription":"Small Broken Floodlight",
+         "imagePositionX":"-8",
+         "imagePositionY":"-8",
+         "object":"paa_industrialfloodlight2Broken",
+         "tilesetDirection":"right"
+        },
+     "12":
+        {
+         "//description":"A pair of industrial grade floodlights.",
+         "//name":"paa_industrialfloodlights",
+         "//shortdescription":"Industrial Floodlights",
+         "imagePositionX":"-12",
+         "imagePositionY":"0",
+         "object":"paa_industrialfloodlights",
+         "tilesetDirection":"right"
+        },
+     "13":
+        {
+         "//description":"Ooh, and industrial grade security camera!",
+         "//name":"paa_industrialsecuritycamera",
+         "//shortdescription":"Industrial Security Camera",
+         "imagePositionX":"-8",
+         "imagePositionY":"-8",
+         "object":"paa_industrialsecuritycamera",
+         "tilesetDirection":"right"
+        },
+     "14":
+        {
+         "//description":"Ooh, and industrial grade security camera!",
+         "//name":"paa_industrialsecuritycamera_orientation1",
+         "//shortdescription":"Industrial Security Camera",
+         "imagePositionX":"0",
+         "imagePositionY":"-8",
+         "object":"paa_industrialsecuritycamera",
+         "tilesetDirection":"right"
+        },
+     "15":
+        {
+         "//description":"Ooh, and industrial grade security camera!",
+         "//name":"paa_industrialsecuritycamera_orientation2",
+         "//shortdescription":"Industrial Security Camera",
+         "imagePositionX":"-16",
+         "imagePositionY":"-8",
+         "object":"paa_industrialsecuritycamera",
+         "tilesetDirection":"right"
+        },
+     "16":
+        {
+         "//description":"This door is made of some sort of bulletproof material. ",
+         "//name":"paa_labblastdoor",
+         "//shortdescription":"Lab Blast Door",
+         "imagePositionX":"-24",
+         "imagePositionY":"0",
+         "object":"paa_labblastdoor",
+         "tilesetDirection":"right"
+        },
+     "17":
+        {
+         "//description":"A broken blast door.",
+         "//name":"paa_labblastdoorBroken",
+         "//shortdescription":"Lab Blast Door",
+         "imagePositionX":"-12",
+         "imagePositionY":"0",
+         "object":"paa_labblastdoorBroken",
+         "tilesetDirection":"right"
+        },
+     "18":
+        {
+         "//description":"A broken blast door.",
+         "//name":"paa_labblastdoorBroken2",
+         "//shortdescription":"Lab Blast Door",
+         "imagePositionX":"-12",
+         "imagePositionY":"0",
+         "object":"paa_labblastdoorBroken2",
+         "tilesetDirection":"right"
+        },
+     "19":
+        {
+         "//description":"Brackets are built into the base to attach this monitor to the ceiling.",
+         "//name":"paa_labceilingmonitor",
+         "//shortdescription":"Lab Ceiling Monitor",
+         "imagePositionX":"-18",
+         "imagePositionY":"-16",
+         "object":"paa_labceilingmonitor",
+         "tilesetDirection":"right"
+        },
+     "2":
+        {
+         "//description":"A machine that can convert virtually anything into... virtually anything.",
+         "//name":"paa_converter",
+         "//shortdescription":"^orange;Conversion Machine^reset;",
+         "imagePositionX":"-28",
+         "imagePositionY":"0",
+         "object":"paa_converter",
+         "tilesetDirection":"right"
+        },
+     "20":
+        {
+         "//description":"A large computer server rack, made for smaller servers.",
+         "//name":"paa_labserver2",
+         "//shortdescription":"Lab Server",
+         "imagePositionX":"-8",
+         "imagePositionY":"0",
+         "object":"paa_converter",
+         "tilesetDirection":"right"
+        },
+     "21":
+        {
+         "//description":"A station that allows you to mess with ^orange;liquids^reset;.",
+         "//name":"paa_liquidcrafter",
+         "//shortdescription":"^orange;Liquids Station^reset;",
+         "imagePositionX":"-16",
+         "imagePositionY":"0",
+         "object":"paa_liquidcrafter",
+         "tilesetDirection":"right"
+        },
+     "22":
+        {
+         "//description":"A machine that allows you to mess with particles.",
+         "//name":"paa_particleaccelerator",
+         "//shortdescription":"Particle Accelerator",
+         "imagePositionX":"-40",
+         "imagePositionY":"0",
+         "object":"paa_particleaccelerator",
+         "tilesetDirection":"right"
+        },
+     "23":
+        {
+         "//description":"A display showing information about particle data.",
+         "//name":"paa_particledisplay",
+         "//shortdescription":"Particle Display",
+         "imagePositionX":"-16",
+         "imagePositionY":"0",
+         "object":"paa_particledisplay",
+         "tilesetDirection":"right"
+        },
+     "24":
+        {
+         "//description":"A power generator that works!",
+         "//name":"paa_powergenerator",
+         "//shortdescription":"Power Generator",
+         "imagePositionX":"-16",
+         "imagePositionY":"0",
+         "object":"paa_powergenerator",
+         "tilesetDirection":"right"
+        },
+     "25":
+        {
+         "//description":"An automated soil watering solution.",
+         "//name":"paa_roofsprinkler",
+         "//shortdescription":"Sprinkler",
+         "imagePositionX":"-8",
+         "imagePositionY":"0",
+         "object":"paa_roofsprinkler",
+         "tilesetDirection":"right"
+        },
+     "26":
+        {
+         "//description":"A sign for a Lab Equipment and Material manufacturer.",
+         "//name":"paa_sign1",
+         "//shortdescription":"KX-1 Facilities Sign",
+         "imagePositionX":"-52",
+         "imagePositionY":"-16",
+         "object":"paa_sign1",
+         "tilesetDirection":"right"
+        },
+     "27":
+        {
+         "//description":"A sturdy, well made ladder.",
+         "//name":"paa_steelladder",
+         "//shortdescription":"Steel Ladder",
+         "imagePositionX":"-8",
+         "imagePositionY":"-8",
+         "object":"paa_steelladder",
+         "tilesetDirection":"right"
+        },
+     "28":
+        {
+         "//description":"A keypad.",
+         "//name":"paa_wallkeypad",
+         "//shortdescription":"Wall Mounted Keypad",
+         "imagePositionX":"-8",
+         "imagePositionY":"-8",
+         "object":"paa_wallkeypad",
+         "tilesetDirection":"right"
+        },
+     "29":
+        {
+         "//description":"Look, a ship.",
+         "//name":"wa_protectorateshiphuman",
+         "//shortdescription":"Ship",
+         "imagePositionX":"-272",
+         "imagePositionY":"0",
+         "object":"wa_protectorateshiphuman",
+         "tilesetDirection":"right"
+        },
+     "3":
+        {
+         "//description":"A tank for storing gases. ^red;Does not work with Enhanced Storage!^reset;",
+         "//name":"paa_gascanister",
+         "//shortdescription":"Gas Canister",
+         "imagePositionX":"-12",
+         "imagePositionY":"0",
+         "object":"paa_gascanister",
+         "tilesetDirection":"right"
+        },
+     "30":
+        {
+         "//description":"Holy crap, it's a broken trap!",
+         "//name":"wa_brokencrystaltrap",
+         "//shortdescription":"Broken Crystal Trap",
+         "imagePositionX":"0",
+         "imagePositionY":"0",
+         "object":"wa_brokencrystaltrap",
+         "tilesetDirection":"right"
+        },
+     "31":
+        {
+         "//description":"A very big machine that allows you to craft experimental weapons.",
+         "//name":"wa_experimentalweaponsstation",
+         "//shortdescription":"^red;Experimental Weapons Station^reset;",
+         "imagePositionX":"-32",
+         "imagePositionY":"0",
+         "object":"wa_experimentalweaponsstation",
+         "tilesetDirection":"right"
+        },
+     "32":
+        {
+         "//description":"It's a Magnetic Accelerator Cannon. I should take it.",
+         "//name":"wa_macgundisplay",
+         "//shortdescription":"Magnetic Accelerator Cannon",
+         "imagePositionX":"-20",
+         "imagePositionY":"-8",
+         "object":"wa_macgundisplay",
+         "tilesetDirection":"right"
+        },
+     "33":
+        {
+         "//description":"Holy crap, that is enormous!",
+         "//name":"wa_megadoor",
+         "//shortdescription":"Hangar Blast Door",
+         "imagePositionX":"-40",
+         "imagePositionY":"0",
+         "object":"wa_megadoor",
+         "tilesetDirection":"right"
+        },
+     "34":
+        {
+         "//description":"This plaque depicts a sword more powerful than the Protector's Broadsword... wait, WHAT?",
+         "//name":"wa_superswordplaque",
+         "//shortdescription":"Sword Plaque",
+         "imagePositionX":"-32",
+         "imagePositionY":"-76",
+         "object":"wa_superswordplaque",
+         "tilesetDirection":"right"
+        },
+     "35":
+        {
+         "//description":"Activates the bottom node in dim light and the top node in bright light.",
+         "//name":"wa_templelightsensor",
+         "//shortdescription":"Light Sensor",
+         "imagePositionX":"0",
+         "imagePositionY":"0",
+         "object":"wa_templelightsensor",
+         "tilesetDirection":"right"
+        },
+	"36":
+        {
+         "//description":"Looks like someone's been stocking up quite a pile.",
+         "//name":"wa_nukepile",
+         "//shortdescription":"Nuclear Stockpile",
+         "imagePositionX":"0",
+         "imagePositionY":"0",
+         "object":"wa_nukepile",
+         "tilesetDirection":"right"
+        },
+	"37":
+        {
+         "//description":"This server is broken.",
+         "//name":"paa_labserver1broken",
+         "//shortdescription":"Broken Lab Server",
+         "imagePositionX":"-12",
+         "imagePositionY":"0",
+         "object":"paa_labserver1broken",
+         "tilesetDirection":"right"
+        },
+	"38":
+        {
+         "//description":"A radar that has detected a distress signal. I wonder where it's coming from?",
+         "//name":"wa_strangeradar",
+         "//shortdescription":"Challenge Door",
+         "imagePositionX":"-24",
+         "imagePositionY":"0",
+         "object":"wa_strangeradar",
+         "tilesetDirection":"right"
+        },
+	"39":
+        {
+         "//description":"This will take me back.",
+         "//name":"wa_strangeradarreturn",
+         "//shortdescription":"Challenge Door",
+         "imagePositionX":"-24",
+         "imagePositionY":"0",
+         "object":"wa_strangeradarreturn",
+         "tilesetDirection":"right"
+        },
+     "4":
+        {
+         "//description":"An industrial grade shipping line.",
+         "//name":"paa_hangarequipment1",
+         "//shortdescription":"Industrial Shipping Line",
+         "imagePositionX":"-132",
+         "imagePositionY":"0",
+         "object":"paa_hangarequipment1",
+         "tilesetDirection":"right"
+        },
+	"40" : {
+		"//description" : "An ancient chest of unknown origin. I wonder why this one is red...",
+		"//name" : "ancientchestred",
+		"//shortdescription" : "Ancient Chest",
+		"imagePositionX" : "-16",
+		"imagePositionY" : "0",
+		"object" : "ancientchestred",
+		"tilesetDirection" : "right"
+	},
+	"41" : {
+		"//description" : "A mysterious light. I wonder why this one is red...",
+		"//name" : "ancientstriplightred",
+		"//shortdescription" : "Ancient Strip Light",
+		"imagePositionX" : "-8",
+		"imagePositionY" : "0",
+		"object" : "ancientstriplightred",
+		"tilesetDirection" : "right"
+	},
+	"42" : {
+		"//description" : "This plaque depicts a sword more powerful than the Protector's Broadsword... wait, WHAT?",
+		"//name" : "wa_superswordplaque",
+		"//shortdescription" : "Sword Plaque",
+		"imagePositionX" : "-32",
+		"imagePositionY" : "-76",
+		"object" : "wa_superswordplaque",
+		"tilesetDirection" : "right"
+	},
+	"43":
+        {
+         "//description":"A pair of industrial grade floodlights.",
+         "//name":"paa_industrialfloodlights_orientation1",
+         "//shortdescription":"Industrial Floodlights",
+         "imagePositionX":"0",
+         "imagePositionY":"0",
+         "object":"paa_industrialfloodlights",
+         "tilesetDirection":"left"
+        },
+/*	"44":
+        {
+         "//description":"This radar will take me to the next area.",
+         "//name":"wa_ultraradar_forest",
+         "//shortdescription":"Challenge Door",
+         "imagePositionX":"-32",
+         "imagePositionY":"0",
+         "object":"wa_ultraradar_forest",
+         "tilesetDirection":"right"
+        },
+	"45":
+        {
+         "//description":"This radar will take me to the next area.",
+         "//name":"wa_ultraradar_desert",
+         "//shortdescription":"Challenge Door",
+         "imagePositionX":"-32",
+         "imagePositionY":"0",
+         "object":"wa_ultraradar_desert",
+         "tilesetDirection":"right"
+        },
+	"46":
+        {
+         "//description":"This radar will take me to the next area.",
+         "//name":"wa_ultraradar_toxic",
+         "//shortdescription":"Challenge Door",
+         "imagePositionX":"-32",
+         "imagePositionY":"0",
+         "object":"wa_ultraradar_toxic",
+         "tilesetDirection":"right"
+        },
+	"47":
+        {
+         "//description":"This radar may lead to a surprise...",
+         "//name":"wa_ultraradar_toxic_bonus",
+         "//shortdescription":"Challenge Door",
+         "imagePositionX":"-32",
+         "imagePositionY":"0",
+         "object":"wa_ultraradar_toxic_bonus",
+         "tilesetDirection":"right"
+        },
+	"48":
+        {
+         "//description":"This radar may lead to a surprise...",
+         "//name":"wa_ultraradarbonus",
+         "//shortdescription":"Challenge Door",
+         "imagePositionX":"-32",
+         "imagePositionY":"0",
+         "object":"wa_ultraradarbonus",
+         "tilesetDirection":"right"
+        },
+	"49":
+        {
+         "//description":"This radar will take me to the next area.",
+         "//name":"wa_ultraradar_tundra",
+         "//shortdescription":"Challenge Door",
+         "imagePositionX":"-32",
+         "imagePositionY":"0",
+         "object":"wa_ultraradar_tundra",
+         "tilesetDirection":"right"
+        },*/
+     "5":
+        {
+         "//description":"A very specially designed crate for hazardous substances. ^red;Does not work with Enhanced Storage!^reset;",
+         "//name":"paa_hazardchest",
+         "//shortdescription":"Hazard Chest",
+         "imagePositionX":"-8",
+         "imagePositionY":"0",
+         "object":"paa_hazardchest",
+         "tilesetDirection":"right"
+        },
+/*	"50":
+        {
+         "//description":"This radar will take me to the next area.",
+         "//name":"wa_ultraradar_volcanic",
+         "//shortdescription":"Challenge Door",
+         "imagePositionX":"-32",
+         "imagePositionY":"0",
+         "object":"wa_ultraradar_volcanic",
+         "tilesetDirection":"right"
+        },
+	"51":
+        {
+         "//description":"This radar will take me to the next area.",
+         "//name":"wa_ultraradar_scorched",
+         "//shortdescription":"Challenge Door",
+         "imagePositionX":"-32",
+         "imagePositionY":"0",
+         "object":"wa_ultraradar_scorched",
+         "tilesetDirection":"right"
+        }, */
+     "6":
+        {
+         "//description":"An anti-matter fueled hoverbike on display.",
+         "//name":"paa_hoverbikeobject",
+         "//shortdescription":"Hoverbike",
+         "imagePositionX":"-20",
+         "imagePositionY":"0",
+         "object":"paa_hoverbikeobject",
+         "tilesetDirection":"right"
+        },
+     "7":
+        {
+         "//description":"It feels like I'm on stage!",
+         "//name":"paa_industrialfloodlight2",
+         "//shortdescription":"Small Industrial Floodlight",
+         "imagePositionX":"-8",
+         "imagePositionY":"-8",
+         "object":"paa_industrialfloodlight2",
+         "tilesetDirection":"right"
+        },
+     "8":
+        {
+         "//description":"It feels like I'm on stage!",
+         "//name":"paa_industrialfloodlight2_orientation2",
+         "//shortdescription":"Small Industrial Floodlight",
+         "imagePositionX":"-8",
+         "imagePositionY":"-8",
+         "object":"paa_industrialfloodlight2",
+         "tilesetDirection":"right"
+        },
+     "9":
+        {
+         "//description":"It feels like I'm on stage!",
+         "//name":"paa_industrialfloodlight2_orientation3",
+         "//shortdescription":"Small Industrial Floodlight",
+         "imagePositionX":"-8",
+         "imagePositionY":"-8",
+         "object":"paa_industrialfloodlight2",
+         "tilesetDirection":"right"
+        }
+    },
+ "tilepropertytypes":
+    {
+     "0":
+        {
+         "//description":"string",
+         "//name":"string",
+         "//shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "1":
+        {
+         "//description":"string",
+         "//name":"string",
+         "//shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "10":
+        {
+         "//description":"string",
+         "//name":"string",
+         "//shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "11":
+        {
+         "//description":"string",
+         "//name":"string",
+         "//shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "12":
+        {
+         "//description":"string",
+         "//name":"string",
+         "//shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "13":
+        {
+         "//description":"string",
+         "//name":"string",
+         "//shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "14":
+        {
+         "//description":"string",
+         "//name":"string",
+         "//shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "15":
+        {
+         "//description":"string",
+         "//name":"string",
+         "//shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "16":
+        {
+         "//description":"string",
+         "//name":"string",
+         "//shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "17":
+        {
+         "//description":"string",
+         "//name":"string",
+         "//shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "18":
+        {
+         "//description":"string",
+         "//name":"string",
+         "//shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "19":
+        {
+         "//description":"string",
+         "//name":"string",
+         "//shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "2":
+        {
+         "//description":"string",
+         "//name":"string",
+         "//shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "20":
+        {
+         "//description":"string",
+         "//name":"string",
+         "//shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "21":
+        {
+         "//description":"string",
+         "//name":"string",
+         "//shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "22":
+        {
+         "//description":"string",
+         "//name":"string",
+         "//shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "23":
+        {
+         "//description":"string",
+         "//name":"string",
+         "//shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "24":
+        {
+         "//description":"string",
+         "//name":"string",
+         "//shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "25":
+        {
+         "//description":"string",
+         "//name":"string",
+         "//shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "26":
+        {
+         "//description":"string",
+         "//name":"string",
+         "//shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "27":
+        {
+         "//description":"string",
+         "//name":"string",
+         "//shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "28":
+        {
+         "//description":"string",
+         "//name":"string",
+         "//shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "29":
+        {
+         "//description":"string",
+         "//name":"string",
+         "//shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "3":
+        {
+         "//description":"string",
+         "//name":"string",
+         "//shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "30":
+        {
+         "//description":"string",
+         "//name":"string",
+         "//shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "31":
+        {
+         "//description":"string",
+         "//name":"string",
+         "//shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "32":
+        {
+         "//description":"string",
+         "//name":"string",
+         "//shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "33":
+        {
+         "//description":"string",
+         "//name":"string",
+         "//shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "34":
+        {
+         "//description":"string",
+         "//name":"string",
+         "//shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "35":
+        {
+         "//description":"string",
+         "//name":"string",
+         "//shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "4":
+        {
+         "//description":"string",
+         "//name":"string",
+         "//shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "5":
+        {
+         "//description":"string",
+         "//name":"string",
+         "//shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "6":
+        {
+         "//description":"string",
+         "//name":"string",
+         "//shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "7":
+        {
+         "//description":"string",
+         "//name":"string",
+         "//shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "8":
+        {
+         "//description":"string",
+         "//name":"string",
+         "//shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "9":
+        {
+         "//description":"string",
+         "//name":"string",
+         "//shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        }
+    },
+ "tiles":
+    {
+     "0":
+        {
+         "image":"C:\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/tiled\/packed\/objects\/paa_blastdoorold.png",
+         "imageheight":16,
+         "imagewidth":48
+        },
+     "1":
+        {
+         "image":"C:\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/tiled\/packed\/objects\/paa_blastdoorold_orientation2.png",
+         "imageheight":16,
+         "imagewidth":48
+        },
+     "10":
+        {
+         "image":"C:\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/tiled\/packed\/objects\/paa_industrialfloodlight2Broken_orientation2.png",
+         "imageheight":16,
+         "imagewidth":16
+        },
+     "11":
+        {
+         "image":"C:\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/tiled\/packed\/objects\/paa_industrialfloodlight2Broken_orientation3.png",
+         "imageheight":16,
+         "imagewidth":16
+        },
+     "12":
+        {
+         "image":"C:\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/tiled\/packed\/objects\/paa_industrialfloodlights.png",
+         "imageheight":32,
+         "imagewidth":24
+        },
+     "13":
+        {
+         "image":"C:\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/tiled\/packed\/objects\/paa_industrialsecuritycamera.png",
+         "imageheight":16,
+         "imagewidth":16
+        },
+     "14":
+        {
+         "image":"C:\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/tiled\/packed\/objects\/paa_industrialsecuritycamera_orientation1.png",
+         "imageheight":16,
+         "imagewidth":16
+        },
+     "15":
+        {
+         "image":"C:\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/tiled\/packed\/objects\/paa_industrialsecuritycamera_orientation2.png",
+         "imageheight":16,
+         "imagewidth":16
+        },
+     "16":
+        {
+         "image":"C:\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/tiled\/packed\/objects\/paa_labblastdoor.png",
+         "imageheight":40,
+         "imagewidth":48
+        },
+     "17":
+        {
+         "image":"C:\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/tiled\/packed\/objects\/paa_labblastdoorBroken.png",
+         "imageheight":40,
+         "imagewidth":24
+        },
+     "18":
+        {
+         "image":"C:\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/tiled\/packed\/objects\/paa_labblastdoorBroken2.png",
+         "imageheight":40,
+         "imagewidth":24
+        },
+     "19":
+        {
+         "image":"C:\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/tiled\/packed\/objects\/paa_labceilingmonitor.png",
+         "imageheight":28,
+         "imagewidth":32
+        },
+     "2":
+        {
+         "image":"C:\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/tiled\/packed\/objects\/paa_converter.png",
+         "imageheight":32,
+         "imagewidth":56
+        },
+     "20":
+        {
+         "image":"C:\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/tiled\/packed\/objects\/paa_labserver2.png",
+         "imageheight":48,
+         "imagewidth":24
+        },
+     "21":
+        {
+         "image":"C:\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/tiled\/packed\/objects\/paa_liquidcrafter.png",
+         "imageheight":24,
+         "imagewidth":32
+        },
+     "22":
+        {
+         "image":"C:\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/tiled\/packed\/objects\/paa_particleaccelerator.png",
+         "imageheight":56,
+         "imagewidth":80
+        },
+     "23":
+        {
+         "image":"C:\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/tiled\/packed\/objects\/paa_particledisplay.png",
+         "imageheight":16,
+         "imagewidth":32
+        },
+     "24":
+        {
+         "image":"C:\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/tiled\/packed\/objects\/paa_powergenerator.png",
+         "imageheight":32,
+         "imagewidth":160
+        },
+     "25":
+        {
+         "image":"C:\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/tiled\/packed\/objects\/paa_roofsprinkler.png",
+         "imageheight":8,
+         "imagewidth":16
+        },
+     "26":
+        {
+         "image":"C:\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/tiled\/packed\/objects\/paa_sign1.png",
+         "imageheight":32,
+         "imagewidth":104
+        },
+     "27":
+        {
+         "image":"C:\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/tiled\/packed\/objects\/paa_steelladder.png",
+         "imageheight":16,
+         "imagewidth":16
+        },
+     "28":
+        {
+         "image":"C:\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/tiled\/packed\/objects\/paa_wallkeypad.png",
+         "imageheight":16,
+         "imagewidth":16
+        },
+     "29":
+        {
+         "image":"C:\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/tiled\/packed\/objects\/protectorateshiphuman.png",
+         "imageheight":232,
+         "imagewidth":544
+        },
+     "3":
+        {
+         "image":"C:\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/tiled\/packed\/objects\/paa_gascanister.png",
+         "imageheight":38,
+         "imagewidth":24
+        },
+     "30":
+        {
+         "image":"C:\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/tiled\/packed\/objects\/wa_brokencrystaltrap.png",
+         "imageheight":16,
+         "imagewidth":16
+        },
+     "31":
+        {
+         "image":"C:\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/tiled\/packed\/objects\/wa_experimentalweaponsstation.png",
+         "imageheight":48,
+         "imagewidth":64
+        },
+     "32":
+        {
+         "image":"C:\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/tiled\/packed\/objects\/wa_macgundisplay.png",
+         "imageheight":16,
+         "imagewidth":40
+        },
+     "33":
+        {
+         "image":"C:\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/tiled\/packed\/objects\/wa_megadoor.png",
+         "imageheight":160,
+         "imagewidth":80
+        },
+     "34":
+        {
+         "image":"C:\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/tiled\/packed\/objects\/wa_superswordplaque.png",
+         "imageheight":152,
+         "imagewidth":64
+        },
+     "35":
+        {
+         "image":"C:\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/tiled\/packed\/objects\/wa_templelightsensor.png",
+         "imageheight":8,
+         "imagewidth":8
+        },
+	"36":
+        {
+         "image":"C:\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/tiled\/packed\/objects\/wa_nukepile.png",
+         "imageheight":64,
+         "imagewidth":80
+        },
+	"37":
+        {
+         "image":"C:\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/tiled\/packed\/objects\/paa_labserver1broken.png",
+         "imageheight":64,
+         "imagewidth":80
+        },
+	"38":
+        {
+         "image":"C:\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/tiled\/packed\/objects\/outpostradardish.png",
+         "imageheight":60,
+         "imagewidth":56
+        },
+	"39":
+        {
+         "image":"C:\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/tiled\/packed\/objects\/outpostradardish.png",
+         "imageheight":60,
+         "imagewidth":56
+        },
+     "4":
+        {
+         "image":"C:\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/tiled\/packed\/objects\/paa_hangarequipment1.png",
+         "imageheight":48,
+         "imagewidth":264
+        },
+	 "40" : {
+		 "image" : "C:\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/tiled\/packed\/objects\/ancientchestred.png",
+		 "imageheight":16,
+         "imagewidth":32
+		 },
+	 "41" : {
+		 "image" : "C:\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/tiled\/packed\/objects\/ancientstriplightred.png",
+		 "imageheight":8,
+         "imagewidth":16
+		},
+	 "42" : {
+		 "image" : "C:\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/tiled\/packed\/objects\/wa_superswordplaque.png",
+		 "imageheight":152,
+         "imagewidth":64
+		},
+	"43":
+        {
+         "image":"C:\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/tiled\/packed\/objects\/paa_industrialfloodlights_orientation1.png",
+         "imageheight":32,
+         "imagewidth":24
+        },
+	"44":
+        {
+         "image":"C:\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/tiled\/packed\/objects\/outpostradardish.png",
+         "imageheight":60,
+         "imagewidth":56
+        },
+	"45":
+        {
+         "image":"C:\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/tiled\/packed\/objects\/outpostradardish.png",
+         "imageheight":60,
+         "imagewidth":56
+        },
+	"46":
+        {
+         "image":"C:\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/tiled\/packed\/objects\/outpostradardish.png",
+         "imageheight":60,
+         "imagewidth":56
+        },
+	"47":
+        {
+         "image":"C:\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/tiled\/packed\/objects\/outpostradardish.png",
+         "imageheight":60,
+         "imagewidth":56
+        },
+	"48":
+        {
+         "image":"C:\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/tiled\/packed\/objects\/outpostradardish.png",
+         "imageheight":60,
+         "imagewidth":56
+        },
+	"49":
+        {
+         "image":"C:\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/tiled\/packed\/objects\/outpostradardish.png",
+         "imageheight":60,
+         "imagewidth":56
+        },
+     "5":
+        {
+         "image":"C:\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/tiled\/packed\/objects\/paa_hazardchest.png",
+         "imageheight":20,
+         "imagewidth":24
+        },
+	"50":
+        {
+         "image":"C:\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/tiled\/packed\/objects\/outpostradardish.png",
+         "imageheight":60,
+         "imagewidth":56
+        },
+	"51":
+        {
+         "image":"C:\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/tiled\/packed\/objects\/outpostradardish.png",
+         "imageheight":60,
+         "imagewidth":56
+        },
+     "6":
+        {
+         "image":"C:\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/tiled\/packed\/objects\/paa_hoverbikeobject.png",
+         "imageheight":40,
+         "imagewidth":72
+        },
+     "7":
+        {
+         "image":"C:\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/tiled\/packed\/objects\/paa_industrialfloodlight2.png",
+         "imageheight":16,
+         "imagewidth":16
+        },
+     "8":
+        {
+         "image":"C:\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/tiled\/packed\/objects\/paa_industrialfloodlight2_orientation2.png",
+         "imageheight":16,
+         "imagewidth":16
+        },
+     "9":
+        {
+         "image":"C:\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/tiled\/packed\/objects\/paa_industrialfloodlight2_orientation3.png",
+         "imageheight":16,
+         "imagewidth":16
+        }
+    },
+ "tilewidth":544,
+ "type":"tileset"
+}

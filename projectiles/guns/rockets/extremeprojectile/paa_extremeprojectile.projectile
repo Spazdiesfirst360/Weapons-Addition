@@ -1,0 +1,27 @@
+{
+  "projectileName" : "paa_extremeprojectile",
+  "image" : "paa_extremeprojectile.png",
+  "animationCycle" : 0.2,
+  "frameNumber" : 2,
+  "damageKindImage" : "icon.png",
+  "lightColor" : [255, 255, 128],
+  "pointLight" : true,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/extremeexplosion/paa_extremeexplosion.config"
+    }
+  ],
+  "statusEffects" : [ ],
+  "emitters" : [ "tinyrocketsmoke" ],
+  "flippable" : true,
+  "power" : 100000.0,
+  "speed" : 50.0,
+  "physics" : "rocket",
+  "damageType" : "NoDamage",
+  "damageKind" : "default",
+
+  "scripts" : [ "paa_extremeprojectile.lua" ],
+  "maxSpeed" : 75,
+  "controlForce" : 100
+}

@@ -1,0 +1,210 @@
+{
+  "objectName" : "paa_industrialfloodlight2",
+  "colonyTags" : ["human","humanprison","light"],
+  "rarity" : "Common",
+  "category" : "light",
+  "price" : 75,
+
+  "lightColor" : [255, 255, 255],
+  // "lightColors" : {
+  //   "default" : [255, 255, 245],
+  //   "red" : [255, 127, 127],
+  //   "blue" : [71, 134, 255],
+  //   "green" : [88, 255, 0],
+  //   "yellow" : [255, 230, 127],
+  //   "orange" : [255, 179, 127],
+  //   "pink" : [255, 177, 255],
+  //   "black" : [100, 100, 100],
+  //   "white" : [255, 255, 255]
+  // },
+
+  "pointLight" : true,
+  "pointBeam" : 3,
+  "beamAmbience" : 0.5,
+  "description" : "It feels like I'm on stage!",
+  "shortdescription" : "Small Industrial Floodlight",
+  "race" : "human",
+
+  "apexDescription" : "Such spotlights are used by the Miniknog to force people to talk. Spotlights, and worse...",
+  "avianDescription" : "An annoying, blinding light.",
+  "floranDescription" : "Floran feelss like centre of attention.",
+  "glitchDescription" : "Stealthy. By analysing this floodlight's patterns, it would be easy to sneak around it.",
+  "humanDescription" : "I've always wanted to be in the spotlight.",
+  "hylotlDescription" : "A bright, piercing floodlight.",
+  "novakidDescription" : "A bright light.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "paa_industrialfloodlight2ceiling1.png:<color>.<frame>",
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "imagePosition" : [-4, -8],
+      "direction" : "right",
+
+      "animationParts" : {
+        "bg" : "paa_industrialfloodlight2ceiling1.png",
+        "fg" : "paa_industrialfloodlight2ceiling2.png"
+      },
+      "animationPosition" : [-4, -8],
+
+      "spaceScan" : 0.01,
+      "fgAnchors" : [ [0, 1] ],
+      "lightPosition" : [0, -1],
+      "beamAngle" : 270
+    },
+
+    {
+      "image" : "paa_industrialfloodlight2ceilingleft1.png:<color>.<frame>",
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "imagePosition" : [0, -8],
+      "direction" : "right",
+
+      "animationParts" : {
+        "bg" : "paa_industrialfloodlight2ceilingleft1.png",
+        "fg" : "paa_industrialfloodlight2ceilingleft2.png"
+      },
+      "animationPosition" : [0, -8],
+
+      "spaceScan" : 0.01,
+      "anchors" : [ "top", "left" ],
+      "lightPosition" : [1, -1],
+      "beamAngle" : 315
+    },
+
+    {
+      "image" : "paa_industrialfloodlight2ceilingright1.png:<color>.<frame>",
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "imagePosition" : [-8, -8],
+      "direction" : "right",
+
+      "animationParts" : {
+        "bg" : "paa_industrialfloodlight2ceilingright1.png",
+        "fg" : "paa_industrialfloodlight2ceilingright2.png"
+      },
+      "animationPosition" : [-8, -8],
+
+      "spaceScan" : 0.01,
+      "anchors" : [ "top", "right" ],
+      "lightPosition" : [-1, -1],
+      "beamAngle" : 225
+    },
+
+    {
+      "image" : "paa_industrialfloodlight2ground1.png:<color>.<frame>",
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "imagePosition" : [-4, 0],
+      "direction" : "right",
+
+      "animationParts" : {
+        "bg" : "paa_industrialfloodlight2ground1.png",
+        "fg" : "paa_industrialfloodlight2ground2.png"
+      },
+      "animationPosition" : [-4, 0],
+
+      "spaceScan" : 0.01,
+      "fgAnchors" : [ [0, -1] ],
+      "lightPosition" : [0, 1],
+      "beamAngle" : 90
+    },
+
+    {
+      "image" : "paa_industrialfloodlight2groundleft1.png:<color>.<frame>",
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "imagePosition" : [0, 0],
+      "direction" : "right",
+
+      "animationParts" : {
+        "bg" : "paa_industrialfloodlight2groundleft1.png",
+        "fg" : "paa_industrialfloodlight2groundleft2.png"
+      },
+      "animationPosition" : [0, 0],
+
+      "spaceScan" : 0.01,
+      "anchors" : [ "bottom", "left" ],
+      "lightPosition" : [1, 1],
+      "beamAngle" : 45
+    },
+
+    {
+      "image" : "paa_industrialfloodlight2groundright1.png:<color>.<frame>",
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "imagePosition" : [-8, 0],
+      "direction" : "right",
+
+      "animationParts" : {
+        "bg" : "paa_industrialfloodlight2groundright1.png",
+        "fg" : "paa_industrialfloodlight2groundright2.png"
+      },
+      "animationPosition" : [-8, 0],
+
+      "spaceScan" : 0.01,
+      "anchors" : [ "bottom", "right" ],
+      "lightPosition" : [-1, 1],
+      "beamAngle" : 135
+    },
+
+    {
+      "image" : "paa_industrialfloodlight2left1.png:<color>.<frame>",
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "imagePosition" : [0, -4],
+      "direction" : "right",
+
+      "animationParts" : {
+        "bg" : "paa_industrialfloodlight2left1.png",
+        "fg" : "paa_industrialfloodlight2left2.png"
+      },
+      "animationPosition" : [0, -4],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "left" ],
+      "lightPosition" : [1, 0],
+      "beamAngle" : 0
+    },
+
+    {
+      "image" : "paa_industrialfloodlight2right1.png:<color>.<frame>",
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "imagePosition" : [-8, -4],
+      "direction" : "right",
+
+      "animationParts" : {
+        "bg" : "paa_industrialfloodlight2right1.png",
+        "fg" : "paa_industrialfloodlight2right2.png"
+      },
+      "animationPosition" : [-8, -4],
+
+      "spaceScan" : 0.01,
+      "anchors" : [ "right" ],
+      "lightPosition" : [-1, 0],
+      "beamAngle" : 180
+    }
+  ],
+
+  "animation" : "/objects/wired/light/lighttogglebgfullbright.animation",
+  "animationParts" : {
+    "bg" : "paa_industrialfloodlight2ceiling1.png",
+    "fg" : "paa_industrialfloodlight2ceiling2.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "on" : [ "/sfx/objects/floodlights_on.ogg" ],
+      "off" : [ "/sfx/objects/floodlights_off.ogg" ]
+    }
+  },
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "interactive" : false,
+
+  "inputNodes" : [ [0, 0] ],
+  "health" : 1000
+}

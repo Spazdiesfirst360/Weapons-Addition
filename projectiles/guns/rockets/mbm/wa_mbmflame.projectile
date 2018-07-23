@@ -1,0 +1,33 @@
+{
+  "projectileName" : "wa_mbmflame",
+  "physics" : "grenadenobounce",
+  "bounces" : -1,
+  "timeToLive" : 20,
+  "speed" : 15,
+  "image" : "wa_mbmflame.png",
+  "animationCycle" : 0.8,
+  "lightColor" : [126, 135, 2],
+  "frameNumber" : 8,
+  "emitters" : [ "flames" ],
+  "piercing" : true,
+  "damagePoly" : [ [-6, 0], [-4, -4], [0, -6], [4, -4], [6, 0], [4, 4], [0, 6], [-4, 4] ],
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/smoke/smoke.config"
+    },
+	{ 
+      "action" : "liquid", 
+      "liquid" : "wa_radioactiveliquid", "quantity" : 10 
+    }
+  ],
+  "damageKind" : "poison",
+  "damageTeam" : { "type" : "indiscriminate" },
+  "damageKindImage" : "/interface/statuses/fire.png",
+  "statusEffects" : [
+    "paa_radsickness"
+  ],
+  "hydrophobic" : false,
+
+  "persistentAudio" : "/sfx/objects/torch.ogg"
+}

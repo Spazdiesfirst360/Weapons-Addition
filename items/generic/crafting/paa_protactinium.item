@@ -1,0 +1,13 @@
+{
+  "itemName" : "paa_protactinium",
+  "price" : 91,
+  "rarity" : "Rare",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "paa_protactinium.png",
+  "description" : "Some lovely protactinium.",
+  "shortdescription" : "Protactinium",
+  "itemTags" : [ "reagent" ],
+  "learnBlueprintsOnPickup" : [
+	"paa_protactiniumrod"
+  ]
+}

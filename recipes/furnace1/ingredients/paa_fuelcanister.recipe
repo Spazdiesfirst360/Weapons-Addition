@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "liquidfuel", "count" : 20 },
+	{ "item" : "solidfuel", "count" : 20 },
+	{ "item" : "durasteelbar", "count" : 2 },
+	{ "item" : "glass", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "paa_fuelcanister",
+    "count" : 1
+  },
+  "groups" : [ "craftingfurnace", "ingredients", "all" ]
+}

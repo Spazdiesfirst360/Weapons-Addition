@@ -1,0 +1,51 @@
+{
+  "objectName" : "paa_labcrate",
+  "colonyTags" : ["science","storage","commerce"],
+  "rarity" : "Common",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+  "description" : "A large container for large labs. ^red;Does not work with Enhanced Storage!^reset;",
+  "shortdescription" : "Lab Crate",
+  "collectablesOnPickup" : { "paa_kx1collection" : "paa_labcrate" },
+  "race" : "generic",
+  "category" : "storage",
+  "price" : 220,
+  "health" : 10.0,
+
+  "floranDescription" : "Big ssstriped metal box.",
+
+  "inventoryIcon" : "paa_labcrateicon.png",
+  "orientations" : [
+    {
+
+      "image" : "paa_labcrate.png:<color>",
+      "imagePosition" : [-24, 0],
+
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    },
+    {
+
+      "image" : "paa_labcrate.png:<color>",
+      "imagePosition" : [-24, 0],
+
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/metaldoor_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/metaldoor_close.ogg" ],
+  "slotCount" : 64,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+
+}

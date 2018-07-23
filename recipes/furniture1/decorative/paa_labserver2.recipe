@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "advancealloy", "count" : 4 },
+	{ "item" : "siliconboard", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "paa_labserver2",
+    "count" : 1
+  },
+  "groups" : [ "craftingfurniture", "decoration", "all" ]
+}

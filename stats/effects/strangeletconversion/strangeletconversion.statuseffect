@@ -1,0 +1,20 @@
+{
+  "name" : "strangeletconversion",
+
+  "effectConfig" : {
+    "activateDelay" : 0.1,
+    "deactivateDelay" : 0.1,
+    "triggerDamageThreshold" : 10,
+    "explosionDamageAmount" : 130
+  },
+  "defaultDuration" : 300,
+
+  "scripts" : [
+    "strangeletconversion.lua"
+  ],
+
+  "animationConfig" : "strangeletconversion.animation",
+
+  "label" : "Strangelet Conversion",
+  "icon" : "/interface/statuses/doomed.png"
+}

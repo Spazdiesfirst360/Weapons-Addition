@@ -1,0 +1,21 @@
+{
+  "name" : "wa_systymatics",
+  "title" : "[WA] Systymatics",
+  "type" : "item",
+
+  "collectables" : {
+
+    "wa_syst_particlecannon" : {
+      "order" : 1,
+      "item" : "wa_syst_particlecannon"
+    },
+    "wa_syst_torrent" : {
+      "order" : 2,
+      "item" : "wa_syst_torrent"
+    },
+    "wa_syst_thermitepistol" : {
+      "order" : 3,
+      "item" : "wa_syst_thermitepistol"
+    }
+  }
+}

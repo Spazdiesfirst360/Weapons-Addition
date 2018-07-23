@@ -1,0 +1,22 @@
+{
+  "itemName" : "paa_antimatterflashlight",
+  "price" : 10000,
+  "category" : "Tool",
+  "inventoryIcon" : "paa_antimatterflashlighticon.png",
+  "rarity" : "rare",
+  "maxStack" : 1,
+  "description" : "A handy flashlight! Now powered with anti-matter!",
+  "shortdescription" : "Anti-Matter Flashlight",
+  "largeImage" : "paa_antimatterflashlightlarge.png",
+  "tooltipKind" : "tool",
+  "image" : "paa_antimatterflashlight.png",
+  "handPosition" : [-2, 0],
+  "lightPosition" : [4, 0],
+  "lightColor" : [255, 255, 255],
+  "beamLevel" : 10,
+  "beamAmbience" : 0.4,
+  
+  "learnBlueprintsOnPickup" : [
+    "paa_antimatterflashlight"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "paa_oldcpu", "count" : 1 },
+	{ "item" : "paa_olddesktop", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "paa_oldcomputer",
+    "count" : 1
+  },
+  "groups" : [ "craftingfurniture", "decoration", "all" ]
+}

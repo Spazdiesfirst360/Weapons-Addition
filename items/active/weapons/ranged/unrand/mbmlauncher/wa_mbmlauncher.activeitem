@@ -1,0 +1,93 @@
+{
+  "itemName" : "wa_mbmlauncher",
+  "price" : 10000,
+  "maxStack" : 1,
+  "rarity" : "legendary",
+  "description" : "You might want to point this a little higher than you think you should.",
+  "shortdescription" : "Miniature Ballistic Missile Launcher",
+  "tooltipKind" : "gun",
+  "category" : "Rocket Launcher",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","ranged","rocketlauncher"],
+  "level" : 7,
+
+  "inventoryIcon" : "wa_mbmlauncher.png",
+
+  "animation" : "/items/active/weapons/ranged/gun.animation",
+  "animationParts" : {
+  "butt" : "",
+  "middle" : "wa_mbmlauncher.png",
+   "middlefullbright" : "",
+  "barrel" : "",
+  "muzzleFlash" : "/items/active/weapons/ranged/muzzleflash.png"
+  },
+  "animationCustom" : {
+	 "particleEmitters" : {
+     "muzzleFlash" : {
+         "burstCount" : 3,
+         "particles" : [
+             { "particle" : "rocketbarrelpuff" }
+            ]
+        }
+    },
+    "sounds" : {
+      "fire" : [ "/sfx/gun/rocket2.ogg" ]
+    }
+  },
+
+  "baseOffset" : [1.0, 0.375],
+  "muzzleOffset" : [2.5, 0],
+
+  "scripts" : ["/items/active/weapons/ranged/shotgun.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbility" : {
+  "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+  "class" : "GunFire",
+
+  "fireTime" : 0.25,
+  "baseDps" : 25.0,
+  "energyUsage" : 1000,
+  "inaccuracy" : 0.001,
+
+  "projectileCount" : 1,
+  "fireType" : "auto",
+
+  "projectileType" : "wa_mbm",
+  "projectileParameters" : {
+  "damageKind" : "default",
+  "knockback" : 5
+  },
+  "stances" : {
+  "idle" : {
+  "armRotation" : 0,
+  "weaponRotation" : 0,
+  "twoHanded" : true,
+
+  "allowRotate" : true,
+  "allowFlip" : true
+  },
+  "fire" : {
+  "duration" : 0.25,
+  "armRotation" : 10,
+  "weaponRotation" : 10,
+  "twoHanded" : true,
+
+  "allowRotate" : false,
+  "allowFlip" : false
+  },
+  "cooldown" : {
+  "duration" : 0.25,
+  "armRotation" : 10,
+  "weaponRotation" : 10,
+  "twoHanded" : true,
+
+  "allowRotate" : false,
+  "allowFlip" : false
+  }
+  }
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

@@ -1,0 +1,14 @@
+{
+  "itemName" : "paa_oldcpu",
+  "price" : 10,
+  "rarity" : "common",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "paa_oldcpu.png",
+  "description" : "An old cpu.",
+  "shortdescription" : "Old CPU",
+  "itemTags" : ["reagent"],
+  
+  "learnBlueprintsOnPickup" : [
+    "paa_oldcomputer"
+  ]
+}

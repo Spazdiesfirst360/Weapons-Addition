@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "paa_proton", "count" : 43 },
+	{ "item" : "paa_electron", "count" : 43 }
+  ],
+  "output" : {
+    "item" : "paa_technetium",
+    "count" : 1
+  },
+  "groups" : [ "paa_partaccel", "all", "other" ]
+}

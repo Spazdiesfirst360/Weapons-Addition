@@ -1,0 +1,10 @@
+[
+  {
+    "op": "add",
+    "path": "/objectSpawnPool/4",
+    "value": [
+      0.5,
+      "wa_ship"
+    ]
+  }
+]

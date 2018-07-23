@@ -1,0 +1,24 @@
+{
+  "metadata" : {
+    "name" : "wa_launchpad",
+    "species" : "generic",
+    "rules" : [
+    ],
+	"gravity" : 80,
+    "protected" : true,
+    "anchor" : [ "wa_launchpad" ],
+    "maxRadius" : 1000000,
+    "maxParts" : 1,
+    "extendSurfaceFreeSpace" : 100
+  },
+
+  "parts" : [
+    {
+      "name" : "wa_launchpad",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "wa_launchpad.json" ]
+    }
+  ]
+}

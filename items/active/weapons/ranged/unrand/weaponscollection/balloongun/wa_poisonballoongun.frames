@@ -1,0 +1,12 @@
+{
+  "frameGrid" : {
+    "size" : [36, 24],
+    "dimensions" : [4, 1],
+    "names" : [
+      [ "spin.1", "spin.2", "spin.3", "spin.4" ]
+    ]
+  },
+  "aliases" : {
+    "idle" : "spin.1"
+  }
+}

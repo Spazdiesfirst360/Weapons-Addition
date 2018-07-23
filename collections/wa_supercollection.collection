@@ -1,0 +1,45 @@
+{
+  "name" : "wa_supercollection",
+  "title" : "[WA] Mythical",
+  "type" : "item",
+
+  "collectables" : {
+
+    "wa_zsuperbullet" : {
+      "order" : 1,
+      "item" : "wa_zsuperbullet"
+    },
+    "wa_superbomb" : {
+      "order" : 2,
+      "item" : "wa_superbomb"
+    },
+    "wa_supersword" : {
+      "order" : 3,
+      "item" : "wa_supersword"
+    },
+    "wa_rangedbroadsword" : {
+      "order" : 4,
+      "item" : "wa_rangedbroadsword"
+    },
+    "wa_rocketsword" : {
+      "order" : 5,
+      "item" : "wa_rocketsword"
+    },
+    "wa_lightningdagger" : {
+      "order" : 6,
+      "item" : "wa_lightningdagger"
+    },
+    "paa_superrocketspear" : {
+      "order" : 7,
+      "item" : "paa_superrocketspear"
+    },
+	"paa_extrememiner" : {
+	  "order" : 8,
+	  "item" : "paa_extrememiner"
+	},
+	"wa_beamsword" : {
+	  "order" : 9,
+	  "item" : "wa_beamsword"
+	}
+  }
+}

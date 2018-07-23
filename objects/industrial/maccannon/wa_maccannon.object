@@ -1,0 +1,74 @@
+{
+  "objectName" : "wa_maccannon",
+  "colonyTags" : ["industrial"],
+  "rarity" : "legendary",
+  "description" : "\"That MAC Gun can put a round clean through a Covenant Capital Ship.\" -Sergeant Johnson to John-117",
+  "shortdescription" : "Magnetic Accelerator Cannon",
+  "race" : "generic",
+  "category" : "wire",
+  "price" : 170,
+  "printable" : false,
+  "lightColor" : [226, 195, 68],
+  
+  "flickerPeriod" : 0.3,
+  "flickerMinIntensity" : 0.95,
+  "flickerMaxIntensity" : 1,
+  "flickerPeriodVariance" : 0.1,
+  "flickerIntensityVariance" : 0.0,
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "wa_maccannon.png:<color>.<frame>",
+      "flipImages" : true,
+      "direction" : "left",
+      "lightPosition" : [0, 1],
+
+      "imagePosition" : [-20, 0],
+      "frames" : 3,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "wa_maccannon.png:<color>.<frame>",
+      "direction" : "right",
+      "lightPosition" : [0, 1],
+
+      "imagePosition" : [-20, 0],
+      "frames" : 3,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "scripts" : [ "wa_maccannon.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "wa_maccannon.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "on" : [ "/sfx/objects/console_generic_switchon.ogg" ],
+      "off" : [ "/sfx/objects/console_generic_switchoff.ogg" ]
+    }
+  },
+  "animationParts" : {
+    "bg" : "wa_maccannon.png",
+    "fg" : "wa_maccannonlit.png"
+  },
+  "animationPosition" : [-20, 0],
+
+  "damageTeam" : {
+    "type" : "friendly"
+  },
+
+  "inputNodes" : [ [0, 0], [1, 0], [1, 1], [2, 1] ],
+  "outputNodes" : [ [0, 2], [1, 2] ],
+
+  "projectileType" : "wa_macbullet",
+  "projectilePower" : 10000,
+  "projectileOffset" : [2.875, 19.17]
+}

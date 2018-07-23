@@ -1,0 +1,20 @@
+{
+  "itemName" : "wa_militarylantern",
+  "price" : 800,
+  "category" : "Tool",
+  "inventoryIcon" : "mininglanternicon.png",
+  "rarity" : "Common",
+  "maxStack" : 1,
+  "description" : "This lantern can be carried by explorers to light the surrounding area.",
+  "shortdescription" : "Explorer's Lantern",
+  "largeImage" : "wa_militarylanternbig.png",
+  "tooltipKind" : "tool",
+  "pointable" : false,
+  "image" : "wa_militarylantern.png",
+  "handPosition" : [0, 2],
+  "lightPosition" : [4, 0],
+  "lightColor" : [90, 255, 90],
+  "beamLevel" : 0,
+  "beamAmbience" : 0
+}
+

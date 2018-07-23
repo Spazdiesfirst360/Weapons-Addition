@@ -1,0 +1,22 @@
+{
+  "itemName" : "paa_superhealthaugment",
+  "price" : 15000,
+  "rarity" : "Legendary",
+  "tooltipKind" : "eppaugment",
+  "category" : "eppAugment",
+  "inventoryIcon" : "paa_superhealthaugment.png",
+  "description" : "An EPP module that boosts your total health ridiculously.",
+  "shortdescription" : "Super Health Augment",
+
+  "augment" : {
+    "type" : "back",
+    "name" : "paa_superhealth",
+    "displayName" : "Super Health",
+    "displayIcon" : "/items/augments/back/paa_superhealthaugment.png",
+    "effects" : [ "paa_superhealthboostaugment" ]
+  },
+
+  "radioMessagesOnPickup" : [ "pickupaugment" ],
+
+  "scripts" : [ "/scripts/augments/augment.lua" ]
+}

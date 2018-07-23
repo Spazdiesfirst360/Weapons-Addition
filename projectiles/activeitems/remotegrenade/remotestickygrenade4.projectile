@@ -1,0 +1,25 @@
+{
+  "projectileName" : "remotestickygrenade4",
+  "physics" : "stickygrenade",
+  "bounces" : -1,
+  "damageKindImage" : "icon.png",
+  "pointLight" : true,
+  "lightColor" : [90, 30, 30],
+  "image" : "remotestickygrenade.png",
+  "animationCycle" : 0.75,
+  "frameNumber" : 4,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/specialexplosion/specialexplosion3.config"
+    }
+  ],
+  "power" : 200,
+  "damageType" : "NoDamage",
+  "damageKind" : "default",
+  "onlyHitTerrain" : true,
+
+  "timeToLive" : 64,
+
+  "scripts" : [ "remotegrenade.lua" ]
+}

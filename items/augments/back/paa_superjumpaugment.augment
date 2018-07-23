@@ -1,0 +1,22 @@
+{
+  "itemName" : "paa_superjumpaugment",
+  "price" : 100000,
+  "rarity" : "legendary",
+  "tooltipKind" : "eppaugment",
+  "category" : "eppAugment",
+  "inventoryIcon" : "paa_superjumpaugment.png",
+  "description" : "An EPP module that boosts your jumping power ridiculously.",
+  "shortdescription" : "Advanced Jump Augment",
+
+  "augment" : {
+    "type" : "back",
+    "name" : "superjump",
+    "displayName" : "Super Jump",
+    "displayIcon" : "/items/augments/back/paa_superjumpaugment.png",
+    "effects" : [ "paa_superjumpboostaugment" ]
+  },
+
+  "radioMessagesOnPickup" : [ "pickupaugment" ],
+
+  "scripts" : [ "/scripts/augments/augment.lua" ]
+}

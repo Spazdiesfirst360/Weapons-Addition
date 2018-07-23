@@ -1,0 +1,10 @@
+{
+  "itemName" : "paa_electron",
+  "price" : 1,
+  "rarity" : "essential",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "paa_electron.png",
+  "description" : "An electron. Needed in order for an element to be stable.",
+  "shortdescription" : "Electron",
+  "itemTags" : ["reagent"]
+}

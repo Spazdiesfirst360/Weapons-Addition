@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "paa_xraywavecannon", "count" : 1 },
+    { "item" : "siliconboard", "count" : 5 },
+	{ "item" : "solariumstar", "count" : 15 }
+	
+  ],
+  "output" : {
+    "item" : "paa_gammawavecannon",
+    "count" : 1
+  },
+  "groups" : [ "craftinganvil", "weapons", "all" ]
+}

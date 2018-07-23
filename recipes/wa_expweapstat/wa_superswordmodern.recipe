@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "wa_supersword", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "wa_superswordmodern",
+    "count" : 1
+  },
+  "groups" : [ "wa_expweapstat", "weapons" ]
+}

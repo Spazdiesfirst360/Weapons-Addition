@@ -1,0 +1,27 @@
+{
+  "projectileName" : "wa_particlespawn",
+  "image" : "wa_particlespawn.png",
+  "physics" : "laser",
+  "animationCycle" : 0.25,
+  "frameNumber" : 4,
+  "damageKind" : "standardbullet",
+  "pointLight" : false,
+  "flippable" : true,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/particleexplosion/wa_particleexplosion.config"
+    },
+	{
+	  "action" : "projectile",
+      "type" : "wa_particleshot",
+      "fuzzAngle" : 0,
+      "angleAdjust" : 0
+	}
+  ],
+  "statusEffects" : [ "biomeradiation" ],
+  "power" : 0,
+  "speed" : 0,
+  "knockback" : 0,
+  "timeToLive" : 0.001
+}

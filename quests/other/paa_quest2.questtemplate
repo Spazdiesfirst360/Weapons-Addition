@@ -1,0 +1,42 @@
+{
+  "id" : "paa_quest2",
+  "title" : "^orange;Protons and Electrons",
+  "text" : "Now all you need is ^orange;Protons ^green;and ^orange;Electrons ^white;to deconstruct materials.",
+  "completionText" : "Now that you have ^green;the basics for particle rearrangement^white;, you will now be left to experiment yourself.",
+  "moneyRange" : [0,0],
+  "ephemeral" : true,
+  "rewards" : [
+    [ [ "rewardbag", 1 ] ]
+  ],
+
+  "updateDelta" : 10,
+  "script" : "/quests/scripts/main.lua",
+  "scriptConfig" : {
+    "portraits" : {
+        "portrait" : [ {"image" : "/objects/outpost/randomscientist/paa_scientist1icon.png"} ],
+        "title" : "Physical Scientist"
+      },
+      "questComplete" : {
+        "portrait" : [ {"image" : "/objects/outpost/randomscientist/paa_scientist1icon.png"} ],
+        "title" : "Physical Scientist"
+      }
+    },
+
+    "requireTurnIn" : true,
+
+    "conditions" : [
+      {
+        "type" : "gatherItem",
+        "itemName" : "paa_proton",
+        "count" : 1,
+        "consume" : false
+      },
+	  {
+	    "type" : "gatherItem",
+		"itemName" : "paa_electron",
+		"count" : 1,
+		"consume" : false
+	  }
+    ]
+  }
+

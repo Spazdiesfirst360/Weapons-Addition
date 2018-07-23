@@ -1,0 +1,15 @@
+{
+  "input" : [
+    { "item" : "durasteelbar", "count" : 100 },
+	{ "item" : "titaniumbar", "count" : 100 },
+	{ "item" : "siliconboard", "count" : 100 },
+	{ "item" : "wire", "count" : 100 },
+	{ "item" : "wa_hitechlimiter", "count" : 50 },
+	{ "item" : "paa_element200", "count" : 5 }
+  ],
+  "output" : {
+    "item" : "wa_handlunarbaselaser",
+    "count" : 1
+  },
+  "groups" : [ "wa_expweapstat", "weapons" ]
+}

@@ -1,0 +1,14 @@
+{
+  "input" : [
+    { "item" : "wa_ionbattery", "count" : 50 },
+	{ "item" : "titaniumbar", "count" : 10 },
+	{ "item" : "siliconboard", "count" : 10 },
+	{ "item" : "wire", "count" : 10 },
+	{ "item" : "wa_energycrystalshard", "count" : 5}
+  ],
+  "output" : {
+    "item" : "wa_energycrystalrifle",
+    "count" : 1
+  },
+  "groups" : [ "wa_expweapstat", "weapons" ]
+}

@@ -1,0 +1,31 @@
+{
+	"id": "wa_shiplog",
+	"title": "Transaction Log",
+	"description": "A log containing transactions made throughout the universe.",
+	"icon": "wa_shiplog.png",
+	"contentPages": [
+		"^red;WARNING! DATA ENCRYPTED! CLASSIFIED INFORMATION WILL BE REDACTED.^reset;
+
+[there are an enormous amount of pages, seems to be an almost endless amount of transactions. Only a few seem to stand out to you.]",
+
+"^green;Entry 100110111^reset;
+15 crates of Wall Bs
+2 shipments of assault weapons
+1 shipping container full of nitroglycerin
+delivered to [REDACTED] at Procyon Nexus.",
+"^green;Entry 1011111000^reset;
+2 shipping containers full of nuclear warheads, safely secured
+1 shipment of [REDACTED]
+25 barrels of enriched plutonium, safely secured
+delivered to a USCM ship in the Hypernexus Expanse.",
+"^green;Entry 110100100010^reset;
+10 barrels of liquid deuterium
+5 barrels of grav liquid
+35 barrels of mercury
+delivered to a Weapons Facility on Omniculpa Cluster VI."
+	],
+	"itemConfig": {
+		"rarity": "rare",
+		"price": 10
+	}
+}

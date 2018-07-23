@@ -1,0 +1,56 @@
+{
+  "itemName" : "wa_fireflail",
+  "price" : 1500,
+  "level" : 6,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "This flail is made of fire. How does that happen?",
+  "shortdescription" : "Molten Flail",
+  "tooltipKind" : "sword",
+  "category" : "whip",
+  "twoHanded" : false,
+  "itemTags" : ["weapon"],
+
+  "inventoryIcon" : "wa_fireflail.png:idle",
+  "animation" : "whip.animation",
+  "animationParts" : {
+    "weapon" : "wa_fireflail.png",
+    "weaponFullbright" : "wa_fireflailfullbright.png"
+  },
+  "animationCustom" : {
+    "lights" : { "glow" : {
+      "active" : true,
+      "position" : [0.75, 0.5],
+      "color" : [255, 90, 0]
+    }},
+    "particleEmitters" : { "crack" : { "particles" : [ ]}},
+    "sounds" : {
+      "swing" : [ "/sfx/melee/energywhip_swing1.ogg", "/sfx/melee/energywhip_swing2.ogg", "/sfx/melee/energywhip_swing3.ogg" ],
+      "crack" : [ "/sfx/melee/energywhip_impact1.ogg", "/sfx/melee/energywhip_impact2.ogg", "/sfx/melee/energywhip_impact3.ogg" ]
+    }
+  },
+
+  "chain" : {
+    "startOffset" : [0.625, 0],
+    "length" : [3, 12],
+    "segmentImage" : "/items/active/weapons/whip/wa_fireflailsegment.png",
+    "endSegmentImage" : "/items/active/weapons/whip/wa_fireflailsegmentend.png",
+    "segmentSize" : 0.375,
+    "fullbright" : true
+  },
+
+  "scripts" : [ "whip.lua" ],
+
+  "primaryAbilityType" : "whipcrack",
+  "primaryAbility" : {
+    "fireTime" : 1.1,
+    "chainDps" : 2.4,
+    "crackDps" : 7.2,
+
+    "damageConfig" : {
+      "damageSourceKind" : "fire"
+    }
+  },
+
+  "builder" : "/items/buildscripts/buildwhip.lua"
+}

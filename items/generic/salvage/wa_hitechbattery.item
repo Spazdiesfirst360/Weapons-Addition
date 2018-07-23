@@ -1,0 +1,10 @@
+{
+  "itemName" : "wa_hitechbattery",
+  "price" : 1000,
+  "rarity" : "rare",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "wa_hitechbattery.png",
+  "description" : "A very, very high end energy source.",
+  "shortdescription" : "Hi-Tech Energy Source",
+  "itemTags" : [ "reagent" ]
+}

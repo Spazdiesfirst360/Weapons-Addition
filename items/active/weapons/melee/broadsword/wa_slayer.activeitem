@@ -1,0 +1,32 @@
+{
+  "itemName" : "wa_slayer",
+  "price" : 5000,
+  "level" : 6,
+  "maxStack" : 1,
+  "rarity" : "legendary",
+  "description" : "/'Slash the beast, slay the world/'",
+  "shortdescription" : "^#00FFFF;World Slayer^reset;",
+  "tooltipKind" : "sword",
+  "category" : "Sword",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","broadsword"],
+
+  "inventoryIcon" : "wa_slayer.png",
+
+  "animation" : "wa_slayer.animation",
+  "animationCustom" : {},
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "fire",
+
+  "primaryAbilityType" : "broadswordcombo",
+  "primaryAbility" : {
+  "fireTime" : 0.276,
+  "baseDps" : 45.1
+  },
+  
+  "altAbilityType" : "wa_slayerslash",
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

@@ -1,0 +1,18 @@
+{
+  "name" : "paa_superrad",
+
+  "effectConfig" : {
+    "healthPercentage" : 0.01,
+    "directives" : "fade=AAFF88FF;0.15?border=2;AAFF8822;00000000"
+  },
+  "defaultDuration" : 120,
+
+  "scripts" : [
+    "paa_superrad.lua"
+  ],
+
+  "animationConfig" : "paa_superrad.animation",
+
+  "label" : "Ingested Radiation",
+  "icon" : "/interface/statuses/biomeradioactive.png"
+}

@@ -1,0 +1,30 @@
+{
+  "itemName" : "wa_unstablereactor1",
+  "price" : 0,
+  "rarity" : "rare",
+  "category" : "throwableItem",
+  "inventoryIcon" : "wa_unstablereactor1.png",
+  "image" : "wa_unstablereactor1.png",
+  "shortdescription" : "Unstable Electric Reactor",
+  "description" : "Do not use this near something you do not want demolished.",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 1.0,
+  "cooldown" : 1.0,
+
+  "projectileType" : "wa_electricreactor",
+  "projectileConfig" : {
+    "speed" : 25,
+    "power" : 1000,
+    "periodicActions" : [
+      {
+        "time" : 0,
+        "repeat" : false,
+        "action" : "sound",
+        "options" : [ "/sfx/projectiles/throw_item.ogg" ]
+      }
+    ]
+  }
+}

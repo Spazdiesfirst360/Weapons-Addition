@@ -1,0 +1,52 @@
+{
+  "objectName" : "paa_deskfan",
+  "colonyTags" : ["electronic"],
+  "rarity" : "common",
+  "description" : "A fan that you put on your desk.",
+  "shortdescription" : "Desk Fan",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 5,
+  "printable" : true,
+  
+  "lightColor" : [1, 1, 1],
+
+
+  "inventoryIcon" : "paa_deskfanicon.png",
+  "orientations" : [
+    {
+      "image" : "paa_deskfan.png:default.<frame>",
+      "imagePosition" : [-8, 0],
+
+	  "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    },
+	{
+	  "image" : "paa_deskfan.png:default.<frame>",
+	  "imagePosition" : [-8, 0],
+	  
+	  "direction" : "left",
+	  "flipImages" : true,
+	  
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ]
+	}
+  ],
+  
+  "animation" : "paa_deskfan.animation",
+  "animationParts" : {
+    "bg" : "paa_deskfan.png",
+    "fg" : "paa_deskfanlit.png"
+  },
+  "animationPosition" : [-8, 0],
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+  
+  "interactive" : true,
+
+  "inputNodes" : [ [0, 0] ]
+}
