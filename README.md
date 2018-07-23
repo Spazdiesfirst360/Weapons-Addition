@@ -1,2 +1,2 @@
-# ParticleAcceleratorAddition
-A random mod I made.
+# Weapons Addition
+A random mod I made for Starbound.
