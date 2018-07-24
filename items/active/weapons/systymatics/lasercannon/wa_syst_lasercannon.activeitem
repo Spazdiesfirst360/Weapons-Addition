@@ -1,0 +1,70 @@
+{
+    "itemName" : "wa_syst_lasercannon",
+    "price" : 5000,
+    "maxStack" : 1,
+    "rarity" : "Legendary",
+    "description" : "\"Test subjects have developed a distaste to... electrocution.\" -Systyma, Maddened A.I.",
+    "shortdescription" : "Laser Cannon",
+    "tooltipKind" : "gun",
+    "category" : "uniqueWeapon",
+    "twoHanded" : true,
+    "itemTags" : ["weapon","ranged"],
+    "level" : 6,
+
+    "inventoryIcon" : "wa_syst_lasercannon.png:empty",
+
+    "animation" : "wa_syst_lasercannon.animation",
+    "animationParts" : {
+        "gun" : "wa_syst_lasercannon.png",
+        "gunfullbright" : "wa_syst_lasercannonfullbright.png"
+    },
+    "animationCustom" : {},
+    "muzzleOffset" : [2.5, 0.5],
+
+    "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+    "elementalType" : "electric",
+
+    "primaryAbilityType" : "chargefire",
+    "primaryAbility" : {
+        "chargeLevels" : [
+        {
+            "time" : 0,
+            "energyCost" : 5,
+            "cooldown" : 0.1,
+            "projectileType" : "electricplasma",
+            "projectileCount" : 1,
+            "projectileParameters" : { "statusEffects" : [ "electrified" ] },
+            "inaccuracy" : 0,
+            "baseDamage" : 5.3,
+            "fireSound" : "fire"
+        },
+        {
+            "time" : 0.5,
+            "energyCost" : 15,
+            "cooldown" : 0.5,
+            "projectileType" : "railgunlightning",
+            "projectileCount" : 1,
+            "spreadAngle" : 0,
+            "projectileParameters" : { "statusEffects" : [ "electrified" ] },
+            "inaccuracy" : 0,
+            "baseDamage" : 7.6,
+            "fireSound" : "fire"
+        },
+        {
+            "time" : 1.0,
+            "energyCost" : 75,
+            "cooldown" : 0.25,
+            "projectileType" : "electricplasmarocket",
+            "projectileCount" : 5,
+            "spreadAngle" : 0,
+            "projectileParameters" : { "statusEffects" : [ "electrified" ] },
+            "inaccuracy" : 0,
+            "baseDamage" : 14.8,
+            "fireSound" : "fire"
+        }
+        ]
+    },
+
+    "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}  
