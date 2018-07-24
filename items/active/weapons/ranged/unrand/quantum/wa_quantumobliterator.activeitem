@@ -11,12 +11,12 @@
     "itemTags" : ["weapon","ranged","rocketlauncher"],
     "level" : 7,
   
-    "inventoryIcon" : "wa_quantumobliterator.png",
+    "inventoryIcon" : "wa_quantumobliterator.png:empty",
   
     "animation" : "/items/active/weapons/ranged/gun.animation",
     "animationParts" : {
     "butt" : "",
-    "middle" : "wa_quantumobliterator.png",
+    "middle" : "wa_quantumobliterator.png:empty",
      "middlefullbright" : "",
     "barrel" : "",
     "muzzleFlash" : "/items/active/weapons/ranged/muzzleflash.png"
