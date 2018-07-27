@@ -4,7 +4,7 @@
   "inventoryIcon" : "wa_syst_scorchlaser.png:idle",
   "maxStack" : 1,
   "rarity" : "legendary",
-  "description" : "\"Just another day, burning everything.\"",
+  "description" : "\"Everything burns at a certain temperature.\" -Systyma, Maddened A.I.",
   "shortdescription" : "^#ff0000;Scorch Laser^reset;",
   "category" : "uniqueWeapon",
   "itemTags" : [ "weapon","ranged" ],

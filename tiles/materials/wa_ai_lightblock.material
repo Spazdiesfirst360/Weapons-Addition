@@ -1,0 +1,22 @@
+{
+  "materialId" : 6901,
+  "materialName" : "wa_ai_lightblock",
+  "particleColor" : [248, 97, 17, 255],
+  "itemDrop" : "lunarbaseblock",
+  "description" : "Strip lighting.",
+  "shortdescription" : "AI Light Block",
+  "footstepSound" : "/sfx/blocks/footstep_metallic.ogg",
+  "health" : 20,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "wa_ai_lightblock.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "multiColored" : true,
+    "occludesBelow" : true,
+    "zLevel" : 3180,
+	"radiantLight" : [248, 97, 17]
+  }
+}

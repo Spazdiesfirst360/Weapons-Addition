@@ -1,0 +1,41 @@
+{
+  "objectName" : "wa_ai_light",
+  "colonyTags" : ["light","industrial"],
+  "rarity" : "Common",
+  "category" : "light",
+  "lightColor" : [227, 156, 70],
+  "price" : 60,
+  "description" : "A peculiar orange light.",
+  "shortdescription" : "AI Light",
+  "race" : "generic",
+
+  "inventoryIcon" : "industriallighticon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "wa_ai_light.png:<color>.<frame>", "fullbright" : true }, { "image" : "wa_ai_lightlit.png:<color>.<frame>" } ],
+      "imagePosition" : [-8, 0],
+      
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/fluorescent_light_quiet.ogg",
+  "soundEffectRangeMultiplier" : 0.5,
+  
+  "animation" : "/objects/wired/light/lighttoggle.animation",
+  "animationParts" : {
+    "light" : "wa_ai_light.png"
+  },
+  "animationPosition" : [-8, 0],
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+  
+  "interactive" : false,
+
+  "inputNodes" : [ [0, 0] ]
+  
+}

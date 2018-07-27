@@ -1,0 +1,21 @@
+{
+  "materialId" : 6903,
+  "materialName" : "wa_ai_tech",
+  "particleColor" : [5, 5, 5, 255],
+  "itemDrop" : "metallicmaterial",
+  "description" : "What mysterious material is this?",
+  "shortdescription" : "AI Tech Block",
+  "footstepSound" : "/sfx/blocks/footstep_metallic.ogg",
+  "health" : 20,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "wa_ai_tech.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 3000
+  }
+}

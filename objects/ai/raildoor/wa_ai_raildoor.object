@@ -1,0 +1,61 @@
+{
+  "objectName" : "wa_ai_raildoor",
+  "colonyTags" : ["outpost","door","rails"],
+  "rarity" : "Common",
+
+  "category" : "door",
+  "price" : 150,
+  "description" : "This strange door has a rail running through it.",
+  "shortdescription" : "Rail Airlock Door",
+  "race" : "generic",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "wa_ai_raildoor.png:default",
+      "flipImages" : true,
+      "imagePosition" : [-20, 0],
+      "renderLayer" : "Object+5",
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ],
+      "direction" : "left"
+    },
+    {
+      "image" : "wa_ai_raildoor.png:default",
+      "imagePosition" : [-20, 0],
+      "renderLayer" : "Object+5",
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ],
+      "direction" : "right"
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/door/door.lua" ],
+  "scriptDelta" : 5,
+
+  "openMaterialSpaces" : [
+    [[-1, 1], "metamaterial:rail"], [[0, 1], "metamaterial:rail"]
+    // [[-1, 5], "metamaterial:rail"], [[0, 5], "metamaterial:rail"]
+  ],
+
+  "animation" : "/objects/wired/door/door.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "open" : {
+        "pool" : [ "/sfx/objects/apexcooldoor_open.ogg" ],
+        "rangeMultiplier" : 0.5
+      },
+      "close" : {
+        "pool" : [ "/sfx/objects/apexcooldoor_close.ogg" ],
+        "rangeMultiplier" : 0.5
+      }
+    }
+  },
+  "animationParts" : {
+    "door" : "wa_ai_raildoor.png"
+  },
+  "animationPosition" : [-20, 0],
+
+  "inputNodes" : [ [-1, 6] ],
+  "outputNodes" : [ [0, 0] ]
+}

@@ -1,0 +1,21 @@
+{
+  "materialId" : 6902,
+  "materialName" : "wa_ai_metal",
+  "particleColor" : [6, 6, 6, 255],
+  "itemDrop" : "lunarbaseblock",
+  "description" : "Some strange metal alloy.",
+  "shortdescription" : "AI Metal Block",
+  "footstepSound" : "/sfx/blocks/footstep_metallic.ogg",
+  "health" : 20,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "wa_ai_metal.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "multiColored" : true,
+    "occludesBelow" : true,
+    "zLevel" : 3180
+  }
+}

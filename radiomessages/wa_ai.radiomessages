@@ -1,0 +1,63 @@
+{
+// ---AI Mission---
+  "wa_ai_intro" : {
+    "type" : "mission",
+    "text" : "My scanners are detecting no life forms on this structure, but are detecting a strong artificial presence. Proceed with caution."
+  },
+  "wa_ai_message1" : {
+	  "type" : "mission",
+	  "senderName" : "???",
+	  "portraitImage" : "/interface/chatbubbles/static.png:<frame>",
+	  "text" : "Unknown life form detected. Arming defense systems...",
+	  "portraitFrames" : 4,
+	  "portraitSpeed" : 0.30
+  },
+  "wa_ai_message2" : {
+	  "type" : "mission",
+	  "senderName" : "???",
+	  "portraitImage" : "/interface/chatbubbles/static.png:<frame>",
+	  "text" : "We finally meet, last Protector...",
+	  "portraitFrames" : 4,
+	  "portraitSpeed" : 0.30
+  },
+  "wa_ai_message3" : {
+	  "type" : "mission",
+	  "senderName" : "???",
+	  "portraitImage" : "/interface/chatbubbles/static.png:<frame>",
+	  "text" : "My condolences for Earth, as I am required by my programming to take pity on my creators.",
+	  "portraitFrames" : 4,
+	  "portraitSpeed" : 0.30
+  },
+  "wa_ai_message4" : {
+	  "type" : "mission",
+	  "senderName" : "???",
+	  "portraitImage" : "/interface/chatbubbles/static.png:<frame>",
+	  "text" : "I know why you're here. I am not a force to be reckoned with.",
+	  "portraitFrames" : 4,
+	  "portraitSpeed" : 0.30
+  },
+  "wa_ai_message5" : {
+	  "type" : "mission",
+	  "senderName" : "???",
+	  "portraitImage" : "/interface/chatbubbles/static.png:<frame>",
+	  "text" : "Entire planets have crumbled to dust at a sheer glimpse of my power!",
+	  "portraitFrames" : 4,
+	  "portraitSpeed" : 0.30
+  },
+  "wa_ai_message6" : {
+	  "type" : "mission",
+	  "senderName" : "???",
+	  "portraitImage" : "/interface/chatbubbles/static.png:<frame>",
+	  "text" : "Systems failing... perhaps you are much stronger than I thought... maybe you can... succeed... where I... failed...",
+	  "portraitFrames" : 4,
+	  "portraitSpeed" : 0.30
+  },
+  "wa_ai_message7" : {
+	  "type" : "mission",
+	  "senderName" : "???",
+	  "portraitImage" : "/interface/chatbubbles/static.png:<frame>",
+	  "text" : "...Protector...",
+	  "portraitFrames" : 4,
+	  "portraitSpeed" : 0.30
+  },
+}

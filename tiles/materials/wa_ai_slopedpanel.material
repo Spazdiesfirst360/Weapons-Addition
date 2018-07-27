@@ -1,0 +1,22 @@
+{
+  "materialId" : 6905,
+  "materialName" : "wa_ai_slopedpanel",
+  "particleColor" : [11, 11, 11, 255],
+  "itemDrop" : "slopedhullpanel",
+
+  "description" : "This metal is unfamiliar.",
+  "shortdescription" : "AI Panel",
+  "footstepSound" : "/sfx/blocks/footstep_metallic.ogg",
+  "health" : 24,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/slopedmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "wa_ai_slopedpanel.png",
+    "variants" : 8,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 5000
+  }
+}

@@ -23,6 +23,18 @@
 			"//shortdescription": "Lab Floor Panel",
 			"material": "paa_labpanel1"
 		},
+		"10": {
+			"//description": "This metal is rather unknown to me.",
+			"//name": "wa_ai_metal2",
+			"//shortdescription": "AI Metal",
+			"material": "wa_ai_metal2"
+		},
+		"11": {
+			"//description": "This metal is unfamiliar.",
+			"//name": "wa_ai_slopedpanel",
+			"//shortdescription": "AI Panel",
+			"material": "wa_ai_slopedpanel"
+		},
 		"2": {
 			"//description": "This alloy looks incredibly durable.",
 			"//name": "paa_labpanel2",
@@ -50,6 +62,24 @@
 		"6": {
 			"//name": "wa_fluorine",
 			"liquid": "wa_fluorine"
+		},
+		"7": {
+			"//description": "Strip lighting.",
+			"//name": "wa_ai_lightblock",
+			"//shortdescription": "AI Light Block",
+			"material": "wa_ai_lightblock"
+		},
+		"8": {
+			"//description": "What mysterious material is this?",
+			"//name": "wa_ai_tech",
+			"//shortdescription": "AI Tech Block",
+			"material": "wa_ai_tech"
+		},
+		"9": {
+			"//description": "Some strange metal alloy.",
+			"//name": "wa_ai_metal",
+			"//shortdescription": "AI Metal Block",
+			"material": "wa_ai_metal"
 		}
 	},
 	"tilepropertytypes": {
@@ -60,6 +90,18 @@
 			"material": "string"
 		},
 		"1": {
+			"//description": "string",
+			"//name": "string",
+			"//shortdescription": "string",
+			"material": "string"
+		},
+		"10": {
+			"//description": "string",
+			"//name": "string",
+			"//shortdescription": "string",
+			"material": "string"
+		},
+		"11": {
 			"//description": "string",
 			"//name": "string",
 			"//shortdescription": "string",
@@ -95,6 +137,16 @@
 			"imageheight": 8,
 			"imagewidth": 8
 		},
+		"10": {
+			"image": "C:\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/tiled\/packed\/materials\/wa_ai_metal2.png",
+			"imageheight": 8,
+			"imagewidth": 8
+		},
+		"11": {
+			"image": "C:\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/tiled\/packed\/materials\/wa_ai_slopedpanel.png",
+			"imageheight": 8,
+			"imagewidth": 8
+		},
 		"2": {
 			"image": "C:\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/tiled\/packed\/materials\/paa_labpanel2.png",
 			"imageheight": 8,
@@ -117,6 +169,21 @@
 		},
 		"6": {
 			"image": "C:\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/tiled\/packed\/liquids\/wa_fluorinetex.png",
+			"imageheight": 8,
+			"imagewidth": 8
+		},
+		"7": {
+			"image": "C:\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/tiled\/packed\/materials\/wa_ai_lightblock.png",
+			"imageheight": 8,
+			"imagewidth": 8
+		},
+		"8": {
+			"image": "C:\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/tiled\/packed\/materials\/wa_ai_tech.png",
+			"imageheight": 8,
+			"imagewidth": 8
+		},
+		"9": {
+			"image": "C:\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/tiled\/packed\/materials\/wa_ai_metal.png",
 			"imageheight": 8,
 			"imagewidth": 8
 		}
