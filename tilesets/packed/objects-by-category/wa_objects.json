@@ -399,66 +399,6 @@
          "object":"paa_industrialfloodlights",
          "tilesetDirection":"left"
         },
-/*	"44":
-        {
-         "//description":"This radar will take me to the next area.",
-         "//name":"wa_ultraradar_forest",
-         "//shortdescription":"Challenge Door",
-         "imagePositionX":"-32",
-         "imagePositionY":"0",
-         "object":"wa_ultraradar_forest",
-         "tilesetDirection":"right"
-        },
-	"45":
-        {
-         "//description":"This radar will take me to the next area.",
-         "//name":"wa_ultraradar_desert",
-         "//shortdescription":"Challenge Door",
-         "imagePositionX":"-32",
-         "imagePositionY":"0",
-         "object":"wa_ultraradar_desert",
-         "tilesetDirection":"right"
-        },
-	"46":
-        {
-         "//description":"This radar will take me to the next area.",
-         "//name":"wa_ultraradar_toxic",
-         "//shortdescription":"Challenge Door",
-         "imagePositionX":"-32",
-         "imagePositionY":"0",
-         "object":"wa_ultraradar_toxic",
-         "tilesetDirection":"right"
-        },
-	"47":
-        {
-         "//description":"This radar may lead to a surprise...",
-         "//name":"wa_ultraradar_toxic_bonus",
-         "//shortdescription":"Challenge Door",
-         "imagePositionX":"-32",
-         "imagePositionY":"0",
-         "object":"wa_ultraradar_toxic_bonus",
-         "tilesetDirection":"right"
-        },
-	"48":
-        {
-         "//description":"This radar may lead to a surprise...",
-         "//name":"wa_ultraradarbonus",
-         "//shortdescription":"Challenge Door",
-         "imagePositionX":"-32",
-         "imagePositionY":"0",
-         "object":"wa_ultraradarbonus",
-         "tilesetDirection":"right"
-        },
-	"49":
-        {
-         "//description":"This radar will take me to the next area.",
-         "//name":"wa_ultraradar_tundra",
-         "//shortdescription":"Challenge Door",
-         "imagePositionX":"-32",
-         "imagePositionY":"0",
-         "object":"wa_ultraradar_tundra",
-         "tilesetDirection":"right"
-        },*/
      "5":
         {
          "//description":"A very specially designed crate for hazardous substances. ^red;Does not work with Enhanced Storage!^reset;",
@@ -469,26 +409,6 @@
          "object":"paa_hazardchest",
          "tilesetDirection":"right"
         },
-/*	"50":
-        {
-         "//description":"This radar will take me to the next area.",
-         "//name":"wa_ultraradar_volcanic",
-         "//shortdescription":"Challenge Door",
-         "imagePositionX":"-32",
-         "imagePositionY":"0",
-         "object":"wa_ultraradar_volcanic",
-         "tilesetDirection":"right"
-        },
-	"51":
-        {
-         "//description":"This radar will take me to the next area.",
-         "//name":"wa_ultraradar_scorched",
-         "//shortdescription":"Challenge Door",
-         "imagePositionX":"-32",
-         "imagePositionY":"0",
-         "object":"wa_ultraradar_scorched",
-         "tilesetDirection":"right"
-        }, */
      "6":
         {
          "//description":"An anti-matter fueled hoverbike on display.",
@@ -1114,71 +1034,23 @@
 		 "image" : "C:\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/tiled\/packed\/objects\/ancientstriplightred.png",
 		 "imageheight":8,
          "imagewidth":16
-		},
-	 "42" : {
-		 "image" : "C:\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/tiled\/packed\/objects\/wa_superswordplaque.png",
-		 "imageheight":152,
-         "imagewidth":64
-		},
-	"43":
+                },
+    "42" : {
+        "image" : "C:\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/tiled\/packed\/objects\/wa_superswordplaque.png",
+        "imageheight":152,
+        "imagewidth":64
+        },
+    "43":
         {
          "image":"C:\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/tiled\/packed\/objects\/paa_industrialfloodlights_orientation1.png",
          "imageheight":32,
          "imagewidth":24
-        },
-	"44":
-        {
-         "image":"C:\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/tiled\/packed\/objects\/outpostradardish.png",
-         "imageheight":60,
-         "imagewidth":56
-        },
-	"45":
-        {
-         "image":"C:\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/tiled\/packed\/objects\/outpostradardish.png",
-         "imageheight":60,
-         "imagewidth":56
-        },
-	"46":
-        {
-         "image":"C:\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/tiled\/packed\/objects\/outpostradardish.png",
-         "imageheight":60,
-         "imagewidth":56
-        },
-	"47":
-        {
-         "image":"C:\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/tiled\/packed\/objects\/outpostradardish.png",
-         "imageheight":60,
-         "imagewidth":56
-        },
-	"48":
-        {
-         "image":"C:\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/tiled\/packed\/objects\/outpostradardish.png",
-         "imageheight":60,
-         "imagewidth":56
-        },
-	"49":
-        {
-         "image":"C:\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/tiled\/packed\/objects\/outpostradardish.png",
-         "imageheight":60,
-         "imagewidth":56
         },
      "5":
         {
          "image":"C:\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/tiled\/packed\/objects\/paa_hazardchest.png",
          "imageheight":20,
          "imagewidth":24
-        },
-	"50":
-        {
-         "image":"C:\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/tiled\/packed\/objects\/outpostradardish.png",
-         "imageheight":60,
-         "imagewidth":56
-        },
-	"51":
-        {
-         "image":"C:\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/tiled\/packed\/objects\/outpostradardish.png",
-         "imageheight":60,
-         "imagewidth":56
         },
      "6":
         {

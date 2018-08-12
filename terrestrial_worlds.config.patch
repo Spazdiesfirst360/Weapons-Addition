@@ -263,7 +263,7 @@
 	  "wa_armory"
 	]
   },*/
-  {
+  /*{
     "op": "add",
 	"path": "/planetTypes/alien/layers/surface/dungeons/-",
 	"value": [
@@ -294,7 +294,7 @@
       1,
       "wa_experimentalscientistencounter"
     ]
-  },
+  },*/
   /*{
     "op": "add",
     "path": "/planetTypes/forest/layers/surface/dungeons/-",
@@ -2087,7 +2087,7 @@
 	  "wa_outpostfriendlydesert"
 	]
   },*/
-  {
+  /*{
     "op": "add",
     "path": "/planetTypes/ffunknown/layers/surface/dungeons/-",
     "value": [
@@ -2111,14 +2111,14 @@
       "wa_nemesisshrine"
     ]
   },
-  /*{
+  {
     "op": "add",
     "path": "/planetTypes/garden/layers/surface/dungeons/-",
     "value": [
       4,
       "nemesisencounter"
     ]
-  },*/
+  },
   {
     "op": "add",
     "path": "/planetTypes/scorchedcity/layers/surface/dungeons/-",
@@ -2126,5 +2126,5 @@
       4,
       "wa_radarencounter"
     ]
-  }
+  }*/
 ]

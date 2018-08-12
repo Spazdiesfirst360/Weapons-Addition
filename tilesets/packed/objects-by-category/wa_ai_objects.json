@@ -167,7 +167,7 @@
             "//description":"Urge... to push... rising!",
             "//name":"wa_ai_floorplate",
             "//shortdescription":"Big Red Button",
-            "imagePositionX":"-12",
+            "imagePositionX":"-16",
             "imagePositionY":"0",
             "object":"wa_ai_floorplate",
             "tilesetDirection":"right"
@@ -289,7 +289,7 @@
             "//description":"This odd door acts as an airlock.",
             "//name":"wa_ai_door2",
             "//shortdescription":"Ai Door",
-            "imagePositionX":"-20",
+            "imagePositionX":"-24",
             "imagePositionY":"0",
             "object":"wa_ai_door2",
             "tilesetDirection":"left"
@@ -299,7 +299,7 @@
             "//description":"This odd door acts as an airlock.",
             "//name":"wa_ai_door2_orientation2",
             "//shortdescription":"Ai Door",
-            "imagePositionX":"-20",
+            "imagePositionX":"-24",
             "imagePositionY":"0",
             "object":"wa_ai_door2",
             "tilesetDirection":"right"
@@ -742,8 +742,8 @@
            },
 		"22":
            {
-            "image":"C:\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/tiled\/packed\/objects\/wa_ai_floorplate.png",
-            "imageheight":24,
+            "image":"C:\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/tiled\/packed\/objects\/bigredbutton.png",
+            "imageheight":8,
             "imagewidth":32
            },
 		"23":
@@ -810,25 +810,25 @@
            {
             "image":"C:\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/tiled\/packed\/objects\/wa_ai_door1.png",
             "imageheight":48,
-            "imagewidth":264
+            "imagewidth":64
            },
         "5":
            {
             "image":"C:\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/tiled\/packed\/objects\/wa_ai_door1_orientation2.png",
-            "imageheight":20,
-            "imagewidth":24
+            "imageheight":48,
+            "imagewidth":64
            },
         "6":
            {
-            "image":"C:\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/tiled\/packed\/objects\/wa_ai_door2.png",
+            "image":"C:\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/tiled\/packed\/objects\/astrodoor.png",
             "imageheight":40,
-            "imagewidth":72
+            "imagewidth":48
            },
         "7":
            {
-            "image":"C:\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/tiled\/packed\/objects\/wa_ai_door2.png",
-            "imageheight":16,
-            "imagewidth":16
+            "image":"C:\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/tiled\/packed\/objects\/astrodoor.png",
+            "imageheight":40,
+            "imagewidth":48
            },
         "8":
            {
