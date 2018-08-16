@@ -4,21 +4,83 @@
     "species" : "generic",
     "rules" : [
     ],
-	"gravity" : 80,
-    "protected" : false,
-    "anchor" : [ "wa_hangar" ],
+    "anchor" : [ "wa_hangarstart", "wa_hangarend" ],
+    "gravity" : 80,
     "maxRadius" : 1000000,
-    "maxParts" : 1,
-    "extendSurfaceFreeSpace" : 100
+    "maxParts" : 15,
+    "extendSurfaceFreeSpace" : 100,
+    "protected" : false
   },
 
   "parts" : [
     {
-      "name" : "wa_hangar",
+      "name" : "wa_hangarseg1",
       "rules" : [
-        [ "maxSpawnCount", [1] ]
+        [ "maxSpawnCount", [3] ],
+        [ "doNotConnectToPart", [ "wa_hangarseg1" ] ]
+
       ],
-      "def" : [ "tmx", "wa_hangar.json" ]
+      "def" : [ "tmx", "wa_hangarseg1.json" ]
+    },
+    {
+      "name" : "wa_hangarseg2",
+      "rules" : [
+        [ "maxSpawnCount", [3] ],
+        [ "doNotConnectToPart", [ "wa_hangarseg2" ] ]
+
+      ],
+      "def" : [ "tmx", "wa_hangarseg2.json" ]
+    },
+    {
+      "name" : "wa_hangarseg3",
+      "rules" : [
+        [ "maxSpawnCount", [3] ],
+        [ "doNotConnectToPart", [ "wa_hangarseg3" ] ]
+
+      ],
+      "def" : [ "tmx", "wa_hangarseg3.json" ]
+    },
+    {
+      "name" : "wa_hangarseg4",
+      "rules" : [
+        [ "maxSpawnCount", [3] ],
+        [ "doNotConnectToPart", [ "wa_hangarseg4", "wa_hangarseg4secret" ] ]
+      ],
+      "def" : [ "tmx", "wa_hangarseg4.json" ]
+    },
+    {
+      "name" : "wa_hangarseg4secret",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotConnectToPart", [ "wa_hangarseg4", "wa_hangarseg4secret" ] ]
+
+      ],
+      "def" : [ "tmx", "wa_hangarseg4secret.json" ]
+    },
+    {
+      "name" : "wa_hangarseg5",
+      "rules" : [
+        [ "maxSpawnCount", [3] ],
+        [ "doNotConnectToPart", [ "wa_hangarseg5" ] ]
+      ],
+      "def" : [ "tmx", "wa_hangarseg5.json" ]
+    },
+    {
+      "name" : "wa_hangarstart",
+      "rules" : [
+        [ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", [ "wa_hangarstart.json" ] ],
+      "chance" : 0
+    },
+
+    {
+      "name" : "wa_hangarend",
+      "rules" : [
+        [ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", [ "wa_hangarend.json" ] ],
+      "chance" : 0
     }
   ]
 }
