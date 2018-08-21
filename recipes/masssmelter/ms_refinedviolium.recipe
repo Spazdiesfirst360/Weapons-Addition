@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "violiumore", "count" : 2 }
+    { "item" : "violiumore", "count" : 1 }
   ],
   "output" : { "item" : "refinedviolium", "count" : 1 },
   "duration" : 0.1,

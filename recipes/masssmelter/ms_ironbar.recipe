@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "ironore", "count" : 2 }
+    { "item" : "ironore", "count" : 1 }
   ],
   "output" : { "item" : "ironbar", "count" : 1 },
   "duration" : 0.1,

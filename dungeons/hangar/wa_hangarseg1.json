@@ -1,11 +1,11 @@
-{ "height":70,
+{ "height":80,
  "infinite":false,
  "layers":[
         {
          "compression":"zlib",
-         "data":"eJzt1MEJg0AQhlGvmn6sypNlpD\/7kQUXlmAwHtTsznvwM+fvMl0HADxhDLJsDjK9bS9q79N\/5O5\/dZVp2xnLthrpPaa3HnqP1dybTMW+dSwfq11u\/aUXAAAAAAAAAAAA\/sU7yLK+uC2ubGy5c687GYJMb9vLXkGWrPgwxWc=",
+         "data":"eJzt1EEKwjAQhtFuvZCn6spjeL\/eR4QGiqhRsZlm8h78+\/kIZJoAgAjnQVZcBpne3Bu1N\/ofaf1f7WVe941lXY\/01unth966nnvv5s1edSwP611p\/aQXAAAAAAAAAAAAjuI6yIrTINObe3pzT2\/ubUXf0rI1c\/M70be1bM3S\/Ivom5\/d\/q+2miO\/y96y99G\/G1A60K4=",
          "encoding":"base64",
-         "height":70,
+         "height":80,
          "name":"front",
          "opacity":1,
          "type":"tilelayer",
@@ -16,9 +16,9 @@
         }, 
         {
          "compression":"zlib",
-         "data":"eJzt1MEJgwAQRFHxZuwnhVmGVScBvc8pA+5b2AIeDH9ZnHPOOffvW7\/\/HvLr9ceQ5332T\/W2O6JX9szLm3rbHdEre+blTb3tjuiVPfPypt52R\/TKnnl5U2+7I3plz7y8qbfdEb2yZ17e1NvuiF7ZMy9v6m13RK\/smZc39bY7olf2zMubetsd0St75uVNveeQv73bkJ\/qfQ153mf\/7d2H\/M\/6AeJtJOo=",
+         "data":"eJzt1EEKAjEQRNGQnRfyYB7DU7vKTrQZ0AqdN1DbIQ+aP8cY07ZY5ev0Hl5eXt4r\/+3wLe\/9kC3v45Dx9t6p3nRH9Mo98\/JWvemO6JV75uWtetMd0Sv3zMtb9aY7olfumZe36k13RK\/cMy9v1ZvuiF65Z17eqjfdEb1yz7y8VW+6I3rlnnl5q950R\/TKPfPyVr3pjuiVe+blrXqfh2x5b4eMt\/d4e4+39+Y4xzzfLP2mfzm7ej9Zu5grxl3N3950xbaL\/Rdv38metljPvQCSuzSX",
          "encoding":"base64",
-         "height":70,
+         "height":80,
          "name":"back",
          "opacity":0.56,
          "type":"tilelayer",
@@ -1092,7 +1092,7 @@
                  "visible":true,
                  "width":8,
                  "x":16,
-                 "y":520
+                 "y":536
                 }, 
                 {
                  "gid":13,
@@ -1116,7 +1116,31 @@
                  "visible":true,
                  "width":8,
                  "x":456,
-                 "y":520
+                 "y":536
+                }, 
+                {
+                 "gid":5,
+                 "height":8,
+                 "id":110,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":8,
+                 "x":464,
+                 "y":504
+                }, 
+                {
+                 "gid":5,
+                 "height":8,
+                 "id":111,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":8,
+                 "x":8,
+                 "y":504
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -1124,7 +1148,7 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":110,
+ "nextobjectid":112,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.1.6",

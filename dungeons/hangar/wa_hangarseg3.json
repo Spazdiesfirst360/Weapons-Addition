@@ -1,11 +1,11 @@
-{ "height":70,
+{ "height":80,
  "infinite":false,
  "layers":[
         {
          "compression":"zlib",
-         "data":"eJzt1MEJw0AQQ9G5OuknhaWMVKXSgg8LxkTXHaL5D4R1sweEqwAAQIfXkCzvIeHe7Ey9t\/s\/svt\/tZOa3ttF3R+wgW5JJ9NTyfRUKvacTKanUrHnZDI9lYo9J5PpqVTsOZlMT6Viz8lkeioVe04m0xPJBAAAAAAAAAAA\/LfPkCzH5ZmY643Jd\/66+\/QYEu7NzvIcktMXsYvcWQ==",
+         "data":"eJzt1MEJA0EMQ1Ff01AK2zK2KpWW0152EYQQbEbzHwh8GwvMVAEAgAnvTXI5Ngl9s7Nr3+l\/pPu\/6qShd6doeoEGuiWdzJxKZk6l4p6TycypVNxzMpk5lYp7TiYzp1Jxz8lk5lQq7jmZzJxKxT0nk5kTyQQAAAAAAAAAAKzt3CSX1yahb3bomx365uZuep+unqmdvzG9Y2fXhN6\/mt67s+tKnf9tuk9HR2eFHfH0Af4g6TU=",
          "encoding":"base64",
-         "height":70,
+         "height":80,
          "name":"front",
          "opacity":1,
          "type":"tilelayer",
@@ -16,9 +16,9 @@
         }, 
         {
          "compression":"zlib",
-         "data":"eJzt1MENwkAMRNEoN6AfCqOMVEVpgETuPsUrz1tpCnha62+b53me53lXv\/27Z8j2\/14h4529VG93R6b16r3A3155z2neVZbq7e7ItF6tMt7ZS\/V2d0Sv3DMvb9Xb3RG9cs+8vFVvd0f0yj3z8la93R3RK\/fMy1v1dndEr9wzL2\/V290RvXLPvLxVb3dH9Mo98\/JWvd0d0Sv3zMtb9R4hO723kKV67yHjnb3T+wjZz\/oBXD0lhg==",
+         "data":"eJzt1MENgzAQRFHLtzREYZRBVSktJ19AQgsEjz37keYYwVNWv5ZSKjvsyqN4N1699+7vn7wTL153b5aneZcka941yfB6L6tX3RG3Xn0H+G973nM27yjL6lV3xK1Xowyv97J61R2hV9wzXrxRr7oj9Ip7xos36lV3hF5xz3jxRr3qjtAr7hkv3qhX3RF6xT3jxRv1qjtCr7hnvHijXnVH6BX3jBdv1KvuCL3invHijXq3JGveT5Lh9R5e7+H1Xd1N\/T29nK7mM6ebN2J1cF91zuy9a53J\/NQ4g\/nfxjfsvb6RHfcDD8k19A==",
          "encoding":"base64",
-         "height":70,
+         "height":80,
          "name":"back",
          "opacity":0.56,
          "type":"tilelayer",
@@ -467,7 +467,7 @@
                  "visible":true,
                  "width":8,
                  "x":16,
-                 "y":520
+                 "y":536
                 }, 
                 {
                  "gid":6,
@@ -479,7 +479,7 @@
                  "visible":true,
                  "width":8,
                  "x":456,
-                 "y":520
+                 "y":536
                 }, 
                 {
                  "gid":13,
@@ -492,6 +492,30 @@
                  "width":8,
                  "x":472,
                  "y":504
+                }, 
+                {
+                 "gid":5,
+                 "height":8,
+                 "id":136,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":8,
+                 "x":464,
+                 "y":504
+                }, 
+                {
+                 "gid":5,
+                 "height":8,
+                 "id":137,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":8,
+                 "x":8,
+                 "y":504
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -499,7 +523,7 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":136,
+ "nextobjectid":138,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.1.6",

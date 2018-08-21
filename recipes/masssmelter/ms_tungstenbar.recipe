@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "tungstenore", "count" : 2 }
+    { "item" : "tungstenore", "count" : 1 }
   ],
   "output" : { "item" : "tungstenbar", "count" : 1 },
   "duration" : 0.1,

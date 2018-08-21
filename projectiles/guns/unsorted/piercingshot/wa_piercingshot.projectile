@@ -15,5 +15,5 @@
     ],
     "power" : 5.0,
     "speed" : 150,
-    "damageKind" : "ignoresdef"
+    "damageKind" : "standardbullet"
 }  
