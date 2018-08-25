@@ -42,7 +42,7 @@
           "middle" : {
             "idle" : {
               "properties" : {
-                "image" : "/items/active/weapons/ranged/unrand/submachinegatling/wa_supersubmachinegatlingfullbright.png:<frame><paletteSwaps>"
+                "image" : "/items/active/weapons/ranged/unrand/weaponscollection/submachinegatling/wa_supersubmachinegatlingfullbright.png:<frame><paletteSwaps>"
               }
             }
           }
@@ -66,7 +66,7 @@
   "class" : "GunFire",
 
   "fireTime" : 0.0001,
-  "baseDps" : 50.0,
+  "baseDps" : 10000.0,
   "energyUsage" : 15,
   "inaccuracy" : 0.25,
 

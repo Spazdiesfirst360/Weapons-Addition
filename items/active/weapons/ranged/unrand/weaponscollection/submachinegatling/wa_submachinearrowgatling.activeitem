@@ -39,7 +39,7 @@
   "class" : "GunFire",
 
   "fireTime" : 0.0001,
-  "baseDps" : 12.5,
+  "baseDps" : 2500,
   "energyUsage" : 5,
   "inaccuracy" : 0.25,
 
