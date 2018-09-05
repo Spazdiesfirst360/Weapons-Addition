@@ -1,0 +1,10 @@
+{
+  "itemName" : "ms_solariumshard",
+  "price" : 60,
+  "rarity" : "rare",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "solariumore.png",
+  "description" : "Modified solarium to work with the Mass Smelter.",
+  "shortdescription" : "Enriched Solarium",
+  "itemTags" : [ "reagent" ]
+}

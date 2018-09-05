@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "aegisaltore", "count" : 1 }
+    { "item" : "ms_aegisaltshard", "count" : 1 }
   ],
   "output" : { "item" : "refinedaegisalt", "count" : 1 },
   "duration" : 0.1,

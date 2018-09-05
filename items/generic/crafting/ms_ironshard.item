@@ -1,0 +1,10 @@
+{
+  "itemName" : "ms_ironshard",
+  "price" : 40,
+  "rarity" : "common",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "ironore.png",
+  "description" : "Modified iron to work with the Mass Smelter.",
+  "shortdescription" : "Enriched Iron",
+  "itemTags" : [ "reagent" ]
+}

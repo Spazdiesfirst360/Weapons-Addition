@@ -1,0 +1,10 @@
+{
+  "itemName" : "ms_feroziumshard",
+  "price" : 120,
+  "rarity" : "rare",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "feroziumore.png",
+  "description" : "Modified ferozium to work with the Mass Smelter.",
+  "shortdescription" : "Enriched Ferozium",
+  "itemTags" : [ "reagent" ]
+}

@@ -8,7 +8,7 @@
     "margin":0,
     "name":"wa_ai_objects",
     "spacing":0,
-    "tilecount":24,
+    "tilecount":38,
     "tileheight":233,
     "tileproperties":
        {
@@ -264,6 +264,66 @@
 		  "object" : "wa_ai_crystaltrap",
 		  "tilesetDirection" : "right"
 			},
+		"32":
+		   {
+			"//description":"This chute seems to release smoke.",
+			"//name":"wa_ai_invisiblesmokesource",
+			"//shortdescription":"Smoke Booster",
+			"imagePositionX":"-8",
+			"imagePositionY":"0",
+			"object":"wa_ai_invisiblesmokesource",
+			"tilesetDirection":"left"
+		   },
+		"33":
+		   {
+			"//description":"This chute seems to release smoke.",
+			"//name":"wa_ai_invisiblesmokesource_orientation2",
+			"//shortdescription":"Smoke Booster",
+			"imagePositionX":"0",
+			"imagePositionY":"0",
+			"object":"wa_ai_invisiblesmokesource",
+			"tilesetDirection":"right"
+		   },
+		"34":
+		   {
+			"//description":"This chute seems to release smoke.",
+			"//name":"wa_ai_invisiblesmokesource_orientation3",
+			"//shortdescription":"Smoke Booster",
+			"imagePositionX":"0",
+			"imagePositionY":"-8",
+			"object":"wa_ai_invisiblesmokesource",
+			"tilesetDirection":"right"
+		   },
+		"35":
+		   {
+			"//description":"This chute seems to release smoke.",
+			"//name":"wa_ai_invisiblesmokesource_orientation4",
+			"//shortdescription":"Smoke Booster",
+			"imagePositionX":"0",
+			"imagePositionY":"-8",
+			"object":"wa_ai_invisiblesmokesource",
+			"tilesetDirection":"right"
+		   },
+		"36":
+		   {
+			"//description":"This chute seems to release smoke.",
+			"//name":"wa_ai_invisiblesmokesource_orientation5",
+			"//shortdescription":"Smoke Booster",
+			"imagePositionX":"-8",
+			"imagePositionY":"0",
+			"object":"wa_ai_invisiblesmokesource",
+			"tilesetDirection":"left"
+		   },
+	   "37":
+		   {
+			"//description":"This chute seems to release smoke.",
+			"//name":"wa_ai_invisiblesmokesource_orientation6",
+			"//shortdescription":"Smoke Booster",
+			"imagePositionX":"0",
+			"imagePositionY":"0",
+			"object":"wa_ai_invisiblesmokesource",
+			"tilesetDirection":"right"
+		   },
         "4":
            {
             "//description":"This strange door is rather strong.",
@@ -806,6 +866,42 @@
             "imageheight":16,
             "imagewidth":16
            },
+		"32":
+		   {
+			"image":"C:\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/tiled\/packed\/objects\/wa_ai_smokesource.png",
+			"imageheight":16,
+			"imagewidth":16
+		   },
+		"33":
+		   {
+			"image":"C:\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/tiled\/packed\/objects\/wa_ai_smokesource_orientation2.png",
+			"imageheight":40,
+			"imagewidth":48
+		   },
+		"34":
+		   {
+			"image":"C:\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/tiled\/packed\/objects\/wa_ai_smokesource_orientation3.png",
+			"imageheight":40,
+			"imagewidth":24
+		   },
+		"35":
+		   {
+			"image":"C:\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/tiled\/packed\/objects\/wa_ai_smokesource_orientation4.png",
+			"imageheight":40,
+			"imagewidth":24
+		   },
+		"36":
+		   {
+			"image":"C:\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/tiled\/packed\/objects\/wa_ai_smokesource_orientation5.png",
+			"imageheight":28,
+			"imagewidth":32
+		   },
+		"37":
+		   {
+		"image":"C:\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/tiled\/packed\/objects\/wa_ai_smokesource_orientation6.png",
+		"imageheight":48,
+		"imagewidth":24
+	   },
         "4":
            {
             "image":"C:\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/tiled\/packed\/objects\/wa_ai_door1.png",

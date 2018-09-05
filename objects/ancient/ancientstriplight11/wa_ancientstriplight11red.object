@@ -1,0 +1,54 @@
+{
+  "objectName" : "wa_ancientstriplight11red",
+  "colonyTags" : ["ancient","light"],
+  "rarity" : "Legendary",
+  "category" : "light",
+  "lightColor" : [184, 36, 36],
+  "price" : 0,
+  "printable" : false,
+  "scannable" : false,
+  "description" : "A mysterious light. I wonder why it's red...",
+  "shortdescription" : "Ancient Strip Light",
+  "race" : "ancient",
+
+  "inventoryIcon" : "ancientstriplighticon.png",
+  "orientations" : [
+    {
+      "image" : "wa_ancientstriplight11red.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "animationPosition" : [0, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "lightPosition" : [0, 0],
+
+      "spaces" : [[0,0]],
+      "anchors" : [ "background" ]
+    },
+    {
+      "image" : "wa_ancientstriplight11red.png:<color>.<frame>",
+      "imagePosition" : [1, 0],
+      "animationPosition" : [1, 0],
+      "direction" : "right",
+
+      "lightPosition" : [0, 0],
+
+      "spaces" : [[0,0]],
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "animation" : "/objects/wired/light/lighttogglebgfullbright.animation",
+  "animationParts" : {
+    "bg" : "wa_ancientstriplight11red.png",
+    "fg" : "wa_ancientstriplight11redlit.png"
+  },
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+  
+  "interactive" : false,
+
+  "inputNodes" : [ [0, 0] ]
+  
+}

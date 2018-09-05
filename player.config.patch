@@ -185,13 +185,6 @@
     "op": "add",
 	"path": "/defaultBlueprints/tier1/-",
 	"value": {
-	  "item": "paa_refined200"
-	}
-  },
-  {
-    "op": "add",
-	"path": "/defaultBlueprints/tier1/-",
-	"value": {
 	  "item": "ms_masssmelter"
 	}
   },
@@ -276,7 +269,7 @@
     "op": "add",
 	"path": "/defaultBlueprints/tier1/-",
 	"value": {
-	  "item": "ms_refined200"
+	  "item": "ms_purificationpowder"
 	}
   }
 ]

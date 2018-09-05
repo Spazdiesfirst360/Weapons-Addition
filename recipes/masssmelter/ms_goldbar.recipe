@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "goldore", "count" : 1 }
+    { "item" : "ms_goldshard", "count" : 1 }
   ],
   "output" : { "item" : "goldbar", "count" : 1 },
   "duration" : 0.1,

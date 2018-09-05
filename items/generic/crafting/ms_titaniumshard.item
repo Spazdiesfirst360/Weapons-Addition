@@ -1,0 +1,10 @@
+{
+  "itemName" : "ms_titaniumshard",
+  "price" : 80,
+  "rarity" : "uncommon",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "titaniumore.png",
+  "description" : "Modified titanium to work with the Mass Smelter.",
+  "shortdescription" : "Enriched Titanium",
+  "itemTags" : [ "reagent" ]
+}

@@ -1,0 +1,24 @@
+{
+  "name" : "wa_weakgas_main",
+
+  "effectConfig" : {
+    "directives" : "fade=AAAAFF=0.3",
+    "movementModifiers" : {
+      "speedModifier" : 0.6,
+      "airJumpModifier" : 0.6
+    },
+    "tickRate" : 20,
+    "energyCost" : 5,
+    "healthDamage" : 5
+  },
+  "defaultDuration" : 60,
+
+  "scripts" : [
+    "wa_weakgas_main.lua"
+  ],
+
+  "animationConfig" : "wa_weakgas_main.animation",
+
+  "label" : "Weakened",
+  "icon" : "/interface/statuses/oldpoison.png"
+}

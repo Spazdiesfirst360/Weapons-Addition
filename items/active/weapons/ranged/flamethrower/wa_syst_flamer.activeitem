@@ -2,8 +2,8 @@
   "itemName" : "wa_syst_flamer",
   "price" : 10000,
   "maxStack" : 1,
-  "rarity" : "legendary",
-  "description" : "\"I don't fear the dark, for the darkness fears me.\"",
+  "rarity" : "essential",
+  "description" : "\"I don't fear the dark, for the darkness fears me.\" -Systyma, Maddened A.I.",
   "shortdescription" : "^#ff0000;Skyburner^reset;",
   "tooltipKind" : "gun",
   "category" : "uniqueWeapon",
@@ -41,7 +41,7 @@
   "class" : "GunFire",
 
   "fireTime" : 0.001,
-  "baseDps" : 22.0,
+  "baseDps" : 100.0,
   "energyUsage" : 100,
   "inaccuracy" : 0.25,
 

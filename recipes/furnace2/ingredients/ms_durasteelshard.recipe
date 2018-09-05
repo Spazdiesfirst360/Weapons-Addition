@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "durasteelore", "count" : 1 },
+	{ "item" : "ms_purificationpowder", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "ms_durasteelshard",
+    "count" : 1
+  },
+  "duration" : 0.25,
+  "groups" : [ "craftingfurnace2", "ingredients", "all" ]
+}

@@ -1,0 +1,10 @@
+{
+  "itemName" : "ms_durasteelshard",
+  "price" : 100,
+  "rarity" : "uncommon",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "durasteelore.png",
+  "description" : "Modified durasteel to work with the Mass Smelter.",
+  "shortdescription" : "Enriched Durasteel",
+  "itemTags" : [ "reagent" ]
+}

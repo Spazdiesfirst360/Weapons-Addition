@@ -1,0 +1,10 @@
+{
+  "itemName" : "ms_coppershard",
+  "price" : 20,
+  "rarity" : "common",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "copperore.png",
+  "description" : "Modified copper to work with the Mass Smelter.",
+  "shortdescription" : "Enriched Copper",
+  "itemTags" : [ "reagent" ]
+}

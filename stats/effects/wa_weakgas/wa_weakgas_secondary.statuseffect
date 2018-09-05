@@ -1,0 +1,11 @@
+{
+  "name" : "wa_weakgas_secondary",
+  "effectConfig" : {
+  	"protectionModifier" : 0.001
+  },
+  "defaultDuration" : 60,
+
+  "scripts" : [
+    "wa_weakgas_secondary.lua"
+  ]
+}

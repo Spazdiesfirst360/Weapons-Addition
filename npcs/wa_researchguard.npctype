@@ -1,0 +1,88 @@
+{
+  "type" : "wa_researchguard",
+  "baseType" : "hostile",
+
+  "dropPools" : [ "wa_soldierloot" ],
+
+  "scriptConfig" : {
+    "dialog" : {
+      "attack" : {
+        "default" : {
+          "default" : [
+            "Intruder!"
+          ]
+        },
+        "human" : {
+          "default" : [
+            "You can't be here!",
+			"You're not wanted here!",
+			"We're under attack!",
+			"We need backup now!",
+			"Leave now!"
+          ]
+        },
+		"apex" : {
+			"default" : [
+				"You can't be here!",
+				"You're not wanted here!",
+				"We're under attack!",
+				"We need backup now!",
+				"Leave now!"
+			]
+		},
+		"avian" : {
+			"default" : [
+				"You cannot be here!",
+				"You are not wanted here!",
+				"We are under attack!",
+				"We need backup now!",
+				"Leave now!",
+				"You will be slain by my hand!"
+			]
+		},
+		"floran" : {
+			"default" : [
+				"Ssomething to hunt...",
+				"No sstrangers allowed!"
+			]
+		},
+		"glitch" : {
+			"default": [
+				"You cannot be here!",
+				"You are not wanted here!",
+				"We are under attack!",
+				"It will please me when you die by your own stupidity."
+			]
+		},
+		"hylotl" : {
+			"default" : [
+				"You cannot be here!",
+				"You are not wanted here!",
+				"We are under attack!",
+				"I wished the peace would stay. Then you arrived."
+			]
+		}
+      }
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [ { "name" : "humantier6ahead" } ],
+            "chest" : [ { "name" : "humantier6achest" } ],
+            "legs" : [ { "name" : "humantier6apants" } ],
+            "primary" : [
+              "wa_basicassaultrifle",
+			  "wa_basicgrenadelauncher",
+			  "wa_basicpistol",
+			  "wa_basicrocketlauncher",
+			  "wa_basicshotgun",
+			  "wa_basicsniperrifle"
+            ]
+          }
+        ] ]
+    ]
+  }
+}

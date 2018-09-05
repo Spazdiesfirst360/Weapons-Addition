@@ -1,0 +1,10 @@
+{
+  "itemName" : "ms_tungstenshard",
+  "price" : 60,
+  "rarity" : "common",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "tungstenore.png",
+  "description" : "Modified tungsten to work with the Mass Smelter.",
+  "shortdescription" : "Enriched Tungsten",
+  "itemTags" : [ "reagent" ]
+}

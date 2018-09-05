@@ -1,0 +1,25 @@
+{
+  "materialId" : 6909,
+  "materialName" : "wa_ai_metal2_2",
+  "frames" : "wa_ai_metal2.png",
+  "particleColor" : [13, 13, 13, 255],
+  "variants" : 5,
+  "itemDrop" : "smoothmetal",
+  "description" : "This metal chunk is going to fall!",
+  "shortdescription" : "AI Metal",
+  "footstepSound" : "/sfx/blocks/footstep_metallic.ogg",
+  "health" : 100,
+  "category" : "materials",
+  "falling": true,
+  "cascading": true,
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "wa_ai_metal2.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 3000
+  }
+}

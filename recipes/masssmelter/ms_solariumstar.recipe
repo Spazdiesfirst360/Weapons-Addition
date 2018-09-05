@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "solariumore", "count" : 1 }
+    { "item" : "ms_solariumshard", "count" : 1 }
   ],
   "output" : { "item" : "solariumstar", "count" : 1 },
   "duration" : 0.1,

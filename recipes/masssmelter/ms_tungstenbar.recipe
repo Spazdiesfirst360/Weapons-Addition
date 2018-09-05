@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "tungstenore", "count" : 1 }
+    { "item" : "ms_tungstenshard", "count" : 1 }
   ],
   "output" : { "item" : "tungstenbar", "count" : 1 },
   "duration" : 0.1,

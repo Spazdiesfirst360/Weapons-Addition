@@ -251,5 +251,26 @@
       "ambientNoises": "/sfx/environmental/space_loop4.ogg",
       "musicTrack": "/music/scorian-flow.ogg"
     }
+  },
+  {
+    "op": "add",
+    "path": "/wa_ai_mission",
+    "value": {
+      "primaryDungeon": "wa_ai_mission",
+      "threatLevel": 6,
+      "gravity": 80,
+      "worldSize": [
+        100000,
+        100000
+      ],
+      "dungeonBaseHeight": 750,
+      "ambientLightLevel": [
+        10,
+        10,
+        10
+      ],
+      "ambientNoises": "/sfx/environmental/space_loop4.ogg",
+      "musicTrack": "/music/the-apex.ogg"
+    }
   }
 ]

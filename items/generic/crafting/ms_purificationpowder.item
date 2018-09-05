@@ -1,0 +1,23 @@
+{
+  "itemName" : "ms_purificationpowder",
+  "price" : 300,
+  "rarity" : "rare",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "ms_purificationpowder.png",
+  "description" : "This powder is used to enrich ores.",
+  "shortdescription" : "Enrichment Powder",
+  "itemTags" : [ "reagent" ],
+  "learnBlueprintsOnPickup" : [
+    "ms_coppershard",
+	"ms_silvershard",
+	"ms_ironshard",
+	"ms_goldshard",
+	"ms_tungstenshard",
+	"ms_titaniumshard",
+	"ms_durasteelshard",
+	"ms_aegisaltshard",
+	"ms_feroziumshard",
+	"ms_violiumshard",
+	"ms_solariumshard"
+  ]
+}

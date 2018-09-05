@@ -1,0 +1,46 @@
+{
+  "objectName" : "wa_healcell",
+  "colonyTags" : ["human", "light"],
+  "rarity" : "legendary",
+  "description" : "A healing station, perhaps?",
+  "shortdescription" : "Healing Cell",
+  "race" : "human",
+  "category" : "furniture",
+  "price" : 150,
+  "lightColor" : [217, 210, 173],
+
+  "objectType" : "loungeable",
+  "sitCoverImage" : "/objects/generic/wa_healcell/wa_healcellcover.png",
+  "sitFlipDirection" : false,
+  "sitOrientation" : "lay",
+  "sitAngle" : 0,
+  "sitStatusEffects" : [
+    "nude",
+	"regenerationfast"
+  ],
+
+  "inventoryIcon" : "wa_healcellicon.png",
+  "orientations" : [
+    {
+      "image" : "wa_healcell.png:<color>",
+      "imagePosition" : [-8, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "sitPosition" : [-2, 22],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "wa_healcell.png:<color>",
+      "imagePosition" : [-8, 0],
+      "direction" : "right",
+
+      "sitPosition" : [6, 22],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

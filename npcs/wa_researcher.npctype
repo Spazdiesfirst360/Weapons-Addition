@@ -1,0 +1,104 @@
+{
+  "type" : "wa_researcher",
+  "baseType" : "hostile",
+
+  "dropPools" : [ "wa_soldierloot" ],
+
+  "scriptConfig" : {
+    "dialog" : {
+      "attack" : {
+        "default" : {
+          "default" : [
+            "Intruder!"
+          ]
+        },
+        "human" : {
+          "default" : [
+            "You can't be here!",
+			"You're not wanted here!",
+			"We're under attack!",
+			"We need backup now!",
+			"Leave now!"
+          ]
+        },
+		"apex" : {
+			"default" : [
+				"You can't be here!",
+				"You're not wanted here!",
+				"We're under attack!",
+				"We need backup now!",
+				"Leave now!"
+			]
+		},
+		"avian" : {
+			"default" : [
+				"You cannot be here!",
+				"You are not wanted here!",
+				"We are under attack!",
+				"We need backup now!",
+				"Leave now!",
+				"You will be slain by my hand!"
+			]
+		},
+		"floran" : {
+			"default" : [
+				"Ssomething to hunt...",
+				"No sstrangers allowed!"
+			]
+		},
+		"glitch" : {
+			"default": [
+				"You cannot be here!",
+				"You are not wanted here!",
+				"We are under attack!",
+				"It will please me when you die by your own stupidity."
+			]
+		},
+		"hylotl" : {
+			"default" : [
+				"You cannot be here!",
+				"You are not wanted here!",
+				"We are under attack!",
+				"I wished the peace would stay. Then you arrived."
+			]
+		}
+      }
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [ { "name" : "scientisthead" } ],
+            "chest" : [ { "name" : "scientistchest" } ],
+            "legs" : [ { "name" : "scientistlegs" } ],
+            "primary" : [
+              "wa_gravcannon",
+			  "paa_shockitem",
+			  "paa_spatialbomblauncher",
+			  "wa_energycrystalrifle",
+			  "wa_gravityshotgun"
+            ]
+          }
+        ] ]
+    ]
+  },
+  
+  "statusControllerSettings" : {
+    "stats" : {
+      "maxHealth" : {
+        "baseValue" : 50.0
+      },
+      "powerMultiplier" : {
+        "baseValue" : 0.5
+      },
+      "protection" : {
+        "baseValue" : 1.0
+      },
+      "healthRegen" : {
+        "baseValue" : 0.0
+      }
+    }
+  }
+}

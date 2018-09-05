@@ -1,0 +1,10 @@
+{
+  "itemName" : "ms_violiumshard",
+  "price" : 120,
+  "rarity" : "rare",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "violiumore.png",
+  "description" : "Modified violium to work with the Mass Smelter.",
+  "shortdescription" : "Enriched Violium",
+  "itemTags" : [ "reagent" ]
+}

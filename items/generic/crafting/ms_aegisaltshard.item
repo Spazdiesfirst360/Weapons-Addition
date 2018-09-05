@@ -1,0 +1,10 @@
+{
+  "itemName" : "ms_aegisaltshard",
+  "price" : 120,
+  "rarity" : "rare",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "aegisaltore.png",
+  "description" : "Modified aegisalt to work with the Mass Smelter.",
+  "shortdescription" : "Enriched Aegisalt",
+  "itemTags" : [ "reagent" ]
+}

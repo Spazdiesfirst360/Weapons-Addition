@@ -1,0 +1,10 @@
+{
+  "itemName" : "ms_silvershard",
+  "price" : 30,
+  "rarity" : "common",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "silverore.png",
+  "description" : "Modified silver to work with the Mass Smelter.",
+  "shortdescription" : "Enriched Silver",
+  "itemTags" : [ "reagent" ]
+}

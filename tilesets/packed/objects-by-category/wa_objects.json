@@ -8,7 +8,7 @@
  "margin":0,
  "name":"wa_objects",
  "spacing":0,
- "tilecount":43,
+ "tilecount":52,
  "tileheight":233,
  "tileproperties":
     {
@@ -373,11 +373,11 @@
 	},
 	"41" : {
 		"//description" : "A mysterious light. I wonder why this one is red...",
-		"//name" : "ancientstriplightred",
+		"//name" : "wa_ancientstriplight1red",
 		"//shortdescription" : "Ancient Strip Light",
 		"imagePositionX" : "-8",
 		"imagePositionY" : "0",
-		"object" : "ancientstriplightred",
+		"object" : "wa_ancientstriplight1red",
 		"tilesetDirection" : "right"
 	},
 	"42" : {
@@ -399,6 +399,60 @@
          "object":"paa_industrialfloodlights",
          "tilesetDirection":"left"
         },
+	"44" : {
+		  "//description" : "A mysterious light. I wonder why this one is red...",
+		  "//name" : "wa_ancientstriplight10red",
+		  "//shortdescription" : "Ancient Strip Light",
+		  "imagePositionX" : "0",
+		  "imagePositionY" : "-8",
+		  "object" : "wa_ancientstriplight10red",
+		  "tilesetDirection" : "right"
+		},
+	"45" : {
+		  "//description" : "A mysterious light. I wonder why this one is red...",
+		  "//name" : "wa_ancientstriplight10red_orientation1",
+		  "//shortdescription" : "Ancient Strip Light",
+		  "imagePositionX" : "0",
+		  "imagePositionY" : "-8",
+		  "object" : "wa_ancientstriplight10red",
+		  "tilesetDirection" : "right"
+		},
+	"46" : {
+		  "//description" : "A mysterious light. I wonder why this one is red...",
+		  "//name" : "wa_ancientstriplight11red",
+		  "//shortdescription" : "Ancient Strip Light",
+		  "imagePositionX" : "0",
+		  "imagePositionY" : "0",
+		  "object" : "wa_ancientstriplight11red",
+		  "tilesetDirection" : "right"
+		},
+	"47" : {
+		  "//description" : "A mysterious light. I wonder why this one is red...",
+		  "//name" : "wa_ancientstriplight11red_orientation1",
+		  "//shortdescription" : "Ancient Strip Light",
+		  "imagePositionX" : "0",
+		  "imagePositionY" : "0",
+		  "object" : "wa_ancientstriplight11red",
+		  "tilesetDirection" : "right"
+		},
+	"48" : {
+		  "//description" : "A mysterious light. I wonder why this one is red...",
+		  "//name" : "wa_ancientstriplight4red",
+		  "//shortdescription" : "Ancient Strip Light",
+		  "imagePositionX" : "0",
+		  "imagePositionY" : "0",
+		  "object" : "wa_ancientstriplight4red",
+		  "tilesetDirection" : "right"
+		},
+	"49" : {
+		  "//description" : "A mysterious light. I wonder why this one is red...",
+		  "//name" : "wa_ancientstriplight4red_orientation1",
+		  "//shortdescription" : "Ancient Strip Light",
+		  "imagePositionX" : "0",
+		  "imagePositionY" : "0",
+		  "object" : "wa_ancientstriplight4red",
+		  "tilesetDirection" : "right"
+		},
      "5":
         {
          "//description":"A very specially designed crate for hazardous substances. ^red;Does not work with Enhanced Storage!^reset;",
@@ -409,6 +463,25 @@
          "object":"paa_hazardchest",
          "tilesetDirection":"right"
         },
+	"50":
+		{
+		 "//description":"It's a blueprint display. I should take it.",
+		 "//name":"wa_azuriumnotes",
+		 "//shortdescription":"Blueprint",
+		 "imagePositionX":"-16",
+		 "imagePositionY":"-16",
+		 "object":"wa_azuriumnotes",
+		 "tilesetDirection":"right"
+		},
+	"51" : {
+		  "//description" : "A healing station, perhaps?",
+		  "//name" : "wa_healcell",
+		  "//shortdescription" : "Healing Cell",
+		  "imagePositionX" : "-8",
+		  "imagePositionY" : "0",
+		  "object" : "wa_healcell",
+		  "tilesetDirection" : "right"
+		},
      "6":
         {
          "//description":"An anti-matter fueled hoverbike on display.",
@@ -1031,10 +1104,10 @@
          "imagewidth":32
 		 },
 	 "41" : {
-		 "image" : "C:\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/tiled\/packed\/objects\/ancientstriplightred.png",
+		 "image" : "C:\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/tiled\/packed\/objects\/wa_ancientstriplight1red.png",
 		 "imageheight":8,
          "imagewidth":16
-                },
+		},
     "42" : {
         "image" : "C:\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/tiled\/packed\/objects\/wa_superswordplaque.png",
         "imageheight":152,
@@ -1046,10 +1119,52 @@
          "imageheight":32,
          "imagewidth":24
         },
+	"44" : {
+		 "image" : "C:\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/tiled\/packed\/objects\/wa_ancientstriplight4red.png",
+		 "imageheight":8,
+		 "imagewidth":16
+		},
+	"45" : {
+		 "image" : "C:\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/tiled\/packed\/objects\/wa_ancientstriplight4red_orientation1.png",
+		 "imageheight":8,
+		 "imagewidth":16
+		},
+	"46" : {
+		 "image" : "C:\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/tiled\/packed\/objects\/wa_ancientstriplight10red.png",
+		 "imageheight":8,
+		 "imagewidth":16
+		},
+	"47" : {
+		 "image" : "C:\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/tiled\/packed\/objects\/wa_ancientstriplight10red_orientation1.png",
+		 "imageheight":8,
+		 "imagewidth":16
+		},
+	"48" : {
+		 "image" : "C:\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/tiled\/packed\/objects\/wa_ancientstriplight11red.png",
+		 "imageheight":8,
+		 "imagewidth":8
+		},
+	"49" : {
+		 "image" : "C:\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/tiled\/packed\/objects\/wa_ancientstriplight11red_orientation1.png",
+		 "imageheight":8,
+		 "imagewidth":8
+		},
      "5":
         {
          "image":"C:\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/tiled\/packed\/objects\/paa_hazardchest.png",
          "imageheight":20,
+         "imagewidth":24
+        },
+	"50":
+        {
+         "image":"C:\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/tiled\/packed\/objects\/wa_azuriumnotes.png",
+         "imageheight":32,
+         "imagewidth":32
+        },
+	"51":
+        {
+         "image":"C:\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/tiled\/packed\/objects\/prisonforcecell.png",
+         "imageheight":40,
          "imagewidth":24
         },
      "6":

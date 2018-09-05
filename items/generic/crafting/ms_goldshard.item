@@ -1,0 +1,10 @@
+{
+  "itemName" : "ms_goldshard",
+  "price" : 40,
+  "rarity" : "common",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "goldore.png",
+  "description" : "Modified gold to work with the Mass Smelter.",
+  "shortdescription" : "Enriched Gold",
+  "itemTags" : [ "reagent" ]
+}

@@ -1,0 +1,55 @@
+{
+	"wa_ai_drops": [
+		[0, {
+			"pool": [{
+					"weight": 1.0,
+					"item": "wa_ai_chestarmor"
+				},
+				{
+					"weight": 1.0,
+					"item": "wa_ai_pants"
+				},
+				{
+					"weight": 1.0,
+					"item": "wa_ai_head"
+				},
+				{
+					"weight": 1.0,
+					"item": "wa_syst_piercer"
+				},
+				{
+					"weight": 1.0,
+					"item": "wa_syst_lasercannon"
+				},
+				{
+					"weight": 1.0,
+					"item": "wa_syst_orbitallancher"
+				},
+				{
+					"weight": 1.0,
+					"item": "wa_syst_scorchlaser"
+				},
+				{
+					"weight": 1.0,
+					"item": "wa_syst_supergrenade"
+				},
+				{
+					"weight": 1.0,
+					"item": "wa_syst_torrent"
+				},
+				{
+					"weight": 1.0,
+					"item": "wa_ai_supersword"
+				},
+				{
+					"weight": 1.0,
+					"item": "wa_quantumobliterator"
+				},
+				{
+					"weight": 1.0,
+					"item": "wa_syst_flamer"
+				}
+			]
+		}]
+	]
+}

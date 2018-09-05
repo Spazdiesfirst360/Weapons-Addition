@@ -1003,5 +1003,198 @@
         }
       ]
     ]
+  },
+  {
+	"op": "add",
+	"path": "/wa_pixelBurst",
+	"value": [
+		[0, {
+			"poolRounds": [
+				[1.0, 10]
+			],
+			"pool": [{
+					"weight": 1.00,
+					"item": ["money", 8]
+				},
+				{
+					"weight": 1.00,
+					"item": ["money", 9]
+				},
+				{
+					"weight": 1.00,
+					"item": ["money", 10]
+				},
+				{
+					"weight": 1.00,
+					"item": ["money", 11]
+				},
+				{
+					"weight": 1.00,
+					"item": ["money", 12]
+				},
+				{
+					"weight": 0.01,
+					"pool": "wa_voxels"
+				}
+			]
+		}]
+	]
+  },
+  {
+	"op": "add",
+	"path": "/wa_voxels",
+	"value": [
+		[0, {
+			"poolRounds": [
+				[1.0, 10]
+			],
+			"pool": [{
+					"weight": 0.01,
+					"item": ["voxel1k", 1]
+				},
+				{
+					"weight": 0.01,
+					"item": ["voxel2k", 1]
+				},
+				{
+					"weight": 0.01,
+					"item": ["voxel5k", 1]
+				},
+				{
+					"weight": 0.01,
+					"item": ["voxel10k", 1]
+				}
+			]
+		}]
+	]
+  },
+  {
+	"op": "add",
+	"path": "/wa_healingLoot",
+	"value": [
+		[0, {
+			"poolRounds": [
+				[
+				  0.5,
+				  2
+				],
+				[
+				  0.2,
+				  3
+				],
+				[
+				  0.2,
+				  4
+				],
+				[
+				  0.1,
+				  5
+				]
+			],
+          "fill": [
+            {
+              "pool": "healingItem"
+            }
+          ]
+        }
+      ]
+	]
+  },
+  {
+	"op": "add",
+	"path": "/wa_researchLoot",
+	"value": [
+		[0, {
+			"poolRounds": [
+				[
+				  0.5,
+				  2
+				],
+				[
+				  0.2,
+				  3
+				],
+				[
+				  0.2,
+				  4
+				],
+				[
+				  0.1,
+				  5
+				]
+			],
+          "pool": [
+            {
+              "weight": 1.0,
+			  "item": "paa_protactinium"
+            },
+			{
+              "weight": 1.0,
+			  "item": "paa_cobaltore"
+            },
+			{
+              "weight": 1.0,
+			  "item": "paa_palladiumore"
+            },
+			{
+              "weight": 1.0,
+			  "item": "wa_hitechactuator"
+            },
+			{
+              "weight": 1.0,
+			  "item": "wa_hitechbattery"
+            },
+			{
+              "weight": 1.0,
+			  "item": "wa_hitechlimiter"
+            },
+			{
+              "weight": 1.0,
+			  "item": "wa_hitechplatematerial"
+            },
+			{
+              "weight": 1.0,
+			  "item": "wa_ionbattery"
+            },
+			{
+              "weight": 0.01,
+			  "item": "paa_element200"
+            }
+          ]
+        }
+      ]
+	]
+  },
+  {
+	"op": "add",
+	"path": "/wa_labMaterials",
+	"value": [
+		[0, {
+			"poolRounds": [
+				[
+				  0.5,
+				  2
+				],
+				[
+				  0.2,
+				  3
+				],
+				[
+				  0.2,
+				  4
+				],
+				[
+				  0.1,
+				  5
+				]
+			],
+          "fill": [
+            {
+			  "pool": "wa_researchLoot"
+            }
+          ]
+        }
+      ]
+	]
   }
 ]

@@ -1,0 +1,62 @@
+{
+  "objectName" : "wa_sparksource",
+  "colonyTags" : ["misc"],
+  "printable" : false,
+  "scannable": false,
+  "rarity" : "Legendary",
+  "description" : "...",
+  "shortdescription" : "Spark Source",
+  "race" : "ancient",
+
+  "category" : "trap",
+  "price" : 0,
+
+  "inventoryIcon" : "airboostericon.png",
+  "orientations" : [
+    {
+      "image" : "wa_sparksource.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "direction" : "right",
+      
+      "animationPosition" : [0, 0],
+      "animationParts" : {
+        "bg" : "wa_sparksource.png",
+        "fg" : "wa_sparksource.png"
+      },
+
+      "projectileDirection" : [0, -1],
+      "projectilePosition" : [1, -0.2],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/projectiletrap/projectiletrap.lua" ],
+  "scriptDelta" : 2,
+
+  "animation" : "/objects/wired/projectiletrap/projectiletrap.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "shoot" : [ ],
+      "on" : [ ],
+      "off" : [ "/sfx/objects/gasbooster_off.ogg" ]
+    }
+  },
+
+  "soundEffect" : "/sfx/objects/gasbooster_loop.ogg", // this is a thing that also works
+
+  "inputNodes" : [ [0, 0] ],
+
+  "inactiveLightColor" : [0, 0, 0], // light color to emit when the object is 'off'
+  "activeLightColor" : [0, 0, 0], // light color to emit when the object is 'on'
+
+  "fireTime" : 0.50, // rate of fire
+  "fireTimeVariance" : 0.25, // variation in rate of fire
+  "projectile" : "wa_statussparks", // name of projectile (required)
+  "projectileConfig" : { 
+    "speed" : 5
+  } 
+  // "projectilePosition" : [1.0, 0.5] // source position for projectile
+  // "projectileDirection" : [-1, 0] // direction to shoot
+}

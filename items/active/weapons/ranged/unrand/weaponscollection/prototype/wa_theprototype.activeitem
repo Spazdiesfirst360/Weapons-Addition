@@ -8,7 +8,7 @@
   "tooltipKind" : "gun",
   "category" : "Experimental Weapon",
   "twoHanded" : true,
-  "itemTags" : ["weapon","ranged","assaultrifle","reagant"],
+  "itemTags" : ["weapon","ranged","assaultrifle"],
   "level" : 7,
 
   "inventoryIcon" : "wa_theprototype.png",
@@ -80,9 +80,8 @@
   }
   }
   },
-
   "altAbilityType" : "lance",
-  "altAbility" : {},
+  "altAbility" : { },
 
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }
