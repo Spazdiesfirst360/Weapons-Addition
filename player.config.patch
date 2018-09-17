@@ -271,5 +271,10 @@
 	"value": {
 	  "item": "ms_purificationpowder"
 	}
+  },
+  {
+    "op": "add",
+    "path": "/defaultBlueprints/tier1/-",
+    "value": "paa_antimatter"
   }
 ]

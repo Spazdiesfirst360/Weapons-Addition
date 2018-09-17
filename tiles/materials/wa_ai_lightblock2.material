@@ -6,7 +6,7 @@
   "description" : "This piece of a light looks highly unstable.",
   "shortdescription" : "AI Light Block",
   "footstepSound" : "/sfx/blocks/footstep_metallic.ogg",
-  "health" : 100,
+  "health" : 5,
   "category" : "materials",
   "falling": true,
   "cascading": true,

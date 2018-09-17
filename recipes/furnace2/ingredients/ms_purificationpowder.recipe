@@ -1,12 +1,12 @@
 {
   "input" : [
-    { "item" : "paa_palladiumore", "count" : 5 },
-	{ "item" : "paa_cobaltore", "count" : 5 },
-	{ "item" : "paa_protactinium", "count" : 5 }
+    { "item" : "paa_palladiumore", "count" : 1 },
+	{ "item" : "paa_cobaltore", "count" : 1 },
+	{ "item" : "paa_protactinium", "count" : 1 }
   ],
   "output" : {
     "item" : "ms_purificationpowder",
-    "count" : 20
+    "count" : 10
   },
   "duration" : 0.35,
   "groups" : [ "craftingfurnace2", "ingredients", "all" ]

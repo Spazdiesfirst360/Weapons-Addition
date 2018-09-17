@@ -1,0 +1,94 @@
+{
+  "metadata" : {
+    "name" : "wa_salvageyard",
+    "species" : "generic",
+    "rules" : [
+    ],
+    "anchor" : [ "wa_salvagestart", "wa_salvageend" ],
+    "gravity" : 80,
+    "maxRadius" : 1000000,
+    "maxParts" : 15,
+    "extendSurfaceFreeSpace" : 100,
+    "protected" : false
+  },
+
+  "parts" : [
+    {
+      "name" : "wa_salvagejunk1",
+      "rules" : [
+        [ "maxSpawnCount", [5] ],
+        [ "doNotConnectToPart", [ "wa_salvagejunk1" ] ]
+
+      ],
+      "def" : [ "tmx", "wa_salvagejunk1.json" ]
+    },
+    {
+      "name" : "wa_salvagejunk2",
+      "rules" : [
+        [ "maxSpawnCount", [5] ],
+        [ "doNotConnectToPart", [ "wa_salvagejunk2" ] ]
+
+      ],
+      "def" : [ "tmx", "wa_salvagejunk2.json" ]
+    },
+    {
+      "name" : "wa_salvagejunk3",
+      "rules" : [
+        [ "maxSpawnCount", [5] ],
+        [ "doNotConnectToPart", [ "wa_salvagejunk3" ] ]
+
+      ],
+      "def" : [ "tmx", "wa_salvagejunk3.json" ]
+    },
+    {
+      "name" : "wa_salvageshop1",
+      "rules" : [
+        [ "maxSpawnCount", [2] ],
+        [ "doNotConnectToPart", [ "wa_salvageshop1", "wa_salvageshop2" ] ]
+      ],
+      "def" : [ "tmx", "wa_salvageshop1.json" ]
+    },
+    {
+      "name" : "wa_salvageshop2",
+      "rules" : [
+        [ "maxSpawnCount", [2] ],
+        [ "doNotConnectToPart", [ "wa_salvageshop1", "wa_salvageshop2" ] ]
+
+      ],
+      "def" : [ "tmx", "wa_salvageshop2.json" ]
+    },
+    {
+      "name" : "wa_salvagetower1",
+      "rules" : [
+        [ "maxSpawnCount", [2] ],
+        [ "doNotConnectToPart", [ "wa_salvagetower2" ] ]
+      ],
+      "def" : [ "tmx", "wa_salvagetower1.json" ]
+    },
+	{
+      "name" : "wa_salvagetower2",
+      "rules" : [
+        [ "maxSpawnCount", [2] ],
+        [ "doNotConnectToPart", [ "wa_salvagetower1" ] ]
+      ],
+      "def" : [ "tmx", "wa_salvagetower2.json" ]
+    },
+    {
+      "name" : "wa_salvagestart",
+      "rules" : [
+        [ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", [ "wa_salvagestart.json" ] ],
+      "chance" : 0
+    },
+
+    {
+      "name" : "wa_salvageend",
+      "rules" : [
+        [ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", [ "wa_salvageend.json" ] ],
+      "chance" : 0
+    }
+  ]
+}

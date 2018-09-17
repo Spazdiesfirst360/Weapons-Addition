@@ -1,5 +1,5 @@
 {
-  "objectName" : "wa_ai_crystaltrap",
+  "objectName" : "wa_ai_largecrystaltrap",
   "colonyTags" : ["ancient","evil"],
   "printable" : false,
   "rarity" : "Legendary",
@@ -18,191 +18,191 @@
   "category" : "trap",
   "price" : 0,
 
-  "inventoryIcon" : "wa_ai_crystaltrapicon.png",
+  "inventoryIcon" : "wa_ai_largecrystaltrapground.png:default.off",
   "orientations" : [
     {
-      "image" : "wa_ai_crystaltrapground.png:<color>.<frame>",
-      "imagePosition" : [-8, 0],
+      "image" : "wa_ai_largecrystaltrapground.png:<color>.<frame>",
+      "imagePosition" : [-40, 0],
       "direction" : "left",
       "flipImages" : true,
       
-      "animationPosition" : [-8, 0],
+      "animationPosition" : [-40, 0],
       "animationParts" : {
-        "bg" : "wa_ai_crystaltrapground.png",
-        "fg" : "wa_ai_crystaltrapground.png"
+        "bg" : "wa_ai_largecrystaltrapground.png",
+        "fg" : "wa_ai_largecrystaltrapground.png"
       },
 
       "renderLayer" : "Object+50",
-      "lightPosition" : [0, 1],
+      "lightPosition" : [0, 5],
 
       "beamDirection" : [0, 1],
-      "beamStartOffset" : [0, 1.5],
-      "maxBeamLength" : 400,
-      "metaBoundBox" : [-4, -4, 4, 54],
+      "beamStartOffset" : [3.75, 7.5],
+      "maxBeamLength" : 600,      
+	  "metaBoundBox" : [-4, -4, 4, 54],
 
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ],
       "collision" : "solid"
     },
     {
-      "image" : "wa_ai_crystaltrapground.png:<color>.<frame>",
+      "image" : "wa_ai_largecrystaltrapground.png:<color>.<frame>",
       "imagePosition" : [0, 0],
       "direction" : "right",
 
       "animationPosition" : [0, 0],
       "animationParts" : {
-        "bg" : "wa_ai_crystaltrapground.png",
-        "fg" : "wa_ai_crystaltrapground.png"
+        "bg" : "wa_ai_largecrystaltrapground.png",
+        "fg" : "wa_ai_largecrystaltrapground.png"
       },
 
       "renderLayer" : "Object+50",
-      "lightPosition" : [0, 1],
+      "lightPosition" : [0, 5],
 
       "beamDirection" : [0, 1],
-      "beamStartOffset" : [1, 1.5],
-      "maxBeamLength" : 400,
-      "metaBoundBox" : [-4, -4, 4, 54],
+      "beamStartOffset" : [3.75, 7.55],
+      "maxBeamLength" : 600,      
+	  "metaBoundBox" : [-4, -4, 4, 54],
 
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ],
       "collision" : "solid"
     },
     {
-      "image" : "wa_ai_crystaltrap.png:<color>.<frame>",
-      "imagePosition" : [-8, 0],
+      "image" : "wa_ai_largecrystaltrap.png:<color>.<frame>",
+      "imagePosition" : [-40, 0],
       "direction" : "left",
       "flipImages" : true,
       
-      "animationPosition" : [-8, 0],
+      "animationPosition" : [-40, 0],
       "animationParts" : {
-        "bg" : "wa_ai_crystaltrap.png",
-        "fg" : "wa_ai_crystaltrap.png"
+        "bg" : "wa_ai_largecrystaltrap.png",
+        "fg" : "wa_ai_largecrystaltrap.png"
       },
 
       "renderLayer" : "Object+50",
-      "lightPosition" : [-1, 0],
+      "lightPosition" : [-5, 0],
 
       "beamDirection" : [-1, 0],
-      "beamStartOffset" : [-0.5, 1],
-      "maxBeamLength" : 400,
-      "metaBoundBox" : [-54, -4, 4, 4],
+      "beamStartOffset" : [-7.5, 3.75],
+      "maxBeamLength" : 600,      
+	  "metaBoundBox" : [-54, -4, 4, 4],
 
       "spaceScan" : 0.1,
       "anchors" : [ "right" ],
       "collision" : "solid"
     },
     {
-      "image" : "wa_ai_crystaltrap.png:<color>.<frame>",
+      "image" : "wa_ai_largecrystaltrap.png:<color>.<frame>",
       "imagePosition" : [0, 0],
       "direction" : "right",
       
       "animationPosition" : [0, 0],
       "animationParts" : {
-        "bg" : "wa_ai_crystaltrap.png",
-        "fg" : "wa_ai_crystaltrap.png"
+        "bg" : "wa_ai_largecrystaltrap.png",
+        "fg" : "wa_ai_largecrystaltrap.png"
       },
 
       "renderLayer" : "Object+50",
-      "lightPosition" : [1, 0],
+      "lightPosition" : [5, 0],
 
       "beamDirection" : [1, 0],
-      "beamStartOffset" : [1.5, 1],
-      "maxBeamLength" : 400,
-      "metaBoundBox" : [-54, -4, 4, 4],
+      "beamStartOffset" : [7.5, 3.75],
+      "maxBeamLength" : 600,      
+	  "metaBoundBox" : [-54, -4, 4, 4],
 
       "spaceScan" : 0.1,
       "anchors" : [ "left" ],
       "collision" : "solid"
     },
     {
-      "image" : "wa_ai_crystaltrapceiling.png:<color>.<frame>",
-      "imagePosition" : [-8, -8],
+      "image" : "wa_ai_largecrystaltrapceiling.png:<color>.<frame>",
+      "imagePosition" : [-40, -40],
       "direction" : "left",
       "flipImages" : true,
       
-      "animationPosition" : [-8, -8],
+      "animationPosition" : [-40, -40],
       "animationParts" : {
-        "bg" : "wa_ai_crystaltrapceiling.png",
-        "fg" : "wa_ai_crystaltrapceiling.png"
+        "bg" : "wa_ai_largecrystaltrapceiling.png",
+        "fg" : "wa_ai_largecrystaltrapceiling.png"
       },
 
       "renderLayer" : "Object+50",
-      "lightPosition" : [0, -1],
+      "lightPosition" : [0, -5],
 
       "beamDirection" : [0, -1],
-      "beamStartOffset" : [0, -0.5],
-      "maxBeamLength" : 400,
-      "metaBoundBox" : [-4, -54, 4, 4],
+      "beamStartOffset" : [3.75, -7.5],
+      "maxBeamLength" : 600,      
+	  "metaBoundBox" : [-4, -54, 4, 4],
 
       "spaceScan" : 0.1,
       "anchors" : [ "top" ],
       "collision" : "solid"
     },
     {
-      "image" : "wa_ai_crystaltrapceiling.png:<color>.<frame>",
-      "imagePosition" : [0, -8],
+      "image" : "wa_ai_largecrystaltrapceiling.png:<color>.<frame>",
+      "imagePosition" : [0, -40],
       "direction" : "right",
       
-      "animationPosition" : [0, -8],
+      "animationPosition" : [0, -40],
       "animationParts" : {
-        "bg" : "wa_ai_crystaltrapceiling.png",
-        "fg" : "wa_ai_crystaltrapceiling.png"
+        "bg" : "wa_ai_largecrystaltrapceiling.png",
+        "fg" : "wa_ai_largecrystaltrapceiling.png"
       },
 
       "renderLayer" : "Object+50",
-      "lightPosition" : [0, -1],
+      "lightPosition" : [0, -5],
 
       "beamDirection" : [0, -1],
-      "beamStartOffset" : [1, -0.5],
-      "maxBeamLength" : 400,
-      "metaBoundBox" : [-4, -54, 4, 4],
+      "beamStartOffset" : [3.75, -7.5],
+      "maxBeamLength" : 600,      
+	  "metaBoundBox" : [-4, -54, 4, 4],
 
       "spaceScan" : 0.1,
       "anchors" : [ "top" ],
       "collision" : "solid"
     },
     {
-      "image" : "wa_ai_crystaltrapground.png:<color>.<frame>",
-      "imagePosition" : [-8, 0],
+      "image" : "wa_ai_largecrystaltrapground.png:<color>.<frame>",
+      "imagePosition" : [-40, 0],
       "direction" : "left",
       "flipImages" : true,
       
-      "animationPosition" : [-8, 0],
+      "animationPosition" : [-40, 0],
       "animationParts" : {
-        "bg" : "wa_ai_crystaltrapground.png",
-        "fg" : "wa_ai_crystaltrapground.png"
+        "bg" : "wa_ai_largecrystaltrapground.png",
+        "fg" : "wa_ai_largecrystaltrapground.png"
       },
 
       "renderLayer" : "Object+50",
-      "lightPosition" : [0, 1],
+      "lightPosition" : [0, 5],
 
       "beamDirection" : [0, 1],
-      "beamStartOffset" : [0, 1.5],
-      "maxBeamLength" : 400,
-      "metaBoundBox" : [-4, -4, 4, 54],
+      "beamStartOffset" : [3.75, 7.5],
+      "maxBeamLength" : 600,      
+	  "metaBoundBox" : [-4, -4, 4, 54],
 
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ],
       "collision" : "solid"
     },
     {
-      "image" : "wa_ai_crystaltrapground.png:<color>.<frame>",
+      "image" : "wa_ai_largecrystaltrapground.png:<color>.<frame>",
       "imagePosition" : [0, 0],
       "direction" : "right",
 
       "animationPosition" : [0, 0],
       "animationParts" : {
-        "bg" : "wa_ai_crystaltrapground.png",
-        "fg" : "wa_ai_crystaltrapground.png"
+        "bg" : "wa_ai_largecrystaltrapground.png",
+        "fg" : "wa_ai_largecrystaltrapground.png"
       },
 
       "renderLayer" : "Object+50",
-      "lightPosition" : [0, 1],
+      "lightPosition" : [0, 5],
 
       "beamDirection" : [0, 1],
-      "beamStartOffset" : [1, 1.5],
-      "maxBeamLength" : 400,
-      "metaBoundBox" : [-4, -4, 4, 54],
+      "beamStartOffset" : [3.75, 7.5],
+      "maxBeamLength" : 600,      
+	  "metaBoundBox" : [-4, -4, 4, 54],
 
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ],
@@ -220,7 +220,7 @@
   },
   "animationScripts" : [ "/objects/wired/projectiletrap/beamtraprendering.lua" ],
   
-  "health" : 5,
+  "health" : 500,
 
   "smashOnBreak" : true,
   "smashSounds" : [ "/sfx/objects/rock_break1.ogg", "/sfx/objects/rock_break2.ogg", "/sfx/objects/rock_break3.ogg", "/sfx/objects/rock_break4.ogg", "/sfx/objects/rock_break5.ogg", "/sfx/objects/rock_crumble1.ogg", "/sfx/objects/rock_crumble2.ogg", "/sfx/objects/rock_crumble3.ogg", "/sfx/objects/rock_crumble4.ogg", "/sfx/objects/rock_crumble5.ogg" ],
@@ -238,13 +238,13 @@
 
   "lightColor" : [255, 101, 0],
   "beamImages" : {
-    "first" : "/objects/ai/crystaltrap/beamstart.png",
-    "body" : "/objects/ai/crystaltrap/beambody.png",
-    "last" : "/objects/ai/crystaltrap/beamend.png"
+    "first" : "/objects/ai/largecrystaltrap/beamstart.png",
+    "body" : "/objects/ai/largecrystaltrap/beambody.png",
+    "last" : "/objects/ai/largecrystaltrap/beamend.png"
   },
 
   "beamDamage" : {
-    "damage" : 500,
+    "damage" : 10000,
 
     "teamType" : "enemy",
     "damageSourceKind" : "plasma",

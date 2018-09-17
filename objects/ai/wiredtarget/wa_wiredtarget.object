@@ -48,6 +48,6 @@
   "smashSounds" : [ "/sfx/objects/pot_break_medium1.ogg", "/sfx/objects/pot_break_medium2.ogg" ],
   "smashParticles" : [ { "count" : 4, "particle" : "redtargetshard" }, { "count" : 4, "particle" : "greytargetshard" } ],
 
-  "scripts" : ["/objects/space/wa_wiredtarget/wa_wiredtarget.lua"],
+  "scripts" : ["/objects/ai/wiredtarget/wa_wiredtarget.lua"],
   "scriptDelta" : 0
 }

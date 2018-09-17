@@ -370,5 +370,103 @@
         ]
       ]
     ]
+  },
+  {
+    "op": "add",
+    "path": "/wa_salvageSell",
+    "value": [
+      [
+        0,
+        [
+          {
+            "item": {
+              "name": "salvagearm",
+              "rarity": 1.0
+            }
+          },
+          {
+            "item": {
+              "name": "salvagebody",
+              "rarity": 1.0
+            }
+          },
+          {
+            "item": {
+              "name": "salvagebooster",
+              "rarity": 1.0
+            }
+          },
+          {
+            "item": {
+              "name": "salvagelegs",
+              "rarity": 1.0
+            }
+          }
+		]
+      ],
+	  [
+		3.9, 
+		[
+			{
+				"item": {
+					"name": "salvagetier4",
+					"rarity": 1.0
+				}
+			}
+		]
+	  ],
+	  [
+		4.9, 
+		[
+			{
+				"item": {
+					"name": "salvagetier5",
+					"rarity": 1.0
+				}
+			}
+		]
+	  ],
+	  [
+		5.9, 
+		[
+			{
+				"item": {
+					"name": "salvagetier6",
+					"rarity": 1.0
+				}
+			},
+			{
+				"item": {
+					"name": "wa_hitechactuator",
+					"rarity": 0.25
+				}
+			},
+			{
+				"item": {
+					"name": "wa_hitechlimiter",
+					"rarity": 0.25
+				}
+			},
+			{
+				"item": {
+					"name": "wa_hitechbattery",
+					"rarity": 0.25
+				}
+			},
+			{
+				"item": {
+					"name": "wa_hitechplatematerial",
+					"rarity": 0.25
+				}
+			},
+			{
+				"item": {
+					"name": "wa_ionbattery",
+					"rarity": 0.25
+				}
+			}
+		]
+	  ]
+    ]
   }
 ]

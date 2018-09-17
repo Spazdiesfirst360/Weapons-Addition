@@ -7,7 +7,7 @@
   "description" : "This metal panel won't stay in place for long!",
   "shortdescription" : "AI Panel",
   "footstepSound" : "/sfx/blocks/footstep_metallic.ogg",
-  "health" : 100,
+  "health" : 5,
   "category" : "materials",
   "falling": true,
   "cascading": true,

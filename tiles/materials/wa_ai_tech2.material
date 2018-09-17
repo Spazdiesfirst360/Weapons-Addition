@@ -6,7 +6,7 @@
   "description" : "This piece of metal looks like it's going to collapse!",
   "shortdescription" : "AI Tech Block",
   "footstepSound" : "/sfx/blocks/footstep_metallic.ogg",
-  "health" : 100,
+  "health" : 5,
   "category" : "materials",
   "falling": true,
   "cascading": true,

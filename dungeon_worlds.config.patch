@@ -272,5 +272,21 @@
       "ambientNoises": "/sfx/environmental/space_loop4.ogg",
       "musicTrack": "/music/the-apex.ogg"
     }
+  },
+  {
+	"op": "add",
+	"path": "/wa_desertedtemple",
+	"value": {
+		"primaryDungeon" : "wa_desertedtemple",
+		"threatLevel" : 5,
+		"gravity" : 80,
+		"worldSize" : [2000, 2000],
+		"dungeonBaseHeight" : 1000,
+		"dungeonSurfaceHeight" : 960,
+		"ambientLightLevel" : [32, 32, 32],
+		"biome" : "desert",
+		"musicTrack" : "/music/desert-exploration2.ogg",
+		"environmentStatusEffects" : ["dontstarve"]
+	}
   }
 ]

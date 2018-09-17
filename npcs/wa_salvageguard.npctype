@@ -1,0 +1,152 @@
+{
+  "type" : "wa_salvageguard",
+  "baseType" : "guard",
+
+  "levelVariance" : [0, 0],
+  "damageTeamType" : "friendly",
+  "dropPools" : [ "salvageComponent" ],
+
+  "statusControllerSettings" : {
+    "stats" : {
+      "maxHealth" : {
+        "baseValue" : 500.0
+      }
+    }
+  },
+
+  "scriptConfig" : {
+    "behaviorConfig" : {
+      "greetingChance" : 0,
+      
+      "hostileDamageTeam" : { "type" : "friendly", "team" : 1 }
+    },
+    "dialog" : {
+      "converse" : {
+        "default" : {
+          "default" : [
+            "Stay out of trouble.",
+			"Don't do anything stupid."
+          ]
+        }
+      },
+
+      "attack" : {
+        "default" : {
+          "default" : [
+            "Open fire!",
+			"Hold your position!",
+			"Get back!",
+			"We don't want your kind around here!"
+          ]
+        }
+      },
+
+      "reattack" : {
+        "default" : {
+          "default" : [
+            "They won't stop coming!",
+            "They're back!",
+            "Here they come again!",
+            "There's more!"
+          ]
+        }
+      },
+
+      "killedTarget" : {
+        "default" : {
+          "default" : [
+            "One less threat on this planet...",
+			"Victory!",
+			"Now how much ammunition do I have left..."
+          ]
+        }
+      },
+
+      "lostTarget" : {
+        "default" : {
+          "default" : [
+            "Did you see where it went?",
+            "I think it's gone.",
+            "Did it run away?",
+            "Get back here so I can finish you off!"
+
+          ]
+        }
+      },
+
+      "outOfSight" : {
+        "default" : {
+          "default" : [
+            "Did you see where it went?",
+            "Where'd it go?",
+            "I can't see it!",
+            "I've lost track of it!",
+            "Do you see it?",
+            "Get back here so I can finish you off!"
+          ]
+        }
+      },
+
+      "cheerOn" : {
+        "default" : {
+          "default" : [
+            "Take it out!",
+            "You're pretty good at this!",
+			"I'm a little embarassed to say that you're probably better than me.",
+            "Nice job!"
+          ]
+        }
+      },
+
+      "cantReach" : {
+        "default" : {
+          "default" : [
+            "I don't have a shot!",
+            "I can't hit it!",
+            "It's just out of reach!",
+            "I don't have a clear shot from here!"
+          ]
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [
+				{ "name" : "ex_invisiblehead", "parameters" : { "colorIndex" : 0 } }
+			],
+            "chest" : [
+				{ "name" : "deadbeatleatherchest", "parameters" : { "colorIndex" : 0 } },
+				{ "name" : "deadbeatspandexchest", "parameters" : { "colorIndex" : 0 } },
+				{ "name" : "deadbeatstrapschest", "parameters" : { "colorIndex" : 0 } }
+			],
+            "legs" : [
+				{ "name" : "deadbeatleatherlegs", "parameters" : { "colorIndex" : 0 } },
+				{ "name" : "deadbeatspandexlegs", "parameters" : { "colorIndex" : 0 } },
+				{ "name" : "deadbeatstrapslegs", "parameters" : { "colorIndex" : 0 } }
+			],
+            "primary" : [
+              "commonassaultrifle",
+			  "commonpistol",
+			  "commongrenadelauncher",
+			  "commonshotgun",
+			  "commonsniperrifle",
+			  "commonrocketlauncher",
+			  "commonmachinepistol"
+            ],
+            "sheathedprimary" : [
+              "commondagger",
+			  "commonhammer",
+			  "commonbroadsword",
+			  "commonshortsword",
+			  "commonspear",
+			  "commonaxe"
+            ]
+          }
+        ] ]
+    ]
+  }
+}

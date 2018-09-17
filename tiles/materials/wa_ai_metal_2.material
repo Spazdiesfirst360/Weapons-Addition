@@ -6,7 +6,7 @@
   "description" : "This metal looks unsafe to step on.",
   "shortdescription" : "AI Metal Block",
   "footstepSound" : "/sfx/blocks/footstep_metallic.ogg",
-  "health" : 100,
+  "health" : 5,
   "category" : "materials",
   "falling": true,
   "cascading": true,

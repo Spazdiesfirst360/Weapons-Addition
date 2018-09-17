@@ -7,7 +7,6 @@
   "shortdescription" : "Particle Accelerator",
   "race" : "generic",
   "category" : "crafting",
-  "collectablesOnPickup" : { "paa_kx1collection" : "paa_particleaccelerator" },
 
   "interactAction" : "OpenCraftingInterface",
   "interactData" : {

@@ -47,7 +47,7 @@
     "projectileType" : "clustergrenade",
     "projectileParameters" : {
       "knockback" : 50,
-	  "speed" : 100
+	  "speed" : 50
     },
     "stances" : {
       "idle" : {
