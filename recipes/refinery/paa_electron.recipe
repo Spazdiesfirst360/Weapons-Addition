@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "paa_proton", "count" : 1 }
-  ],
-  "output" : { "item" : "paa_electron", "count" : 1 },
-  "groups" : [ "refinery" ]
-}

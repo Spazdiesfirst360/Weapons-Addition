@@ -38,13 +38,15 @@
   "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
   "class" : "GunFire",
 
-  "fireTime" : 0.075,
-  "baseDps" : 45.0,
-  "energyUsage" : 25,
-  "inaccuracy" : 0.001,
-
+  "fireTime" : 0.2,
+  "baseDps" : 15.3,
+  "energyUsage" : 50,
+  "inaccuracy" : 0.01,
   "projectileCount" : 1,
-  "fireType" : "auto",
+
+  "burstTime" : 0.1,
+  "burstCount" : 3,
+  "fireType" : "burst",
 
   "projectileType" : "grenade",
   "projectileParameters" : {

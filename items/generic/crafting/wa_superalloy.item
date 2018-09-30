@@ -1,0 +1,13 @@
+{
+  "itemName" : "wa_superalloy",
+  "price" : 2000,
+  "rarity" : "legendary",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "wa_superalloy.png",
+  "description" : "A super-alloy made for strong, durable weapons.",
+  "shortdescription" : "Weapons Alloy",
+  "itemTags" : [ "reagent" ],
+  "learnBluepintsOnPickup": [
+	"wa_laserarray"
+  ]
+}

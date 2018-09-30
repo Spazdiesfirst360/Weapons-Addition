@@ -1,85 +1,87 @@
 {
   "itemName" : "wa_capturepodrifle",
-  "price" : 5000,
+  "price" : 7500,
   "maxStack" : 1,
-  "rarity" : "legendary",
+  "rarity" : "Essential",
   "description" : "An experimental rifle, designed for professional capture pod users.",
   "shortdescription" : "Capture Pod Rifle",
-  "tooltipKind" : "gun",
-  "category" : "Experimental Weapon",
+  "tooltipKind" : "base",
+  "category" : "Grenade Launcher",
   "twoHanded" : true,
-  "itemTags" : ["weapon","ranged","sniperrifle"],
+  "itemTags" : ["weapon","ranged","grenadelauncher"],
   "level" : 7,
 
-  "inventoryIcon" : "wa_capturepodrifle.png",
+  "inventoryIcon" : "wa_capturepodrifle.png:idle",
 
-  "animation" : "/items/active/weapons/ranged/gun.animation",
+  "animation" : "wa_capturepodrifle.animation",
   "animationParts" : {
-  "butt" : "",
-  "middle" : "wa_capturepodrifle.png",
-   "middlefullbright" : "",
-  "barrel" : "",
-  "muzzleFlash" : "/items/active/weapons/ranged/muzzleflash.png"
+    "gun" : "wa_capturepodrifle.png",
+    "gunfullbright" : "wa_capturepodriflefullbright.png"
   },
-  "animationCustom" : {
-  "sounds" : {
-  "fire" : ["/sfx/gun/sniper3.ogg"]
-  }
-  },
-
-  "baseOffset" : [1.0, 0.375],
-  "muzzleOffset" : [2.5, 0],
+  "animationCustom" : {},
+  "muzzleOffset" : [2.5, 0.3125],
 
   "scripts" : ["/items/active/weapons/ranged/gun.lua"],
 
   "elementalType" : "physical",
 
   "primaryAbility" : {
-  "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
-  "class" : "GunFire",
+    "name" : "Capture Pod Stack",
+    "scripts" : ["/items/active/weapons/bossdrop/miniknoglauncher/rocketstack.lua"],
+    "class" : "RocketStack",
 
-  "fireTime" : 0.25,
-  "baseDps" : 10.0,
-  "energyUsage" : 1,
-  "inaccuracy" : 0.001,
+    "baseDamage" : 5.0,
+    "energyPerShot" : 50,
 
-  "projectileCount" : 1,
-  "fireType" : "auto",
+    "reloadTime" : 1.0,
+    "maxStack" : 2,
+    "spread" : 0.1,
 
-  "projectileType" : "capturepod",
-  "projectileParameters" : {
-  "damageKind" : "default",
-  "knockback" : 5
+    "inaccuracy" : 0,
+
+    "projectileType" : "wa_capturesource",
+    "projectileParameters" : {},
+
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : false,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "charge" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : false,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 3,
+        "weaponRotation" : 3,
+        "twoHanded" : false,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "cooldown" : {
+        "duration" : 0.25,
+        "armRotation" : 3,
+        "weaponRotation" : 3,
+        "twoHanded" : false,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+    }
   },
-  "stances" : {
-  "idle" : {
-  "armRotation" : 0,
-  "weaponRotation" : 0,
-  "twoHanded" : true,
-
-  "allowRotate" : true,
-  "allowFlip" : true
-  },
-  "fire" : {
-  "duration" : 0.25,
-  "armRotation" : 3,
-  "weaponRotation" : 3,
-  "twoHanded" : true,
-
-  "allowRotate" : false,
-  "allowFlip" : false
-  },
-  "cooldown" : {
-  "duration" : 1.25,
-  "armRotation" : 3,
-  "weaponRotation" : 3,
-  "twoHanded" : true,
-
-  "allowRotate" : false,
-  "allowFlip" : false
-  }
-  }
-  },
+  
+  "altAbilityType" : "spray",
+  "altAbility" : { },
 
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }

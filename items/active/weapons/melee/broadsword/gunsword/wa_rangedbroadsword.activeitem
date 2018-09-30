@@ -1,0 +1,105 @@
+{
+  "itemName" : "wa_rangedbroadsword",
+  "price" : 5000,
+  "level" : 7,
+  "maxStack" : 1,
+  "rarity" : "Essential",
+  "description" : "This blade is the perfect fusion of rifle and blade.",
+  "shortdescription" : "Gun Sword",
+  "tooltipKind" : "sword",
+  "category" : "broadsword",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","broadsword"],
+
+  "inventoryIcon" : "wa_rangedbroadsword.png:idle.1",
+
+  "animation" : "wa_rangedbroadsword.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "wa_rangedbroadsword.png",
+    "bladefullbright" : "wa_rangedbroadswordfullbright.png",
+    "muzzleFlash" : ""
+  },
+  "animationCustom" : {
+    "lights" : { "glow" : {
+      "active" : true,
+      "position" : [0.75, 0.5],
+      "color" : [9, 100, 160],
+      "flickerPeriod" : 0.3,
+      "flickerMinIntensity" : 0.95,
+      "flickerMaxIntensity" : 1,
+      "flickerPeriodVariance" : 0.075,
+      "flickerIntensityVariance" : 0.025
+    }},
+    "sounds" : {
+      "fire" : [ "/sfx/melee/swing_broadsword.ogg", "/sfx/melee/swing_broadsword.ogg", "/sfx/melee/swing_broadsword.ogg" ],
+      "fireStart" : [ "/sfx/gun/mech_gatling_windup.ogg" ],
+      "fireLoop" : [ "/sfx/gun/mech_gatling_active_loop.ogg" ],
+      "fireEnd" : [ "/sfx/gun/mech_gatling_winddown.ogg" ]
+    }
+  },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "fire",
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/melee/meleeslash.lua"],
+    "class" : "MeleeSlash",
+
+    "fireTime" : 0.65,
+    "baseDps" : 15.0,
+    "damageConfig" : {
+      "damageSourceKind" : "broadsword",
+      "statusEffects" : [ ],
+      "knockback" : 30,
+      "knockbackMode" : "facing",
+      "timeoutGroup" : "primary"
+    },
+    "stances" : {
+      "idle" : {
+        "armRotation" : -90,
+        "weaponRotation" : -10,
+        "aimAngle" : 0,
+        "allowRotate" : false,
+        "allowFlip" : true
+      },
+      "windup" : {
+        "duration" : 0.1,
+        "armRotation" : 90,
+        "weaponRotation" : -10,
+        "twoHanded" : true,
+        "aimAngle" : 0,
+
+        "allowRotate" : false,
+        "allowFlip" : true
+      },
+      "preslash" : {
+        "duration" : 0.025,
+        "armRotation" : 55,
+        "weaponRotation" : -45,
+        "twoHanded" : true,
+        "aimAngle" : 0,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "fire" : {
+        "duration" : 0.4,
+        "armRotation" : -45,
+        "weaponRotation" : -55,
+        "twoHanded" : true,
+        "aimAngle" : 0,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+    }
+  },
+
+  "aimOffset" : 0.0,
+
+  "altAbilityType" : "wa_gunswordfire",
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

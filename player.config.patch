@@ -1,13 +1,6 @@
 [
   {
     "op": "add",
-    "path": "/defaultBlueprints/tier1/-",
-    "value": {
-      "item": "paa_particleaccelerator"
-    }
-  },
-  {
-    "op": "add",
 	"path": "/defaultBlueprints/tier1/-",
 	"value": {
 	  "item": "wa_expweapblueprint"
@@ -29,13 +22,6 @@
   },
   {
     "op": "add",
-    "path": "/defaultBlueprints/tier1/-",
-    "value": {
-      "item": "paa_neutron"
-    }
-  },
-  {
-    "op": "add",
 	"path": "/defaultBlueprints/tier1/-",
 	"value": {
 	  "item": "essence"
@@ -53,132 +39,6 @@
 	"path": "/defaultBlueprints/tier1/-",
 	"value": {
 	  "item": "paa_converter"
-	}
-  },
-  {
-    "op": "add",
-	"path": "/defaultBlueprints/tier1/-",
-	"value": {
-	  "item": "paa_proton"
-	}
-  },
-  {
-    "op": "add",
-	"path": "/defaultBlueprints/tier1/-",
-	"value": {
-	  "item": "ff_silicon"
-	}
-  },
-  {
-    "op": "add",
-	"path": "/defaultBlueprints/tier1/-",
-	"value": {
-	  "item": "fu_carbon"
-	}
-  },
-  {
-    "op": "add",
-	"path": "/defaultBlueprints/tier1/-",
-	"value": {
-	  "item": "fu_hydrogen"
-	}
-  },
-  {
-    "op": "add",
-	"path": "/defaultBlueprints/tier1/-",
-	"value": {
-	  "item": "fu_oxygen"
-	}
-  },
-  {
-    "op": "add",
-	"path": "/defaultBlueprints/tier1/-",
-	"value": {
-	  "item": "fu_salt"
-	}
-  },
-  {
-    "op": "add",
-	"path": "/defaultBlueprints/tier1/-",
-	"value": {
-	  "item": "iodine"
-	}
-  },
-  {
-    "op": "add",
-	"path": "/defaultBlueprints/tier1/-",
-	"value": {
-	  "item": "lead"
-	}
-  },
-  {
-    "op": "add",
-	"path": "/defaultBlueprints/tier1/-",
-	"value": {
-	  "item": "magnesiumore"
-	}
-  },
-  {
-    "op": "add",
-	"path": "/defaultBlueprints/tier1/-",
-	"value": {
-	  "item": "paa_cobaltore"
-	}
-  },
-  {
-    "op": "add",
-	"path": "/defaultBlueprints/tier1/-",
-	"value": {
-	  "item": "paa_palladiumore"
-	}
-  },
-  {
-    "op": "add",
-	"path": "/defaultBlueprints/tier1/-",
-	"value": {
-	  "item": "paa_fluorine"
-	}
-  },
-  {
-    "op": "add",
-	"path": "/defaultBlueprints/tier1/-",
-	"value": {
-	  "item": "paa_protactinium"
-	}
-  },
-  {
-    "op": "add",
-	"path": "/defaultBlueprints/tier1/-",
-	"value": {
-	  "item": "paa_technetium"
-	}
-  },
-  {
-    "op": "add",
-	"path": "/defaultBlueprints/tier1/-",
-	"value": {
-	  "item": "neptuniumore"
-	}
-  },
-  {
-    "op": "add",
-	"path": "/defaultBlueprints/tier1/-",
-	"value": {
-	  "item": "thoriumore"
-	}
-  },
-  {
-    "op": "add",
-	"path": "/defaultBlueprints/tier1/-",
-	"value": {
-	  "item": "sulphur"
-	}
-  },
-  {
-    "op": "add",
-	"path": "/defaultBlueprints/tier1/-",
-	"value": {
-	  "item": "uraniumore"
 	}
   },
   {
@@ -271,10 +131,5 @@
 	"value": {
 	  "item": "ms_purificationpowder"
 	}
-  },
-  {
-    "op": "add",
-    "path": "/defaultBlueprints/tier1/-",
-    "value": "paa_antimatter"
   }
 ]

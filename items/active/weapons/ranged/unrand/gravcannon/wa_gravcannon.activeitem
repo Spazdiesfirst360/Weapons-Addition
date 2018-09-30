@@ -39,7 +39,7 @@
 
     "inaccuracy" : 0,
 
-    "projectileType" : "wa_gravgrenade",
+    "projectileType" : "wa_gravsource",
     "projectileParameters" : {},
 
     "stances" : {

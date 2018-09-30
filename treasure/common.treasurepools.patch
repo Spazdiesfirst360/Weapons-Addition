@@ -283,7 +283,7 @@
 	  "item": "wa_flamegun"
 	}
   },
-  {
+ /* {
     "op": "add",
     "path": "/valuableTreasure/0/1/pool/-",
     "value": {
@@ -314,7 +314,7 @@
       "weight": 0.04,
       "item": "wa_nukethrown"
     }
-  },
+  }, */
   {
     "op": "add",
     "path": "/valuableTreasure/0/1/pool/-",
@@ -378,163 +378,6 @@
       "weight": 0.4,
       "item": "paa_liquidbase"
     }
-  },
-  {
-    "op": "add",
-    "path": "/paa_randomstuff",
-    "value": [
-      [
-        0,
-        {
-          "pool": [
-            {
-              "weight": 1.0,
-              "item": "paa_saltshaker"
-            },
-            {
-              "weight": 0.1,
-              "item": "paa_magneticgenerator"
-            }
-          ]
-        }
-      ],
-      [
-        1.9,
-        {
-          "pool": [
-            {
-              "weight": 0.1,
-              "item": "paa_hazardchest"
-            },
-            {
-              "weight": 0.1,
-              "item": "paa_labcrate"
-            },
-            {
-              "weight": 0.1,
-              "item": "paa_gascanister"
-            },
-            {
-              "weight": 0.1,
-              "item": "paa_plutoniumbarrel"
-            }
-          ]
-        }
-      ],
-      [
-        2.9,
-        {
-          "pool": [
-            {
-              "weight": 0.1,
-              "item": "paa_antimattergenerator"
-            },
-            {
-              "weight": 0.1,
-              "item": "paa_powergenerator"
-            },
-            {
-              "weight": 0.1,
-              "item": "paa_wallkeypad"
-            }
-          ]
-        }
-      ],
-      [
-        4.9,
-        {
-          "pool": [
-            {
-              "weight": 0.05,
-              "item": "paa_shockitem"
-            },
-			{
-			  "weight": 0.1,
-			  "item": "paa_extrememiner"
-			}
-          ]
-        }
-      ],
-      [
-        5.9,
-        {
-          "pool": [
-            {
-              "weight": 0.05,
-              "item": "wa_rangedbroadsword"
-            },
-            {
-              "weight": 0.05,
-              "item": "ragecannon"
-            },
-            {
-              "weight": 0.25,
-              "item": "rocketpistol"
-            },
-            {
-              "weight": 0.075,
-              "item": "wa_pathfinder"
-            },
-            {
-              "weight": 0.001,
-              "item": "paa_destroyerofworlds"
-            }
-          ]
-        }
-      ]
-    ]
-  },
-  {
-    "op": "add",
-    "path": "/valuableTreasure/0/1/pool/-",
-    "value": {
-      "weight": 0.25,
-      "item": "paa_objectblueprint"
-    }
-  },
-  {
-    "op": "add",
-    "path": "/valuableTreasure/1/1/pool/-",
-    "value": {
-      "weight": 0.3,
-      "item": "paa_objectblueprint"
-    }
-  },
-  {
-    "op": "add",
-    "path": "/valuableTreasure/2/1/pool/-",
-    "value": {
-      "weight": 0.35,
-      "item": "paa_objectblueprint"
-    }
-  },
-  {
-    "op": "add",
-    "path": "/valuableTreasure/3/1/pool/-",
-    "value": {
-      "weight": 0.4,
-      "item": "paa_objectblueprint"
-    }
-  },
-  {
-    "op": "add",
-    "path": "/wa_salty",
-    "value": [
-      [
-        0,
-        {
-          "pool": [
-            {
-              "weight": 1,
-              "item": [
-                "wa_monsterportal",
-                100
-              ]
-            }
-          ]
-        }
-      ]
-    ]
   },
   {
     "op": "add",

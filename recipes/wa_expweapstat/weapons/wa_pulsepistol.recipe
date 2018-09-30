@@ -1,0 +1,15 @@
+{
+  "input" : [
+    { "item" : "wa_ionbattery", "count" : 5 },
+	{ "item" : "wa_hitechplatematerial", "count" : 5 },
+	{ "item" : "wa_superalloy", "count" : 18 },
+	{ "item" : "siliconboard", "count" : 5 },
+	{ "item" : "wire", "count" : 5 },
+	{ "item" : "wa_laserarray", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "wa_pulsepistol",
+    "count" : 1
+  },
+  "groups" : [ "wa_expweapstat", "weapons" ]
+}

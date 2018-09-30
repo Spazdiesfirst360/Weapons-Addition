@@ -1,7 +1,6 @@
 {
   "input" : [
-    { "item" : "durasteelbar", "count" : 10 },
-	{ "item" : "titaniumbar", "count" : 10 },
+    { "item" : "wa_superalloy", "count" : 35 },
 	{ "item" : "siliconboard", "count" : 10 },
 	{ "item" : "wire", "count" : 10 }
   ],

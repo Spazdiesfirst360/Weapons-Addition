@@ -1,0 +1,47 @@
+{
+// ---Weapons Facility Mission---
+ "wa_weaponsfacility01" : {
+    "type" : "mission",
+    "text" : "This facility is one of the most secretive buildings in the entire known universe. They will stop at nothing to silence anyone who tries to leak information out."
+  },
+
+  "wa_weaponsfacility02" : {
+    "type" : "mission",
+    "text" : "I have temporarily created a temporal wormhole using the device given to you. This will send you back to the instant you warp down in the event that you die."
+  },
+
+  "wa_weaponsfacility03" : {
+    "type" : "mission",
+    "text" : "Scanners show that all main entry points are locked. You will need to find another way in."
+  },
+
+  "wa_weaponsfacility04" : {
+    "type" : "mission",
+    "text" : "It would be wise to note that this facility is armed with ^red;hidden^reset; defense turrets. This is accompanied by security systems that are extremely deadly. Be careful!"
+  },
+
+  "wa_weaponsfacility05" : {
+    "type" : "mission",
+    "text" : "The sensors in this room will activate an array of lasers. Avoid them."
+  },
+
+  "wa_weaponsfacility06" : {
+    "type" : "mission",
+    "text" : "Please note that if the sensors in this room detect you, the door at the end of the corridor will instantly lock. There is no way to unlock this door, so be very careful."
+  },
+
+  "wa_weaponsfacility07" : {
+    "type" : "mission",
+    "text" : "The material powering the nuclear core of this facility messes with gravity. Be cautious so that you don't lose your footing."
+  },
+
+  "wa_weaponsfacility08" : {
+    "type" : "mission",
+    "text" : "After this experience, I sure hope that you do not decide to do anything like this again."
+  },
+  
+  "wa_misc1" : {
+    "type" : "mission",
+	"text" : "This radar dish is receiving a distress signal. I suggest that you investigate as soon as possible."
+  }
+}

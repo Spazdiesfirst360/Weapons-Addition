@@ -40,13 +40,13 @@
 
   "fireTime" : 0.1,
   "baseDps" : 17.5,
-  "energyUsage" : 10,
+  "energyUsage" : 25,
   "inaccuracy" : 0.2,
 
   "projectileCount" : 1,
   "fireType" : "auto",
 
-  "projectileType" : "grenade",
+  "projectileType" : "wa_grenadesource",
   "projectileParameters" : {
   "damageKind" : "default",
   "knockback" : 5

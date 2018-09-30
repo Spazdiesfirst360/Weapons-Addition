@@ -1,11 +1,11 @@
 {
   "input" : [
-    { "item" : "durasteelbar", "count" : 100 },
-	{ "item" : "titaniumbar", "count" : 100 },
+    { "item" : "wa_superalloy", "count" : 500 },
 	{ "item" : "siliconboard", "count" : 100 },
 	{ "item" : "wire", "count" : 100 },
 	{ "item" : "wa_hitechlimiter", "count" : 50 },
-	{ "item" : "paa_element200", "count" : 5 }
+	{ "item" : "paa_refined200", "count" : 10 },
+	{ "item" : "wa_laserarray", "count" : 20 }
   ],
   "output" : {
     "item" : "wa_handlunarbaselaser",

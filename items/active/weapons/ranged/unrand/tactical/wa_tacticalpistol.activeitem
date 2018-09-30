@@ -60,7 +60,7 @@
   "projectileCount" : 1,
   "fireType" : "auto",
 
-  "projectileType" : "standardbullet",
+  "projectileType" : "wa_assaultsource",
   "projectileParameters" : {
   "damageKind" : "default",
   "knockback" : 5

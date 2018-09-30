@@ -1,8 +1,0 @@
-{
-  "input" : [
-    { "item" : "glass", "count" : 10 },
-    { "item" : "smallbattery", "count" : 5 }  
-  ],
-  "output" : { "item" : "paa_lablight", "count" : 1 },
-  "groups" : [ "craftingfurniture2", "lights", "all" ]
-}

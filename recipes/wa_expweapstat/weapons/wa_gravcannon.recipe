@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "wa_superalloy", "count" : 35 },
+	{ "item" : "siliconboard", "count" : 10 },
+	{ "item" : "wire", "count" : 10 },
+	{ "item" : "wa_hitechlimiter", "count" : 5 }
+  ],
+  "output" : {
+    "item" : "wa_gravcannon",
+    "count" : 1
+  },
+  "groups" : [ "wa_expweapstat", "weapons" ]
+}

@@ -49,48 +49,32 @@
       "order" : 11,
       "item" : "wa_molotovcannon"
     },
-    "wa_trapboulder" : {
-      "order" : 12,
-      "item" : "wa_trapboulder"
-    },
     "wa_superchargedpistol" : {
-      "order" : 13,
+      "order" : 12,
       "item" : "wa_superchargedpistol"
     },
     "wa_handmechmissilelauncher" : {
-      "order" : 14,
+      "order" : 13,
       "item" : "wa_handmechmissilelauncher"
     },
     "wa_supersubmachinegatling" : {
-      "order" : 15,
+      "order" : 14,
       "item" : "wa_supersubmachinegatling"
     },
     "wa_firesubmachinegatling" : {
-      "order" : 16,
+      "order" : 15,
       "item" : "wa_firesubmachinegatling"
     },
     "wa_submachinearrowgatling" : {
-      "order" : 17,
+      "order" : 16,
       "item" : "wa_submachinearrowgatling"
     },
     "wa_submachinegatling" : {
-      "order" : 18,
+      "order" : 17,
       "item" : "wa_submachinegatling"
     },
-    "paa_destroyerofworlds" : {
-      "order" : 19,
-      "item" : "paa_destroyerofworlds"
-    },
-    "wa_starcannon" : {
-      "order" : 20,
-      "item" : "wa_starcannon"
-    },
-    "wa_enhanceddoomcannon" : {
-      "order" : 21,
-      "item" : "wa_enhanceddoomcannon"
-    },
     "wa_handlunarbaselaser" : {
-      "order" : 22,
+      "order" : 18,
       "item" : "wa_handlunarbaselaser"
     }
   }

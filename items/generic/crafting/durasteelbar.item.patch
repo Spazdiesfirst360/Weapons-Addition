@@ -1,51 +1,9 @@
 [
   {
     "op": "add",
-    "path": "/learnBlueprintsOnPickup",
-    "value": [
-      "paa_defensegrid"
-    ]
-  },
-  {
-    "op": "add",
 	"path": "/learnBlueprintsOnPickup",
 	"value": [
-	  "paa_gascanister"
-	]
-  },
-  {
-    "op": "add",
-	"path": "/learnBlueprintsOnPickup",
-	"value": [
-	  "paa_labcrate"
-	]
-  },
-  {
-    "op": "add",
-	"path": "/learnBlueprintsOnPickup",
-	"value": [
-	  "paa_hazardchest"
-	]
-  },
-  {
-    "op": "add",
-	"path": "/learnBlueprintsOnPickup",
-	"value": [
-	  "paa_roundgreeble"
-	]
-  },
-  {
-    "op": "add",
-	"path": "/learnBlueprintsOnPickup",
-	"value": [
-	  "paa_labdoor1"
-	]
-  },
-  {
-    "op": "add",
-	"path": "/learnBlueprintsOnPickup",
-	"value": [
-	  "paa_labdoor2"
+	  "wa_superalloy"
 	]
   }
 ]

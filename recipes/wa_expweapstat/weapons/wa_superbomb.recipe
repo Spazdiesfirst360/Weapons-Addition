@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "perfectlygenericitem", "count" : 1000 }
+    { "item" : "wa_superalloy", "count" : 1000 }
   ],
   "output" : {
     "item" : "wa_superbomb",

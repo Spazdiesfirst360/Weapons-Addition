@@ -1,0 +1,15 @@
+{
+  "input" : [
+    { "item" : "tungstenbar", "count" : 2 },
+	{ "item" : "titaniumbar", "count" : 2 },
+	{ "item" : "durasteelbar", "count" : 2 },
+	{ "item" : "ironbar", "count" : 2 },
+	{ "item" : "solariumstar", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "wa_superalloy",
+    "count" : 5
+  },
+  "duration" : 0.40,
+  "groups" : [ "craftingfurnace3", "bars", "all" ]
+}

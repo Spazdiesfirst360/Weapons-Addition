@@ -1,9 +1,11 @@
 {
   "input" : [
-    { "item" : "paa_handheatlaser", "count" : 1 },
-	{ "item" : "paa_handflakgun", "count" : 1 },
-	{ "item" : "paa_handenergybeam", "count" : 1 },
-	{ "item" : "paa_fuelcanister", "count" : 1 }
+    { "item" : "wa_ionbattery", "count" : 10 },
+	{ "item" : "wa_hitechplatematerial", "count" : 10 },
+	{ "item" : "wa_superalloy", "count" : 35 },
+	{ "item" : "siliconboard", "count" : 10 },
+	{ "item" : "wire", "count" : 10 },
+	{ "item" : "wa_laserarray", "count" : 5 }
   ],
   "output" : {
     "item" : "wa_theprototype",

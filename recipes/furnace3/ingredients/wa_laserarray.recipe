@@ -1,0 +1,14 @@
+{
+  "input" : [
+    { "item" : "wa_superalloy", "count" : 5 },
+	{ "item" : "siliconboard", "count" : 3 },
+	{ "item" : "wire", "count" : 5 },
+	{ "item" : "goldbar", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "wa_laserarray",
+    "count" : 1
+  },
+  "duration" : 0.5,
+  "groups" : [ "craftingfurnace3", "ingredients", "all" ]
+}

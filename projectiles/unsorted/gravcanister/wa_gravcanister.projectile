@@ -1,0 +1,20 @@
+{
+  "projectileName" : "wa_gravcanister",
+  "image" : "wa_gravcanister.png",
+  "physics" : "grenade",
+  "animationCycle" : 0.25,
+  "frameNumber" : 1,
+  "damageKind" : "standardbullet",
+  "pointLight" : false,
+  "flippable" : true,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/bulletexplosion/bulletexplosion.config"
+    }
+  ],
+  "statusEffects" : [ ],
+  "power" : 0,
+  "speed" : 10,
+  "knockback" : 0
+}

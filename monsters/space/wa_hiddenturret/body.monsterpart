@@ -1,0 +1,11 @@
+{
+  "name" : "wa_hiddenturret",
+  "category" : "twigun",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "body.png",
+    "bodyfullbright" : "bodyfullbright.png",
+    "turret" : "turret.png"
+  }
+}

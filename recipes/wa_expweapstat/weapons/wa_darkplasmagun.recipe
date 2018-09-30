@@ -1,9 +1,10 @@
 {
   "input" : [
     { "item" : "wa_ionbattery", "count" : 10 },
-	{ "item" : "titaniumbar", "count" : 10 },
+	{ "item" : "wa_superalloy", "count" : 25 },
 	{ "item" : "siliconboard", "count" : 10 },
-	{ "item" : "wire", "count" : 10 }
+	{ "item" : "wire", "count" : 10 },
+	{ "item" : "wa_laserarray", "count" : 5 }
   ],
   "output" : {
     "item" : "wa_darkplasmagun",

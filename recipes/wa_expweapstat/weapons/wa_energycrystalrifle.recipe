@@ -1,10 +1,10 @@
 {
   "input" : [
     { "item" : "wa_ionbattery", "count" : 50 },
-	{ "item" : "titaniumbar", "count" : 10 },
+	{ "item" : "wa_superalloy", "count" : 35 },
 	{ "item" : "siliconboard", "count" : 10 },
 	{ "item" : "wire", "count" : 10 },
-	{ "item" : "wa_energycrystalshard", "count" : 5}
+	{ "item" : "wa_laserarray", "count" : 5}
   ],
   "output" : {
     "item" : "wa_energycrystalrifle",

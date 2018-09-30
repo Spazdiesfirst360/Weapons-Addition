@@ -21,10 +21,10 @@
 
   "allowDuplicateChance" : 0.005,
   "recipes" : [
-    ["wa_capturepodrifle", "wa_darkplasmagun", "wa_dartrifle"],
+    ["wa_capturepodrifle", "wa_darkplasmagun", "wa_pulsepistol", "wa_gravcannon"],
     ["wa_diamondassaultrifle", "wa_energycrystalrifle", "wa_extremeflamethrower"],
-    ["wa_gravityshotgun", "wa_handlunarbaselaser", "wa_handmechmissilelauncher"],
-    ["wa_lavaballoongun", "wa_molotovcannon", "wa_rapidgrenadelauncher", "wa_starcannon", "wa_submachinearrowgatling", "wa_submachinegatling", "wa_superchargedpistol", "wa_theprototype", "wa_trapboulder"]
+    ["wa_gravityshotgun", "wa_handlunarbaselaser", "wa_handmechmissilelauncher", "paa_darkrailgun"],
+    ["wa_lavaballoongun", "wa_molotovcannon", "wa_rapidgrenadelauncher", "wa_submachinegatling", "wa_superchargedpistol", "wa_theprototype"]
   ],
   "learnBlueprintsOnPickup" : [
     "wa_mythicblueprint"

@@ -23,7 +23,7 @@
     },
     "animationCustom" : {
     "sounds" : {
-    "fire" : ["/sfx/gun/sniper3.ogg"]
+    "fire" : ["/sfx/gun/plasma_ar2.ogg"]
     }
     },
   
@@ -32,23 +32,23 @@
   
     "scripts" : ["/items/active/weapons/ranged/gun.lua"],
   
-    "elementalType" : "physical",
+    "elementalType" : "electric",
   
     "primaryAbility" : {
     "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
     "class" : "GunFire",
   
-    "fireTime" : 0.35,
+    "fireTime" : 0.2,
     "baseDps" : 15.3,
     "energyUsage" : 25,
     "inaccuracy" : 0.01,
     "projectileCount" : 1,
   
-    "burstTime" : 0.25,
+    "burstTime" : 0.1,
     "burstCount" : 3,
     "fireType" : "burst",
   
-    "projectileType" : ["standardbullet", "piercingbullet", "explosivebullet"],
+    "projectileType" : "energybeam",
     "projectileParameters" : {
     "damageKind" : "default",
     "knockback" : 5

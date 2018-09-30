@@ -1,0 +1,10 @@
+{
+  "itemName" : "wa_laserarray",
+  "price" : 4000,
+  "rarity" : "legendary",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "wa_laserarray.png",
+  "description" : "An array for focusing light into a deadly laser.",
+  "shortdescription" : "Laser Array",
+  "itemTags" : [ "reagent" ]
+}
