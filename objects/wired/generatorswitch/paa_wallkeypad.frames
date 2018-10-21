@@ -6,7 +6,6 @@
       [ "off", "turning1", "on" ]
     ]
   },
-
   "aliases" : {
     "default.off" : "off",
     "default.on" : "on",

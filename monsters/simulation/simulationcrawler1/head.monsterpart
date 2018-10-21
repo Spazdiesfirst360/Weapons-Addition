@@ -1,0 +1,9 @@
+{
+  "name" : "wa_simulationcrawler1-head",
+  "category" : "wa_simulationcrawler1",
+  "type" : "head",
+
+  "frames" : {
+    "head" : "wa_simulationcrawler1-head.png"
+  }
+}

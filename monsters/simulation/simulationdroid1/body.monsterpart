@@ -1,0 +1,9 @@
+{
+  "name" : "wa_simulationdroid1",
+  "category" : "wa_simulationdroid1",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "wa_simulationdroid1.png"
+  }
+}

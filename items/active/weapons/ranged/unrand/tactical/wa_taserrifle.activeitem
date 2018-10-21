@@ -10,9 +10,7 @@
   "twoHanded" : true,
   "itemTags" : ["weapon","ranged","sniperrifle"],
   "level" : 5,
-
   "inventoryIcon" : "wa_tacticalsniper.png",
-
   "animation" : "/items/active/weapons/ranged/gun.animation",
   "animationParts" : {
   "butt" : "",
@@ -43,23 +41,17 @@
   
   "baseOffset" : [1.0, 0.375],
   "muzzleOffset" : [2.5, 0],
-
   "scripts" : ["/items/active/weapons/ranged/gun.lua"],
-
   "elementalType" : "physical",
-
   "primaryAbility" : {
   "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
   "class" : "GunFire",
-
   "fireTime" : 0.25,
   "baseDps" : 100.0,
   "energyUsage" : 100,
   "inaccuracy" : 0.0,
-
   "projectileCount" : 1,
   "fireType" : "auto",
-
   "projectileType" : "wa_tasershot",
   "projectileParameters" : {
   "damageKind" : "default",
@@ -70,7 +62,6 @@
   "armRotation" : 0,
   "weaponRotation" : 0,
   "twoHanded" : true,
-
   "allowRotate" : true,
   "allowFlip" : true
   },
@@ -79,7 +70,6 @@
   "armRotation" : 0.5,
   "weaponRotation" : 0.5,
   "twoHanded" : true,
-
   "allowRotate" : false,
   "allowFlip" : false
   },
@@ -88,7 +78,6 @@
   "armRotation" : 0.5,
   "weaponRotation" : 0.5,
   "twoHanded" : true,
-
   "allowRotate" : false,
   "allowFlip" : false
   }
@@ -96,6 +85,5 @@
   },
   "altAbilityType" : "tacticalflashlight",
   "altAbility" : { },
-
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }

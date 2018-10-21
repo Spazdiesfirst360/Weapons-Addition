@@ -10,45 +10,33 @@
   "category" : "broadsword",
   "twoHanded" : true,
   "itemTags" : ["weapon","melee","broadsword","reagant"],
-
   "inventoryIcon" : "wa_supersword.png:inactive",
-
   "animation" : "/items/active/weapons/melee/broadsword/supersword/wa_supersword.animation",
   "animationParts" : {
     "sword" : "wa_supersword.png",
     "swordfullbright" : "wa_superswordfullbright.png"
   },
   "animationCustom" : { },
-
   "scripts" : ["/items/active/weapons/melee/broadsword/supersword/wa_supersword.lua"],
-
   "elementalType" : "physical",
-
   "primaryAbilityType" : "broadswordcombo",
   "primaryAbility" : {
     "fireTime" : 0.8,
     "baseDps" : 20,
-
     "animKeyPrefix" : "inactive"
   },
-
   "inactiveBaseDps" : 20,
   "activeBaseDps" : 26,
-
   "altAbility" : {
     "name" : "Empowerment",
     "type" : "empowerment",
     "scripts" : ["/items/active/weapons/melee/broadsword/supersword/empowerment.lua"],
     "class" : "Empowerment",
-
     "energyPerSecond" : 30,
-
     "projectileOffset" : [1, 0],
     "projectileType" : "energytravelingswoosh",
     "baseDamage" : 16,
-
     "cooldownTime" : 1.0,
-
     "stances" : {
       "empower" : {
         "durationBefore" : 0.2,
@@ -56,9 +44,7 @@
         "armRotation" : 90,
         "weaponRotation" : -90,
         "twoHanded" : true,
-
         "weaponOffset" : [0.5, -0.375],
-
         "allowRotate" : false,
         "allowFlip" : false
       },
@@ -67,7 +53,6 @@
         "armRotation" : 70,
         "weaponRotation" : 0,
         "twoHanded" : true,
-
         "allowRotate" : false,
         "allowFlip" : false
       },
@@ -76,13 +61,11 @@
         "armRotation" : -45,
         "weaponRotation" : -55,
         "twoHanded" : true,
-
         "allowRotate" : false,
         "allowFlip" : false
       }
     }
   },
-
   "builder" : "/items/buildscripts/buildunrandweapon.lua",
   "learnBlueprintsOnPickup" : [
     "wa_superswordmodern"

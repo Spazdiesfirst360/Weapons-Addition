@@ -8,7 +8,6 @@
   "shortdescription" : "Mining Railing",
   "race" : "human",
   "printable" : false,
-
   "apexDescription" : "A metal railing painted with red and black stripes.",
   "avianDescription" : "A metal railing.",
   "floranDescription" : "Floran bored of fencesss.",
@@ -16,19 +15,15 @@
   "humanDescription" : "A Metal Railing to keep people falling off platforms.",
   "hylotlDescription" : "A plain-looking human construction.",
   "novakidDescription" : "Just a borin' fence.",
-
   "inventoryIcon" : "miningfenceicon.png",
   "orientations" : [
     {
       "dualImage" : "wa_ai_fence.png:<color>",
-
       "imagePosition" : [-16, 0],
       "frames" : 1,
       "animationCycle" : 0.5,
-
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
-
     }
   ]
 }

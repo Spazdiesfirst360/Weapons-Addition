@@ -8,7 +8,6 @@
   "category" : "decorative",
   "price" : 0,
   "printable" : false,
-
   "inventoryIcon" : "icon.png",
   "orientations" : [
     {
@@ -16,10 +15,8 @@
       "imagePosition" : [-32, -76],
       "frames" : 1,
       "animationCycle" : 0.5,
-
       "spaceScan" : 0.1,
       "anchors" : [ "background" ]
-
     }
   ]
 }

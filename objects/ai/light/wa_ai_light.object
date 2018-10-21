@@ -8,7 +8,6 @@
   "description" : "A peculiar orange light.",
   "shortdescription" : "AI Light",
   "race" : "generic",
-
   "inventoryIcon" : "industriallighticon.png",
   "orientations" : [
     {
@@ -16,12 +15,10 @@
       "imagePosition" : [-8, 0],
       
       "direction" : "right",
-
       "spaceScan" : 0.1,
       "anchors" : [ "background" ]
     }
   ],
-
   "soundEffect" : "/sfx/objects/fluorescent_light_quiet.ogg",
   "soundEffectRangeMultiplier" : 0.5,
   
@@ -30,12 +27,10 @@
     "light" : "wa_ai_light.png"
   },
   "animationPosition" : [-8, 0],
-
   "scripts" : [ "/objects/wired/light/light.lua" ],
   "scriptDelta" : 60,
   
   "interactive" : false,
-
   "inputNodes" : [ [0, 0] ]
   
 }

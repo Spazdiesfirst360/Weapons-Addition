@@ -1,0 +1,9 @@
+{
+  "name" : "body",
+  "category" : "wa_simulationspider1",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "wa_simulationspider1.png"
+  }
+}

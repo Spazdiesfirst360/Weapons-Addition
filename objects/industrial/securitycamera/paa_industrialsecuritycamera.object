@@ -4,117 +4,95 @@
   "rarity" : "Common",
   "category" : "light",
   "price" : 90,
-  "description" : "Ooh, and industrial grade security camera!",
+  "description" : "Ooh, and industrial grade security camera",
   "shortdescription" : "Industrial Security Camera",
   "race" : "generic",
-
   "apexDescription" : "A security camera. Big Ape is watching?",
   "avianDescription" : "A security camera.",
-  "floranDescription" : "Ssstaring little box with an eye. It's ssstaring at Floran!",
+  "floranDescription" : "Ssstaring little box with an eye. It's ssstaring at Floran",
   "glitchDescription" : "Uncomfortable. I feel like I am being watched.",
-  "humanDescription" : "I'm going to be a star!",
+  "humanDescription" : "I'm going to be a star",
   "hylotlDescription" : "Such an invasion of privacy.",
   "novakidDescription" : "A security camera. Better be on my best behaviour.",
-
   "lightColor" : [255, 5, 63],
   "lightPosition" : [0, 0],
-
   "flickerPeriod" : 1.5,
   "flickerMinIntensity" : -1.00,
   "flickerMaxIntensity" : 0.2,
   "flickerPeriodVariance" : 0.0,
   "flickerIntensityVariance" : 0.025,
-
   "inventoryIcon" : "icon.png",
   "orientations" : [
     {
       "image" : "paa_industrialsecuritycameraceilingpreview.png:default.<frame>",
       "imagePosition" : [-4, -8],
       "direction" : "right",
-
       "animationParts" : {
         "bg" : "paa_industrialsecuritycameraceiling.png",
         "fg" : "paa_industrialsecuritycameraceilinglit.png"
       },
       "animationPosition" : [-4, -8],
-
       "spaces" : [ [-1, 0], [0, 0], [1, 0], [-1, -1], [0, -1], [1, -1] ],
       "fgAnchors" : [ [0, 0] ]
     },
-
     {
       "image" : "paa_industrialsecuritycameraceilingleftpreview.png:default.<frame>",
       "imagePosition" : [0, -8],
       "direction" : "right",
-
       "animationParts" : {
         "bg" : "paa_industrialsecuritycameraceilingleft.png",
         "fg" : "paa_industrialsecuritycameraceilingleftlit.png"
       },
       "animationPosition" : [0, -8],
-
       "spaceScan" : 0.1,
       "anchors" : [ "top", "left" ]
     },
-
     {
       "image" : "paa_industrialsecuritycameraceilingrightpreview.png:default.<frame>",
       "imagePosition" : [-8, -8],
       "direction" : "right",
-
       "animationParts" : {
         "bg" : "paa_industrialsecuritycameraceilingright.png",
         "fg" : "paa_industrialsecuritycameraceilingrightlit.png"
       },
       "animationPosition" : [-8, -8],
-
       "spaceScan" : 0.1,
       "anchors" : [ "top", "right" ]
     },
-
     {
       "image" : "paa_industrialsecuritycameraceilingpreview.png:default.<frame>",
       "imagePosition" : [-4, -8],
       "direction" : "left",
       "flipImages" : true,
-
       "animationParts" : {
         "bg" : "paa_industrialsecuritycameraceiling.png",
         "fg" : "paa_industrialsecuritycameraceilinglit.png"
       },
       "animationPosition" : [-4, -8],
-
       "spaces" : [ [-1, 0], [0, 0], [1, 0], [-1, -1], [0, -1], [1, -1] ],
       "fgAnchors" : [ [-1, 1], [0, 1], [1, 1] ]
     },
-
     {
       "image" : "paa_industrialsecuritycameraceilingpreview.png:default.<frame>",
       "imagePosition" : [-4, -8],
       "direction" : "right",
-
       "animationParts" : {
         "bg" : "paa_industrialsecuritycameraceiling.png",
         "fg" : "paa_industrialsecuritycameraceilinglit.png"
       },
       "animationPosition" : [-4, -8],
-
       "spaces" : [ [-1, 0], [0, 0], [1, 0], [-1, -1], [0, -1], [1, -1] ],
       "fgAnchors" : [ [-1, 1], [0, 1], [1, 1] ]
     }
   ],
-
   "animation" : "paa_industrialsecuritycamera.animation",
   "animationParts" : {
     "bg" : "paa_industrialsecuritycameraceiling.png",
     "fg" : "paa_industrialsecuritycameraceilinglit.png"
   },
-
   "scripts" : [ "/objects/wired/light/light.lua" ],
   "scriptDelta" : 60,
-
   "interactive" : false,
-
   "frameCooldown" : 5,
   "health" : 1000
 }

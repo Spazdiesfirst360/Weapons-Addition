@@ -1,8 +1,8 @@
 [
   {
     "op": "add",
-    "path": "/assaultriflemelee",
-    "value": "/items/active/weapons/melee/abilities/broadsword/assaultriflemelee/assaultriflemelee.weaponability"
+    "path": "/wa_gunswordfire",
+    "value": "/items/active/weapons/melee/abilities/broadsword/gunswordfire/wa_gunswordfire.weaponability"
   },
   {
     "op": "add",
@@ -88,5 +88,20 @@
     "op": "add",
 	"path": "/wa_gravcharge",
 	"value": "/items/active/weapons/melee/abilities/broadsword/gravcharge/wa_gravcharge.weaponability"
+  },
+  {
+    "op": "add",
+	"path": "/wa_supergroundslam",
+	"value": "/items/active/weapons/melee/abilities/hammer/supergroundslam/wa_supergroundslam.weaponability"
+  },
+  {
+    "op": "add",
+	"path": "/wa_multiclip2",
+	"value": "/items/active/weapons/other/suppressor/wa_multiclip2.weaponability"
+  },
+  {
+    "op": "add",
+	"path": "/wa_multiclip3",
+	"value": "/items/active/weapons/other/supersubmachinegatling/wa_multiclip3.weaponability"
   }
 ]

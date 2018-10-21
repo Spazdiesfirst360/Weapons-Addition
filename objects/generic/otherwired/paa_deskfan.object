@@ -10,19 +10,14 @@
   "printable" : true,
   
   "lightColor" : [1, 1, 1],
-
-
   "inventoryIcon" : "paa_deskfanicon.png",
   "orientations" : [
     {
       "image" : "paa_deskfan.png:default.<frame>",
       "imagePosition" : [-8, 0],
-
 	  "direction" : "right",
-
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
-
     },
 	{
 	  "image" : "paa_deskfan.png:default.<frame>",
@@ -42,11 +37,9 @@
     "fg" : "paa_deskfanlit.png"
   },
   "animationPosition" : [-8, 0],
-
   "scripts" : [ "/objects/wired/light/light.lua" ],
   "scriptDelta" : 60,
   
   "interactive" : true,
-
   "inputNodes" : [ [0, 0] ]
 }

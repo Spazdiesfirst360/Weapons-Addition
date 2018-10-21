@@ -1,5 +1,4 @@
 {
-
   "frameGrid" : {
     "size" : [363, 155],
     "dimensions" : [50, 4],
@@ -10,7 +9,6 @@
 	  [ "default.150", "default.151", "default.152", "default.153", "default.154", "default.155", "default.156", "default.157", "default.158", "default.159", "default.160", "default.161", "default.162", "default.163", "default.164", "default.165", "default.166", "default.167", "default.168", "default.169", "default.170", "default.171", "default.172", "default.173", "default.174", "default.175", "default.176", "default.177", "default.178", "default.179", "default.180", "default.181", "default.182", "default.183", "default.184", "default.185", "default.186", "default.187", "default.188", "default.189", "default.190", "default.191", "default.192", "default.193", "default.194", "default.195", "default.196", "default.197", "default.198", "default.199"]
     ]
   },
-
   "aliases" : {
     "default.default" : "default.0"
   }

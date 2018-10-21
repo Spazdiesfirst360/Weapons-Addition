@@ -1,0 +1,9 @@
+{
+  "name" : "wa_simulationdrone1",
+  "category" : "wa_simulationdrone1_parts",
+  "type" : "head",
+
+  "frames" : {
+    "head" : "minidronehead.png"
+  }
+}

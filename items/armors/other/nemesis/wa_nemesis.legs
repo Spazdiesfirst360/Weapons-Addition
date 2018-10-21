@@ -8,10 +8,8 @@
   "description" : "Is it even a good idea wearing these? They are so old...",
   "shortdescription" : "Nemesis Legguards",
   "tooltipKind" : "armor",
-
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png",
-
   "level" : 6,
   "leveledStatusEffects" : [
     {
@@ -35,6 +33,5 @@
       "amount" : 3
     }
   ],
-
   "itemTags" : [ "tier6armour" ]
 }

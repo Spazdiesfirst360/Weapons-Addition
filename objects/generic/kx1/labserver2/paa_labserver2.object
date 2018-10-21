@@ -9,7 +9,6 @@
   "shortdescription" : "Lab Server",
   "race" : "generic",
   "collectablesOnPickup" : { "paa_kx1collection" : "paa_labserver2" },
-
   "apexDescription" : "This server rack looks loaded with computer equipment.",
   "avianDescription" : "A sleek looking server rack.",
   "floranDescription" : "Fancy looking sserver cabinet full of computersss.",
@@ -17,7 +16,6 @@
   "humanDescription" : "This server looks like it's setup for something important.",
   "hylotlDescription" : "It appears this server is liquid cooled, that's smart.",
   "novakidDescription" : "Big 'ol computer. 'Bout the size of an outhouse.",
-
   "inventoryIcon" : "astroservericon.png",
   "orientations" : [
     {
@@ -25,9 +23,7 @@
       "imagePosition" : [-8, 0],
       "direction" : "left",
       "flipImages" : true,
-
       "lightPosition" : [0, 1],
-
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
     },
@@ -35,14 +31,11 @@
       "imageLayers" : [ { "image" : "paa_labserver2.png", "fullbright" : true }, { "image" : "paa_labserver2lit.png" } ],
       "imagePosition" : [-8, 0],
       "direction" : "right",
-
       "lightPosition" : [0, 1],
-
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
     }
   ],
-
   "soundEffect" : "/sfx/objects/server_loop.ogg",
   "soundEffectRangeMultiplier" : 0.5
 }

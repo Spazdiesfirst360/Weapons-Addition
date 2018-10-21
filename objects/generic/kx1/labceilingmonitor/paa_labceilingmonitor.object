@@ -19,7 +19,6 @@
   "description" : "Brackets are built into the base to attach this monitor to the ceiling.",
   "shortdescription" : "Lab Ceiling Monitor",
   "race" : "generic",
-
   "apexDescription" : "There's something familiar about this display configuration.",
   "avianDescription" : "These fixtures keep this display mounted firmly.",
   "floranDescription" : "Flasshy ceiling televission.",
@@ -27,7 +26,6 @@
   "humanDescription" : "Man, this is positioned great for leaning back.",
   "hylotlDescription" : "This display is able to utilize little used space.",
   "novakidDescription" : "This screen is just hangin' there.",
-
   "inventoryIcon" : "paa_labceilingmonitoricon.png",
   "orientations" : [
     {
@@ -52,17 +50,13 @@
       "beamAngle" : 315
     }
   ],
-
   "soundEffect" : "/sfx/objects/tv_static.ogg",
-
   "animation" : "paa_labceilingmonitor.animation",
   "animationParts" : {
     "bg" : "paa_labceilingmonitor.png",
     "fg" : "paa_labceilingmonitorlit.png"
   },
-
   "scripts" : [ "/objects/wired/light/light.lua" ],
   "scriptDelta" : 60,
-
   "inputNodes" : [ [0, -2] ]
 }

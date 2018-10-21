@@ -10,18 +10,15 @@
   "shortdescription" : "Industrial Storage Locker",
   "race" : "generic",
   "health" : 20,
-
   "inventoryIcon" : "icon.png",
   "orientations" : [
     {
       "image" : "wa_ai_storagelocker.png:<color>.<key>",
       "imagePosition" : [-16, -8],
-
       "spaceScan" : 0.1,
       "anchors" : [ "background" ]
     }
   ],
-
   "openSounds" : [ "/sfx/objects/gunchest_open.ogg" ],
   "closeSounds" : [ "/sfx/objects/gunchest_close.ogg" ],
   "slotCount" : 48,

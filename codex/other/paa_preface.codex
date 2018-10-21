@@ -4,14 +4,14 @@
 	"description": "A preface on the Particle Accelerator.",
 	"icon": "paa_preface.png",
 	"contentPages": [
-		"Hello, and thanks for subscribing/downloading this mod!
+		"Hello, and thanks for subscribing/downloading this mod
 I am sure you may find this mod useful for whatever reason. Whether it be the Weapons Addition portion of this mod, or all of it in general, you will certainly have fun plaing around with the many items added in this mod.
 -Spazdiesfirst360.0",
 		"^green;Contents;^reset;
 The Particle Accelerator.......... 3
 The Liquids Station............... 5
 The Experimental Weapons Station.. 6
-Blueprints: Where are They?!...... 7
+Blueprints: Where are They?...... 7
 Protons and Electrons............. 9
 Quarks............................ 10
 Other Materials................... 11
@@ -24,7 +24,7 @@ Useful for deconstructing elements, the Particle Accelerator is crafted at the E
 The Liquids Station is used th craft liquids and gases added by this mod. You will need Liquid Base and Gas Base, found as valuable treasure, to unlock the recipes this station is used for. Crafted at Engineer's Table.",
 		"^red;The Experimental Weapons Station^reset;
 This station is used to craft many weapons added in the Weapons Addition portion of this mod. You will need Experimental Weapon Blueprints to unlock recipes that this station is used for. Crafted at Architect's Table.",
-		"^green;Blueprints: Where are They?!^reset;
+		"green;Blueprints: Where are They?reset;
 Object Blueprints, which unlock recipes for objects added by this mod, are found as valuable treasure. Experimental Weapon Blueprints are recieved as tenant gifts from villager and mechant tenant treasure pools.",
 		"Weapon Blueprints are also recieved as tenant gifts the same way, but are a crafting material used for recipes at the Experimental Weapons Station.",
 		"^green;Protons and Electrons^reset;
@@ -36,7 +36,7 @@ Other materials used to craft weapons at the Experimental Weapons Station are fo
 		"^green;Broken Stuff: What Doesn't Work^reset;
 Some objects have issues with their default.off frame (somehow), and one object will be invisible, and the Lunar Laser Mech Arm is having issues. But other than that, the mod should be fine.",
 		"^green;Changelog:^reset;
-Found here!: https://pastebin.com/KSrsNmth"
+Found here: https://pastebin.com/KSrsNmth"
 	],
 	"itemConfig": {
 		"rarity": "legendary",

@@ -4,25 +4,21 @@
   "rarity" : "Common",
   "objectType" : "container",
   "tooltipKind" : "container",
-
   "category" : "storage",
   "price" : 70,
   "description" : "A rather odd chest.",
   "shortdescription" : "AI Chest",
   "race" : "generic",
   "health" : 20,
-
   "inventoryIcon" : "weaponchesticon.png",
   "orientations" : [
     {
       "dualImage" : "wa_ai_chest.png:<color>.<key>",
       "imagePosition" : [-8, 0],
-
       "spaces" : [ [-1, 0], [0, 0], [1, 0], [-1, 1], [0, 1], [1, 1], [-1, 2], [0, 2], [1, 2] ],
       "anchors" : [ "bottom" ]
     }
   ],
-
   "openSounds" : [ "/sfx/objects/miningchest_open.ogg" ],
   "closeSounds" : [ "/sfx/objects/miningchest_close.ogg" ],
   "slotCount" : 24,

@@ -6,29 +6,24 @@
   "tooltipKind" : "container",
   "category" : "storage",
   "price" : 85,
-  "description" : "A tank for storing gases. ^red;Does not work with Enhanced Storage!^reset;",
+  "description" : "A tank for storing gases. red;Does not work with Enhanced Storagereset;",
   "shortdescription" : "Gas Canister",
   "race" : "generic",
   "health" : 1.5,
   "collectablesOnPickup" : { "paa_kx1collection" : "paa_gascanister" },
-
   "avianDescription" : "What a curious canister - I wonder what is inside?",
   "floranDescription" : "Ssshiny tube. Might have ssstuff inside.",
   "humanDescription" : "The sound this canister makes when opened is quite satisfying.",
   "hylotlDescription" : "What a curious looking storage container. Perhaps it is built to store fuel?",
-
   "inventoryIcon" : "paa_gascanistericon.png",
   "orientations" : [
     {
       "dualImage" : "paa_gascanister.png:<color>.<key>",
       "imagePosition" : [-12, 0],
-
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
     }
-
   ],
-
   "openSounds" : [ "/sfx/objects/metaldoor_open.ogg" ],
   "closeSounds" : [ "/sfx/objects/metaldoor_close.ogg" ],
   "slotCount" : 24,

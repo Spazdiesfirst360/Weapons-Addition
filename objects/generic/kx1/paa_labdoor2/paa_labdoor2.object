@@ -2,20 +2,17 @@
   "objectName" : "paa_labdoor2",
   "colonyTags" : ["science","door"],
   "rarity" : "Common",
-
   "category" : "door",
   "price" : 125,
   "description" : "This door should keep anything out. Or keep anything in.",
   "shortdescription" : "Lab Door",
   "race" : "generic",
   "collectablesOnPickup" : { "paa_kx1collection" : "paa_labdoor2" },
-
   "apexDescription" : "This door looks strong enough to keep anything out... or everyone in.",
   "avianDescription" : "A strong door. Not even the breeze could slip through.",
   "floranDescription" : "Door of great ssstrength.",
   "glitchDescription" : "Jealous. Such strong materials.",
   "novakidDescription" : "A very thick door.",
-
   "inventoryIcon" : "paa_labdoor2icon.png",
   "orientations" : [
     {
@@ -36,10 +33,8 @@
       "direction" : "right"
     }
   ],
-
   "scripts" : [ "/objects/wired/door/door.lua" ],
   "scriptDelta" : 5,
-
   "animation" : "/objects/wired/door/door.animation",
   "animationCustom" : {
     "sounds" : {
@@ -57,7 +52,6 @@
     "door" : "paa_labdoor2.png"
   },
   "animationPosition" : [-20, 0],
-
   "inputNodes" : [ [-1, 4] ],
   "outputNodes" : [ [0, 0] ]
 }

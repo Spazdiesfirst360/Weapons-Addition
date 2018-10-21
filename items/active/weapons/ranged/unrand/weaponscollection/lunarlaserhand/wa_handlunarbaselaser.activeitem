@@ -1,89 +1,67 @@
 {
   "itemName" : "wa_handlunarbaselaser",
-  "price" : 100000,
+  "price" : 5000,
   "maxStack" : 1,
   "rarity" : "Essential",
   "description" : "\"Notice: Weapon is highly unstable, use with caution.\" -Production Notes",
   "shortdescription" : "Handheld Lunar Laser",
   "tooltipKind" : "gun",
-  "category" : "Experimental Weapon",
+  "category" : "uniqueWeapon",
   "twoHanded" : true,
-  "itemTags" : ["weapon","ranged","rocketlauncher","reagant"],
+  "itemTags" : ["weapon","ranged"],
   "level" : 10,
-
-  "inventoryIcon" : "wa_handlunarbaselaser.png",
-
-  "animation" : "/items/active/weapons/ranged/gun.animation",
+  "inventoryIcon" : "wa_handlunarbaselaser.png:empty",
+  "animation" : "wa_handlunarbaselaser.animation",
   "animationParts" : {
-  "butt" : "",
-  "middle" : "wa_handlunarbaselaser.png",
-   "middlefullbright" : "",
-  "barrel" : "",
-  "muzzleFlash" : "/items/active/weapons/ranged/muzzleflash.png"
+    "gun" : "wa_handlunarbaselaser.png",
+    "gunfullbright" : "wa_handlunarbaselaserfullbright.png"
   },
-  "animationCustom" : {
-  "sounds" : {
-  "fire" : ["/sfx/gun/plasma_sniper2.ogg"]
-  }
-  },
-
-  "baseOffset" : [2.0, 0.375],
-  "muzzleOffset" : [3.0, 0.375],
-
+  "animationCustom" : {},
+  "muzzleOffset" : [2.5, 0.5],
   "scripts" : ["/items/active/weapons/ranged/gun.lua"],
-
   "elementalType" : "physical",
-
+  "primaryAbilityType" : "chargefire",
   "primaryAbility" : {
-  "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
-  "class" : "GunFire",
-
-  "fireTime" : 0.25,
-  "baseDps" : 2000.0,
-  "energyUsage" : 500,
-  "inaccuracy" : 0.001,
-
-  "projectileCount" : 1,
-  "fireType" : "auto",
-
-  "projectileType" : "crystallaser",
-  "projectileParameters" : {
-  "damageKind" : "default",
-  "knockback" : 100,
-  "speed" : 200
+    "chargeLevels" : [
+      {
+        "time" : 0,
+        "energyCost" : 0,
+        "cooldown" : 0.01,
+        "projectileType" : "invisibleprojectile",
+        "projectileCount" : 1,
+        "projectileParameters" : {},
+        "inaccuracy" : 0,
+        "baseDamage" : 0,
+        "fireSound" : "fire"
+      },
+      {
+        "time" : 0.5,
+        "energyCost" : 0,
+        "cooldown" : 0.01,
+        "projectileType" : "invisibleprojectile",
+        "projectileCount" : 1,
+        "spreadAngle" : 0,
+        "projectileParameters" : {},
+        "inaccuracy" : 0,
+        "baseDamage" : 0,
+        "fireSound" : "fire"
+      },
+      {
+        "time" : 1.0,
+        "energyCost" : 100,
+        "cooldown" : 2.0,
+        "projectileType" : "crystallaser",
+        "projectileCount" : 1,
+        "spreadAngle" : 0,
+        "projectileParameters" : {},
+        "inaccuracy" : 0,
+        "baseDamage" : 20.5,
+        "fireSound" : "fire"
+      }
+    ]
   },
-  "stances" : {
-  "idle" : {
-  "armRotation" : 0,
-  "weaponRotation" : 0,
-  "twoHanded" : true,
-
-  "allowRotate" : true,
-  "allowFlip" : true
-  },
-  "fire" : {
-  "duration" : 0.25,
-  "armRotation" : 10,
-  "weaponRotation" : 10,
-  "twoHanded" : true,
-
-  "allowRotate" : false,
-  "allowFlip" : false
-  },
-  "cooldown" : {
-  "duration" : 1.25,
-  "armRotation" : 10,
-  "weaponRotation" : 10,
-  "twoHanded" : true,
-
-  "allowRotate" : false,
-  "allowFlip" : false
-  }
-  }
-  },
-
+  
   "altAbilityType" : "erchiuslauncher",
   "altAbility" : {},
-
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }

@@ -2,14 +2,12 @@
   "objectName" : "wa_ai_door1",
   "colonyTags" : ["human","lunarbase","door"],
   "rarity" : "Common",
-
   "category" : "door",
   "price" : 125,
   "printable" : false,
   "description" : "This strange door is rather strong.",
   "shortdescription" : "AI Blastdoor",
   "race" : "apex",
-
   "inventoryIcon" : "lunarbasedooricon.png",
   "orientations" : [
     {
@@ -32,10 +30,8 @@
       "animationPosition" : [-40, 0]
     }
   ],
-
   "scripts" : [ "/objects/wired/door/door.lua" ],
   "scriptDelta" : 5,
-
   "animation" : "/objects/wired/door/door.animation",
   "animationCustom" : {
     "sounds" : {
@@ -52,7 +48,6 @@
   "animationParts" : {
     "door" : "wa_ai_door1.png"
   },
-
   "inputNodes" : [ [0, 2] ],
   "outputNodes" : [ [0, 0] ]
 }

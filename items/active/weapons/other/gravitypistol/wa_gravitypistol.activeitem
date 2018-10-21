@@ -10,9 +10,7 @@
   "twoHanded" : false,
   "itemTags" : ["weapon","ranged"],
   "level" : 7,
-
   "inventoryIcon" : "wa_gravitypistol.png:empty",
-
   "animation" : "wa_gravitypistol.animation",
   "animationParts" : {
     "gun" : "wa_gravitypistol.png",
@@ -20,11 +18,8 @@
   },
   "animationCustom" : {},
   "muzzleOffset" : [2.5, 0.5],
-
   "scripts" : ["/items/active/weapons/ranged/gun.lua"],
-
   "elementalType" : "physical",
-
   "primaryAbilityType" : "chargefire",
   "primaryAbility" : {
     "chargeLevels" : [
@@ -65,6 +60,5 @@
       }
     ]
   },
-
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }

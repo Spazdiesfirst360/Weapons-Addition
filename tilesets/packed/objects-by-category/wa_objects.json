@@ -8,7 +8,7 @@
  "margin":0,
  "name":"wa_objects",
  "spacing":0,
- "tilecount":60,
+ "tilecount":62,
  "tileheight":232,
  "tileproperties":
     {
@@ -580,6 +580,26 @@
          "imagePositionX":"-20",
          "imagePositionY":"0",
          "object":"paa_hoverbikeobject",
+         "tilesetDirection":"right"
+        },
+     "60":
+        {
+         "\/\/description":"This console activates a simulation. A key code seems to be required.",
+         "\/\/name":"wa_simulationconsole_past",
+         "\/\/shortdescription":"Simulation Console",
+         "imagePositionX":"-48",
+         "imagePositionY":"0",
+         "object":"wa_simulationconsole_past",
+         "tilesetDirection":"right"
+        },
+     "61":
+        {
+         "\/\/description":"This will take me back to the real world.",
+         "\/\/name":"wa_returnconsole_past",
+         "\/\/shortdescription":"Simulation Console",
+         "imagePositionX":"-48",
+         "imagePositionY":"0",
+         "object":"wa_returnconsole_past",
          "tilesetDirection":"right"
         },
      "7":
@@ -1185,6 +1205,26 @@
          "object":"string",
          "tilesetDirection":"string"
         },
+     "60":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "61":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
      "7":
         {
          "\/\/description":"string",
@@ -1559,6 +1599,18 @@
          "image":"..\/..\/..\/..\/..\/..\/Starbound\/tiled\/packed\/objects\/paa_hoverbikeobject.png",
          "imageheight":40,
          "imagewidth":72
+        },
+     "60":
+        {
+         "image":"..\/..\/..\/..\/..\/..\/Starbound\/tiled\/packed\/objects\/wa_simulationconsole.png",
+         "imageheight":28,
+         "imagewidth":96
+        },
+     "61":
+        {
+         "image":"..\/..\/..\/..\/..\/..\/Starbound\/tiled\/packed\/objects\/wa_simulationconsole.png",
+         "imageheight":28,
+         "imagewidth":96
         },
      "7":
         {

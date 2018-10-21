@@ -1,0 +1,10 @@
+{
+  "name" : "wa_simulationdrone1",
+  "category" : "wa_simulationdrone1_parts",
+  "type" : "wings",
+
+  "frames" : {
+    "backWings" : "minidronebwing.png",
+    "frontWings" : "minidronefwing.png"
+  }
+}

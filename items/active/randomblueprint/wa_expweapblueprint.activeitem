@@ -10,15 +10,10 @@
   "category" : "Blueprint",
   "twoHanded" : true,
   "itemTags" : [ "reagent" ],
-
   "inventoryIcon" : "wa_expweapblueprint.png",
-
   "animation" : "randomblueprint.animation",
-
   "scripts" : ["randomblueprint.lua"],
-
   "swingTime" : 0.15,
-
   "allowDuplicateChance" : 0.005,
   "recipes" : [
     ["wa_capturepodrifle", "wa_darkplasmagun", "wa_pulsepistol", "wa_gravcannon"],

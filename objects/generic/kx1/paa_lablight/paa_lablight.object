@@ -7,12 +7,9 @@
   "printable" : false,
   "price" : 500,
   "collectablesOnPickup" : { "paa_kx1collection" : "paa_lablight" },
-
   "lightColor" : [255, 255, 230],
-
   "description" : "A big light for big labs.",
   "shortdescription" : "Lab Fluorescent Light",
-
   "inventoryIcon" : "paa_lablighticon.png",
   "orientations" : [
     {
@@ -20,7 +17,6 @@
       "imagePosition" : [-32, -3],
       "frames" : 1,
       "animationCycle" : 0.3,
-
       "anchors" : [ "top" ]
     },
 	{

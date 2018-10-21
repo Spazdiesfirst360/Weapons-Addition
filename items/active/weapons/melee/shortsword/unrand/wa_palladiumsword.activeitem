@@ -10,25 +10,19 @@
   "category" : "shortsword",
   "twoHanded" : false,
   "itemTags" : ["weapon","melee","shortsword"],
-
   "inventoryIcon" : "wa_palladiumsword.png",
-
   "animation" : "/items/active/weapons/melee/shortsword/comboshortsword.animation",
   "animationParts" : {
     "handle": "",
     "blade" : "wa_palladiumsword.png"
   },
   "animationCustom" : { },
-
   "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
-
   "elementalType" : "physical",
-
   "primaryAbilityType" : "shortswordcombo",
   "primaryAbility" : {
     "fireTime" : 0.4,
     "baseDps" : 30.0
   },
-
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }

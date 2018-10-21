@@ -40,7 +40,7 @@
     "sounds" : {
       "fireStart" : [ "/sfx/gun/mech_gatling_windup.ogg" ],
       "fireBlast" : [ "/sfx/gun/mech_gatling_active_loop.ogg" ],
-      "fireEnd" : [ "/sfx/gun/mech_gatling_winddown.ogg" ]
+      "fireEnd" : [ "/sfx/gun/mech_gatling_winddown.ogg" ],
       "iceStart" : [ "/sfx/melee/swing_broadsword_ice1.ogg", "/sfx/melee/swing_broadsword_ice2.ogg", "/sfx/melee/swing_broadsword_ice3.ogg" ],
       "iceBlast" : [ "/sfx/melee/rocketspear_loop_ice.ogg" ],
       "iceEnd" : [ "/sfx/melee/rocketspear_stop_ice.ogg" ],

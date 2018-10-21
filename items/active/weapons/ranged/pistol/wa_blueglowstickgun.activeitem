@@ -3,16 +3,14 @@
   "price" : 100,
   "maxStack" : 1,
   "rarity" : "uncommon",
-  "description" : "A pistol that shoots glowsticks!",
+  "description" : "A pistol that shoots glowsticks",
   "shortdescription" : "Glowstick Gun",
   "tooltipKind" : "gun",
   "category" : "Pistol",
   "twoHanded" : false,
   "itemTags" : ["weapon","ranged","pistol"],
   "level" : 3,
-
   "inventoryIcon" : "wa_blueglowstickgun.png",
-
   "animation" : "/items/active/weapons/ranged/wa_blueglowstickgun.animation",
   "animationParts" : {
   "butt" : "",
@@ -26,26 +24,19 @@
   "fire" : ["/sfx/gun/grenade2.ogg"]
   }
   },
-
   "baseOffset" : [1.0, 0.375],
   "muzzleOffset" : [1.5, 0],
-
   "scripts" : ["/items/active/weapons/ranged/gun.lua"],
-
   "elementalType" : "physical",
-
   "primaryAbility" : {
   "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
   "class" : "GunFire",
-
   "fireTime" : 0.25,
   "baseDps" : 0.0,
   "energyUsage" : 25,
   "inaccuracy" : 0.01,
-
   "projectileCount" : 1,
   "fireType" : "auto",
-
   "projectileType" : "glowstickblue",
   "projectileParameters" : {
   "damageKind" : "default",
@@ -56,7 +47,6 @@
   "armRotation" : 0,
   "weaponRotation" : 0,
   "twoHanded" : false,
-
   "allowRotate" : true,
   "allowFlip" : true
   },
@@ -65,7 +55,6 @@
   "armRotation" : 3,
   "weaponRotation" : 3,
   "twoHanded" : false,
-
   "allowRotate" : false,
   "allowFlip" : false
   },
@@ -74,12 +63,10 @@
   "armRotation" : 3,
   "weaponRotation" : 3,
   "twoHanded" : false,
-
   "allowRotate" : false,
   "allowFlip" : false
   }
   }
   },
-
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }

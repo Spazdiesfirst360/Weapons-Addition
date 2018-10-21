@@ -12,32 +12,27 @@
   "description" : "A high tech computer. Maybe it can run Steam...",
   "shortdescription" : "New Computer",
   "race" : "generic",
-
   "apexDescription" : "A nice computer.",
   "avianDescription" : "A useful machine with many uses.",
-  "floranDescription" : "Floran click buttons. Make thingsss happen!",
+  "floranDescription" : "Floran click buttons. Make thingsss happen",
   "glitchDescription" : "Impressed. A single machine can control so many different mechanisms at once.",
   "humanDescription" : "A computer. It's just gotta be played with.",
   "hylotlDescription" : "A computer.",
   "novakidDescription" : "Some kinda cmachine, I'll only push a few buttons...",
-
   "inventoryIcon" : "paa_newcomputericon.png",
   "orientations" : [
     {
       "dualImage" : "paa_newcomputer.png:<color>.<frame>",
       "imagePosition" : [-8, 0],
-
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
     }
   ],
-
   "scripts" : [
     "/objects/wired/switch/switch.lua",
     "/scripts/npcToyObject.lua"
   ],
   "scriptDelta" : 5,
-
   "animation" : "/objects/wired/switch/switch3.animation",
   "animationCustom" : {
     "sounds" : {
@@ -49,9 +44,7 @@
     "switch" : "paa_newcomputer.png"
   },
   "animationPosition" : [-8, 0],
-
   "outputNodes" : [ [0, 0] ],
-
   "npcToy" : {
     "ownerOnly" : true,
     "influence" : [

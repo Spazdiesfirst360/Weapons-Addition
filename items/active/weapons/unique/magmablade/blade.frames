@@ -7,7 +7,6 @@
       ["active.1", "active.2", "active.3", "active.4", "active.5", "active.6", "active.7", "active.8", "active.9"]
     ]
   },
-
   "aliases" : {
     "retract.1" : "extend.5",
     "retract.2" : "extend.4",

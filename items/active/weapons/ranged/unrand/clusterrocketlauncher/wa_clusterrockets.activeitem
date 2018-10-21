@@ -10,9 +10,7 @@
   "twoHanded" : false,
   "itemTags" : ["weapon","ranged"],
   "level" : 6,
-
   "inventoryIcon" : "wa_clusterrockets.png",
-
   "animation" : "/items/active/weapons/ranged/gun.animation",
   "animationParts" : {
   "butt" : "",
@@ -34,28 +32,21 @@
       "fire" : [ "/sfx/gun/rocket2.ogg" ]
     }
   },
-
   "baseOffset" : [1.0, 0.375],
   "muzzleOffset" : [2.5, 0],
-
   "scripts" : ["/items/active/weapons/ranged/gun.lua"],
-
   "elementalType" : "physical",
-
   "primaryAbility" : {
   "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
   "class" : "GunFire",
-
   "fireTime" : 0.7,
   "baseDps" : 50.0,
   "energyUsage" : 50,
   "inaccuracy" : 0.5,
   "projectileCount" : 1,
-
   "burstTime" : 0.1,
   "burstCount" : 4,
   "fireType" : "burst",
-
   "projectileType" : "minirocket",
   "projectileParameters" : {
   "damageKind" : "default",
@@ -66,7 +57,6 @@
   "armRotation" : 0,
   "weaponRotation" : 0,
   "twoHanded" : true,
-
   "allowRotate" : true,
   "allowFlip" : true
   },
@@ -75,7 +65,6 @@
   "armRotation" : 3,
   "weaponRotation" : 3,
   "twoHanded" : true,
-
   "allowRotate" : false,
   "allowFlip" : false
   },
@@ -84,12 +73,10 @@
   "armRotation" : 3,
   "weaponRotation" : 3,
   "twoHanded" : true,
-
   "allowRotate" : false,
   "allowFlip" : false
   }
   }
   },
-
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }

@@ -9,7 +9,6 @@
   "price" : 0,
   "scannable" : false,
   "printable" : false,
-
   "inventoryIcon" : "blackblock.png",
   "orientations" : [
     {
@@ -17,10 +16,8 @@
       "imagePosition" : [-24, -16],
       "frames" : 30,
       "animationCycle" : 1.0,
-
       "spaceScan" : 0.1,
       "anchors" : [ "background" ]
-
     }
   ]
 }

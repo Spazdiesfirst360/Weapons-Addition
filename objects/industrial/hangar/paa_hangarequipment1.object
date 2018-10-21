@@ -7,19 +7,15 @@
   "description" : "An industrial grade shipping line.",
   "shortdescription" : "Industrial Shipping Line",
   "race" : "generic",
-
   "inventoryIcon" : "icon.png",
   "orientations" : [
     {
       "dualImage" : "paa_hangarequipment1.png:default.<frame>",
-
       "imagePosition" : [-132, 0],
       "frames" : 56,
       "animationCycle" : 1.13,
-
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
-
     }
   ],
   "health" : 1000

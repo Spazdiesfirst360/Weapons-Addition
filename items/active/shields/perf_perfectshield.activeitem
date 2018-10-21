@@ -10,9 +10,7 @@
   "tooltipKind" : "Shield",
   "twoHanded" : false,
   "itemTags" : ["shield"],
-
   "inventoryIcon" : "/images/pefect/1.png:nearidle",
-
   "animation" : "shield.animation",
   "animationParts" : {
     "shield" : "images/pefect/1.png"
@@ -25,18 +23,13 @@
       "break" : [ "/sfx/melee/shield_break_metal.ogg" ]
     }
   },
-
   "scripts" : ["/items/active/shields/shield.lua"],
-
   "minActiveTime" : 0.2,
-
   "forceWalk" : true,
   "baseShieldHealth" : 100,
   "cooldownTime" : 0.45,
-
   "perfectBlockDirectives" : "?border=2;AACCFFFF;00000000",
   "perfectBlockTime" : 0.2,
-
   "knockback" : 10,
   
   "stances" : {
@@ -53,6 +46,5 @@
       "allowFlip" : true
     }
   },
-
   "builder" : "/items/buildscripts/buildunrandshield.lua"
 }

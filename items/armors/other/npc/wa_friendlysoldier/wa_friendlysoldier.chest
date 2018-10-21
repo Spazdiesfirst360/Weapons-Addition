@@ -8,13 +8,11 @@
   "description" : "A soldier's padded uniform chestpiece.",
   "shortdescription" : "Soldier's Chestpiece",
   "tooltipKind" : "armor",
-
   "maleFrames" : {
     "body" : "chest.png",
     "backSleeve" : "bsleeve.png",
     "frontSleeve" : "fsleeve.png"
   },
-
   "femaleFrames" : {
     "body" : "chest.png",
     "backSleeve" : "bsleeve.png",
@@ -43,6 +41,5 @@
       "amount" : 5
     }
   ],
-
   "itemTags" : [ "tier6armour" ]
 }

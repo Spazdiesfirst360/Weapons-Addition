@@ -2,13 +2,11 @@
   "objectName" : "wa_ai_raildoor",
   "colonyTags" : ["outpost","door","rails"],
   "rarity" : "Common",
-
   "category" : "door",
   "price" : 150,
   "description" : "This strange door has a rail running through it.",
   "shortdescription" : "Rail Airlock Door",
   "race" : "generic",
-
   "inventoryIcon" : "icon.png",
   "orientations" : [
     {
@@ -29,15 +27,12 @@
       "direction" : "right"
     }
   ],
-
   "scripts" : [ "/objects/wired/door/door.lua" ],
   "scriptDelta" : 5,
-
   "openMaterialSpaces" : [
     [[-1, 1], "metamaterial:rail"], [[0, 1], "metamaterial:rail"]
     // [[-1, 5], "metamaterial:rail"], [[0, 5], "metamaterial:rail"]
   ],
-
   "animation" : "/objects/wired/door/door.animation",
   "animationCustom" : {
     "sounds" : {
@@ -55,7 +50,6 @@
     "door" : "wa_ai_raildoor.png"
   },
   "animationPosition" : [-20, 0],
-
   "inputNodes" : [ [-1, 6] ],
   "outputNodes" : [ [0, 0] ]
 }

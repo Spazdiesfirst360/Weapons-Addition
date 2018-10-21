@@ -10,16 +10,11 @@
   "category" : "Sword",
   "twoHanded" : true,
   "itemTags" : ["weapon","melee","broadsword"],
-
   "inventoryIcon" : "wa_slayer.png",
-
   "animation" : "wa_slayer.animation",
   "animationCustom" : {},
-
   "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
-
   "elementalType" : "fire",
-
   "primaryAbilityType" : "broadswordcombo",
   "primaryAbility" : {
   "fireTime" : 0.276,
@@ -27,6 +22,5 @@
   },
   
   "altAbilityType" : "wa_slayerslash",
-
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }

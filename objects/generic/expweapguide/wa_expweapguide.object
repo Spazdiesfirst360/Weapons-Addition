@@ -8,7 +8,6 @@
   "category" : "decorative",
   "price" : 0,
   "printable" : false,
-
   "inventoryIcon" : "wa_expweapguideicon.png",
   "orientations" : [
     {
@@ -16,7 +15,6 @@
       "imagePosition" : [-454, -0],
       "frames" : 1,
       "animationCycle" : 0.5,
-
       "spaceScan" : 0.1,
       "anchors" : [ ],
 	  "collision" : "platform"

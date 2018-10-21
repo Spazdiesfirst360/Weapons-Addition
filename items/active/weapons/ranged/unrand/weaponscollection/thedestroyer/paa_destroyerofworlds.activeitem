@@ -11,7 +11,6 @@
   "itemTags" : ["weapon","ranged","rocketlauncher"],
   "level" : 10,
   "inventoryIcon" : "paa_destroyerofworlds.png",
-
   "animation" : "/items/active/weapons/ranged/gun.animation",
   "animationParts" : {
   "butt" : "",
@@ -25,26 +24,19 @@
   "fire" : ["/sfx/gun/rocket2.ogg"]
   }
   },
-
   "baseOffset" : [20.0, 0.375],
   "muzzleOffset" : [2.5, 0],
-
   "scripts" : ["/items/active/weapons/ranged/gun.lua"],
-
   "elementalType" : "physical",
-
   "primaryAbility" : {
   "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
   "class" : "GunFire",
-
   "fireTime" : 10.0,
   "baseDps" : 3333333.334,
   "energyUsage" : 10000,
   "inaccuracy" : 0.02,
-
   "projectileCount" : 1,
   "fireType" : "auto",
-
   "projectileType" : "paa_extremeprojectile",
   "projectileParameters" : {
   "damageKind" : "default",
@@ -55,7 +47,6 @@
   "armRotation" : 0,
   "weaponRotation" : 0,
   "twoHanded" : true,
-
   "allowRotate" : true,
   "allowFlip" : true
   },
@@ -64,7 +55,6 @@
   "armRotation" : 20,
   "weaponRotation" : 20,
   "twoHanded" : true,
-
   "allowRotate" : false,
   "allowFlip" : false
   },
@@ -73,12 +63,10 @@
   "armRotation" : 20,
   "weaponRotation" : 20,
   "twoHanded" : true,
-
   "allowRotate" : false,
   "allowFlip" : false
   }
   }
   },
-
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }

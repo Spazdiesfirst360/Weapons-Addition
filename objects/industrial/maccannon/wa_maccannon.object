@@ -15,7 +15,6 @@
   "flickerMaxIntensity" : 1,
   "flickerPeriodVariance" : 0.1,
   "flickerIntensityVariance" : 0.0,
-
   "inventoryIcon" : "icon.png",
   "orientations" : [
     {
@@ -23,11 +22,9 @@
       "flipImages" : true,
       "direction" : "left",
       "lightPosition" : [0, 1],
-
       "imagePosition" : [-20, 0],
       "frames" : 3,
       "animationCycle" : 0.5,
-
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
     },
@@ -35,19 +32,15 @@
       "image" : "wa_maccannon.png:<color>.<frame>",
       "direction" : "right",
       "lightPosition" : [0, 1],
-
       "imagePosition" : [-20, 0],
       "frames" : 3,
       "animationCycle" : 0.5,
-
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
     }
   ],
-
   "scripts" : [ "wa_maccannon.lua" ],
   "scriptDelta" : 5,
-
   "animation" : "wa_maccannon.animation",
   "animationCustom" : {
     "sounds" : {
@@ -60,14 +53,11 @@
     "fg" : "wa_maccannonlit.png"
   },
   "animationPosition" : [-20, 0],
-
   "damageTeam" : {
     "type" : "friendly"
   },
-
   "inputNodes" : [ [0, 0], [1, 0], [1, 1], [2, 1] ],
   "outputNodes" : [ [0, 2], [1, 2] ],
-
   "projectileType" : "wa_macbullet",
   "projectilePower" : 10000,
   "projectileOffset" : [2.875, 19.17]

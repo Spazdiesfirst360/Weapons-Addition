@@ -7,7 +7,6 @@
       [ "default.vanish.1", "default.vanish.2", "default.vanish.3", "default.vanish.4", "default.vanish.5", "default.vanish.6", "default.vanish.7", "default.vanish.8" ]
     ]
   },
-
   "aliases" : {
     "default.default" : "default.off",
     "default.off" : "default.open.1",

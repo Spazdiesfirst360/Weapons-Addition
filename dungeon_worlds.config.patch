@@ -282,10 +282,48 @@
 		"gravity" : 80,
 		"worldSize" : [2000, 2000],
 		"dungeonBaseHeight" : 1000,
-		"dungeonSurfaceHeight" : 960,
+		"dungeonSurfaceHeight" : 100,
 		"ambientLightLevel" : [32, 32, 32],
 		"biome" : "desert",
 		"musicTrack" : "/music/desert-exploration2.ogg",
+		"environmentStatusEffects" : ["dontstarve"]
+	}
+  },
+  {
+	"op": "add",
+	"path": "/wa_weaponsfacility",
+	"value": {
+		"primaryDungeon" : "wa_weaponsfacility",
+		"weatherPool" : [
+			[1.0, "snowstorm"]
+		],
+		"threatLevel" : 7,
+		"gravity" : 80,
+		"worldSize" : [2000, 2000],
+		"dungeonBaseHeight" : 1000,
+		"dungeonSurfaceHeight" : 330,
+		"ambientLightLevel" : [32, 32, 32],
+		"biome" : "tundra",
+		"musicTrack" : "/music/crystal-exploration1.ogg",
+		"environmentStatusEffects" : ["dontstarve"]
+	}
+  },
+  {
+	"op": "add",
+	"path": "/wa_frozenpast",
+	"value": {
+		"primaryDungeon" : "wa_frozenpast",
+		"weatherPool" : [
+			[1.0, "snowstorm"]
+		],
+		"threatLevel" : 7,
+		"gravity" : 80,
+		"worldSize" : [20000, 20000],
+		"dungeonBaseHeight" : 1000,
+		"dungeonSurfaceHeight" : 100,
+		"ambientLightLevel" : [32, 32, 32],
+		"biome" : "wa_simulationtundra",
+		"musicTrack" : "/music/mira.ogg",
 		"environmentStatusEffects" : ["dontstarve"]
 	}
   }

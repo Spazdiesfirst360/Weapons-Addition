@@ -4,7 +4,7 @@
   "rarity" : "legendary",
   "category" : "craftingMaterial",
   "inventoryIcon" : "paa_refined200.png",
-  "description" : "This took a long time to melt...",
+  "description" : "This crystal has unique properties.",
   "shortdescription" : "^#00FFFF;Azurium Crystal^reset;",
   "itemTags" : [ "reagent" ]
 }

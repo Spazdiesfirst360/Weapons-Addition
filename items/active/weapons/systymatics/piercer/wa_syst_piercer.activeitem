@@ -10,9 +10,7 @@
   "twoHanded" : false,
   "itemTags" : ["weapon","ranged","sniperrifle"],
   "level" : 7,
-
   "inventoryIcon" : "wa_syst_piercer.png:spin.2",
-
   "animation" : "wa_syst_piercer.animation",
   "animationParts" : {
     "gun" : "wa_syst_piercer.png",
@@ -20,34 +18,25 @@
   },
   "animationCustom" : {},
   "muzzleOffset" : [2.5, 0.3125],
-
   "scripts" : ["/items/active/weapons/ranged/gun.lua"],
-
   "elementalType" : "physical",
-
   "primaryAbility" : {
     "name" : "Bullet Stack",
     "scripts" : ["/items/active/weapons/bossdrop/miniknoglauncher/rocketstack.lua"],
     "class" : "RocketStack",
-
     "baseDamage" : 7.9,
     "energyPerShot" : 40,
-
     "reloadTime" : 0.45,
     "maxStack" : 1,
     "spread" : 0.1,
-
     "inaccuracy" : 0,
-
     "projectileType" : "wa_piercingshot",
     "projectileParameters" : {},
-
     "stances" : {
       "idle" : {
         "armRotation" : 0,
         "weaponRotation" : 0,
         "twoHanded" : false,
-
         "allowRotate" : true,
         "allowFlip" : true
       },
@@ -55,7 +44,6 @@
         "armRotation" : 0,
         "weaponRotation" : 0,
         "twoHanded" : false,
-
         "allowRotate" : true,
         "allowFlip" : true
       },
@@ -64,7 +52,6 @@
         "armRotation" : 3,
         "weaponRotation" : 3,
         "twoHanded" : false,
-
         "allowRotate" : false,
         "allowFlip" : false
       },
@@ -73,12 +60,10 @@
         "armRotation" : 3,
         "weaponRotation" : 3,
         "twoHanded" : false,
-
         "allowRotate" : false,
         "allowFlip" : false
       }
     }
   },
-
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }

@@ -10,11 +10,8 @@
   "shortdescription" : "Electricity Bow",
   "twoHanded" : true,
   "itemTags" : ["weapon", "ranged", "bow"],
-
   "radioMessagesOnPickup" : [ "pickupbow" ],
-
   "level" : 5,
-
   "animation" : "/items/active/weapons/bow/bow.animation",
   "animationParts" : {
     "bow" : "bowfull.png"
@@ -29,18 +26,12 @@
       "perfectRelease" : [ "/sfx/gun/bow_loose_perfect.ogg" ]
     }
   },
-
   "scripts" : ["/items/active/weapons/bow/bow.lua"],
-
   "primaryAbilityType" : "electricbowshot",
   "primaryAbility" : {
-
   },
-
   "altAbilityType" : "zenshot",
   "altAbility" : {
-
   },
-
   "builder" : "/items/buildscripts/buildbow.lua"
 }

@@ -4,7 +4,7 @@
   "inventoryIcon" : "paa_moltenlasericon.png",
   "maxStack" : 1,
   "rarity" : "rare",
-  "description" : "Safety first!",
+  "description" : "Safety first",
   "shortdescription" : "Molten Laser",
   "category" : "Laser Weapon",
   "itemTags" : [ "weapon","ranged" ],
@@ -32,25 +32,20 @@
   
   "scripts" : [ "/items/active/weapons/ranged/gun.lua" ],
   
-
   "elementalType" : "fire",
   
   "primaryAbility" : {
     "scripts" : ["/items/active/weapons/ranged/beamfire.lua"],
     "class" : "BeamFire",
-
     "fireTime" : 0.2,
     "baseDps" : 175,
     "energyUsage" : 20,
-
     "damageConfig" : {
       "statusEffects" : [ "melting" ],
       "damageSourceKind" : "fire",
       "knockback" : 5
     },
-
     "beamLength" : 35,
-
     "chain" : {
       "startOffset" : [0, 0],
       "startSegmentImage" : "/items/active/weapons/ranged/unrand/moltenlaser/beamstart.png",
@@ -66,16 +61,13 @@
       },
       "fullbright" : true
     },
-
     "stances" : {
       "idle" : {
         "armRotation" : 0,
         "weaponRotation" : 0,
         "twoHanded" : true,
-
         "allowRotate" : true,
         "allowFlip" : true,
-
         "animationStates" : {
           "gnome" : "squirm",
           "gnomefullbright" : "squirm"
@@ -85,10 +77,8 @@
         "armRotation" : 0,
         "weaponRotation" : 0,
         "twoHanded" : true,
-
         "allowRotate" : true,
         "allowFlip" : true,
-
         "animationStates" : {
           "gnome" : "fire",
           "gnomefullbright" : "fire"
@@ -99,10 +89,8 @@
         "armRotation" : 0,
         "weaponRotation" : 0,
         "twoHanded" : true,
-
         "allowRotate" : true,
         "allowFlip" : true,
-
         "animationStates" : {
           "gnome" : "idle",
           "gnomefullbright" : "idle"
@@ -110,6 +98,5 @@
       }
     }
   },
-
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }

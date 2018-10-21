@@ -8,15 +8,12 @@
   "description" : "The only clue to this bag's contents is how heavy it is.",
   "shortdescription" : "Strange Bag",
   "twoHanded" : true,
-
   "inventoryIcon" : "wa_expweapbagicon.png",
   "animation" : "wa_expweapbag.animation",
   "animationCustom" : {},
   "scripts" : ["wa_expweapbag.lua"],
-
   "fireTime" : 2.0,
   "fireOffset" : [1.0, 0.0],
-
   "treasure" : {
     "pool" : "wa_expweapbagfill",
     "level" : 1

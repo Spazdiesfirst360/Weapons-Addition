@@ -10,9 +10,7 @@
   "twoHanded" : true,
   "itemTags" : ["weapon","ranged","rocketlauncher"],
   "level" : 5,
-
   "inventoryIcon" : "wa_basicrocketlauncher.png",
-
   "animation" : "/items/active/weapons/ranged/gun.animation",
   "animationParts" : {
   "butt" : "",
@@ -34,26 +32,19 @@
       "fire" : [ "/sfx/gun/rocket2.ogg" ]
     }
   },
-
   "baseOffset" : [0.0, 0.375],
   "muzzleOffset" : [2.5, 0.125],
-
   "scripts" : ["/items/active/weapons/ranged/gun.lua"],
-
   "elementalType" : "physical",
-
   "primaryAbility" : {
   "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
   "class" : "GunFire",
-
   "fireTime" : 1.25,
   "baseDps" : 10.0,
   "energyUsage" : 40,
   "inaccuracy" : 0.0,
-
   "projectileCount" : 1,
   "fireType" : "auto",
-
   "projectileType" : "rocketshell",
   "projectileParameters" : {
   "damageKind" : "default",
@@ -65,7 +56,6 @@
         "weaponRotation" : 0,
         "weaponOffset" : [0, 0],
         "twoHanded" : true,
-
         "allowRotate" : true,
         "allowFlip" : true
       },
@@ -75,7 +65,6 @@
         "weaponRotation" : 0,
         "weaponOffset" : [-0.2, 0],
         "twoHanded" : true,
-
         "allowRotate" : false,
         "allowFlip" : false
       },
@@ -85,7 +74,6 @@
         "weaponRotation" : 0,
         "weaponOffset" : [-0.2, 0],
         "twoHanded" : true,
-
         "allowRotate" : false,
         "allowFlip" : false
       }

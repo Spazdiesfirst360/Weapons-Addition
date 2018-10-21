@@ -10,9 +10,7 @@
   "twoHanded" : false,
   "itemTags" : ["weapon","ranged","pistol"],
   "level" : 6,
-
   "inventoryIcon" : "wa_basicpistol.png",
-
   "animation" : "/items/active/weapons/ranged/gun.animation",
   "animationParts" : {
   "butt" : "",
@@ -26,26 +24,19 @@
   "fire" : ["/sfx/gun/pistol2.ogg"]
   }
   },
-
   "baseOffset" : [0.5, 0.25],
   "muzzleOffset" : [0.75, 0.375],
-
   "scripts" : ["/items/active/weapons/ranged/gun.lua"],
-
   "elementalType" : "physical",
-
   "primaryAbility" : {
   "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
   "class" : "GunFire",
-
   "fireTime" : 0.66,
   "baseDps" : 5.75,
   "energyUsage" : 18.75,
   "inaccuracy" : 0.02,
-
   "projectileCount" : 1,
   "fireType" : "auto",
-
   "projectileType" : "wa_assaultsource",
   "projectileParameters" : {
   "damageKind" : "default",
@@ -56,7 +47,6 @@
   "armRotation" : 0,
   "weaponRotation" : 0,
   "twoHanded" : false,
-
   "allowRotate" : true,
   "allowFlip" : true
   },
@@ -65,7 +55,6 @@
   "armRotation" : 10,
   "weaponRotation" : 10,
   "twoHanded" : false,
-
   "allowRotate" : false,
   "allowFlip" : false
   },
@@ -74,12 +63,10 @@
   "armRotation" : 10,
   "weaponRotation" : 10,
   "twoHanded" : false,
-
   "allowRotate" : false,
   "allowFlip" : false
   }
   }
   },
-
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }

@@ -8,7 +8,6 @@
   "category" : "decorative",
   "price" : 0,
   "printable" : false,
-
   "inventoryIcon" : "paa_sign1.png",
   "orientations" : [
     {
@@ -16,10 +15,8 @@
       "imagePosition" : [-52, -16],
       "frames" : 1,
       "animationCycle" : 0.5,
-
       "spaceScan" : 0.1,
       "anchors" : [ "background" ]
-
     }
   ]
 }

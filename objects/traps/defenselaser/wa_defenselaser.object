@@ -6,10 +6,8 @@
   "description" : "This can be used to defend just about anything.",
   "shortdescription" : "Laser Defense System",
   "race" : "generic",
-
   "category" : "trap",
   "price" : 10000,
-
   "inventoryIcon" : "wa_defenselaserground.png:default.off",
   "orientations" : [
     {
@@ -23,15 +21,12 @@
         "bg" : "wa_defenselaserground.png",
         "fg" : "wa_defenselaserground.png"
       },
-
       "renderLayer" : "Object+50",
       "lightPosition" : [0, 1],
-
       "beamDirection" : [0, 1],
       "beamStartOffset" : [0, 1.5],
       "maxBeamLength" : 50,
       "metaBoundBox" : [-4, -4, 4, 54],
-
       "spaceScan" : 0.1,
       "anchors" : [ "bottom", "left", "right" ],
       "collision" : "solid"
@@ -40,21 +35,17 @@
       "image" : "wa_defenselaserground.png:<color>.<frame>",
       "imagePosition" : [0, 0],
       "direction" : "right",
-
       "animationPosition" : [0, 0],
       "animationParts" : {
         "bg" : "wa_defenselaserground.png",
         "fg" : "wa_defenselaserground.png"
       },
-
       "renderLayer" : "Object+50",
       "lightPosition" : [0, 1],
-
       "beamDirection" : [0, 1],
       "beamStartOffset" : [1, 1.5],
       "maxBeamLength" : 50,
       "metaBoundBox" : [-4, -4, 4, 54],
-
       "spaceScan" : 0.1,
       "anchors" : [ "bottom", "left", "right" ],
       "collision" : "solid"
@@ -70,15 +61,12 @@
         "bg" : "wa_defenselaser.png",
         "fg" : "wa_defenselaser.png"
       },
-
       "renderLayer" : "Object+50",
       "lightPosition" : [-1, 0],
-
       "beamDirection" : [-1, 0],
       "beamStartOffset" : [-0.5, 1],
       "maxBeamLength" : 50,
       "metaBoundBox" : [-54, -4, 4, 4],
-
       "spaceScan" : 0.1,
       "anchors" : [ "right" ],
       "collision" : "solid"
@@ -93,15 +81,12 @@
         "bg" : "wa_defenselaser.png",
         "fg" : "wa_defenselaser.png"
       },
-
       "renderLayer" : "Object+50",
       "lightPosition" : [1, 0],
-
       "beamDirection" : [1, 0],
       "beamStartOffset" : [1.5, 1],
       "maxBeamLength" : 50,
       "metaBoundBox" : [-54, -4, 4, 4],
-
       "spaceScan" : 0.1,
       "anchors" : [ "left" ],
       "collision" : "solid"
@@ -117,15 +102,12 @@
         "bg" : "wa_defenselaserceiling.png",
         "fg" : "wa_defenselaserceiling.png"
       },
-
       "renderLayer" : "Object+50",
       "lightPosition" : [0, -1],
-
       "beamDirection" : [0, -1],
       "beamStartOffset" : [0, -0.5],
       "maxBeamLength" : 50,
       "metaBoundBox" : [-4, -54, 4, 4],
-
       "spaceScan" : 0.1,
       "anchors" : [ "top" ],
       "collision" : "solid"
@@ -140,15 +122,12 @@
         "bg" : "wa_defenselaserceiling.png",
         "fg" : "wa_defenselaserceiling.png"
       },
-
       "renderLayer" : "Object+50",
       "lightPosition" : [0, -1],
-
       "beamDirection" : [0, -1],
       "beamStartOffset" : [1, -0.5],
       "maxBeamLength" : 50,
       "metaBoundBox" : [-4, -54, 4, 4],
-
       "spaceScan" : 0.1,
       "anchors" : [ "top" ],
       "collision" : "solid"
@@ -164,15 +143,12 @@
         "bg" : "wa_defenselaserground.png",
         "fg" : "wa_defenselaserground.png"
       },
-
       "renderLayer" : "Object+50",
       "lightPosition" : [0, 1],
-
       "beamDirection" : [0, 1],
       "beamStartOffset" : [0, 1.5],
       "maxBeamLength" : 50,
       "metaBoundBox" : [-4, -4, 4, 54],
-
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ],
       "collision" : "solid"
@@ -181,27 +157,22 @@
       "image" : "wa_defenselaserground.png:<color>.<frame>",
       "imagePosition" : [0, 0],
       "direction" : "right",
-
       "animationPosition" : [0, 0],
       "animationParts" : {
         "bg" : "wa_defenselaserground.png",
         "fg" : "wa_defenselaserground.png"
       },
-
       "renderLayer" : "Object+50",
       "lightPosition" : [0, 1],
-
       "beamDirection" : [0, 1],
       "beamStartOffset" : [1, 1.5],
       "maxBeamLength" : 50,
       "metaBoundBox" : [-4, -4, 4, 54],
-
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ],
       "collision" : "solid"
     }
   ],
-
   "animation" : "/objects/wired/projectiletrap/projectiletrap.animation",
   "animationCustom" : {
     "sounds" : {
@@ -213,29 +184,21 @@
   "animationScripts" : [ "/objects/wired/projectiletrap/beamtraprendering.lua" ],
   
   "health" : 25,
-
   "smashOnBreak" : false,
-
   "scripts" : [ "/objects/wired/projectiletrap/beamtrap.lua" ],
   "scriptDelta" : 5,
-
   "soundEffect" : "/sfx/objects/crystaltrap_loop.ogg",
-
   "inputNodes" : [ [0, 0] ],
-
   "inactiveLightColor" : [0, 0, 0],
   "activeLightColor" : [255, 80, 80],
-
   "beamLight" : [255, 80, 80],
   "beamImages" : {
     "first" : "/objects/traps/defenselaser/beamstart.png",
     "body" : "/objects/traps/defenselaser/beambody.png",
     "last" : "/objects/traps/defenselaser/beamend.png"
   },
-
   "beamDamage" : {
     "damage" : 40,
-
     "teamType" : "friendly",
     "damageSourceKind" : "plasma",
     "damageType" : "Environment",

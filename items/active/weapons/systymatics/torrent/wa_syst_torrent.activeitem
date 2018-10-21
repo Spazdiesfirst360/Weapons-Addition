@@ -10,9 +10,7 @@
   "twoHanded" : true,
   "itemTags" : ["weapon","ranged","assaultrifle"],
   "level" : 6,
-
   "inventoryIcon" : "wa_syst_torrent.png",
-
   "animation" : "/items/active/weapons/ranged/gun.animation",
   "animationParts" : {
   "butt" : "",
@@ -26,18 +24,13 @@
   "fire" : ["/sfx/gun/ar4.ogg"]
   }
   },
-
   "baseOffset" : [1.0, 0.375],
   "muzzleOffset" : [2.5, 0],
-
   "scripts" : ["/items/active/weapons/ranged/gun.lua"],
-
   "elementalType" : "physical",
-
   "primaryAbility" : {
   "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
   "class" : "GunFire",
-
   "fireTime" : 0.01,
   "baseDps" : 100.0,
   "energyUsage" : 100,
@@ -47,7 +40,6 @@
   "burstTime" : 0.0005,
   "burstCount" : 10,
   "fireType" : "burst",
-
   "projectileType" : "standardbullet",
   "projectileParameters" : {
   "damageKind" : "default",
@@ -58,7 +50,6 @@
   "armRotation" : 0,
   "weaponRotation" : 0,
   "twoHanded" : true,
-
   "allowRotate" : true,
   "allowFlip" : true
   },
@@ -67,7 +58,6 @@
   "armRotation" : -2,
   "weaponRotation" : 3,
   "twoHanded" : true,
-
   "allowRotate" : false,
   "allowFlip" : false
   },
@@ -76,12 +66,10 @@
   "armRotation" : -2,
   "weaponRotation" : 3,
   "twoHanded" : true,
-
   "allowRotate" : false,
   "allowFlip" : false
   }
   }
   },
-
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }

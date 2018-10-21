@@ -10,9 +10,7 @@
   "twoHanded" : true,
   "itemTags" : ["weapon","ranged","grenadelauncher"],
   "level" : 7,
-
   "inventoryIcon" : "wa_capturepodrifle.png:idle",
-
   "animation" : "wa_capturepodrifle.animation",
   "animationParts" : {
     "gun" : "wa_capturepodrifle.png",
@@ -20,42 +18,32 @@
   },
   "animationCustom" : {},
   "muzzleOffset" : [2.5, 0.3125],
-
   "scripts" : ["/items/active/weapons/ranged/gun.lua"],
-
   "elementalType" : "physical",
-
   "primaryAbility" : {
     "name" : "Capture Pod Stack",
     "scripts" : ["/items/active/weapons/bossdrop/miniknoglauncher/rocketstack.lua"],
     "class" : "RocketStack",
-
     "baseDamage" : 5.0,
     "energyPerShot" : 50,
-
     "reloadTime" : 1.0,
     "maxStack" : 2,
     "spread" : 0.1,
-
     "inaccuracy" : 0,
-
     "projectileType" : "wa_capturesource",
     "projectileParameters" : {},
-
     "stances" : {
       "idle" : {
         "armRotation" : 0,
         "weaponRotation" : 0,
         "twoHanded" : false,
-
         "allowRotate" : true,
         "allowFlip" : true
       },
       "charge" : {
         "armRotation" : 0,
         "weaponRotation" : 0,
-        "twoHanded" : false,
-
+        "twoHanded" : true,
         "allowRotate" : true,
         "allowFlip" : true
       },
@@ -63,8 +51,7 @@
         "duration" : 0,
         "armRotation" : 3,
         "weaponRotation" : 3,
-        "twoHanded" : false,
-
+        "twoHanded" : true,
         "allowRotate" : false,
         "allowFlip" : false
       },
@@ -72,8 +59,7 @@
         "duration" : 0.25,
         "armRotation" : 3,
         "weaponRotation" : 3,
-        "twoHanded" : false,
-
+        "twoHanded" : true,
         "allowRotate" : false,
         "allowFlip" : false
       }
@@ -82,6 +68,5 @@
   
   "altAbilityType" : "spray",
   "altAbility" : { },
-
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }

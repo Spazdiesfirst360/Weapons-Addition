@@ -8,19 +8,16 @@
   "description" : "Keeps monster goop off the wearer, and looks cool.",
   "shortdescription" : "Protectorate Lab Coat",
   "tooltipKind" : "armor",
-
   "maleFrames" : {
     "body" : "sciconchestm.png",
     "backSleeve" : "sciconbsleeve.png",
     "frontSleeve" : "sciconfsleeve.png"
   },
-
   "femaleFrames" : {
     "body" : "sciconchestf.png",
     "backSleeve" : "sciconbsleeve.png",
     "frontSleeve" : "sciconfsleeve.png"
   },
-
   "colorOptions" : [
     // GREY
     { "ffca8a" : "b5b5b5", "e0975c" : "808080", "a85636" : "555555", "6f2919" : "303030" },

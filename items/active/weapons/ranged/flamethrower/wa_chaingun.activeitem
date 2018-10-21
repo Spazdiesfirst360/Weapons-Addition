@@ -10,9 +10,7 @@
   "twoHanded" : true,
   "itemTags" : ["weapon","ranged"],
   "level" : 7,
-
   "inventoryIcon" : "wa_chaingun.png",
-
   "animation" : "/items/active/weapons/ranged/gun.animation",
   "animationParts" : {
   "butt" : "",
@@ -26,26 +24,19 @@
       "fire" : ["/sfx/gun/sniper3.ogg"]
     }
   },
-
   "baseOffset" : [0.75, 0],
   "muzzleOffset" : [2.5, 0.4],
-
   "scripts" : ["/items/active/weapons/ranged/gun.lua"],
-
   "elementalType" : "poison",
-
   "primaryAbility" : {
   "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
   "class" : "GunFire",
-
   "fireTime" : 0.001,
   "baseDps" : 23.0,
   "energyUsage" : 30,
   "inaccuracy" : 0.05,
-
   "projectileCount" : 1,
   "fireType" : "auto",
-
   "projectileType" : "standardbullet",
   "projectileParameters" : {
   "damageKind" : "default",
@@ -56,7 +47,6 @@
   "armRotation" : 0,
   "weaponRotation" : 0,
   "twoHanded" : true,
-
   "allowRotate" : true,
   "allowFlip" : true
   },
@@ -65,7 +55,6 @@
   "armRotation" : 1,
   "weaponRotation" : 1,
   "twoHanded" : true,
-
   "allowRotate" : false,
   "allowFlip" : false
   },
@@ -74,7 +63,6 @@
   "armRotation" : 1,
   "weaponRotation" : 1,
   "twoHanded" : true,
-
   "allowRotate" : false,
   "allowFlip" : false
   }
@@ -82,6 +70,5 @@
   },
   "altAbilityType" : "explosiveburst",
   "altAbility" : {},
-
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }

@@ -1,0 +1,28 @@
+________________REQUESTS_____________________________________________________________________________________________________________________________________________
+
+
+__why not add a system of mounts, since the mod presises to frackin why not give a utility to the horses. I'm sorry if they are already mountable, I still do not know much, but if they can tell me how, and if they are not can maybe add this functionality to the mod
+
+__or something better, why not add to the captured monsters an equipment system, like equipping their Poptops with gloves with claws of Durasteel, and being able to equip horses and even flufalloos with saddles to be able to mount them
+
+__and maybe more balanced weapons, and these weapons can be melee weapon fusion with the ranged ones, you know, more gunblades, just not so OP, something with gun spear, gun ax, starbound needs more gunblades, and could it add the weapon of the pirate captain of the Terraria and the cannons of Terraria...
+
+
+
+________________NEEDS TO BE DONE___________________________________________________________________________________________________________________________________
+
+
+
+__More fist weapons
+__redo Handheld Lunar Laser
+____make it a charge weapon.
+____resprite it.
+__Finish building the AI and Weapons Facility missions. --clear
+____fix wiring getting screwed up by the game.
+____fix AI crystal traps in first room encounter to not point sideways.
+__Fix Deserted Temple mission's parallax background (too high up).
+__Fix Torrent to not be terrible.
+__Fix Quantum Obliterator not being a charge weapon.
+__Fix Gravity Manipulator's baseOffset being way too far forward in the X direction.
+__Fix Scorch Cannon's sprite order being messed up.
+__Fix Gun Sword's altAbility not working.

@@ -7,19 +7,15 @@
   "description" : "Look, a ship.",
   "shortdescription" : "Ship",
   "race" : "human",
-
   "inventoryIcon" : "icon.png",
   "orientations" : [
     {
       "dualImage" : "protectorateshiphuman.png:default",
-
       "imagePosition" : [-272, 0],
       "frames" : 1,
       "animationCycle" : 1.13,
-
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
-
     }
   ],
   "health" : 1000

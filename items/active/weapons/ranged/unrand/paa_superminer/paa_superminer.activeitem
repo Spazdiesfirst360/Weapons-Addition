@@ -10,9 +10,7 @@
   "category" : "uniqueWeapon",
   "twoHanded" : true,
   "itemTags" : ["weapon","ranged"],
-
   "inventoryIcon" : "paa_superminer.png",
-
   "animation" : "/items/active/weapons/ranged/gun.animation",
   "animationParts" : {
     "butt" : "",
@@ -56,34 +54,26 @@
   },
   "baseOffset" : [0.625, 0.125],
   "muzzleOffset" : [1.875, 0.125],
-
   "scripts" : ["/items/active/weapons/ranged/gun.lua"],
-
   "elementalType" : "physical",
-
   "primaryAbility" : {
     "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
     "class" : "GunFire",
-
     "fireTime" : 0.3,
     "baseDps" : 10.5,
     "energyUsage" : 30,
     "projectileCount" : 1,
     "inaccuracy" : 0.015,
-
     "burstCount" : 3,
     "burstTime" : 0.1,
     "fireType" : "burst",
-
     "projectileType" : "paa_zsuperminer",
     "projectileParameters" : {},
-
     "stances" : {
       "idle" : {
         "armRotation" : 0,
         "weaponRotation" : 0,
         "twoHanded" : true,
-
         "allowRotate" : true,
         "allowFlip" : true
       },
@@ -92,7 +82,6 @@
         "armRotation" : 3,
         "weaponRotation" : 3,
         "twoHanded" : true,
-
         "allowRotate" : false,
         "allowFlip" : true
       },
@@ -101,35 +90,28 @@
         "armRotation" : 3,
         "weaponRotation" : 3,
         "twoHanded" : true,
-
         "allowRotate" : false,
         "allowFlip" : true
       }
     }
   },
-
   "altAbility" : {
     "name" : "Sticky Plasma Mines",
     "scripts" : ["/items/active/weapons/ranged/abilities/altfire.lua"],
     "class" : "AltFireAttack",
-
     "fireTime" : 1.5,
     "energyUsage" : 35,
     "projectileCount" : 3,
     "inaccuracy" : 0.09,
     "fireType" : "auto",
-
     "useParticleEmitter" : false,
-
     "projectileType" : "stickyplasma",
     "projectileParameters" : {},
-
     "stances" : {
       "idle" : {
         "armRotation" : 0,
         "weaponRotation" : 0,
         "twoHanded" : true,
-
         "allowRotate" : true,
         "allowFlip" : true
       },
@@ -138,7 +120,6 @@
         "armRotation" : 8,
         "weaponRotation" : 8,
         "twoHanded" : true,
-
         "allowRotate" : false,
         "allowFlip" : false
       },
@@ -147,12 +128,10 @@
         "armRotation" : 8,
         "weaponRotation" : 8,
         "twoHanded" : true,
-
         "allowRotate" : false,
         "allowFlip" : false
       }
     }
   },
-
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }

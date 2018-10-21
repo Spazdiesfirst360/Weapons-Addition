@@ -4,10 +4,8 @@
 	"description": "A log containing transactions made throughout the universe.",
 	"icon": "wa_shiplog.png",
 	"contentPages": [
-		"^red;WARNING! DATA ENCRYPTED! CLASSIFIED INFORMATION WILL BE REDACTED.^reset;
-
+		"red;WARNING CLASSIFIED INFORMATION WILL BE REDACTED.reset;
 [there are an enormous amount of pages, seems to be an almost endless amount of transactions. Only a few seem to stand out to you.]",
-
 "^green;Entry 100110111^reset;
 15 crates of Wall Bs
 2 shipments of assault weapons

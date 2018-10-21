@@ -5,22 +5,19 @@
   "description" : "A pair of industrial grade floodlights.",
   "shortdescription" : "Industrial Floodlights",
   "race" : "generic",
-
   "apexDescription" : "Blazingly bright lights.",
-  "avianDescription" : "A light such as this could turn night into day!",
+  "avianDescription" : "A light such as this could turn night into day",
   "floranDescription" : "Bright light hurt Floran eyess.",
   "glitchDescription" : "Observant. I can see clearly with these lights shining.",
   "humanDescription" : "Floodlights that live up to their name.",
   "hylotlDescription" : "The Hylotl use similar lights to illuminate beneath the ocean.",
   "novakidDescription" : "These big lamps are brighter'n a summer sun.",
-
   "category" : "light",
   "price" : 210,
   "lightColor" : [255, 255, 250],
   "pointLight" : true,
   "pointBeam" : 2.5,
   "beamAmbience" : 0.6,
-
   "inventoryIcon" : "floodlightsicon.png",
   "orientations" : [
     {
@@ -43,7 +40,6 @@
       "beamAngle" : 335
     }
   ],
-
   "animation" : "/objects/wired/light/lighttogglebgfullbright.animation",
   "animationCustom" : {
     "sounds" : {
@@ -56,9 +52,7 @@
     "fg" : "paa_industrialfloodlights2.png"
   },
   "animationPosition" : [-12, 0],
-
   "scripts" : [ "/objects/wired/light/light.lua" ],
   "scriptDelta" : 60,
-
   "inputNodes" : [ [0, 3] ]
 }

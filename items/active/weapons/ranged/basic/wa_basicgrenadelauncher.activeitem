@@ -10,9 +10,7 @@
   "twoHanded" : false,
   "itemTags" : ["weapon","ranged","grenadelauncher"],
   "level" : 6,
-
   "inventoryIcon" : "wa_basicgrenadelauncher.png",
-
   "animation" : "/items/active/weapons/ranged/gun.animation",
   "animationParts" : {
   "butt" : "",
@@ -49,26 +47,19 @@
       "fire" : ["/sfx/gun/grenade2.ogg"]
     }
   },
-
   "baseOffset" : [1.5, 0.5],
   "muzzleOffset" : [3.25, 0.125],
-
   "scripts" : ["/items/active/weapons/ranged/gun.lua"],
-
   "elementalType" : "physical",
-
   "primaryAbility" : {
   "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
   "class" : "GunFire",
-
   "fireTime" : 1.0,
   "baseDps" : 6.5,
   "energyUsage" : 26,
   "inaccuracy" : 0.0,
-
   "projectileCount" : 1,
   "fireType" : "auto",
-
   "projectileType" : "grenade",
   "projectileParameters" : {
   "damageKind" : "default",
@@ -79,7 +70,6 @@
   "armRotation" : 0,
   "weaponRotation" : 0,
   "twoHanded" : false,
-
   "allowRotate" : true,
   "allowFlip" : true
   },
@@ -88,7 +78,6 @@
   "armRotation" : 7.5,
   "weaponRotation" : 7.5,
   "twoHanded" : false,
-
   "allowRotate" : false,
   "allowFlip" : false
   },
@@ -97,12 +86,10 @@
   "armRotation" : 7.5,
   "weaponRotation" : 7.5,
   "twoHanded" : false,
-
   "allowRotate" : false,
   "allowFlip" : false
   }
   }
   },
-
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }

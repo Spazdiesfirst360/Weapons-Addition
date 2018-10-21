@@ -1,0 +1,9 @@
+{
+  "name" : "wa_simulationflyer2",
+  "category" : "wa_simulationflyer2",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "wa_simulationflyer2.png"
+  }
+}

@@ -1,5 +1,4 @@
 {
-
   "frameGrid" : {
     "size" : [48, 16],
     "dimensions" : [6, 1],
@@ -7,7 +6,6 @@
       [ "closed", "halfLeft", "left", null, "halfRight", "right" ]
     ]
   },
-
   "aliases" : {
     "default" : "closed",
     "closeLeft.1" : "halfLeft",

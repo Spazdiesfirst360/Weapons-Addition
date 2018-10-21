@@ -3,7 +3,7 @@
   "shortdescription" : "Hidden Turret",
   "description" : "A mass-produced autonomous defense turret. It tries very hard not to miss.",
 
-  "categories" : [ "twigun" ],
+  "categories" : [ "wa_hiddenturret" ],
   "parts" : [ "body" ],
 
   "animation" : "wa_hiddenturret.animation",

@@ -10,9 +10,7 @@
   "twoHanded" : false,
   "itemTags" : ["weapon","ranged","rocketlauncher"],
   "level" : 7,
-
   "inventoryIcon" : "wa_mbmlauncher.png",
-
   "animation" : "/items/active/weapons/ranged/gun.animation",
   "animationParts" : {
   "butt" : "",
@@ -34,26 +32,19 @@
       "fire" : [ "/sfx/gun/rocket2.ogg" ]
     }
   },
-
   "baseOffset" : [1.0, 0.375],
   "muzzleOffset" : [2.5, 0],
-
   "scripts" : ["/items/active/weapons/ranged/shotgun.lua"],
-
   "elementalType" : "physical",
-
   "primaryAbility" : {
   "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
   "class" : "GunFire",
-
   "fireTime" : 0.25,
   "baseDps" : 25.0,
   "energyUsage" : 1000,
   "inaccuracy" : 0.001,
-
   "projectileCount" : 1,
   "fireType" : "auto",
-
   "projectileType" : "wa_mbm",
   "projectileParameters" : {
   "damageKind" : "default",
@@ -64,7 +55,6 @@
   "armRotation" : 0,
   "weaponRotation" : 0,
   "twoHanded" : true,
-
   "allowRotate" : true,
   "allowFlip" : true
   },
@@ -73,7 +63,6 @@
   "armRotation" : 10,
   "weaponRotation" : 10,
   "twoHanded" : true,
-
   "allowRotate" : false,
   "allowFlip" : false
   },
@@ -82,12 +71,10 @@
   "armRotation" : 10,
   "weaponRotation" : 10,
   "twoHanded" : true,
-
   "allowRotate" : false,
   "allowFlip" : false
   }
   }
   },
-
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }

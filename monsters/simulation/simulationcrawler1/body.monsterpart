@@ -1,0 +1,9 @@
+{
+  "name" : "wa_simulationcrawler1-body",
+  "category" : "wa_simulationcrawler1",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "wa_simulationcrawler1-body.png"
+  }
+}

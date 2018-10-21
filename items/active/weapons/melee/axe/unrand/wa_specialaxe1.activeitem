@@ -10,9 +10,7 @@
   "category" : "axe",
   "twoHanded" : false,
   "itemTags" : ["weapon","melee","axe"],
-
   "inventoryIcon" : "wa_specialaxe1.png",
-
   "animation" : "/items/active/weapons/melee/axe/axe.animation",
   "animationParts" : {
     "blade" : "wa_specialaxe1.png",
@@ -23,13 +21,9 @@
       "fire" : [ "/sfx/melee/swing_axe.ogg" ]
     }
   },
-
   "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
-
   "elementalType" : "fire",
-
   "aimOffset" : -1.0,
-
   "primaryAbilityType" : "axecleave",
   "primaryAbility" : {
     "fireTime" : 0.9,
@@ -38,6 +32,5 @@
       "knockback" : 35
     }
   },
-
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }

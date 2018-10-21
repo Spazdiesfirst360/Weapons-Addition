@@ -2,7 +2,6 @@
   "objectName" : "paa_labblastdoor",
   "colonyTags" : ["science","door"],
   "rarity" : "rare",
-
   "category" : "door",
   "price" : 1000,
   "description" : "This door is made of some sort of bulletproof material. ",
@@ -10,7 +9,6 @@
   "race" : "generic",
   "health" : 1000,
   "collectablesOnPickup" : { "paa_kx1collection" : "paa_labblastdoor" },
-
   "apexDescription" : "This door looks strong enough to keep anything out... or everyone in.",
   "avianDescription" : "A strong door. Not even the breeze could slip through.",
   "floranDescription" : "Door of great ssstrength.",
@@ -18,7 +16,6 @@
   "humanDescription" : "A huge, heavy security door.",
   "hylotlDescription" : "This looks strong enough to hold back the ocean.",
   "novakidDescription" : "A very thick door.",
-
   "inventoryIcon" : "paa_labblastdooricon.png",
   "orientations" : [
     {
@@ -39,10 +36,8 @@
       "direction" : "right"
     }
   ],
-
   "scripts" : [ "/objects/wired/door/door.lua" ],
   "scriptDelta" : 5,
-
   "animation" : "/objects/wired/door/fullbrightbasicdoor.animation",
   "animationCustom" : {
     "sounds" : {
@@ -61,7 +56,6 @@
 	"fg" : "paa_labblastdoorlit.png"
   },
   "animationPosition" : [-20, 0],
-
   "inputNodes" : [ [-1, 4] ],
   "outputNodes" : [ [0, 0] ]
 }

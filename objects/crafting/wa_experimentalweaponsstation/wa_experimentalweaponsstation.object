@@ -7,13 +7,11 @@
   "shortdescription" : "^red;Experimental Weapons Station^reset;",
   "race" : "generic",
   "category" : "crafting",
-
   "interactAction" : "OpenCraftingInterface",
   "interactData" : {
     "config" : "/interface/windowconfig/wa_experimentalweaponsstation.config",
     "filter" : [ "wa_expweapstat" ]
   },
-
   "inventoryIcon" : "wa_experimentalweaponsstationicon.png",
   "orientations" : [
     {
@@ -25,7 +23,6 @@
      
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
-
     }
   ]
 }

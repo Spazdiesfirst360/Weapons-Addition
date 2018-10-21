@@ -12,24 +12,20 @@
   "description" : "A console that controls all the other consoles.",
   "shortdescription" : "Command Console",
   "race" : "generic",
-
   "inventoryIcon" : "paa_commandconsoleicon.png",
   "orientations" : [
     {
       "dualImage" : "paa_commandconsole.png:default.<frame>",
       "imagePosition" : [-8, 0],
-
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
     }
   ],
-
   "scripts" : [
     "/objects/wired/switch/switch.lua",
     "/scripts/npcToyObject.lua"
   ],
   "scriptDelta" : 5,
-
   "animation" : "paa_commandconsole.animation",
   "animationCustom" : {
     "sounds" : {
@@ -41,9 +37,7 @@
     "switch" : "paa_commandconsole.png"
   },
   "animationPosition" : [-8, 0],
-
   "outputNodes" : [ [0, 0] ],
-
   "npcToy" : {
     "ownerOnly" : true,
     "influence" : [

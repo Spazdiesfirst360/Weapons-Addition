@@ -1,18 +1,16 @@
 {
   "itemName" : "wa_syst_scorchlaser",
-  "price" : 10000,
+  "price" : 5000,
   "maxStack" : 1,
   "rarity" : "Essential",
   "description" : "\"Everything burns at a certain temperature.\" -Systyma, Maddened A.I.",
   "shortdescription" : "^#ff0000;Scorch Laser^reset;",
-  "tooltipKind" : "base",
-  "category" : "uniqueweapon",
+  "tooltipKind" : "gun",
+  "category" : "uniqueWeapon",
   "twoHanded" : false,
-  "itemTags" : ["weapon","ranged","sniperrifle"],
+  "itemTags" : ["weapon","ranged"],
   "level" : 7,
-
-  "inventoryIcon" : "wa_syst_scorchlaser.png:spin.2",
-
+  "inventoryIcon" : "wa_syst_scorchlaser.png:empty",
   "animation" : "wa_syst_scorchlaser.animation",
   "animationParts" : {
     "gun" : "wa_syst_scorchlaser.png",
@@ -20,65 +18,47 @@
   },
   "animationCustom" : {},
   "muzzleOffset" : [2.5, 0.3125],
-
   "scripts" : ["/items/active/weapons/ranged/gun.lua"],
-
-  "elementalType" : "physical",
-
+  "elementalType" : "fire",
+  "primaryAbilityType" : "chargefire",
   "primaryAbility" : {
-    "name" : "Laser Stack",
-    "scripts" : ["/items/active/weapons/bossdrop/miniknoglauncher/rocketstack.lua"],
-    "class" : "RocketStack",
-
-    "baseDamage" : 7.9,
-    "energyPerShot" : 40,
-
-    "reloadTime" : 0.45,
-    "maxStack" : 1,
-    "spread" : 0.1,
-
-    "inaccuracy" : 0,
-
-    "projectileType" : "wa_scorchshot",
-    "projectileParameters" : {},
-
-    "stances" : {
-      "idle" : {
-        "armRotation" : 0,
-        "weaponRotation" : 0,
-        "twoHanded" : false,
-
-        "allowRotate" : true,
-        "allowFlip" : true
+    "chargeLevels" : [
+      {
+        "time" : 0,
+        "energyCost" : 0,
+        "cooldown" : 0.01,
+        "projectileType" : "invisibleprojectile",
+        "projectileCount" : 1,
+        "projectileParameters" : {},
+        "inaccuracy" : 0,
+        "baseDamage" : 0,
+        "fireSound" : "fire"
       },
-      "charge" : {
-        "armRotation" : 0,
-        "weaponRotation" : 0,
-        "twoHanded" : false,
-
-        "allowRotate" : true,
-        "allowFlip" : true
+      {
+        "time" : 0.5,
+        "energyCost" : 0,
+        "cooldown" : 0.01,
+        "projectileType" : "invisibleprojectile",
+        "projectileCount" : 1,
+        "spreadAngle" : 0,
+        "projectileParameters" : {},
+        "inaccuracy" : 0,
+        "baseDamage" : 0,
+        "fireSound" : "fire"
       },
-      "fire" : {
-        "duration" : 0,
-        "armRotation" : 3,
-        "weaponRotation" : 3,
-        "twoHanded" : false,
-
-        "allowRotate" : false,
-        "allowFlip" : false
-      },
-      "cooldown" : {
-        "duration" : 0.25,
-        "armRotation" : 3,
-        "weaponRotation" : 3,
-        "twoHanded" : false,
-
-        "allowRotate" : false,
-        "allowFlip" : false
+      {
+        "time" : 1.0,
+        "energyCost" : 40,
+        "cooldown" : 1.0,
+        "projectileType" : "wa_scorchshot",
+        "projectileCount" : 1,
+        "spreadAngle" : 0,
+        "projectileParameters" : {},
+        "inaccuracy" : 0,
+        "baseDamage" : 7.9,
+        "fireSound" : "fire"
       }
-    }
+    ]
   },
-
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }

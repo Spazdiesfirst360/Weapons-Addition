@@ -6,10 +6,8 @@
   "description" : "This chute seems to release smoke.",
   "shortdescription" : "Air Booster",
   "race" : "ancient",
-
   "category" : "trap",
   "price" : 200,
-
   "inventoryIcon" : "airboostericon.png",
   "orientations" : [
     {
@@ -23,10 +21,8 @@
         "bg" : "wa_weaksource.png",
         "fg" : "wa_weaksource.png"
       },
-
       "projectileDirection" : [0, 1],
       "projectilePosition" : [0, 1.2],
-
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
     },
@@ -40,10 +36,8 @@
         "bg" : "wa_weaksource.png",
         "fg" : "wa_weaksource.png"
       },
-
       "projectileDirection" : [0, 1],
       "projectilePosition" : [1, 1.2],
-
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
     },
@@ -57,10 +51,8 @@
         "bg" : "wa_weaksourceleft.png",
         "fg" : "wa_weaksourceleft.png"
       },
-
       "projectileDirection" : [1, 0],
       "projectilePosition" : [1.2, 0],
-
       "spaceScan" : 0.1,
       "anchors" : [ "left" ]
     },
@@ -74,10 +66,8 @@
         "bg" : "wa_weaksourceright.png",
         "fg" : "wa_weaksourceright.png"
       },
-
       "projectileDirection" : [-1, 0],
       "projectilePosition" : [-0.2, 0],
-
       "spaceScan" : 0.1,
       "anchors" : [ "right" ]
     },
@@ -92,10 +82,8 @@
         "bg" : "wa_weaksourceceiling.png",
         "fg" : "wa_weaksourceceiling.png"
       },
-
       "projectileDirection" : [0, -1],
       "projectilePosition" : [0, -0.2],
-
       "spaceScan" : 0.1,
       "anchors" : [ "top" ]
     },
@@ -109,18 +97,14 @@
         "bg" : "wa_weaksourceceiling.png",
         "fg" : "wa_weaksourceceiling.png"
       },
-
       "projectileDirection" : [0, -1],
       "projectilePosition" : [1, -0.2],
-
       "spaceScan" : 0.1,
       "anchors" : [ "top" ]
     }
   ],
-
   "scripts" : [ "/objects/wired/projectiletrap/projectiletrap.lua" ],
   "scriptDelta" : 2,
-
   "animation" : "/objects/wired/projectiletrap/projectiletrap.animation",
   "animationCustom" : {
     "sounds" : {
@@ -129,14 +113,10 @@
       "off" : [ "/sfx/objects/gasbooster_off.ogg" ]
     }
   },
-
   "soundEffect" : "/sfx/objects/gasbooster_loop.ogg", // this is a thing that also works
-
   "inputNodes" : [ [0, 0] ],
-
   "inactiveLightColor" : [0, 0, 0], // light color to emit when the object is 'off'
   "activeLightColor" : [255, 0, 0], // light color to emit when the object is 'on'
-
   "fireTime" : 0.16, // rate of fire
   "fireTimeVariance" : 0.0, // variation in rate of fire
   "projectile" : "wa_weakgas", // name of projectile (required)

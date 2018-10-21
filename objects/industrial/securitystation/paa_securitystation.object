@@ -4,17 +4,13 @@
   "category" : "decorative",
   "price" : 50,
   "printable" : false,
-
-  "description" : "Ooh, a fancy security station!",
+  "description" : "Ooh, a fancy security station",
   "shortdescription" : "Modern Security Station",
   "race" : "generic",
-
   "apexDescription" : "Extensive security measures.",
   "glitchDescription" : "Uncomfortable. Metal detectors can be a nightmare for us Glitch.",
   "humanDescription" : "A security station. I don't have time for this.",
   "hylotlDescription" : "A machine to invade privacy.",
-
-
   "inventoryIcon" : "paa_securitystationicon.png",
   "orientations" : [
     {
@@ -22,7 +18,6 @@
       "imagePosition" : [0, 0],
       "frames" : 18,
       "animationCycle" : 0.5,
-
 	  "renderLayer" : "BackgroundTile-10",
 	  
       "spaceScan" : 0.1,

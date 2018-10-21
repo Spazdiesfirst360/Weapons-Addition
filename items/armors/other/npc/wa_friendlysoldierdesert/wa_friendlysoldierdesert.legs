@@ -8,10 +8,8 @@
   "description" : "Tough trousers from a soldier's uniform.",
   "shortdescription" : "Soldier's Leg Armour",
   "tooltipKind" : "armor",
-
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png",
-
   "level" : 6,
   "leveledStatusEffects" : [
     {
@@ -35,6 +33,5 @@
       "amount" : 2
     }
   ],
-
   "itemTags" : [ "tier6armour" ]
 }

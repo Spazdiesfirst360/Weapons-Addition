@@ -5,18 +5,15 @@
   "rarity" : "Common",
   "description" : "An automated soil watering solution.",
   "shortdescription" : "Sprinkler",
-
   "apexDescription" : "A sprinkler. Quite a clever way to water crops.",
   "avianDescription" : "It's a machine that waters crops automatically.",
   "floranDescription" : "Waters cropss..",
   "glitchDescription" : "Unimpressed. It is an automated soil watering solution. I enjoy watering my plants by hand.",
-  "humanDescription" : "It's a sprinkler for watering crops! Running through sprinklers makes me feel nostalgic.",
+  "humanDescription" : "It's a sprinkler for watering crops Running through sprinklers makes me feel nostalgic.",
   "hylotlDescription" : "It is used to water crops. Simple, but rather clever.",
   "novakidDescription" : "Waterin' crops made simple.",
-
   "category" : "wire",
   "price" : 200,
-
   "inventoryIcon" : "sprinklericon.png",
   "orientations" : [
     {
@@ -24,16 +21,13 @@
       "imagePosition" : [-8, 0],
       "direction" : "left",
       "flipImages" : true,
-
       "animationPosition" : [-8, 0],
       "animationParts" : {
         "bg" : "paa_roofsprinkler.png",
         "fg" : "paa_roofsprinkler.png"
       },
-
       "projectileDirection" : [0, -1],
       "projectilePosition" : [0, -0.7],
-
       "spaceScan" : 0.1,
       "anchors" : [ "top" ]
     },
@@ -41,24 +35,19 @@
       "image" : "paa_roofsprinkler.png:<color>.<frame>",
       "imagePosition" : [0, 0],
       "direction" : "right",
-
       "animationPosition" : [0, 0],
       "animationParts" : {
         "bg" : "paa_roofsprinkler.png",
         "fg" : "paa_roofsprinkler.png"
       },
-
       "projectileDirection" : [0, -1],
       "projectilePosition" : [1, -0.7],
-
       "spaceScan" : 0.1,
       "anchors" : [ "top" ]
     }
   ],
-
   "scripts" : [ "/objects/wired/projectiletrap/projectiletrap.lua" ],
   "scriptDelta" : 2,
-
   "animation" : "/objects/wired/projectiletrap/projectiletrap.animation",
   "animationCustom" : {
     "sounds" : {
@@ -67,12 +56,9 @@
       "off" : [ ]
     }
   },
-
   "inputNodes" : [ [0, 0] ],
-
   "inactiveLightColor" : [0, 0, 0], // light color to emit when the object is 'off'
   "activeLightColor" : [0, 0, 0], // light color to emit when the object is 'on'
-
   "fireTime" : 0.3, // rate of fire
   "fireTimeVariance" : 0.1, // variation in rate of fire
   "inaccuracy" : 0.5,

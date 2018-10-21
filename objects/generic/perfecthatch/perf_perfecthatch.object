@@ -2,13 +2,11 @@
   "objectName" : "perf_perfecthatch",
   "colonyTags" : ["door"],
   "rarity" : "Common",
-
   "category" : "door",
   "price" : 125,
   "description" : "A very perfect hatch",
   "shortdescription" : "Perfect Hatch",
   "race" : "generic",
-
   "inventoryIcon" : "perf_perfecthatchicon.png",
   "orientations" : [
     {
@@ -29,10 +27,8 @@
       "direction" : "right"
     }
   ],
-
   "scripts" : [ "/objects/wired/door/door.lua" ],
   "scriptDelta" : 5,
-
   "animation" : "/objects/wired/door/door.animation",
   "animationCustom" : {
     "sounds" : {
@@ -50,7 +46,6 @@
     "door" : "perf_perfecthatch.png"
   },
   "animationPosition" : [-25, -10],
-
   "inputNodes" : [ [-1, 4] ],
   "outputNodes" : [ [0, 0] ]
 }

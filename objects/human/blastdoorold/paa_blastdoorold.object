@@ -2,13 +2,11 @@
   "objectName" : "paa_blastdoorold",
   "colonyTags" : ["human","door"],
   "rarity" : "Common",
-
   "category" : "door",
   "price" : 125,
   "description" : "This looks like one of those old blast doors.",
   "shortdescription" : "Old Blast Door",
   "race" : "human",
-
   "inventoryIcon" : "paa_blastdoorold.png:closed",
   "orientations" : [
     {
@@ -29,10 +27,8 @@
       "direction" : "right"
     }
   ],
-
   "scripts" : [ "/objects/wired/door/door.lua" ],
   "scriptDelta" : 5,
-
   "animation" : "/objects/wired/door/door.animation",
   "animationCustom" : {
     "sounds" : {
@@ -50,7 +46,6 @@
     "door" : "paa_blastdoorold.png"
   },
   "animationPosition" : [-24, -8],
-
   "inputNodes" : [ [4, -1] ],
   "outputNodes" : [ [0, 0] ]
 }

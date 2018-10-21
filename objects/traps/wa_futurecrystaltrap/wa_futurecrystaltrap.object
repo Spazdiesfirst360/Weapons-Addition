@@ -6,18 +6,15 @@
   "description" : "A crystal trap designed to deter invaders.",
   "shortdescription" : "Futuristic Crystal Trap",
   "race" : "ancient",
-
   "apexDescription" : "This crystal forms a deadly light beam.",
   "avianDescription" : "I wouldn't want to get caught in its beam.",
   "floranDescription" : "Crystal beam hurtsss Floran.",
-  "glitchDescription" : "Exasperated. A crystal that projects deadly beams of light! Now I have seen everything.",
+  "glitchDescription" : "Exasperated. A crystal that projects deadly beams of light Now I have seen everything.",
   "humanDescription" : "That beam looks like it would hurt.",
   "hylotlDescription" : "If I memorise the pattern of the crystal's beam I can act accordingly.",
-  "novakidDescription" : "Crazy crystal shootin' light right at me!",
-
+  "novakidDescription" : "Crazy crystal shootin' light right at me",
   "category" : "trap",
   "price" : 0,
-
   "inventoryIcon" : "wa_futurecrystaltrapicon.png",
   "orientations" : [
     {
@@ -31,15 +28,12 @@
         "bg" : "wa_futurecrystaltrapground.png",
         "fg" : "wa_futurecrystaltrapground.png"
       },
-
       "renderLayer" : "Object+50",
       "lightPosition" : [0, 1],
-
       "beamDirection" : [0, 1],
       "beamStartOffset" : [0, 1.5],
       "maxBeamLength" : 50,
       "metaBoundBox" : [-4, -4, 4, 54],
-
       "spaceScan" : 0.1,
       "anchors" : [ "bottom", "left", "right" ],
       "collision" : "solid"
@@ -48,21 +42,17 @@
       "image" : "wa_futurecrystaltrapground.png:<color>.<frame>",
       "imagePosition" : [0, 0],
       "direction" : "right",
-
       "animationPosition" : [0, 0],
       "animationParts" : {
         "bg" : "wa_futurecrystaltrapground.png",
         "fg" : "wa_futurecrystaltrapground.png"
       },
-
       "renderLayer" : "Object+50",
       "lightPosition" : [0, 1],
-
       "beamDirection" : [0, 1],
       "beamStartOffset" : [1, 1.5],
       "maxBeamLength" : 50,
       "metaBoundBox" : [-4, -4, 4, 54],
-
       "spaceScan" : 0.1,
       "anchors" : [ "bottom", "left", "right" ],
       "collision" : "solid"
@@ -78,15 +68,12 @@
         "bg" : "wa_futurecrystaltrap.png",
         "fg" : "wa_futurecrystaltrap.png"
       },
-
       "renderLayer" : "Object+50",
       "lightPosition" : [-1, 0],
-
       "beamDirection" : [-1, 0],
       "beamStartOffset" : [-0.5, 1],
       "maxBeamLength" : 50,
       "metaBoundBox" : [-54, -4, 4, 4],
-
       "spaceScan" : 0.1,
       "anchors" : [ "right" ],
       "collision" : "solid"
@@ -101,15 +88,12 @@
         "bg" : "wa_futurecrystaltrap.png",
         "fg" : "wa_futurecrystaltrap.png"
       },
-
       "renderLayer" : "Object+50",
       "lightPosition" : [1, 0],
-
       "beamDirection" : [1, 0],
       "beamStartOffset" : [1.5, 1],
       "maxBeamLength" : 50,
       "metaBoundBox" : [-54, -4, 4, 4],
-
       "spaceScan" : 0.1,
       "anchors" : [ "left" ],
       "collision" : "solid"
@@ -125,15 +109,12 @@
         "bg" : "wa_futurecrystaltrapceiling.png",
         "fg" : "wa_futurecrystaltrapceiling.png"
       },
-
       "renderLayer" : "Object+50",
       "lightPosition" : [0, -1],
-
       "beamDirection" : [0, -1],
       "beamStartOffset" : [0, -0.5],
       "maxBeamLength" : 50,
       "metaBoundBox" : [-4, -54, 4, 4],
-
       "spaceScan" : 0.1,
       "anchors" : [ "top" ],
       "collision" : "solid"
@@ -148,15 +129,12 @@
         "bg" : "wa_futurecrystaltrapceiling.png",
         "fg" : "wa_futurecrystaltrapceiling.png"
       },
-
       "renderLayer" : "Object+50",
       "lightPosition" : [0, -1],
-
       "beamDirection" : [0, -1],
       "beamStartOffset" : [1, -0.5],
       "maxBeamLength" : 50,
       "metaBoundBox" : [-4, -54, 4, 4],
-
       "spaceScan" : 0.1,
       "anchors" : [ "top" ],
       "collision" : "solid"
@@ -172,15 +150,12 @@
         "bg" : "wa_futurecrystaltrapground.png",
         "fg" : "wa_futurecrystaltrapground.png"
       },
-
       "renderLayer" : "Object+50",
       "lightPosition" : [0, 1],
-
       "beamDirection" : [0, 1],
       "beamStartOffset" : [0, 1.5],
       "maxBeamLength" : 50,
       "metaBoundBox" : [-4, -4, 4, 54],
-
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ],
       "collision" : "solid"
@@ -189,27 +164,22 @@
       "image" : "wa_futurecrystaltrapground.png:<color>.<frame>",
       "imagePosition" : [0, 0],
       "direction" : "right",
-
       "animationPosition" : [0, 0],
       "animationParts" : {
         "bg" : "wa_futurecrystaltrapground.png",
         "fg" : "wa_futurecrystaltrapground.png"
       },
-
       "renderLayer" : "Object+50",
       "lightPosition" : [0, 1],
-
       "beamDirection" : [0, 1],
       "beamStartOffset" : [1, 1.5],
       "maxBeamLength" : 50,
       "metaBoundBox" : [-4, -4, 4, 54],
-
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ],
       "collision" : "solid"
     }
   ],
-
   "animation" : "/objects/wired/projectiletrap/projectiletrap.animation",
   "animationCustom" : {
     "sounds" : {
@@ -221,31 +191,23 @@
   "animationScripts" : [ "/objects/wired/projectiletrap/beamtraprendering.lua" ],
   
   "health" : 5,
-
   "smashOnBreak" : true,
   "smashSounds" : [ "/sfx/objects/rock_break1.ogg", "/sfx/objects/rock_break2.ogg", "/sfx/objects/rock_break3.ogg", "/sfx/objects/rock_break4.ogg", "/sfx/objects/rock_break5.ogg", "/sfx/objects/rock_crumble1.ogg", "/sfx/objects/rock_crumble2.ogg", "/sfx/objects/rock_crumble3.ogg", "/sfx/objects/rock_crumble4.ogg", "/sfx/objects/rock_crumble5.ogg" ],
   "smashParticles" : [ { "count" : 10, "particle" : "potshard" } ],
-
   "scripts" : [ "/objects/wired/projectiletrap/beamtrap.lua" ],
   "scriptDelta" : 5,
-
   "soundEffect" : "/sfx/objects/crystaltrap_loop.ogg",
-
   "inputNodes" : [ [0, 0] ],
-
   "inactiveLightColor" : [0, 0, 0],
   "activeLightColor" : [115, 211, 255],
-
   "lightColor" : [115, 211, 255],
   "beamImages" : {
     "first" : "/objects/traps/wa_futurecrystaltrap/beamstart.png",
     "body" : "/objects/traps/wa_futurecrystaltrap/beambody.png",
     "last" : "/objects/traps/wa_futurecrystaltrap/beamend.png"
   },
-
   "beamDamage" : {
     "damage" : 400,
-
     "teamType" : "enemy",
     "damageSourceKind" : "plasma",
     "damageType" : "Environment",

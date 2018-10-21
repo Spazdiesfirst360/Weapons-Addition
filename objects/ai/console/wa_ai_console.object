@@ -15,7 +15,6 @@
   "flickerMaxIntensity" : 1,
   "flickerPeriodVariance" : 0.1,
   "flickerIntensityVariance" : 0.0,
-
   "apexDescription" : "It's a control console with a big touch screen.",
   "avianDescription" : "A control panel with buttons that I can press, if I wish to.",
   "floranDescription" : "Control conssole has buttonsss.",
@@ -23,7 +22,6 @@
   "humanDescription" : "It's a control console. Who controls it?",
   "hylotlDescription" : "This electronic device is used to remotely control things.",
   "novakidDescription" : "A control console. What'd happen if I press the buttons?",
-
   "inventoryIcon" : "icon.png",
   "orientations" : [
     {
@@ -31,11 +29,9 @@
       "flipImages" : true,
       "direction" : "left",
       "lightPosition" : [0, 1],
-
       "imagePosition" : [-8, 0],
       "frames" : 3,
       "animationCycle" : 0.5,
-
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
     },
@@ -43,22 +39,18 @@
       "image" : "wa_ai_console.png:<color>.on",
       "direction" : "right",
       "lightPosition" : [0, 1],
-
       "imagePosition" : [-8, 0],
       "frames" : 3,
       "animationCycle" : 0.5,
-
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
     }
   ],
-
   "scripts" : [
     "/objects/wired/switch/switch.lua",
     "/scripts/npcToyObject.lua"
   ],
   "scriptDelta" : 5,
-
   "animation" : "wa_ai_console.animation",
   "animationCustom" : {
     "sounds" : {
@@ -71,9 +63,7 @@
     "fg" : "wa_ai_consolelit.png"
   },
   "animationPosition" : [-8, 0],
-
   "outputNodes" : [ [0, 0] ],
-
   "npcToy" : {
     "ownerOnly" : true,
     "influence" : [

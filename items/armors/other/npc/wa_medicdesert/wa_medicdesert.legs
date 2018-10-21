@@ -8,10 +8,8 @@
   "description" : "Military trousers, designed for a combat medic.",
   "shortdescription" : "Combat Medic Trousers",
   "tooltipKind" : "armor",
-
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png",
-
   "level" : 6,
   "leveledStatusEffects" : [
     {
@@ -35,6 +33,5 @@
       "amount" : 2
     }
   ],
-
   "itemTags" : [ "tier6armour" ]
 }

@@ -8,13 +8,11 @@
   "description" : "A military issue combat jacket, designed for a medic.",
   "shortdescription" : "Combat Medic Chest",
   "tooltipKind" : "armor",
-
   "maleFrames" : {
     "body" : "chestm.png",
     "backSleeve" : "bsleeve.png",
     "frontSleeve" : "fsleeve.png"
   },
-
   "femaleFrames" : {
     "body" : "chestf.png",
     "backSleeve" : "bsleeve.png",
@@ -43,6 +41,5 @@
       "amount" : 5
     }
   ],
-
   "itemTags" : [ "tier6armour" ]
 }

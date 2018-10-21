@@ -9,34 +9,25 @@
   "tooltipKind" : "fishingrod",
   "category" : "fishingRod",
   "twoHanded" : true,
-
   "inventoryIcon" : "paa_superfishingrod.png:light",
-
   "animation" : "fishingrod.animation",
   "animationParts" : {
     "fishingrod" : "paa_superfishingrod.png"
   },
   "animationScripts" : ["/items/active/effects/renderrope.lua"],
-
   "ropeWidth" : 0.5,
   "ropeColor" : [200, 200, 200, 100],
   "ropeFlashColor" : [220, 220, 220, 200],
-
   "scripts" : ["fishingrod.lua"],
-
   "corrodeLiquidIds" : [],
   "corrodeParticle" : "poisonswoosh2",
-
   "burnLiquidIds" : [],
   "burnParticle" : "fireswoosh1",
-
   "usesFishingUpgrades" : true,
-
   "lureType" : "basic",
   "lureName" : "Basic Lure",
   "lureIcon" : "/items/augments/fishing/lurebasic.png",
   "lureProjectile" : "fishinglure",
-
   "reelType" : "basic",
   "reelName" : "Basic Reel",
   "reelIcon" : "/items/augments/fishing/reelbasic.png",
@@ -46,7 +37,6 @@
     "reelSpeed" : 22,
     "lineBreakTime" : 1.4
   },
-
   "stances" : {
     "idle" : {
       "armRotation" : -80,
@@ -80,6 +70,5 @@
       "allowFlip" : false
     }
   },
-
   "builder" : "/items/buildscripts/buildfishingrod.lua"
 }

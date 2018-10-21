@@ -7,12 +7,10 @@
   "shortdescription" : "Submachine Gatling",
   "tooltipKind" : "gun",
   "category" : "Experimental Weapon",
-  "twoHanded" : false,
+  "twoHanded" : true,
   "itemTags" : ["weapon","ranged","assaultrifle","reagant"],
   "level" : 7,
-
   "inventoryIcon" : "wa_submachinegatling.png",
-
   "animation" : "/items/active/weapons/ranged/gun.animation",
   "animationParts" : {
   "butt" : "",
@@ -26,27 +24,20 @@
   "fire" : ["/sfx/gun/ar4.ogg"]
   }
   },
-
   "baseOffset" : [1.0, 0.375],
   "muzzleOffset" : [2.5, 0],
-
   "scripts" : ["/items/active/weapons/ranged/gun.lua"],
-
   "elementalType" : "physical",
-
   "primaryAbility" : {
   "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
   "class" : "GunFire",
-
-  "fireTime" : 0.0001,
-  "baseDps" : 2500,
+  "fireTime" : 0.01667,
+  "baseDps" : 490.0,
   "energyUsage" : 5,
-  "inaccuracy" : 0.25,
-
+  "inaccuracy" : 0.2,
   "projectileCount" : 1,
   "fireType" : "auto",
-
-  "projectileType" : "standardbullet",
+  "projectileType" : "wa_assaultsource",
   "projectileParameters" : {
   "damageKind" : "default",
   "knockback" : 5
@@ -55,31 +46,29 @@
   "idle" : {
   "armRotation" : 0,
   "weaponRotation" : 0,
-  "twoHanded" : false,
-
+  "twoHanded" : true,
   "allowRotate" : true,
   "allowFlip" : true
   },
   "fire" : {
-  "duration" : 0.0001,
-  "armRotation" : 3,
-  "weaponRotation" : 3,
-  "twoHanded" : false,
-
+  "duration" : 0.01667,
+  "armRotation" : 1,
+  "weaponRotation" : 1,
+  "twoHanded" : true,
   "allowRotate" : false,
   "allowFlip" : false
   },
   "cooldown" : {
-  "duration" : 0.0001,
-  "armRotation" : 3,
-  "weaponRotation" : 3,
-  "twoHanded" : false,
-
+  "duration" : 0.01667,
+  "armRotation" : 1,
+  "weaponRotation" : 1,
+  "twoHanded" : true,
   "allowRotate" : false,
   "allowFlip" : false
   }
   }
   },
-
+  "altAbilityType" : "rocketburst",
+  "altAbility" : { },
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }

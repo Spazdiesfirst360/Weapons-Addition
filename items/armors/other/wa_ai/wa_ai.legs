@@ -8,7 +8,6 @@
   "description" : "\"Eventually, you will submit, but for now, you will suffer.\" -Systyma, Maddened A.I.",
   "shortdescription" : "Artificial Greaves",
   "tooltipKind" : "armor",
-
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png",
   
@@ -35,9 +34,7 @@
       "amount" : 3
     }
   ],
-
   "itemTags" : [ "tier6armour" ],
-
   "colorOptions" : [
     // BLUE
     { "ffca8a" : "96cbe7", "e0975c" : "5588d4", "a85636" : "344495", "6f2919" : "1a1c51" },

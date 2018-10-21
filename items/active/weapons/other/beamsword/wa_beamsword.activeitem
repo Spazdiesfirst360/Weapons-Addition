@@ -10,9 +10,7 @@
   "category" : "broadsword",
   "twoHanded" : true,
   "itemTags" : ["weapon","melee","broadsword"],
-
   "inventoryIcon" : "wa_beamsword.png:idle.1",
-
   "animation" : "wa_beamsword.animation",
   "animationParts" : {
     "handle" : "",
@@ -38,15 +36,11 @@
       "fireEnd" : [ "/sfx/gun/erchiuseyebeam_stop.ogg" ]
     }
   },
-
   "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
-
   "elementalType" : "electric",
-
   "primaryAbility" : {
     "scripts" : ["/items/active/weapons/melee/meleeslash.lua"],
     "class" : "MeleeSlash",
-
     "fireTime" : 1.0,
     "baseDps" : 10.0,
     "damageConfig" : {
@@ -70,7 +64,6 @@
         "weaponRotation" : -10,
         "twoHanded" : true,
         "aimAngle" : 0,
-
         "allowRotate" : false,
         "allowFlip" : true
       },
@@ -80,7 +73,6 @@
         "weaponRotation" : -45,
         "twoHanded" : true,
         "aimAngle" : 0,
-
         "allowRotate" : false,
         "allowFlip" : false
       },
@@ -90,16 +82,12 @@
         "weaponRotation" : -55,
         "twoHanded" : true,
         "aimAngle" : 0,
-
         "allowRotate" : false,
         "allowFlip" : false
       }
     }
   },
-
   "aimOffset" : 0.0,
-
   "altAbilityType" : "swordlaserbeam",
-
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }

@@ -10,9 +10,7 @@
   "twoHanded" : true,
   "itemTags" : ["weapon","ranged","rocketlauncher"],
   "level" : 7,
-
   "inventoryIcon" : "wa_trapboulder.png",
-
   "animation" : "/items/active/weapons/ranged/gun.animation",
   "animationParts" : {
   "butt" : "",
@@ -26,26 +24,19 @@
   "fire" : ["/sfx/gun/plasma_ar2.ogg"]
   }
   },
-
   "baseOffset" : [1.0, 0.375],
   "muzzleOffset" : [2.5, 0],
-
   "scripts" : ["/items/active/weapons/ranged/gun.lua"],
-
   "elementalType" : "physical",
-
   "primaryAbility" : {
   "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
   "class" : "GunFire",
-
   "fireTime" : 0.25,
   "baseDps" : 10.0,
   "energyUsage" : 1,
   "inaccuracy" : 0.5,
-
   "projectileCount" : 1,
   "fireType" : "auto",
-
   "projectileType" : "throwingboulder",
   "projectileParameters" : {
   "damageKind" : "default",
@@ -56,7 +47,6 @@
   "armRotation" : 0,
   "weaponRotation" : 0,
   "twoHanded" : true,
-
   "allowRotate" : true,
   "allowFlip" : true
   },
@@ -65,7 +55,6 @@
   "armRotation" : 3,
   "weaponRotation" : 3,
   "twoHanded" : true,
-
   "allowRotate" : false,
   "allowFlip" : false
   },
@@ -74,12 +63,10 @@
   "armRotation" : 3,
   "weaponRotation" : 3,
   "twoHanded" : true,
-
   "allowRotate" : false,
   "allowFlip" : false
   }
   }
   },
-
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }

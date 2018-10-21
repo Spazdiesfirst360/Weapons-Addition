@@ -2,13 +2,11 @@
   "objectName" : "wa_ai_door2",
   "colonyTags" : ["astro","door"],
   "rarity" : "Common",
-
   "category" : "door",
   "price" : 125,
   "description" : "This odd door acts as an airlock.",
   "shortdescription" : "AI Door",
   "race" : "generic",
-
   "inventoryIcon" : "icon.png",
   "orientations" : [
     {
@@ -29,12 +27,9 @@
       "direction" : "right"
     }
   ],
-
   "scripts" : [ "/objects/wired/door/door.lua" ],
   "scriptDelta" : 5,
-
   "sensorConfig" : {},
-
   "animation" : "/objects/wired/door/door.animation",
   "animationCustom" : {
     "sounds" : {
@@ -52,7 +47,6 @@
     "door" : "wa_ai_door2.png"
   },
   "animationPosition" : [-20, 0],
-
   "inputNodes" : [ [-1, 4] ],
   "outputNodes" : [ [0, 0] ]
 }

@@ -8,7 +8,6 @@
   "description" : "This generator outputs a wire signal until broken.",
   "shortdescription" : "Wired Target",
   "race" : "generic",
-
   "inventoryIcon" : "wa_ai_generatoricon.png",
   "orientations" : [
     {
@@ -17,7 +16,6 @@
       "imagePosition" : [-8, -8],
       "frames" : 4,
       "animationCycle" : 0.8,
-
       "spaceScan" : 0.1,
       "anchors" : [ ],
       "direction" : "left"
@@ -27,19 +25,15 @@
       "imagePosition" : [-8, -8],
       "frames" : 4,
       "animationCycle" : 0.8,
-
       "spaceScan" : 0.1,
       "anchors" : [ ],
       "direction" : "right"
     }
   ],
-
   "outputNodes" : [ [0, 0] ],
-
   "smashable" : true,
   "smashSounds" : [ "/sfx/objects/pot_break_medium1.ogg", "/sfx/objects/pot_break_medium2.ogg" ],
   "smashParticles" : [ { "count" : 4, "particle" : "redtargetshard" }, { "count" : 4, "particle" : "greytargetshard" } ],
-
   "scripts" : ["/objects/ai/wa_ai_generator/wa_wiredtarget.lua"],
   "scriptDelta" : 0
 }

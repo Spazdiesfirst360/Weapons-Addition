@@ -11,7 +11,6 @@
   "category" : "uniqueWeapon",
   "itemTags" : ["weapon","ranged","rifle"],
   "twoHanded" : true,
-
   "animation" : "/items/active/weapons/ranged/gun.animation",
   "animationParts" : {
     "butt" : "",
@@ -24,26 +23,19 @@
       "fire" : [ "/sfx/gun/ar6.ogg" ]
     }
   },
-
   "baseOffset" : [0.5, 0.0],
   "muzzleOffset" : [1.975, 0.25],
-
   "scripts" : ["/items/active/weapons/ranged/gun.lua"],
-
   "elementalType" : "physical",
-
   "primaryAbility" : {
     "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
     "class" : "GunFire",
-
     "fireTime" : 0.0001,
     "baseDps" : 1,
     "energyUsage" : 1,
     "inaccuracy" : 0.008,
-
     "projectileCount" : 1,
     "fireType" : "auto",
-
     "projectileType" : "wa_stungas",
     "projectileParameters" : {
       "knockback" : 10,
@@ -54,7 +46,6 @@
         "armRotation" : 0,
         "weaponRotation" : 0,
         "twoHanded" : true,
-
         "allowRotate" : true,
         "allowFlip" : true
       },
@@ -63,7 +54,6 @@
         "armRotation" : 5,
         "weaponRotation" : 5,
         "twoHanded" : true,
-
         "allowRotate" : false,
         "allowFlip" : false
       },
@@ -72,13 +62,11 @@
         "armRotation" : 5,
         "weaponRotation" : 5,
         "twoHanded" : true,
-
         "allowRotate" : false,
         "allowFlip" : false
       }
     }
   },
-
   "altAbilityType" : "wa_multiflamer",
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }

@@ -6,36 +6,29 @@
   "tooltipKind" : "container",
   "race" : "ancient",
   "health" : 1.5,
-
   "category" : "storage",
   "price" : 0,
   "printable" : false,
   "description" : "An ancient chest of unknown origin. I wonder why this one is red...",
   "shortdescription" : "Ancient Chest",
-
   "inventoryIcon" : "ancientchesticon.png",
   "orientations" : [
     {
       "imageLayers" : [ { "image" : "ancientchestred.png:<color>.<key>", "fullbright" : true }, { "image" : "ancientchestredlit.png:<color>.<key>" } ],
       "imagePosition" : [-16, 0],
-
       "direction" : "left",
       "flipImages" : true,
-
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
     },
     {
       "imageLayers" : [ { "image" : "ancientchestred.png:<color>.<key>", "fullbright" : true }, { "image" : "ancientchestredlit.png:<color>.<key>" } ],
       "imagePosition" : [-16, 0],
-
       "direction" : "right",
-
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
     }
   ],
-
   "openSounds" : [ "/sfx/objects/chest_small_open.ogg" ],
   "closeSounds" : [ "/sfx/objects/chest_small_close.ogg" ],
   "slotCount" : 9,

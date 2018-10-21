@@ -9,26 +9,19 @@
   "tooltipKind" : "base",
   "twoHanded" : true,
   "itemTags" : ["miningtool", "pickaxe"],
-
   "inventoryIcon" : "energypickaxeicon.png",
-
   "animation" : "/items/active/weapons/melee/pickaxe/superpickaxe.animation",
   "animationParts" : {
     "handle" : "superpickaxehandle.png",
     "blade" : "superpickaxehead.png"
   },
-
   "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
-
   "elementalType" : "physical",
-
   "primaryAbilityType" : "superpickslash",
   "primaryAbility" : {
     "layer" : "foreground",
-
     "activatingFireMode" : "primary",
     "energyUsage" : 100,
-
     "requisiteAnimationStates" : {
       "blade" : "active"
     },
@@ -39,14 +32,11 @@
       "blade" : "deactivating"
     }
   },
-
   "altAbilityType" : "superpickslash",
   "altAbility" : {
     "layer" : "background",
-
     "activatingFireMode" : "alt",
     "energyUsage" : 100,
-
     "requisiteAnimationStates" : {
       "blade" : "active"
     },
@@ -57,6 +47,5 @@
       "blade" : "deactivating"
     }
   },
-
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }

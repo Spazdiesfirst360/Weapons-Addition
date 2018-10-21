@@ -8,15 +8,12 @@
   "description" : "Get free stuff.",
   "shortdescription" : "Supply Crate",
   "twoHanded" : true,
-
   "inventoryIcon" : "wa_rewardcrateicon.png",
   "animation" : "wa_rewardcrate.animation",
   "animationCustom" : {},
   "scripts" : ["wa_rewardcrate.lua"],
-
   "fireTime" : 2.0,
   "fireOffset" : [1.0, 0.0],
-
   "treasure" : {
     "pool" : "wa_supplycrateLoot",
     "level" : 5

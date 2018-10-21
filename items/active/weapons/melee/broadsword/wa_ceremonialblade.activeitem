@@ -10,23 +10,16 @@
   "category" : "broadsword",
   "twoHanded" : true,
   "itemTags" : ["weapon","melee","broadsword"],
-
   "inventoryIcon" : "wa_ceremonialblade.png",
-
   "animation" : "/items/active/weapons/melee/broadsword/wa_ceremonialblade.animation",
   "animationCustom" : { },
-
   "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
-
   "elementalType" : "poison",
-
   "primaryAbilityType" : "broadswordcombo",
   "primaryAbility" : {
 	"fireTime" : 0.276,
     "baseDps" : 60.5
   },
-
   "altAbilityType" : "giantsword",
-
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }

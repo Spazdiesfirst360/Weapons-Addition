@@ -10,9 +10,7 @@
   "twoHanded" : true,
   "itemTags" : ["weapon"],
   "level" : 3,
-
   "inventoryIcon" : "paa_specialflashlighticon.png",
-
   "animation" : "/items/active/weapons/ranged/gun.animation",
   "animationParts" : {
   "butt" : "",
@@ -26,18 +24,13 @@
   "fire" : ["/sfx/gun/grenade2.ogg"]
   }
   },
-
   "baseOffset" : [1.0, 0.375],
   "muzzleOffset" : [2.5, 0],
-
   "scripts" : ["/items/active/weapons/ranged/gun.lua"],
-
   "elementalType" : "physical",
-
   "primaryAbilityType" : "flashlight",
   "primaryAbility" : {},
   "altAbilityType" : "tacticalflashlight",
   "altAbility" : {},
-
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }

@@ -1,0 +1,30 @@
+{
+  "itemName" : "wa_throwhammer",
+  "price" : 5000,
+  "rarity" : "legendary",
+  "category" : "throwableItem",
+  "inventoryIcon" : "wa_throwhammer.png",
+  "image" : "wa_throwhammer.png",
+  "shortdescription" : "Fire Hammer",
+  "description" : "Flaming hammers you can throw.",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.01,
+
+  "projectileType" : "wa_throwhammerfire",
+  "projectileConfig" : {
+    "speed" : 180,
+    "power" : 80,
+    "periodicActions" : [
+      {
+        "time" : 0,
+        "repeat" : false,
+        "action" : "sound",
+        "options" : [ "/sfx/projectiles/throw_item_small.ogg" ]
+      }
+    ]
+  }
+}

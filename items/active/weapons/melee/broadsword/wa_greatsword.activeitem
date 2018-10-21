@@ -10,23 +10,16 @@
   "category" : "broadsword",
   "twoHanded" : true,
   "itemTags" : ["weapon","melee","broadsword"],
-
   "inventoryIcon" : "wa_greatsword.png",
-
   "animation" : "/items/active/weapons/melee/broadsword/wa_greatsword.animation",
   "animationCustom" : { },
-
   "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
-
   "elementalType" : "physical",
-
   "primaryAbilityType" : "broadswordcombo",
   "primaryAbility" : {
 	"fireTime" : 1.5,
     "baseDps" : 67.5
   },
-
   "altAbilityType" : "bladecharge",
-
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }

@@ -10,9 +10,7 @@
   "twoHanded" : true,
   "itemTags" : ["weapon","ranged","sniperrifle"],
   "level" : 6,
-
   "inventoryIcon" : "wa_survivalrifle6.png",
-
   "animation" : "/items/active/weapons/ranged/gun.animation",
   "animationParts" : {
   "butt" : "",
@@ -40,27 +38,19 @@
       }
     ]
   },
-
   "baseOffset" : [1.0, 0.375],
   "muzzleOffset" : [2.5, 0],
-
   "scripts" : ["/items/active/weapons/ranged/gun.lua"],
-
   "elementalType" : "physical",
-
   "primaryAbility" : {
   "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
   "class" : "GunFire",
-
-
   "fireTime" : 0.2,
   "baseDps" : 13.0,
   "energyUsage" : 10,
   "inaccuracy" : 0.0,
-
   "projectileCount" : 1,
   "fireType" : "auto",
-
   "projectileType" : "standardbullet",
   "projectileParameters" : {
   "damageKind" : "default",
@@ -71,7 +61,6 @@
   "armRotation" : 0,
   "weaponRotation" : 0,
   "twoHanded" : true,
-
   "allowRotate" : true,
   "allowFlip" : true
   },
@@ -80,7 +69,6 @@
   "armRotation" : 3,
   "weaponRotation" : 3,
   "twoHanded" : true,
-
   "allowRotate" : false,
   "allowFlip" : false
   },
@@ -89,7 +77,6 @@
   "armRotation" : 3,
   "weaponRotation" : 3,
   "twoHanded" : true,
-
   "allowRotate" : false,
   "allowFlip" : false
   }
@@ -97,6 +84,5 @@
   },
   "altAbilityType" : "tacticalflashlight",
   "altAbility" : { },
-
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }

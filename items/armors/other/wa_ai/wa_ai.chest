@@ -8,13 +8,11 @@
   "description" : "\"Why fight what is inevitable?\" -Systyma, Madddened A.I.",
   "shortdescription" : "Artificial Chestplate",
   "tooltipKind" : "armor",
-
   "maleFrames" : {
     "body" : "chestm.png",
     "backSleeve" : "bsleeve.png",
     "frontSleeve" : "fsleeve.png"
   },
-
   "femaleFrames" : {
     "body" : "chestf.png",
     "backSleeve" : "bsleeve.png",
@@ -44,9 +42,7 @@
       "amount" : 7
     }
   ],
-
   "itemTags" : [ "tier6armour" ],
-
   "colorOptions" : [
     // BLUE
     { "ffca8a" : "96cbe7", "e0975c" : "5588d4", "a85636" : "344495", "6f2919" : "1a1c51" },

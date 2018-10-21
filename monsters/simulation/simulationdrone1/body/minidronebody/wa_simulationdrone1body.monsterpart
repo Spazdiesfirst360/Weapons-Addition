@@ -1,0 +1,9 @@
+{
+  "name" : "wa_simulationdrone1body",
+  "category" : "wa_simulationdrone1_parts",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "wa_simulationdrone1body.png"
+  }
+}

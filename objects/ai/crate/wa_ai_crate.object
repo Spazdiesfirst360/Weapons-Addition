@@ -10,39 +10,30 @@
   "category" : "storage",
   "price" : 220,
   "health" : 20,
-
   "inventoryIcon" : "astrocrateicon.png",
   "orientations" : [
     {
-
       "image" : "wa_ai_crate.png:<color>",
       "imagePosition" : [-24, 0],
-
       "direction" : "left",
       "flipImages" : true,
-
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ],
       "collision" : "platform"
     },
     {
-
       "image" : "wa_ai_crate.png:<color>",
       "imagePosition" : [-24, 0],
-
       "direction" : "right",
-
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ],
       "collision" : "platform"
     }
   ],
-
   "openSounds" : [ "/sfx/objects/metalbox_open.ogg" ],
   "closeSounds" : [ "/sfx/objects/metalbox_close.ogg" ],
   "slotCount" : 48,
   "uiConfig" : "/interface/chests/chest<slots>.config",
   "frameCooldown" : 5,
   "autoCloseCooldown" : 3600
-
 }

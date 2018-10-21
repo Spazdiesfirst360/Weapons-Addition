@@ -7,9 +7,7 @@
   "race" : "generic",
   "printable" : false,
   // "hasObjectItem" : false,
-
   "lightColor" : [255, 255, 255],
-
   "inventoryIcon" : "shipyardjunkicon.png",
   "orientations" : [
     {
@@ -19,10 +17,8 @@
       "flipImages" : true,
   
       "lightPosition" : [0, 25],
-
       "frames" : 1,
       "animationCycle" : 1.0,
-
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
     },
@@ -31,12 +27,9 @@
       "imageLayers" : [ { "image" : "wa_crane.png", "fullbright" : true }, { "image" : "wa_cranelit.png" } ],
       "imagePosition" : [-120, 0],
       "direction" : "right",
-
       "lightPosition" : [0, 25],
-
       "frames" : 1,
       "animationCycle" : 1.0,
-
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
     }

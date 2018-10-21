@@ -8,13 +8,11 @@
   "race" : "generic",
   "category" : "crafting",
   "collectablesOnPickup" : { "paa_kx1collection" : "paa_liquidcrafter" },
-
   "interactAction" : "OpenCraftingInterface",
   "interactData" : {
     "config" : "/interface/windowconfig/paa_liquidcrafter.config",
     "filter" : [ "paa_liqcraft" ]
   },
-
   "inventoryIcon" : "paa_liquidcraftericon.png",
   "orientations" : [
     {
@@ -26,7 +24,6 @@
      
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
-
     }
   ]
 }

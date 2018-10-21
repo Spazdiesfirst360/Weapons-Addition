@@ -1,0 +1,9 @@
+{
+  "itemName" : "wa_simulationchip",
+  "price" : 0,
+  "rarity" : "legendary",
+  "category" : "quest",
+  "inventoryIcon" : "wa_simulationchip.png",
+  "description" : "Plug this into a working simulator and you have yourself a working simulation!",
+  "shortdescription" : "Simulation Data"
+}

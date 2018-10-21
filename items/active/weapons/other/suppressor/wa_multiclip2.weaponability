@@ -1,0 +1,192 @@
+{
+  "animationCustom" : {
+    "animatedParts" : {
+      "stateTypes" : {
+        "ammoType" : {
+          "default" : "1",
+          "states" : {
+            "1" : {
+              "frames" : 1,
+              "properties" : {
+                "particleEmittersOff" : [ "fireAmmo", "iceAmmo", "electricAmmo", "poisonAmmo" ]
+              }
+            },
+            "2" : {
+              "frames" : 1,
+              "properties" : {
+                "particleEmittersOff" : [ "iceAmmo", "electricAmmo", "poisonAmmo" ],
+                "particleEmittersOn" : [ "fireAmmo" ]
+              }
+            },
+            "3" : {
+              "frames" : 1,
+              "properties" : {
+                "particleEmittersOff" : [ "fireAmmo", "electricAmmo", "poisonAmmo" ],
+                "particleEmittersOn" : [ "iceAmmo" ]
+              }
+            },
+            "4" : {
+              "frames" : 1,
+              "properties" : {
+                "particleEmittersOff" : [ "fireAmmo", "iceAmmo", "poisonAmmo" ],
+                "particleEmittersOn" : [ "electricAmmo" ]
+              }
+            },
+            "5" : {
+              "frames" : 1,
+              "properties" : {
+                "particleEmittersOff" : [ "fireAmmo", "iceAmmo", "electricAmmo" ],
+                "particleEmittersOn" : [ "poisonAmmo" ]
+              }
+            }
+          }
+        }
+      },
+
+      "parts" : {
+        "middle" : {
+          "properties" : {
+            "image" : null
+          },
+
+          "partStates" : {
+            "ammoType" : {
+              "1" : {
+                "properties" : {
+                  "image" : "<partImage>:wooden.<frame><paletteSwaps>"
+                }
+              },
+              "2" : {
+                "properties" : {
+                  "image" : "<partImage>:explosive.<frame><paletteSwaps>"
+                }
+              },
+              "3" : {
+                "properties" : {
+                  "image" : "<partImage>:ice.<frame><paletteSwaps>"
+                }
+              },
+              "4" : {
+                "properties" : {
+                  "image" : "<partImage>:electric.<frame><paletteSwaps>"
+                }
+              },
+              "5" : {
+                "properties" : {
+                  "image" : "<partImage>:poison.<frame><paletteSwaps>"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+
+    "particleEmitters" : {
+      "fireAmmo" : {
+        "transformationGroups" : ["weapon"],
+        "offsetRegion" : [0, 0, 1.5, 0],
+        "emissionRate" : 3.0,
+        "particles" : [
+          { "particle" : "fireember" },
+          { "particle" : "fireember" },
+          { "particle" : "fireember" }
+        ]
+      },
+      "iceAmmo" : {
+        "transformationGroups" : ["weapon"],
+        "offsetRegion" : [0, 0, 1.5, 0],
+        "emissionRate" : 3.0,
+        "particles" : [
+          { "particle" : "iceaura" }
+        ]
+      },
+      "electricAmmo" : {
+        "transformationGroups" : ["weapon"],
+        "offsetRegion" : [0, 0, 1.5, 0],
+        "emissionRate" : 1.0,
+        "particles" : [
+          { "particle" : "teslabolt" },
+          { "particle" : "electricalburn" },
+          { "particle" : "electricalburn" },
+          { "particle" : "electricswoosh2" },
+          { "particle" : "electricswoosh2" }
+        ]
+      },
+      "poisonAmmo" : {
+        "transformationGroups" : ["weapon"],
+        "offsetRegion" : [0, 0, 1.5, 0],
+        "emissionRate" : 1.0,
+        "particles" : [
+          { "particle" : "poisondrip2" },
+          { "particle" : "poisondrip2" },
+          { "particle" : "poisondrip2" }
+        ]
+      }
+
+    },
+
+    "sounds" : {
+      "switchAmmo" : [ "/sfx/gun/reload/ar_reload_clip3.ogg" ]
+    }
+  },
+
+  "ability" : {
+    "type" : "wa_multiclip2",
+    "name" : "Ammo Switch",
+    "scripts" : ["/items/active/weapons/other/suppressor/wa_multiclip2.lua"],
+    "class" : "TerraAmmo1",
+
+    "adaptedAbilityIndex" : 1,
+
+    "ammoTypes" : [
+      {
+        "projectileType" : "standardbullet",
+        "energyUsage" : 10
+      },
+      {
+        "projectileType" : "fireplasma",
+		"statusEffects" : [ "burning" ],
+        "energyUsage" : 10
+      },
+      {
+        "projectileType" : "iceplasma",
+		"statusEffects" : [ "frostslow" ],
+        "energyUsage" : 10
+      },
+      {
+        "projectileType" : "electricplasma",
+		"statusEffects" : [ "electrified" ],
+        "energyUsage" : 10
+      },
+      {
+        "projectileType" : "poisonplasma",
+		"statusEffects" : [ "weakpoison" ],
+        "energyUsage" : 10
+      }
+    ],
+
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+  
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "switch" : {
+        "aimAngle" : 0,
+        "armRotation" : -40,
+        "weaponRotation" : 60,
+        "weaponAngularVelocity" : -150,
+        "armAngularVelocity" : 100,
+        "twoHanded" : true,
+        "duration" : 0.4,
+  
+        "allowRotate" : false,
+        "allowFlip" : true
+      }
+    }
+  }
+}

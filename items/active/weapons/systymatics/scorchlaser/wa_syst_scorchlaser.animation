@@ -1,15 +1,26 @@
 {
   "animatedParts" : {
     "stateTypes" : {
-      "gun" : {
-        "default" : "idle",
+      "firing" : {
+        "default" : "off",
         "states" : {
-          "idle" : {},
-          "reload" : {
+          "off" : {},
+          "charge" : {
             "frames" : 4,
-            "cycle" : 0.4,
+            "cycle" : 1.0,
             "mode" : "transition",
-            "transition" : "idle"
+            "transition" : "fullcharge"
+          },
+          "fullcharge" : {
+            "frames" : 3,
+            "cycle" : 0.2,
+            "mode" : "loop"
+          },
+          "fire" : {
+            "frames" : 1,
+            "cycle" : 0.07,
+            "mode" : "transition",
+            "transition" : "off"
           }
         }
       }
@@ -18,22 +29,31 @@
     "parts" : {
       "gun" : {
         "properties" : {
-          "zLevel" : 0,
           "centered" : true,
-          "offset" : [-0.5, 0.25],
+          "offset" : [1.0, 0.25],
           "transformationGroups" : ["weapon"]
         },
 
         "partStates" : {
-          "gun" : {
-            "idle" : {
+          "firing" : {
+            "off" : {
               "properties" : {
-                "image" : "<partImage>:idle"
+                "image" : "<partImage>:empty"
               }
             },
-            "reload" : {
+            "charge" : {
               "properties" : {
-                "image" : "<partImage>:spin.<frame>"
+                "image" : "<partImage>:charge.<frame>"
+              }
+            },
+            "fullcharge" : {
+              "properties" : {
+                "image" : "<partImage>:fullcharge.<frame>"
+              }
+            },
+            "fire" : {
+              "properties" : {
+                "image" : "<partImage>:fire"
               }
             }
           }
@@ -41,23 +61,33 @@
       },
       "gunfullbright" : {
         "properties" : {
-          "zLevel" : 1,
           "centered" : true,
-          "fullbright" : true,
-          "offset" : [-0.5, 0.25],
-          "transformationGroups" : ["weapon"]
+          "offset" : [1.0, 0.25],
+          "transformationGroups" : ["weapon"],
+          "zLevel" : 1,
+          "fullbright" : true
         },
 
         "partStates" : {
-          "gun" : {
-            "idle" : {
+          "firing" : {
+            "off" : {
               "properties" : {
-                "image" : "<partImage>:idle"
+                "image" : "<partImage>:empty"
               }
             },
-            "reload" : {
+            "charge" : {
               "properties" : {
-                "image" : "<partImage>:spin.<frame>"
+                "image" : "<partImage>:charge.<frame>"
+              }
+            },
+            "fullcharge" : {
+              "properties" : {
+                "image" : "<partImage>:fullcharge.<frame>"
+              }
+            },
+            "fire" : {
+              "properties" : {
+                "image" : "<partImage>:fire"
               }
             }
           }
@@ -72,7 +102,6 @@
   },
 
   "sounds" : {
-    "reload" : ["/sfx/melee/mech_drill_windup2.ogg"],
-    "fire" : ["/sfx/gun/plasma_sniper2.ogg"]
+    "fire" : ["/sfx/gun/omnicannon_shot4.ogg"]
   }
 }

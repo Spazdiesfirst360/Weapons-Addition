@@ -1,0 +1,13 @@
+{
+  "itemName" : "wa_simulationdata",
+  "price" : 300,
+  "rarity" : "rare",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "wa_simulationdata.png",
+  "description" : "A fragment of a simulation.",
+  "shortdescription" : "Simulation Fragment",
+  "itemTags" : [ "reagent" ],
+  "learnBlueprintsOnPickup" : [
+    "wa_simulationchip"
+  ]
+}

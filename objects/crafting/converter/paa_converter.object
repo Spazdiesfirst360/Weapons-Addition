@@ -14,7 +14,6 @@
     "config" : "/interface/windowconfig/paa_converter.config",
     "filter" : [ "paa_convert" ]
   },
-
   "inventoryIcon" : "paa_convertericon.png",
   "orientations" : [
     {
@@ -26,7 +25,6 @@
      
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
-
     }
   ]
 }

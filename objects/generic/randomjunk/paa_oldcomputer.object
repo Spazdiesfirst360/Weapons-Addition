@@ -9,7 +9,6 @@
   "price" : 20,
   "printable" : true,
   "itemTags" : [ "reagant" ],
-
   "inventoryIcon" : "paa_oldcomputer.png",
   "orientations" : [
     {
@@ -17,10 +16,8 @@
       "imagePosition" : [-24, -16],
       "frames" : 1,
       "animationCycle" : 0.5,
-
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
-
     }
   ],
   "learnBlueprintsOnPickup" : [

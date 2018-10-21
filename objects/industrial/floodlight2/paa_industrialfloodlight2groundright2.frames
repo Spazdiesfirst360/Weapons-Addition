@@ -14,7 +14,6 @@
       [ "white.on", "white.off" ]
     ]
   },
-
   "aliases" : {
     "default.default" : "default.on",
     "red.default" : "red.on",

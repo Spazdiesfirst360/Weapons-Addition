@@ -1,0 +1,71 @@
+{
+  "itemName" : "wa_supersubmachinegatling",
+  "price" : 10000,
+  "inventoryIcon" : "wa_supersubmachinegatling.png:wooden.1",
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "\"Designed with the elements in mind.\"",
+  "shortdescription" : "Super Submachine Gatling",
+  "level" : 6,
+  "tooltipKind" : "gun",
+  "category" : "uniqueWeapon",
+  "itemTags" : ["weapon","ranged","assaultrifle"],
+  "twoHanded" : true,
+  "animation" : "/items/active/weapons/ranged/gun.animation",
+  "animationParts" : {
+    "butt" : "",
+    "middle" : "wa_supersubmachinegatling.png",
+    "barrel" : "",
+    "muzzleFlash" : ""
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : [ "/sfx/gun/ar4.ogg" ]
+    }
+  },
+  "baseOffset" : [1.0, 0.375],
+  "muzzleOffset" : [2.5, 0],
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+  "elementalType" : "physical",
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
+    "fireTime" : 0.01667,
+    "baseDps" : 490.0,
+    "energyUsage" : 10,
+    "inaccuracy" : 0.2,
+    "projectileCount" : 1,
+    "fireType" : "auto",
+    "projectileType" : "standardbullet",
+    "projectileParameters" : {
+      "knockback" : 5
+    },
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0.01667,
+        "armRotation" : 1,
+        "weaponRotation" : 1,
+        "twoHanded" : true,
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "cooldown" : {
+        "duration" : 0.01667,
+        "armRotation" : 1,
+        "weaponRotation" : 1,
+        "twoHanded" : true,
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+    }
+  },
+  "altAbilityType" : "wa_multiclip3",
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

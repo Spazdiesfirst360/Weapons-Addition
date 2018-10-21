@@ -8,19 +8,16 @@
   "description" : "Oh my, this is some old armor. I wonder if it even protects the wearer...",
   "shortdescription" : "Nemesis Chestplate",
   "tooltipKind" : "armor",
-
   "maleFrames" : {
     "body" : "chestm.png",
     "backSleeve" : "bsleeve.png",
     "frontSleeve" : "fsleeve.png"
   },
-
   "femaleFrames" : {
     "body" : "chestf.png",
     "backSleeve" : "bsleeve.png",
     "frontSleeve" : "fsleeve.png"
   },
-
   "level" : 6,
   "leveledStatusEffects" : [
     {
@@ -44,6 +41,5 @@
       "amount" : 7
     }
   ],
-
   "itemTags" : [ "tier6armour" ]
 }

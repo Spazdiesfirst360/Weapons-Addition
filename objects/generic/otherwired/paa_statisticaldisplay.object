@@ -4,37 +4,29 @@
   "rarity" : "Common",
   "category" : "decorative",
   "price" : 300,
-
   "description" : "A screen showing statistical data.",
   "shortdescription" : "Large Statistical Data Screen",
   "race" : "generic",
-
   "lightColor" : [89, 149, 179],
-
   "inventoryIcon" : "paa_statisticaldisplayicon.png",
   "orientations" : [
     {
       "image" : "paa_statisticaldisplay.png:default.<frame>",
       "imagePosition" : [-40, -24],
-
       "direction" : "right",
-
       "spaceScan" : 0.1,
       "anchors" : [ "background" ]
     }
   ],
-
   "animation" : "paa_statisticaldisplay.animation",
   "animationParts" : {
     "bg" : "paa_statisticaldisplay.png",
     "fg" : "paa_statisticaldisplaylit.png"
   },
   "animationPosition" : [-40, -24],
-
   "scripts" : [ "/objects/wired/light/light.lua" ],
   "scriptDelta" : 60,
   
   "interactive" : true,
-
   "inputNodes" : [ [0, 0] ]
 }

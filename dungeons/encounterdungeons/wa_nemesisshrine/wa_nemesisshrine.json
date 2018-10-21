@@ -805,7 +805,7 @@
         }, 
         {
          "firstgid":8670,
-         "source":"..\/..\/..\/..\/..\/..\/Starbound\/mods\/weaponsaddition\/tilesets\/packed\/objects-by-category\/wa_objects.json"
+         "source":"..\/..\/..\/..\/..\/..\/..\/..\/..\/tilesets\/packed\/objects-by-category\/wa_objects.json"
         }],
  "tilewidth":8,
  "type":"map",

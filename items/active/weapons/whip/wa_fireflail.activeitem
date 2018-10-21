@@ -10,7 +10,6 @@
   "category" : "whip",
   "twoHanded" : false,
   "itemTags" : ["weapon"],
-
   "inventoryIcon" : "wa_fireflail.png:idle",
   "animation" : "whip.animation",
   "animationParts" : {
@@ -29,7 +28,6 @@
       "crack" : [ "/sfx/melee/energywhip_impact1.ogg", "/sfx/melee/energywhip_impact2.ogg", "/sfx/melee/energywhip_impact3.ogg" ]
     }
   },
-
   "chain" : {
     "startOffset" : [0.625, 0],
     "length" : [3, 12],
@@ -38,19 +36,15 @@
     "segmentSize" : 0.375,
     "fullbright" : true
   },
-
   "scripts" : [ "whip.lua" ],
-
   "primaryAbilityType" : "whipcrack",
   "primaryAbility" : {
     "fireTime" : 1.1,
     "chainDps" : 2.4,
     "crackDps" : 7.2,
-
     "damageConfig" : {
       "damageSourceKind" : "fire"
     }
   },
-
   "builder" : "/items/buildscripts/buildwhip.lua"
 }

@@ -4,13 +4,12 @@
   "level" : 6,
   "maxStack" : 1,
   "rarity" : "Legendary",
-  "description" : "^red;Very destructive!^reset;",
+  "description" : "red;Very destructivereset;",
   "shortdescription" : "Remote Grenade Launcher ^yellow;2^reset;",
   "tooltipKind" : "base",
   "category" : "grenadeLauncher",
   "twoHanded" : true,
   "itemTags" : ["weapon"],
-
   "inventoryIcon" : "wa_specialweapon1.png",
   "animation" : "remotegrenadelauncher.animation",
   "animationParts" : {
@@ -35,7 +34,6 @@
   "fireOffset" : [3.25, 0.625],
   "fireTime" : 1.25,
   "inaccuracy" : 0.0,
-
   "projectileType" : "remotestickygrenade2",
   "projectileParameters" : {
     "power" : 8,
