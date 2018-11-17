@@ -1,0 +1,30 @@
+{
+  "itemName" : "wa_lightgrenade",
+  "price" : 50,
+  "rarity" : "Common",
+  "category" : "throwableItem",
+  "inventoryIcon" : "wa_lightgrenade.png",
+  "image" : "wa_lightgrenade.png",
+  "shortdescription" : "Light Grenade",
+  "description" : "A grenade that bursts into tiny homing projectiles.",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.4,
+
+  "projectileType" : "wa_lightbomb",
+  "projectileConfig" : {
+    "speed" : 25,
+    "power" : 60,
+    "periodicActions" : [
+      {
+        "time" : 0,
+        "repeat" : false,
+        "action" : "sound",
+        "options" : [ "/sfx/projectiles/throw_item.ogg" ]
+      }
+    ]
+  }
+}

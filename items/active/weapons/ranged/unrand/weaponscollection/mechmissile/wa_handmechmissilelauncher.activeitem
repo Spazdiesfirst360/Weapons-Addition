@@ -32,10 +32,10 @@
   "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
   "class" : "GunFire",
   "fireTime" : 1.0,
-  "baseDps" : 45.0,
+  "baseDps" : 18.0,
   "energyUsage" : 80,
   "inaccuracy" : 0.05,
-  "projectileCount" : 3,
+  "projectileCount" : 1,
   "fireType" : "auto",
   "projectileType" : "mechmissile",
   "projectileParameters" : {

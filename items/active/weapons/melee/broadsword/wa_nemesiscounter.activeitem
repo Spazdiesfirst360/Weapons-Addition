@@ -1,6 +1,6 @@
 {
   "itemName" : "wa_nemesiscounter",
-  "price" : 10000,
+  "price" : 5000,
   "level" : 7,
   "maxStack" : 1,
   "rarity" : "Legendary",
@@ -18,7 +18,7 @@
   "primaryAbilityType" : "wa_gravcharge",
   "primaryAbility" : {
 	"fireTime" : 1.23,
-    "baseDps" : 33.3
+    "baseDps" : 9.3
   },
   "altAbilityType" : "giantsword",
   "builder" : "/items/buildscripts/buildunrandweapon.lua"

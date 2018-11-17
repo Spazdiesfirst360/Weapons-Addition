@@ -61,20 +61,12 @@
       "order" : 14,
       "item" : "wa_supersubmachinegatling"
     },
-    "wa_firesubmachinegatling" : {
-      "order" : 15,
-      "item" : "wa_firesubmachinegatling"
-    },
-    "wa_submachinearrowgatling" : {
-      "order" : 16,
-      "item" : "wa_submachinearrowgatling"
-    },
     "wa_submachinegatling" : {
-      "order" : 17,
+      "order" : 15,
       "item" : "wa_submachinegatling"
     },
     "wa_handlunarbaselaser" : {
-      "order" : 18,
+      "order" : 16,
       "item" : "wa_handlunarbaselaser"
     }
   }

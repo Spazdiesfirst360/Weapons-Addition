@@ -103,5 +103,10 @@
     "op": "add",
 	"path": "/wa_multiclip3",
 	"value": "/items/active/weapons/other/supersubmachinegatling/wa_multiclip3.weaponability"
+  },
+  {
+    "op": "add",
+	"path": "/wa_lightrocketburst",
+	"value": "/items/active/weapons/ranged/abilities/lightrocketburst/wa_lightrocketburst.weaponability"
   }
 ]

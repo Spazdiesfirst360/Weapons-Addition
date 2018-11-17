@@ -3,7 +3,7 @@
   "price" : 1000,
   "maxStack" : 1,
   "rarity" : "common",
-  "description" : "Hey, looking a little more modern...",
+  "description" : "A slight boost in stats, but still...",
   "shortdescription" : "Survival Rifle",
   "tooltipKind" : "gun",
   "category" : "Rifle",
@@ -31,7 +31,7 @@
   "primaryAbility" : {
   "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
   "class" : "GunFire",
-  "fireTime" : 0.3,
+  "fireTime" : 0.95,
   "baseDps" : 10.5,
   "energyUsage" : 18,
   "inaccuracy" : 0.08,

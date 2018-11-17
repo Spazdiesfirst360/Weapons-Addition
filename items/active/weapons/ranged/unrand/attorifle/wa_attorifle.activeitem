@@ -1,6 +1,6 @@
 {
   "itemName" : "wa_attorifle",
-  "price" : 10000,
+  "price" : 5000,
   "maxStack" : 1,
   "rarity" : "Essential",
   "description" : "\"When precision is needed, I answer with haste.\"",
@@ -31,9 +31,9 @@
   "primaryAbility" : {
   "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
   "class" : "GunFire",
-  "fireTime" : 0.25,
-  "baseDps" : 45.0,
-  "energyUsage" : 100,
+  "fireTime" : 0.15,
+  "baseDps" : 10.0,
+  "energyUsage" : 35,
   "inaccuracy" : 0.001,
   "projectileCount" : 1,
   "fireType" : "auto",
@@ -68,7 +68,7 @@
   }
   }
   },
-  "altAbilityType" : "deathbomb",
+  "altAbilityType" : "spray",
   "altAbility" : {},
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }

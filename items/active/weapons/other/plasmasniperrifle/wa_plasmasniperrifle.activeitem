@@ -7,10 +7,10 @@
   "shortdescription" : "Plasma Sniper Rifle",
   "tooltipKind" : "gun",
   "category" : "uniqueWeapon",
-  "twoHanded" : true,
+  "twoHanded" : false,
   "itemTags" : ["weapon","ranged"],
-  "level" : 6,
-  "inventoryIcon" : "wa_plasmasniperrifleicon.png",
+  "level" : 7,
+  "inventoryIcon" : "wa_plasmasniperrifle.png:charge.4",
   "animation" : "wa_plasmasniperrifle.animation",
   "animationParts" : {
     "gun" : "wa_plasmasniperrifle.png",
@@ -27,35 +27,37 @@
         "time" : 0,
         "energyCost" : 25,
         "cooldown" : 0.25,
-        "projectileType" : "purpleplasma",
+        "projectileType" : "invisibleprojectile",
         "projectileCount" : 1,
         "projectileParameters" : {},
         "inaccuracy" : 0,
-        "baseDamage" : 7.5,
+        "baseDamage" : 0,
         "fireSound" : "fire"
       },
       {
         "time" : 0.5,
         "energyCost" : 50,
         "cooldown" : 0.25,
-        "projectileType" : "pulse",
-        "projectileCount" : 2,
+        "projectileType" : "invisibleprojectile",
+        "projectileCount" : 1,
         "spreadAngle" : 0,
         "projectileParameters" : {},
         "inaccuracy" : 0,
-        "baseDamage" : 15,
+        "baseDamage" : 0,
         "fireSound" : "fire"
       },
       {
         "time" : 1.0,
         "energyCost" : 75,
         "cooldown" : 0.25,
-        "projectileType" : "electroball",
+        "projectileType" : "brainbullet",
         "projectileCount" : 1,
         "spreadAngle" : 0,
-        "projectileParameters" : {},
+        "projectileParameters" : {
+			"speed" : 150
+		},
         "inaccuracy" : 0,
-        "baseDamage" : 30,
+        "baseDamage" : 9.0,
         "fireSound" : "fire"
       }
     ]

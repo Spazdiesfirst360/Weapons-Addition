@@ -4,7 +4,7 @@
 	{ "item" : "siliconboard", "count" : 3 },
 	{ "item" : "wire", "count" : 5 },
 	{ "item" : "goldbar", "count" : 2 },
-	{ "item" : "wa_refined200", "count" : 5 }
+	{ "item" : "paa_refined200", "count" : 5 }
   ],
   "output" : {
     "item" : "wa_laserarray",

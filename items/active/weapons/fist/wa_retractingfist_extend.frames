@@ -1,10 +1,40 @@
 {
   "frameGrid" : {
     "size" : [23, 16],
-    "dimensions" : [2, 1],
+    "dimensions" : [2, 18],
 
     "names" : [
-      [ "front", "back" ]
+      [ "front.extend.1", "back.extend.1" ],
+	  [ "front.extend.2", "back.extend.2" ],
+	  [ "front.extend.3", "back.extend.3" ],
+	  [ "front.extend.4", "back.extend.4" ],
+	  [ "front.extend.5", "back.extend.5" ],
+	  [ null, null" ],
+	  [ null, null" ],
+	  [ null, null" ],
+	  [ null, null" ],
+	  [ "front.active.1", "back.active.1" ],
+	  [ "front.active.2", "back.active.2" ],
+	  [ "front.active.3", "back.active.3" ],
+	  [ "front.active.4", "back.active.4" ],
+	  [ "front.active.5", "back.active.5" ],
+	  [ "front.active.6", "back.active.6" ],
+	  [ "front.active.7", "back.active.7" ],
+	  [ "front.active.8", "back.active.8" ],
+	  [ "front.active.9", "back.active.9" ]
     ]
+  },
+  
+  "aliases" : {
+	"front.retract.1" : "front.extend.5",
+	"front.retract.2" : "front.extend.4",
+	"front.retract.3" : "front.extend.3",
+	"front.retract.4" : "front.extend.2",
+	"front.retract.5" : "front.extend.1",
+	"back.retract.1" : "back.extend.5",
+	"back.retract.2" : "back.extend.4",
+	"back.retract.3" : "back.extend.3",
+	"back.retract.4" : "back.extend.2",
+	"back.retract.5" : "back.extend.1"
   }
 }

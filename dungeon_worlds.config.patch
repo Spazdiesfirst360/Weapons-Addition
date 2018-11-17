@@ -251,7 +251,7 @@
       "ambientNoises": "/sfx/environmental/space_loop4.ogg",
       "musicTrack": "/music/scorian-flow.ogg"
     }
-  },
+  },/*
   {
     "op": "add",
     "path": "/wa_ai_mission",
@@ -288,7 +288,7 @@
 		"musicTrack" : "/music/desert-exploration2.ogg",
 		"environmentStatusEffects" : ["dontstarve"]
 	}
-  },
+  },*/
   {
 	"op": "add",
 	"path": "/wa_weaponsfacility",
@@ -307,7 +307,7 @@
 		"musicTrack" : "/music/crystal-exploration1.ogg",
 		"environmentStatusEffects" : ["dontstarve"]
 	}
-  },
+  } /*
   {
 	"op": "add",
 	"path": "/wa_frozenpast",
@@ -325,6 +325,6 @@
 		"biome" : "wa_simulationtundra",
 		"musicTrack" : "/music/mira.ogg",
 		"environmentStatusEffects" : ["dontstarve"]
-	}
+	} */
   }
 ]

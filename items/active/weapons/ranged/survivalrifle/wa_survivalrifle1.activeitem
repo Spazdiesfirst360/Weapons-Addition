@@ -31,7 +31,7 @@
   "primaryAbility" : {
   "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
   "class" : "GunFire",
-  "fireTime" : 0.3,
+  "fireTime" : 1.0,
   "baseDps" : 10.0,
   "energyUsage" : 20,
   "inaccuracy" : 0.1,

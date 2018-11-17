@@ -12,5 +12,12 @@
     "value": {
       "item": "paa_updatelog-codex"
     }
+  },
+  {
+    "op": "add",
+    "path": "/starterTreasure/0/1/fill/-",
+    "value": {
+      "item": "wa_supersword_broken"
+    }
   }
 ]

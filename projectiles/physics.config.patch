@@ -30,5 +30,22 @@
       "groundFriction": 1,
       "maximumCorrection": 0.75
     }
+  },
+  {
+	"op": "add",
+	"path": "/wa_antigravbullet",
+	"value" : {
+		"mass" : 0.7,
+		"gravityMultiplier" : -0.2,
+		"bounceFactor" : 0.0,
+		"maxMovementPerStep" : 0.4,
+
+		"collisionBody" : [ [-0.25, -0.25], [0.25, -0.25], [0.25, 0.25], [-0.25, 0.25] ],
+		"ignorePlatformCollision" : true,
+
+		"airFriction" : 0.0,
+		"liquidFriction" : 0.0,
+		"maximumCorrection" : 0.75
+	}
   }
 ]

@@ -14,10 +14,10 @@
   "windupTime" : 0.0,
   "cooldown" : 0.4,
 
-  "projectileType" : "wa_znuke2",
+  "projectileType" : "wa_znuke",
   "projectileConfig" : {
     "speed" : 25,
-    "power" : 9999,
+    "power" : 75,
     "periodicActions" : [
       {
         "time" : 0,

@@ -815,7 +815,7 @@
 				}
 			}
 		}
-	},
+	}, /*
 	{
 		"op": "add",
 		"path": "/wa_ai_mission",
@@ -975,7 +975,7 @@
 			  "horizonImages" : [ ]
 			}
 		}
-	},
+	}, */
 	{
 		"op": "add",
 		"path": "/wa_weaponsfacility",
@@ -1041,7 +1041,7 @@
 		  "horizonImages" : [ ]
 			}
 		}
-	},
+	} /*
 	{
 		"op": "add",
 		"path": "/wa_frozenpast",
@@ -1107,5 +1107,5 @@
 		  "horizonImages" : [ ]
 			}
 		}
-	}
+	} */
 ]

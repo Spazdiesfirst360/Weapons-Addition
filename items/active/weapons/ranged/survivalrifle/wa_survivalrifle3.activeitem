@@ -3,7 +3,7 @@
   "price" : 2000,
   "maxStack" : 1,
   "rarity" : "uncommon",
-  "description" : "It even has a laser sight",
+  "description" : "Even better; it has a laser sight",
   "shortdescription" : "Survival Rifle",
   "tooltipKind" : "gun",
   "category" : "Rifle",
@@ -45,7 +45,7 @@
   "primaryAbility" : {
   "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
   "class" : "GunFire",
-  "fireTime" : 0.3,
+  "fireTime" : 0.9,
   "baseDps" : 11.0,
   "energyUsage" : 16,
   "inaccuracy" : 0.06,

@@ -1,0 +1,80 @@
+{
+  "itemName" : "wa_lightpistol",
+  "price" : 5000,
+  "inventoryIcon" : "wa_lightpistol.png:default.1",
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "Shoots super-condensed light. How fun!",
+  "shortdescription" : "Light Pistol",
+  "level" : 7,
+  "tooltipKind" : "gun",
+  "category" : "Machine Pistol",
+  "itemTags" : ["weapon","ranged","machinepistol"],
+  "twoHanded" : false,
+
+  "animation" : "wa_lightpistol.animation",
+  "animationParts" : {
+    "middle" : "wa_lightpistol.png",
+    "muzzleFlash" : "/items/active/weapons/simulations/lightmuzzleflash.png"
+  },
+
+  "baseOffset" : [0.75, 0.45],
+  "muzzleOffset" : [2.5, -0.2],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
+
+    "fireTime" : 0.01,
+    "baseDps" : 10.1,
+    "energyUsage" : 15,
+    "inaccuracy" : 0.1,
+
+    "projectileCount" : 1,
+    "fireType" : "auto",
+
+    "projectileType" : ["wa_hardlightshot", "wa_hardlightshotantigrav", "wa_hardlightshotgrav"],
+    "projectileParameters" : {
+      "knockback" : 5
+    },
+
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : false,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 5,
+        "weaponRotation" : 5,
+        "twoHanded" : false,
+
+        "animationStates" : {
+          "body" : "reload"
+        },
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "cooldown" : {
+        "duration" : 0.05,
+        "armRotation" : 5,
+        "weaponRotation" : 5,
+        "twoHanded" : false,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+    }
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

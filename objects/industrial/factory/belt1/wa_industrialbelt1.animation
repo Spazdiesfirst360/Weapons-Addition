@@ -1,0 +1,57 @@
+{
+  "animatedParts" : {
+    "stateTypes" : {
+      "penguin" : {
+        "default" : "welding",
+        "states" : {
+          "welding" : {
+            "frames" : 80,
+            "cycle" : 6,
+            "mode" : "loop",
+            "properties" : {
+              "immediateSoundRangeMultiplier" : 3.0
+            },
+            "frameProperties" : {
+              "immediateSound" : [ "/sfx/objects/steel_elevator_loop.ogg", "/sfx/objects/steel_elevator_loop.ogg", "/sfx/objects/steel_elevator_loop.ogg", "/sfx/objects/steel_elevator_loop.ogg", "/sfx/objects/steel_elevator_loop.ogg", "/sfx/objects/steel_elevator_loop.ogg", "/sfx/objects/steel_elevator_loop.ogg", "/sfx/objects/steel_elevator_loop.ogg", "", "", "", "", "", "", "", "", "", "", "", "", "/sfx/objects/penguin_welding1.ogg", "/sfx/objects/penguin_welding2.ogg", "/sfx/objects/penguin_welding3.ogg", "/sfx/objects/penguin_welding4.ogg", "", "", "", "", "", "", "", "", "", "", "/sfx/objects/steel_elevator_loop.ogg", "/sfx/objects/steel_elevator_loop.ogg", "/sfx/objects/steel_elevator_loop.ogg", "/sfx/objects/steel_elevator_loop.ogg", "/sfx/objects/steel_elevator_loop.ogg", "/sfx/objects/steel_elevator_loop.ogg", "/sfx/objects/steel_elevator_loop.ogg", "/sfx/objects/steel_elevator_loop.ogg", "/sfx/objects/steel_elevator_loop.ogg", "/sfx/objects/steel_elevator_loop.ogg", "/sfx/objects/steel_elevator_loop.ogg", "/sfx/objects/steel_elevator_loop.ogg", "/sfx/objects/steel_elevator_loop.ogg", "/sfx/objects/steel_elevator_loop.ogg", "/sfx/objects/steel_elevator_loop.ogg", "/sfx/objects/steel_elevator_loop.ogg", "/sfx/objects/steel_elevator_loop.ogg", "/sfx/objects/steel_elevator_loop.ogg", "/sfx/objects/steel_elevator_loop.ogg", "/sfx/objects/steel_elevator_loop.ogg", "/sfx/objects/steel_elevator_loop.ogg", "/sfx/objects/steel_elevator_loop.ogg", "/sfx/objects/steel_elevator_loop.ogg", "/sfx/objects/steel_elevator_loop.ogg", "/sfx/objects/steel_elevator_loop.ogg", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "" ]
+            }
+          }
+        }
+      }
+    },
+        
+    "parts" : {
+      "bg" : {
+        "properties" : {
+          "centered" : false
+        },
+
+        "partStates" : {
+          "penguin" : {
+            "welding" : {
+              "properties" : {
+                "image" : "<partImage>:<color>.<frame>",
+                "fullbright" : true
+              }
+            }
+          }
+        }
+      },
+      "fg" : {
+        "properties" : {
+          "centered" : false,
+          "zLevel" : 1
+        },
+
+        "partStates" : {
+          "penguin" : {
+            "welding" : {
+              "properties" : {
+                "image" : "<partImage>:<color>.<frame>"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

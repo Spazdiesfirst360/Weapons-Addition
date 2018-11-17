@@ -15,10 +15,6 @@
     {
       "action" : "config",
       "file" : "/projectiles/explosions/smoke/smoke.config"
-    },
-	{ 
-      "action" : "liquid", 
-      "liquid" : "wa_radioactiveliquid", "quantity" : 10 
     }
   ],
   "damageKind" : "poison",

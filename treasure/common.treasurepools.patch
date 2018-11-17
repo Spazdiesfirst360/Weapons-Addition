@@ -532,19 +532,19 @@
           ],
           "pool": [
             {
-              "weight": 0.25,
+              "weight": 1.0,
               "item": "wa_superswordmaterial1"
             },
             {
-              "weight": 0.25,
+              "weight": 1.0,
               "item": "wa_superswordmaterial2"
             },
             {
-              "weight": 0.25,
+              "weight": 1.0,
               "item": "wa_superswordmaterial3"
             },
             {
-              "weight": 0.25,
+              "weight": 1.0,
               "item": "wa_superswordmaterial4"
             }
           ]
@@ -1039,5 +1039,13 @@
         }
       ]
 	]
+  },
+  {
+    "op": "add",
+    "path": "/essenceBurst/0/1/pool/-",
+    "value": {
+      "weight": 0.01,
+      "pool": "nemesisShrineTreasure"
+    }
   }
 ]

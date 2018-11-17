@@ -1,0 +1,76 @@
+{
+  "itemName" : "wa_lightboomerang2",
+  "prwa_light" : 5000,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "category" : "boomerang",
+  "description" : "A boomerang that utilizes light energy as a power source.",
+  "shortdescription" : "Light Boomerang",
+  "tooltipKind" : "base",
+  "twoHanded" : false,
+  "itemTags" : ["weapon"],
+
+  "inventoryIcon" : "wa_lightboomerang2.png",
+  "animation" : "boomerang.animation",
+  "animationParts" : {
+    "boomerang" : "wa_lightboomerang2.png"
+  },
+  "animationCustom" : { },
+  "scripts" : ["boomerang.lua"],
+  "fireOffset" : [1.25, 0.5],
+  "fireAngleOffset" : 10,
+
+  "cooldownTime" : 0.6,
+
+  "projectileType" : "wa_lightboomerang2",
+  "projectileParameters" : {
+    "power" : 3,
+    "knockback" : 20,
+
+    "ignoreTerrain" : true,
+    "controlForce" : 165,
+    "pickupDistance" : 1.0,
+    "snapDistance" : 1.0
+  },
+  "level" : 7,
+
+  "stances" : {
+    "idle" : {
+      "armRotation" : -20,
+      "animationState" : {
+        "weapon" : "visible"
+      },
+      "allowRotate" : true,
+      "allowFlip" : true
+    },
+    "windup" : {
+      "duration" : 0.1,
+      "transition" : "throw",
+      "transitionFunction" : "fire",
+      "armRotation" : 70,
+      "animationState" : {
+        "weapon" : "visible"
+      },
+      "allowRotate" : false,
+      "allowFlip" : false
+    },
+    "throw" : {
+      "armRotation" : 0,
+      "animationState" : {
+        "weapon" : "hidden"
+      },
+      "allowRotate" : true,
+      "allowFlip" : true
+  },
+    "catch" : {
+      "duration" : 0.2,
+      "transition" : "idle",
+      "armRotation" : 60,
+      "animationState" : {
+        "weapon" : "visible"
+      },
+      "allowRotate" : false,
+      "allowFlip" : true
+    }
+  }
+}

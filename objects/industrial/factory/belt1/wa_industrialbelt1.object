@@ -1,0 +1,29 @@
+{
+  "objectName" : "wa_industrialbelt1",
+  "colonyTags" : ["misc"],
+  "rarity" : "legendary",
+  "category" : "decorative",
+  "price" : 0,
+  "description" : "An industrial grade shipping line.",
+  "shortdescription" : "Industrial Shipping Line",
+  "race" : "generic",
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "wa_industrialbelt1.png:default.<frame>",
+      "imagePosition" : [-88, 0],
+      "frames" : 80,
+      "animationCycle" : 1.13,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+	  "collision" : "platform"
+    }
+  ],
+  "health" : 1000,
+  
+  "animation" : "wa_industrialbelt1.animation",
+  "animationParts" : {
+    "bg" : "wa_industrialbelt1.png",
+    "fg" : "wa_industrialbelt1lit.png"
+  }
+}

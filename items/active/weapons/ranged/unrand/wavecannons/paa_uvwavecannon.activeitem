@@ -10,7 +10,7 @@
   "twoHanded" : true,
   "itemTags" : ["weapon","ranged","rocketlauncher","reagant"],
   "level" : 4,
-  "inventoryIcon" : "paa_uvwavecannonicon.png",
+  "inventoryIcon" : "paa_uvwavecannon.png",
   "learnBlueprintsOnPickup" : [
     "paa_xraywavecannon"
   ],

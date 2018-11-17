@@ -1,5 +1,5 @@
 {
-  "itemName" : "wa_retractingfist",
+  "itemName" : "wa_retractingfist_old",
   "price" : 5000,
   "level" : 7,
   "maxStack" : 1,
@@ -12,10 +12,11 @@
   "itemTags" : ["weapon"],
 
   "inventoryIcon" : "wa_retractingfist.png:front",
-  "animation" : "wa_retractingfist.animation",
+  "animation" : "wa_retractingfist_OLD.animation",
   "animationParts" : {
     "weapon" : "wa_retractingfist.png",
-    "swoosh" : "swoosh/wa_powerclawswoosh.png"
+    "swoosh" : "swoosh/wa_powerclawswoosh.png",
+	"blade" : "wa_retractingfist_blade.png"
   },
   "animationCustom" : {
     "animatedParts" : { "parts" : { "swoosh" : { "partStates" : { "attack" : { "fire" : { "properties" : {
@@ -25,7 +26,8 @@
       "fire" : [ "/sfx/melee/laser_weapon_swing1.ogg", "/sfx/melee/laser_weapon_swing2.ogg", "/sfx/melee/laser_weapon_swing3.ogg" ]
     }
   },
-  "scripts" : [ "fistweapon.lua" ],
+  //"scripts" : [ "fistweapon.lua" ],
+  "scripts" : [ "wa_retractingfist_OLD.lua" ],
 
   "needsEdgeTrigger" : true,
   "edgeTriggerGrace" : 0.1,

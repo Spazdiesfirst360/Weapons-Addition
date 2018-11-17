@@ -3,7 +3,9 @@
   "price" : 5000,
   "maxStack" : 1,
   "rarity" : "legendary",
-  "description" : "\"If you are not the first, then you are the last.\" -Systyma, Maddened A.I.",
+  //Commented because Systyma is not implemented yet.
+  //"description" : "\"If you are not the first, then you are the last.\" -Systyma, Maddened A.I.",
+  "description" : "\"The pioneer always needs a weapon that fits their style.\"",
   "shortdescription" : "The Prototype",
   "tooltipKind" : "gun",
   "category" : "Experimental Weapon",
@@ -31,8 +33,8 @@
   "primaryAbility" : {
   "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
   "class" : "GunFire",
-  "fireTime" : 0.001,
-  "baseDps" : 300.0,
+  "fireTime" : 0.01666,
+  "baseDps" : 30.0,
   "energyUsage" : 10,
   "inaccuracy" : 0.1,
   "projectileCount" : 1,
