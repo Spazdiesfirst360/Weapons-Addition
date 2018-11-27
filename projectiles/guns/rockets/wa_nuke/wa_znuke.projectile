@@ -15,7 +15,7 @@
   "statusEffects" : [ ],
   "emitters" : [ "tinyrocketsmoke" ],
   "flippable" : true,
-  "power" : 75.0,
+  "power" : 150.0,
   "speed" : 50.0,
   "physics" : "rocket",
   "damageType" : "NoDamage",

@@ -45,7 +45,7 @@
     }
   },
 
-  "altAbilityType" : "flipslash",
+  "altAbilityType" : "parry",
 
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }
