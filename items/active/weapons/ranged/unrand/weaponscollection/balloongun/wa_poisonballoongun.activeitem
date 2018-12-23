@@ -3,7 +3,9 @@
   "price" : 5000,
   "maxStack" : 1,
   "rarity" : "Legendary",
-  "description" : "An experimental grenade launcher that launches poison balloons.",
+  "description" : "An experimental grenade launcher that launches poison balloons.
+^yellow;Max of 3 stacked shots
+Shots spawn poison on hit^reset;",
   "shortdescription" : "Poisom Balloon Launcher",
   "tooltipKind" : "base",
   "category" : "Experimental Weapon",

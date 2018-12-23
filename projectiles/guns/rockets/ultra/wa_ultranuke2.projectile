@@ -1,0 +1,126 @@
+{
+  "projectileName" : "wa_ultranuke2",
+  "physics" : "grenade",
+  "bounces" : 0,
+  "timeToLive" : 10,
+  "damageKindImage" : "icon.png",
+  "image" : "wa_ultranuke2.png",
+  "animationCycle" : 1,
+  "frameNumber" : 1,
+  "actionOnReap" : [
+    {
+      "action" : "projectile",
+      "type" : "wa_knockbackwave",
+      "fuzzAngle" : 0,
+      "angleAdjust" : -20
+    },
+    {
+      "action" : "projectile",
+      "type" : "wa_knockbackwave",
+      "fuzzAngle" : 0,
+      "angleAdjust" : -40
+    },
+    {
+      "action" : "projectile",
+      "type" : "wa_knockbackwave",
+      "fuzzAngle" : 0,
+      "angleAdjust" : 60
+    },
+    {
+      "action" : "projectile",
+      "type" : "wa_knockbackwave",
+      "fuzzAngle" : 0,
+      "angleAdjust" : -80
+    },
+    {
+      "action" : "projectile",
+      "type" : "wa_knockbackwave",
+      "fuzzAngle" : 0,
+      "angleAdjust" : -100
+    },
+    {
+      "action" : "projectile",
+      "type" : "wa_knockbackwave",
+      "fuzzAngle" : 0,
+      "angleAdjust" : -120
+    },
+    {
+      "action" : "projectile",
+      "type" : "wa_knockbackwave",
+      "fuzzAngle" : 0,
+      "angleAdjust" : -140
+    },
+    {
+      "action" : "projectile",
+      "type" : "wa_knockbackwave",
+      "fuzzAngle" : 0,
+      "angleAdjust" : -180
+    },
+    {
+      "action" : "projectile",
+      "type" : "wa_knockbackwave",
+      "fuzzAngle" : 0,
+      "angleAdjust" : 0
+    },
+    {
+      "action" : "projectile",
+      "type" : "wa_knockbackwave",
+      "fuzzAngle" : 0,
+      "angleAdjust" : 20
+    },
+    {
+      "action" : "projectile",
+      "type" : "wa_knockbackwave",
+      "fuzzAngle" : 0,
+      "angleAdjust" : 40
+    },
+    {
+      "action" : "projectile",
+      "type" : "wa_knockbackwave",
+      "fuzzAngle" : 0,
+      "angleAdjust" : 60
+    },
+    {
+      "action" : "projectile",
+      "type" : "wa_knockbackwave",
+      "fuzzAngle" : 0,
+      "angleAdjust" : 80
+    },
+    {
+      "action" : "projectile",
+      "type" : "wa_knockbackwave",
+      "fuzzAngle" : 0,
+      "angleAdjust" : 100
+    },
+    {
+      "action" : "projectile",
+      "type" : "wa_knockbackwave",
+      "fuzzAngle" : 0,
+      "angleAdjust" : 120
+    },
+    {
+      "action" : "projectile",
+      "type" : "wa_knockbackwave",
+      "fuzzAngle" : 0,
+      "angleAdjust" : 140
+    },
+    {
+      "action" : "projectile",
+      "type" : "wa_knockbackwave",
+      "fuzzAngle" : 0,
+      "angleAdjust" : 180
+    },
+	{
+      "action" : "config",
+      "file" : "/projectiles/explosions/vnukeexplosion/vnukeexplosion.config"
+    }
+  ],
+  "power" : 0,
+  "piercing" : true,
+  "damageKind" : "default",
+  "damageType" : "ignoresdef",
+  "damagePoly" : [ [-36, 0], [-24, -24], [0, -36], [24, -24], [36, 0], [24, 24], [0, 36], [-24, 24] ],
+  "flippable" : true,
+  "damageTeam" : { "type" : "indiscriminate" }
+
+}

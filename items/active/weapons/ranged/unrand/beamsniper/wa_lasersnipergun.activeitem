@@ -38,7 +38,7 @@
     "scripts" : ["/items/active/weapons/ranged/beamfire.lua"],
     "class" : "BeamFire",
     "fireTime" : 0.35,
-    "baseDps" : 571.4,
+    "baseDps" : 10.4,
     "energyUsage" : 100,
     "damageConfig" : {
       "statusEffects" : [ "burning" ],

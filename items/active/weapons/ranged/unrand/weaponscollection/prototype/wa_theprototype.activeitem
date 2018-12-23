@@ -5,7 +5,9 @@
   "rarity" : "legendary",
   //Commented because Systyma is not implemented yet.
   //"description" : "\"If you are not the first, then you are the last.\" -Systyma, Maddened A.I.",
-  "description" : "\"The pioneer always needs a weapon that fits their style.\"",
+  "description" : "\"The pioneer always needs a weapon that fits their style.\"
+^yellow;Moderate fire rate
+Moderate damage per shot^reset;",
   "shortdescription" : "The Prototype",
   "tooltipKind" : "gun",
   "category" : "Experimental Weapon",
@@ -33,9 +35,9 @@
   "primaryAbility" : {
   "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
   "class" : "GunFire",
-  "fireTime" : 0.01666,
-  "baseDps" : 30.0,
-  "energyUsage" : 10,
+  "fireTime" : 0.1,
+  "baseDps" : 8.5,
+  "energyUsage" : 35,
   "inaccuracy" : 0.1,
   "projectileCount" : 1,
   "fireType" : "auto",
@@ -53,7 +55,7 @@
   "allowFlip" : true
   },
   "fire" : {
-  "duration" : 0.001,
+  "duration" : 0,
   "armRotation" : 3,
   "weaponRotation" : 3,
   "twoHanded" : true,
@@ -61,7 +63,7 @@
   "allowFlip" : false
   },
   "cooldown" : {
-  "duration" : 0.001,
+  "duration" : 0.1,
   "armRotation" : 3,
   "weaponRotation" : 3,
   "twoHanded" : true,

@@ -7,7 +7,7 @@
   "frameNumber" : 12,
   "winddownFrames" : 3,
   "intangibleWinddown" : true,
-  "power" : 50,
+  "power" : 0,
   "speed" : 25,
   "timeToLive" : 1.0,
   "bounces" : 4,
@@ -17,7 +17,7 @@
   "damageKind" : "flamethrower",
   "damageKindImage" : "/interface/statuses/fire.png",
   "statusEffects" : [
-    "paa_radsickness"
+    "paa_superreversegrav"
   ],
   "hydrophobic" : false
 }

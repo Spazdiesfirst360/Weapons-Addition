@@ -149,8 +149,10 @@ function triggerComboAttack(comboStep)
     -- sb.logInfo("%s fist received combo trigger for combostep %s", activeItem.hand(), comboStep)
     if comboStep == self.comboSteps then
       self.comboFinisher:startAttack()
+	  isExtended = 1
     else
       self.primaryAbility:startAttack()
+	  isExtended = 1
     end
     return true
   else
@@ -169,7 +171,7 @@ end
 
 -- interrupt the combo for various reasons
 function resetFistCombo()
-  -- sb.logInfo("%s fist resetting combo from step %s to 0", activeItem.hand(), self.comboStep)
+  sb.logInfo("%s fist resetting combo from step %s to 0", activeItem.hand(), self.comboStep)
   isExtended = 0.5
   self.comboStep = 0
   self.comboTimer = nil

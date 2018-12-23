@@ -35,7 +35,7 @@
   "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
   "class" : "GunFire",
   "fireTime" : 0.3,
-  "baseDps" : 20.0,
+  "baseDps" : 6.0,
   "energyUsage" : 60,
   "inaccuracy" : 0.009,
   "projectileCount" : 1,
@@ -54,7 +54,7 @@
   "allowFlip" : true
   },
   "fire" : {
-  "duration" : 0.5,
+  "duration" : 0,
   "armRotation" : 3,
   "weaponRotation" : 3,
   "twoHanded" : true,
@@ -62,7 +62,7 @@
   "allowFlip" : false
   },
   "cooldown" : {
-  "duration" : 0.35,
+  "duration" : 0.3,
   "armRotation" : 3,
   "weaponRotation" : 3,
   "twoHanded" : true,

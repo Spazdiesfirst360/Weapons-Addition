@@ -34,7 +34,7 @@
         "baseDamage" : 0,
         "fireSound" : "fire"
       },
-      {
+    /*{
         "time" : 0.5,
         "energyCost" : 0,
         "cooldown" : 0.01,
@@ -45,7 +45,7 @@
         "inaccuracy" : 0,
         "baseDamage" : 0,
         "fireSound" : "fire"
-      },
+      },*/
       {
         "time" : 1.0,
         "energyCost" : 100,

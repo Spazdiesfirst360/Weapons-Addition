@@ -74,8 +74,10 @@ function Weapon:uninit()
     if ability.uninit then
       ability:uninit(true)
     end
-    world.spawnProjectile("wa_clip1", position)
   end
+  activeItem.setArmAngle(-15)
+  world.spawnProjectile("wa_clip1", self.weaponOffset)
+  animator.playSound("/sfx/gun/reload/ar_reload_clip3.ogg")
 end
 
 function Weapon:clearDamageSources()

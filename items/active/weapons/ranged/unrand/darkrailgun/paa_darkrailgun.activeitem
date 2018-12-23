@@ -3,7 +3,8 @@
   "price" : 5000,
   "maxStack" : 1,
   "rarity" : "legendary",
-  "description" : "\"Radiation blasts from this gun seem to easily kill anything that's alive.\" -Researcher",
+  "description" : "\"Radiation blasts from this gun seem to easily kill anything that's alive.\" -Researcher
+^yellow;Inflicts rad burn^reset;",
   "shortdescription" : "Dark Lightning Launcher",
   "tooltipKind" : "gun",
   "category" : "uniqueWeapon",

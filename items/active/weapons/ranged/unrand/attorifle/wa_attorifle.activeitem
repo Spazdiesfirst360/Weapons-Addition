@@ -31,7 +31,7 @@
   "primaryAbility" : {
   "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
   "class" : "GunFire",
-  "fireTime" : 0.15,
+  "fireTime" : 0.25,
   "baseDps" : 10.0,
   "energyUsage" : 35,
   "inaccuracy" : 0.001,
@@ -51,24 +51,24 @@
   "allowFlip" : true
   },
   "fire" : {
-  "duration" : 0.25,
-  "armRotation" : 10,
-  "weaponRotation" : 10,
+  "duration" : 0,
+  "armRotation" : 3,
+  "weaponRotation" : 3,
   "twoHanded" : true,
   "allowRotate" : false,
   "allowFlip" : false
   },
   "cooldown" : {
   "duration" : 0.25,
-  "armRotation" : 10,
-  "weaponRotation" : 10,
+  "armRotation" : 3,
+  "weaponRotation" : 3,
   "twoHanded" : true,
   "allowRotate" : false,
   "allowFlip" : false
   }
   }
   },
-  "altAbilityType" : "spray",
+  "altAbilityType" : "markedshot",
   "altAbility" : {},
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }

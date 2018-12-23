@@ -1,0 +1,97 @@
+{
+  "itemName" : "wa_rocketgun",
+  "price" : 5000,
+  "inventoryIcon" : "wa_rocketgun.png:default.1",
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "Highly destructive, very dangerous.
+  ^yellow;Shoots homing rockets
+  Terrifying alt ability^reset;",
+  "shortdescription" : "The Devastator",
+  "level" : 7,
+  "tooltipKind" : "gun",
+  "category" : "Rocket Launcher",
+  "itemTags" : ["weapon","ranged","rocketlauncher"],
+  "twoHanded" : true,
+
+  "animation" : "wa_rocketgun.animation",
+  "animationParts" : {
+    "middle" : "wa_rocketgun.png"
+  },
+  
+  "animationCustom" : {
+    "particleEmitters" : {
+      "muzzleFlash" : {
+        "burstCount" : 3,
+        "particles" : [
+          { "particle" : "rocketbarrelpuff" }
+        ]
+      }
+    },
+    "sounds" : {
+      "fire" : [ "/sfx/gun/rocket1.ogg" ]
+    }
+  },
+
+  "baseOffset" : [0.625, 0.125],
+  "muzzleOffset" : [1.875, 0.25],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
+
+    "fireTime" : 1.0,
+    "baseDps" : 10.1,
+    "energyUsage" : 50,
+    "inaccuracy" : 0.01,
+
+    "projectileCount" : 1,
+    "fireType" : "auto",
+
+    "projectileType" : "homingrocket",
+    "projectileParameters" : {
+      "knockback" : 25
+    },
+
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 1,
+        "weaponRotation" : 1,
+        "twoHanded" : true,
+
+        "animationStates" : {
+          "body" : "reload"
+        },
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "cooldown" : {
+        "duration" : 1.0,
+        "armRotation" : 1,
+        "weaponRotation" : 1,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+    }
+  },
+
+  "altAbilityType" : "spray",
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

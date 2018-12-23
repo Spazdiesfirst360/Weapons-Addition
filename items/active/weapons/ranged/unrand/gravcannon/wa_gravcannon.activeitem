@@ -24,7 +24,7 @@
     "name" : "Rocket Stack",
     "scripts" : ["/items/active/weapons/bossdrop/miniknoglauncher/rocketstack.lua"],
     "class" : "RocketStack",
-    "baseDamage" : 10.0,
+    "baseDamage" : 7.0,
     "energyPerShot" : 50,
     "reloadTime" : 0.6667,
     "maxStack" : 3,

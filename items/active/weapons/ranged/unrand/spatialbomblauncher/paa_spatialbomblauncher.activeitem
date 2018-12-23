@@ -3,7 +3,9 @@
   "price" : 5000,
   "maxStack" : 1,
   "rarity" : "legendary",
-  "description" : "\"Crush all that your foes have into nothingness, and they will submit.\" -Systyma, Maddened A.I.",
+  //Forgot to comment this line out
+  //"description" : "\"Crush all that your foes have into nothingness, and they will submit.\" -Systyma, Maddened A.I.",
+  "description" : "\"If nothing can kill you, then this certainly will.\"",
   "shortdescription" : "Spatial Bomb Launcher",
   "tooltipKind" : "gun",
   "category" : "Grenade Launcher",
@@ -34,7 +36,7 @@
   "fireTime" : 1.5,
   "baseDps" : 0.0,
   "energyUsage" : 100,
-  "inaccuracy" : 0.25,
+  "inaccuracy" : 0.15,
   "projectileCount" : 1,
   "fireType" : "auto",
   "projectileType" : "paa_spatialgrenade",
@@ -51,17 +53,17 @@
   "allowFlip" : true
   },
   "fire" : {
-  "duration" : 1.0,
-  "armRotation" : 15,
-  "weaponRotation" : 15,
+  "duration" : 0,
+  "armRotation" : 5,
+  "weaponRotation" : 5,
   "twoHanded" : false,
   "allowRotate" : false,
   "allowFlip" : false
   },
   "cooldown" : {
-  "duration" : 0.5,
-  "armRotation" : 15,
-  "weaponRotation" : 15,
+  "duration" : 1.5,
+  "armRotation" : 5,
+  "weaponRotation" : 5,
   "twoHanded" : false,
   "allowRotate" : false,
   "allowFlip" : false

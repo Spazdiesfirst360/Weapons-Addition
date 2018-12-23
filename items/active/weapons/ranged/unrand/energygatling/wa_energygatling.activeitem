@@ -1,0 +1,82 @@
+{
+  "itemName" : "wa_energygatling",
+  "price" : 5000,
+  "inventoryIcon" : "wa_energygatling.png:default.1",
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "Shoots lots of energy.",
+  "shortdescription" : "Energy Gatling",
+  "level" : 7,
+  "tooltipKind" : "gun",
+  "category" : "Assault Rifle",
+  "itemTags" : ["weapon","ranged","assaultrifle"],
+  "twoHanded" : true,
+
+  "animation" : "wa_energygatling.animation",
+  "animationParts" : {
+    "middle" : "wa_energygatling.png",
+    "muzzleFlash" : "/items/active/weapons/ranged/muzzleflash.png"
+  },
+
+  "baseOffset" : [0.6, 0.08],
+  "muzzleOffset" : [1.875, 0.25],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
+
+    "fireTime" : 0.02,
+    "baseDps" : 8.65,
+    "energyUsage" : 75,
+    "inaccuracy" : 0.25,
+
+    "projectileCount" : 1,
+    "fireType" : "auto",
+
+    "projectileType" : "energybeam",
+    "projectileParameters" : {
+      "knockback" : 5
+    },
+
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 1,
+        "weaponRotation" : 1,
+        "twoHanded" : true,
+
+        "animationStates" : {
+          "body" : "reload"
+        },
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "cooldown" : {
+        "duration" : 0.02,
+        "armRotation" : 1,
+        "weaponRotation" : 1,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+    }
+  },
+
+  "altAbilityType" : "homingrocket",
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

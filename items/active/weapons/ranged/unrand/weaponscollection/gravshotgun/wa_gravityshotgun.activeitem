@@ -31,7 +31,7 @@
   "primaryAbility" : {
   "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
   "class" : "GunFire",
-  "fireTime" : 0.25,
+  "fireTime" : 1.0,
   "baseDps" : 10.0,
   "energyUsage" : 40,
   "inaccuracy" : 0.5,
@@ -51,7 +51,7 @@
   "allowFlip" : true
   },
   "fire" : {
-  "duration" : 0.15,
+  "duration" : 0,
   "armRotation" : 3,
   "weaponRotation" : 3,
   "twoHanded" : true,
@@ -59,7 +59,7 @@
   "allowFlip" : false
   },
   "cooldown" : {
-  "duration" : 0.1,
+  "duration" : 1.0,
   "armRotation" : 3,
   "weaponRotation" : 3,
   "twoHanded" : true,
@@ -68,5 +68,7 @@
   }
   }
   },
+  "altAbilityType" : "shrapnelbomb",
+  "altAbility" : { },
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }

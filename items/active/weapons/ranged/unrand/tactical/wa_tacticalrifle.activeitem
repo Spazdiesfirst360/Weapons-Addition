@@ -32,12 +32,12 @@
   "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
   "class" : "GunFire",
   "fireTime" : 0.18,
-  "baseDps" : 10.1,
+  "baseDps" : 7.1,
   "energyUsage" : 28.5,
   "inaccuracy" : 0.2,
   "projectileCount" : 1,
   "fireType" : "auto",
-  "projectileType" : "wa_assaultsource",
+  "projectileType" : "standardbullet",
   "projectileParameters" : {
   "damageKind" : "default",
   "knockback" : 5

@@ -3,7 +3,9 @@
   "price" : 5000,
   "maxStack" : 1,
   "rarity" : "Legendary",
-  "description" : "An experimental grenade launcher that launches lava balloons.",
+  "description" : "An experimental grenade launcher that launches lava balloons.
+^yellow;Max of 3 stacked shots
+Shots spawn lava on hit^reset;",
   "shortdescription" : "Lava Balloon Launcher",
   "tooltipKind" : "base",
   "category" : "Experimental Weapon",

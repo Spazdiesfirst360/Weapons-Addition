@@ -33,7 +33,7 @@
   "class" : "GunFire",
   "fireTime" : 0.25,
   "baseDps" : 10.0,
-  "energyUsage" : 20,
+  "energyUsage" : 45,
   "inaccuracy" : 0.02,
   "projectileCount" : 1,
   "fireType" : "auto",
@@ -53,7 +53,7 @@
   "allowFlip" : true
   },
   "fire" : {
-  "duration" : 0.2,
+  "duration" : 0,
   "armRotation" : 3,
   "weaponRotation" : 3,
   "twoHanded" : false,
@@ -61,7 +61,7 @@
   "allowFlip" : false
   },
   "cooldown" : {
-  "duration" : 0.2,
+  "duration" : 0.25,
   "armRotation" : 3,
   "weaponRotation" : 3,
   "twoHanded" : false,

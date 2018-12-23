@@ -3,7 +3,8 @@
   "price" : 7500,
   "maxStack" : 1,
   "rarity" : "Essential",
-  "description" : "An experimental rifle, designed for professional capture pod users.",
+  "description" : "An experimental rifle, designed for professional capture pod users.
+^yellow;Max of 2 stacked shots^reset;",
   "shortdescription" : "Capture Pod Rifle",
   "tooltipKind" : "base",
   "category" : "Grenade Launcher",

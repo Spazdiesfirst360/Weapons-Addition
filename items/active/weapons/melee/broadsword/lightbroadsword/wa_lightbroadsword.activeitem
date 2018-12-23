@@ -11,7 +11,7 @@
   "twoHanded" : true,
   "itemTags" : ["weapon", "melee", "broadsword"],
 
-  "inventoryIcon" : "violiumbroadswordicon.png",
+  "inventoryIcon" : "icon.png",
 
   "animation" : "/items/active/weapons/melee/broadsword/lightbroadsword/lightbroadsword.animation",
   "animationParts" : {

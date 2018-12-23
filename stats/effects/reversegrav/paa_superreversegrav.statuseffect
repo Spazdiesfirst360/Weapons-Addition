@@ -1,0 +1,16 @@
+{
+  "name" : "paa_superreversegrav",
+  "effectConfig" : {
+    "gravityModifier" : -100.0
+  },
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "paa_reversegrav.lua"
+  ],
+
+  "animationConfig" : "paa_reversegrav.animation",
+
+  "label" : "Reverse Gravity",
+  "icon" : "/interface/statuses/revgrav.png"
+}

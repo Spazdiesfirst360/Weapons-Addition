@@ -1,0 +1,129 @@
+{
+  "projectileName" : "wa_ultranuke",
+  "image" : "wa_ultranuke.png",
+  "animationCycle" : 0.2,
+  "frameNumber" : 4,
+  "damageKindImage" : "icon.png",
+  "lightColor" : [255, 255, 128],
+  "pointLight" : true,
+  "actionOnReap" : [
+	{
+      "action" : "projectile",
+      "type" : "wa_ultranuke2",
+      "fuzzAngle" : 0,
+      "angleAdjust" : -20
+    },
+    {
+      "action" : "projectile",
+      "type" : "wa_ultranuke2",
+      "fuzzAngle" : 0,
+      "angleAdjust" : -40
+    },
+    {
+      "action" : "projectile",
+      "type" : "wa_ultranuke2",
+      "fuzzAngle" : 0,
+      "angleAdjust" : 60
+    },
+    {
+      "action" : "projectile",
+      "type" : "wa_ultranuke2",
+      "fuzzAngle" : 0,
+      "angleAdjust" : -80
+    },
+    {
+      "action" : "projectile",
+      "type" : "wa_ultranuke2",
+      "fuzzAngle" : 0,
+      "angleAdjust" : -100
+    },
+    {
+      "action" : "projectile",
+      "type" : "wa_ultranuke2",
+      "fuzzAngle" : 0,
+      "angleAdjust" : -120
+    },
+    {
+      "action" : "projectile",
+      "type" : "wa_ultranuke2",
+      "fuzzAngle" : 0,
+      "angleAdjust" : -140
+    },
+    {
+      "action" : "projectile",
+      "type" : "wa_ultranuke2",
+      "fuzzAngle" : 0,
+      "angleAdjust" : -180
+    },
+    {
+      "action" : "projectile",
+      "type" : "wa_ultranuke2",
+      "fuzzAngle" : 0,
+      "angleAdjust" : 0
+    },
+    {
+      "action" : "projectile",
+      "type" : "wa_ultranuke2",
+      "fuzzAngle" : 0,
+      "angleAdjust" : 20
+    },
+    {
+      "action" : "projectile",
+      "type" : "wa_ultranuke2",
+      "fuzzAngle" : 0,
+      "angleAdjust" : 40
+    },
+    {
+      "action" : "projectile",
+      "type" : "wa_ultranuke2",
+      "fuzzAngle" : 0,
+      "angleAdjust" : 60
+    },
+    {
+      "action" : "projectile",
+      "type" : "wa_ultranuke2",
+      "fuzzAngle" : 0,
+      "angleAdjust" : 80
+    },
+    {
+      "action" : "projectile",
+      "type" : "wa_ultranuke2",
+      "fuzzAngle" : 0,
+      "angleAdjust" : 100
+    },
+    {
+      "action" : "projectile",
+      "type" : "wa_ultranuke2",
+      "fuzzAngle" : 0,
+      "angleAdjust" : 120
+    },
+    {
+      "action" : "projectile",
+      "type" : "wa_ultranuke2",
+      "fuzzAngle" : 0,
+      "angleAdjust" : 140
+    },
+    {
+      "action" : "projectile",
+      "type" : "wa_ultranuke2",
+      "fuzzAngle" : 0,
+      "angleAdjust" : 180
+    },
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/ultranuke/wa_ultranukeexplosion.config"
+    }
+  ],
+  "statusEffects" : [ ],
+  "emitters" : [ "tinyrocketsmoke" ],
+  "flippable" : true,
+  "power" : 150.0,
+  "speed" : 50.0,
+  "physics" : "rocket",
+  "damageType" : "NoDamage",
+  "damageKind" : "default",
+
+  "scripts" : [ "wa_ultranuke.lua" ],
+  "maxSpeed" : 75,
+  "controlForce" : 100
+}

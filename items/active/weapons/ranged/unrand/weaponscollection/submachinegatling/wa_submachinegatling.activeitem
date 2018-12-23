@@ -32,12 +32,12 @@
   "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
   "class" : "GunFire",
   "fireTime" : 0.01667,
-  "baseDps" : 490.0,
-  "energyUsage" : 5,
+  "baseDps" : 9.2,
+  "energyUsage" : 50,
   "inaccuracy" : 0.2,
   "projectileCount" : 1,
   "fireType" : "auto",
-  "projectileType" : "wa_assaultsource",
+  "projectileType" : "standardbullet",
   "projectileParameters" : {
   "damageKind" : "default",
   "knockback" : 5
@@ -51,7 +51,7 @@
   "allowFlip" : true
   },
   "fire" : {
-  "duration" : 0.01667,
+  "duration" : 0,
   "armRotation" : 1,
   "weaponRotation" : 1,
   "twoHanded" : true,
